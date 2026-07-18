@@ -1,0 +1,112 @@
+[
+  {
+    "insight_type": "volatility analysis",
+    "question": "What is the volatility of the gold-leaprate over the last 30 days by calculating the daily returns and determining the standard deviation?",
+    "required_metrics": [
+      {
+        "metric": "daily_returns",
+        "calculation": "(Close[i] - Close[i-1]) / Close[i-1] for each day",
+        "purpose": "Measure the percentage change in price from one day to the next"
+      },
+      {
+        "metric": "volatility",
+        "calculation": "Standard deviation of daily_returns over the past 30 days",
+        "purpose": "Identify the extent of price movement"
+      }
+    ],
+    "comparisons": [
+      "Current volatility vs historical volatility average",
+      "Current volatility vs industry averages if applicable"
+    ]
+  },
+  {
+    "insight_type": "daily performance analysis",
+    "question": "How did the gold-leaprate perform today relative to its opening price, including calculations of the daily price change and the percentage change?",
+    "required_metrics": [
+      {
+        "metric": "daily_price_change",
+        "calculation": "Close - Open",
+        "purpose": "Determine the absolute price movement for the day"
+      },
+      {
+        "metric": "percentage_change",
+        "calculation": "(daily_price_change / Open) * 100",
+        "purpose": "Understand the relative performance of the day"
+      }
+    ],
+    "comparisons": [
+      "Current day's performance vs previous days",
+      "Current day's performance vs average performance over last week"
+    ]
+  },
+  {
+    "insight_type": "price range analysis",
+    "question": "What was the trading range of gold-leaprate today and how does it compare to the average trading range over the past 30 days?",
+    "required_metrics": [
+      {
+        "metric": "trading_range_today",
+        "calculation": "High - Low",
+        "purpose": "Determine today's price movement range"
+      },
+      {
+        "metric": "average_trading_range",
+        "calculation": "Average(High - Low) over the last 30 days",
+        "purpose": "Understand typical daily price movement"
+      }
+    ],
+    "comparisons": [
+      "Today's trading range vs the average trading range",
+      "Today's trading range vs last week's trading ranges"
+    ]
+  },
+  {
+    "insight_type": "volume analysis",
+    "question": "What was the trading volume today, and how does it compare to the average volume over the past 30 days?",
+    "required_metrics": [
+      {
+        "metric": "volume_today",
+        "calculation": "Volume on the current day",
+        "purpose": "Understand market interest in the asset"
+      },
+      {
+        "metric": "average_volume",
+        "calculation": "Average(Volume) over the last 30 days",
+        "purpose": "Determine typical market activity level"
+      }
+    ],
+    "comparisons": [
+      "Today's volume vs average volume",
+      "Today's volume vs volume spikes from the last month"
+    ]
+  },
+  {
+    "insight_type": "closing price trend",
+    "question": "What is the trend in closing prices over the last week, and how does it compare to the trend over the last month?",
+    "required_metrics": [
+      {
+        "metric": "closing_prices_last_week",
+        "calculation": "List of closing prices for the last 7 days",
+        "purpose": "Analyze short-term trend"
+      },
+      {
+        "metric": "closing_prices_last_month",
+        "calculation": "List of closing prices for the last 30 days",
+        "purpose": "Analyze longer-term trend"
+      },
+      {
+        "metric": "trend_slope_last_week",
+        "calculation": "Slope of linear regression fit on closing_prices_last_week",
+        "purpose": "Determine direction of trend"
+      },
+      {
+        "metric": "trend_slope_last_month",
+        "calculation": "Slope of linear regression fit on closing_prices_last_month",
+        "purpose": "Determine direction of trend"
+      }
+    ],
+    "comparisons": [
+      "Last week's trend vs last month's trend",
+      "Current price position relative to last week's and last month's overall trends"
+    ]
+  }
+]

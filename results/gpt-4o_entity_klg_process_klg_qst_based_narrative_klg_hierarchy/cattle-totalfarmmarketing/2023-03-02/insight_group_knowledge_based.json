@@ -1,0 +1,94 @@
+[
+  {
+    "cluster_name": "Live Cattle Futures",
+    "entities": [
+      "Live Cattle Future (front month) (April)",
+      "Live Cattle Future (second month) (June)",
+      "Live Cattle Future (third month) (August)"
+    ],
+    "cluster_insights": [
+      {
+        "type": "Volume and Breakout Potential Relationship",
+        "description": "Both April and June Live Cattle Futures indicate potential breakout scenarios characterized by significant volume spikes at key support and resistance levels, suggesting both contracts are poised for significant market movements.",
+        "supporting_insights": [
+          "Entity Insight: April - Potential breakouts with volume spikes at 162.22 (support) and 166.4 (resistance).",
+          "Entity Insight: June - Volume spikes with support at 158.7 and resistance at 161.9 suggest breakout potential."
+        ],
+        "significance": "The volume spikes at key levels in both April and June contracts suggest increased investor activity and potential volatility, highlighting movement opportunities that traders can capitalize on for entry or exit points.",
+        "significance_score": 0.9
+      },
+      {
+        "type": "Volatility and Momentum Relationship",
+        "description": "April and June Live Cattle Futures show an increase in short-term volatility with associated volume spikes, suggesting potential changes in market momentum driven by market sentiment.",
+        "supporting_insights": [
+          "Entity Insight: April - Short-term volatility is higher than monthly average despite minor volume changes.",
+          "Entity Insight: June - Increase in short-term volatility with significant volume spikes compared to longer-term averages."
+        ],
+        "significance": "Heightened short-term volatility combined with volume spikes could signal new trend developments or reversals, which are critical for traders seeking to identify momentum shifts and act timely.",
+        "significance_score": 0.85
+      },
+      {
+        "type": "Cross-Month Volatility Influence",
+        "description": "Both April and August Live Cattle Futures demonstrate increased short-term volatility and changing trading volumes, indicating potential shifts in momentum that could affect longer-term contract strategies.",
+        "supporting_insights": [
+          "Entity Insight: April - Increased short-term volatility compared to prior months.",
+          "Entity Insight: August - Volatility higher than both weekly and monthly averages, indicating short-term instability."
+        ],
+        "significance": "Understanding these volatility patterns is crucial for managing risk and formulating effective trading strategies across different contract months.",
+        "significance_score": 0.8
+      }
+    ]
+  },
+  {
+    "cluster_name": "Feeder Cattle Futures",
+    "entities": [
+      "Feeder Cattle Future (front month) (March)",
+      "Feeder Cattle Future (second month) (April)",
+      "Feeder Cattle Future (third month) (May)"
+    ],
+    "cluster_insights": [
+      {
+        "type": "Volatility and Stability Analysis",
+        "description": "Periods of low volatility and stabilization across feeder cattle futures with varying trading volumes.",
+        "supporting_insights": [
+          "March insight: low volatility, decreased volume",
+          "April insight: low volatility, increased volume",
+          "May insight: low volatility, increased volume"
+        ],
+        "significance": "The presence of low volatility combined with fluctuating trading volumes suggests stabilization, and potential accumulation or distribution phases across the futures markets, highlighting market sentiment.",
+        "significance_score": 0.85
+      },
+      {
+        "type": "Volume and Price Action Relationship",
+        "description": "Increased trading volume in low volatility conditions suggests potential accumulation or distribution.",
+        "supporting_insights": [
+          "April insight: increased volume, low volatility",
+          "May insight: increased volume, low volatility"
+        ],
+        "significance": "This scenario indicates increased market interest, potentially leading to future price movements, making it crucial for predicting upward or downward trends based on volume spikes.",
+        "significance_score": 0.8
+      },
+      {
+        "type": "Short-term Weakness versus Long-term Strength",
+        "description": "Strong year-to-date performance despite short-term weaknesses in feeder cattle futures.",
+        "supporting_insights": [
+          "April insight: short-term weakness, year-to-date strength",
+          "May insight: short-term weakness, year-to-date strength"
+        ],
+        "significance": "This insight reflects temporary stabilization within an overall upward trend, providing confidence for long-term investors despite near-term fluctuations.",
+        "significance_score": 0.75
+      },
+      {
+        "type": "Support and Resistance Levels",
+        "description": "Defined support and resistance levels across futures indicating potential breakout points.",
+        "supporting_insights": [
+          "March insight: support at 183.45 and resistance at 191.1",
+          "April insight: support at 187.92 and resistance at 196.82",
+          "May insight: support at 192.38 and resistance at 201.32"
+        ],
+        "significance": "Understanding these levels is crucial for recognizing breakout scenarios where significant price movements may occur, impacting trading strategies.",
+        "significance_score": 0.8
+      }
+    ]
+  }
+]

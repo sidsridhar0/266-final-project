@@ -1,0 +1,39 @@
+{
+  "type": "all",
+  "entity": "Feeder Cattle Future (second month) (April)",
+  "interpretation": "Overall, the analysis reveals a moderately volatile market with significant trading activity indicating heightened interest. Price movements show stability with a lean towards bullish behavior, particularly considering the positive market sentiment evidenced by the majority of days closing higher than they opened. The current price position relative to support and resistance levels suggests caution as it approaches potential resistance.",
+  "significance_score": 0.78,
+  "score_reasoning": "The combination of increased volume, positive sentiment, and stable volatility collectively suggests that the market could be positioned for a potential breakout or upward trend, but traders should remain observant of the established resistance level.",
+  "individual_insights": [
+    {
+      "question": "Evaluate market volatility for the product on the date of interest by calculating the average true range (ATR) and the standard deviation of the closing prices over the last 14 days.",
+      "interpretation": "The ATR of 1.4979 suggests a moderate level of volatility, enabling traders to gauge the expected price movement. A standard deviation of 0.5071 indicates that prices have fluctuated moderately around the average closing price, reflecting stable conditions without extreme oscillations.",
+      "significance_score": 0.7,
+      "reasoning": ""
+    },
+    {
+      "question": "Analyze trading volume trends by comparing the volume on the date of interest against the average volume over the past 30 days.",
+      "interpretation": "The current volume of 4813 is significantly higher than the average volume of 3417.71 for the past 30 days, showing a volume increase of approximately 40.83%. This spike could indicate heightened trader interest or potential market action.",
+      "significance_score": 0.8,
+      "reasoning": ""
+    },
+    {
+      "question": "Identify significant price movements by evaluating the percentage change in closing price from the previous day to the current day.",
+      "interpretation": "A percentage change of 0.4979 indicates a small upward movement compared to the previous day's close. This suggests a generally stable trend in pricing, albeit with slight upward momentum.",
+      "significance_score": 0.6,
+      "reasoning": ""
+    },
+    {
+      "question": "Determine key support and resistance levels by analyzing the closing prices over the last 30 days to find price levels that have been touched multiple times.",
+      "interpretation": "The current price of 191.75 is above the support level of 187.0 and below the resistance level of 188.35, indicating potential bullish sentiment yet approaching resistance. This hints at a possible price ceiling that traders should monitor.",
+      "significance_score": 0.75,
+      "reasoning": ""
+    },
+    {
+      "question": "Evaluate market sentiment by analyzing the closing prices relative to their opening prices over the past week to assess whether prices are closing higher or lower than they opened.",
+      "interpretation": "With 75% of the days in the past week closing higher than they opened, the market sentiment appears positive. This strong upward sentiment signifies growing confidence among traders in the Feeder Cattle Futures.",
+      "significance_score": 0.85,
+      "reasoning": ""
+    }
+  ]
+}

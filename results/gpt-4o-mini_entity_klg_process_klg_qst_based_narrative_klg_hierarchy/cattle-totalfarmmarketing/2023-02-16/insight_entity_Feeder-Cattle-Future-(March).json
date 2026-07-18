@@ -1,0 +1,39 @@
+{
+  "type": "all",
+  "entity": "Feeder Cattle Future (front month) (March)",
+  "interpretation": "The feeder cattle futures market is currently experiencing low volatility, as indicated by a small daily price range and volume significantly below average. Price trends have been sideways over the past week without any clear upward or downward movement, reflecting limited market sentiment. However, the proximity of the current price to the identified resistance level suggests a potential challenge in maintaining upward momentum without strong catalysts.",
+  "significance_score": 0.64,
+  "score_reasoning": "The results show a market lacking clear direction, with significant drops in volume implying reduced trading activity. Despite this, the awareness of support and resistance levels provides vital insights for potential price action, making it an essential factor for investors considering entry or exit strategies.",
+  "individual_insights": [
+    {
+      "question": "What is the volatility of the cattle market on the date of interest, determined by analyzing the range of price movements using the high and low prices?",
+      "interpretation": "The current daily range of $1.40 indicates that price movements are relatively low compared to the 30-day average daily range of $1.80. Additionally, the percentage change of -0.53% suggests a slight decline from opening to closing price, indicating low short-term volatility.",
+      "significance_score": 0.6,
+      "reasoning": ""
+    },
+    {
+      "question": "What is the overall directional trend of cattle prices over the last 7 days, assessed by comparing the closing prices to establish if there is an upward, downward, or sideways movement?",
+      "interpretation": "The price trend is sideways, as the current closing price of $186.22 is just below the 7-day closing average of $186.72. The price trend change indicates a minor decrease of $0.98, showing no clear directional momentum.",
+      "significance_score": 0.5,
+      "reasoning": ""
+    },
+    {
+      "question": "On the date of interest, what is the comparison between the traded volume and the average volume over the past 30 days to determine market activity levels?",
+      "interpretation": "Current volume of 4,403 is significantly lower than the average volume of 7,413, reflecting a -40.61% decrease. This suggests reduced market activity and interest on the trading day.",
+      "significance_score": 0.7,
+      "reasoning": ""
+    },
+    {
+      "question": "How does the closing price trend in comparison to the opening price trend reflect market sentiment over the past week?",
+      "interpretation": "Both the closing and opening trends are sideways, indicating a lack of strong market movements or sentiment in either direction. The closing volume correlation of 0.67 indicates moderate consistency in these trends.",
+      "significance_score": 0.6,
+      "reasoning": ""
+    },
+    {
+      "question": "Identify the critical support and resistance levels for cattle prices over the last 30 days based on historical highs and lows to ascertain price action thresholds.",
+      "interpretation": "The support level is at $179.18 and the resistance level at $188.58. The current price of $186.22 is near the resistance, indicating potential price pressure as it approaches a ceiling.",
+      "significance_score": 0.8,
+      "reasoning": ""
+    }
+  ]
+}

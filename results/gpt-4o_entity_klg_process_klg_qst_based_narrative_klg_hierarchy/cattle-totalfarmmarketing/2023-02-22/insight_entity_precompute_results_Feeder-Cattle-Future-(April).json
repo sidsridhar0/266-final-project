@@ -1,0 +1,147 @@
+[
+  {
+    "insight_type": "price_movements",
+    "question": {
+      "insight_type": "price_movements",
+      "question": "Assess the daily volatility of the cattle market by comparing the intraday price range relative to the closing price over the past month.",
+      "required_metrics": [
+        {
+          "metric": "intraday_range",
+          "calculation": "High minus Low for each day",
+          "purpose": "Capture the daily price movement range"
+        },
+        {
+          "metric": "average_intraday_range",
+          "calculation": "Average of intraday_range over 30 days",
+          "purpose": "Determine typical daily volatility"
+        },
+        {
+          "metric": "percentage_volatility",
+          "calculation": "intraday_range divided by Close, expressed as a percentage",
+          "purpose": "Normalize volatility relative to closing price"
+        }
+      ],
+      "comparisons": [
+        "Current intraday range vs average intraday range",
+        "Percentage volatility on the date of interest vs historical percentage volatility"
+      ]
+    },
+    "results": "METRIC:intraday_range\tVALUE:1.7199999999999989\tUNIT:none\tTYPE:float\nMETRIC:average_intraday_range\tVALUE:1.5536363636363588\tUNIT:none\tTYPE:float\nMETRIC:percentage_volatility\tVALUE:0.8970013037809641\tUNIT:percent\tTYPE:float\n"
+  },
+  {
+    "insight_type": "volume_analysis",
+    "question": {
+      "insight_type": "volume_analysis",
+      "question": "Evaluate the trading activity by analyzing the volume trends and identifying any significant spikes or declines over the past two weeks.",
+      "required_metrics": [
+        {
+          "metric": "average_volume",
+          "calculation": "Average Volume over 14 days",
+          "purpose": "Establish a baseline for volume trends"
+        },
+        {
+          "metric": "volume_change",
+          "calculation": "Volume on the date of interest minus average_volume",
+          "purpose": "Identify deviations in trading activity"
+        },
+        {
+          "metric": "percentage_volume_change",
+          "calculation": "volume_change divided by average_volume, expressed as a percentage",
+          "purpose": "Quantify the extent of volume change"
+        }
+      ],
+      "comparisons": [
+        "Volume on the date of interest vs average volume",
+        "Percentage volume change vs typical daily volume change"
+      ]
+    },
+    "results": "METRIC:average_volume\tVALUE:4076.14\tUNIT:units\tTYPE:float\nMETRIC:volume_change\tVALUE:736.86\tUNIT:units\tTYPE:float\nMETRIC:percentage_volume_change\tVALUE:18.08\tUNIT:percent\tTYPE:float\n"
+  },
+  {
+    "insight_type": "price_trend_consistency",
+    "question": {
+      "insight_type": "price_trend_consistency",
+      "question": "Determine the consistency of the price trend by analyzing the frequency of upward or downward movements in closing prices over the past quarter.",
+      "required_metrics": [
+        {
+          "metric": "up_days",
+          "calculation": "Number of days where today's close is greater than previous day's close over 90 days",
+          "purpose": "Count the occurrence of upward price movements"
+        },
+        {
+          "metric": "down_days",
+          "calculation": "Number of days where today's close is less than previous day's close over 90 days",
+          "purpose": "Count the occurrence of downward price movements"
+        },
+        {
+          "metric": "trend_consistency_ratio",
+          "calculation": "up_days divided by total number of trading days or down_days divided by total number of trading days",
+          "purpose": "Measure the consistency of upward or downward trends"
+        }
+      ],
+      "comparisons": [
+        "Trend consistency ratio vs historical averages",
+        "Up_days vs down_days over the past quarter"
+      ]
+    },
+    "results": "METRIC:up_days\tVALUE:11\tUNIT:days\tTYPE:int\nMETRIC:down_days\tVALUE:8\tUNIT:days\tTYPE:int\nMETRIC:trend_consistency_ratio\tVALUE:0.5238\tUNIT:ratio\tTYPE:float\n"
+  },
+  {
+    "insight_type": "support_resistance_levels_identification",
+    "question": {
+      "insight_type": "support_resistance_levels_identification",
+      "question": "Identify key support and resistance levels by evaluating price patterns and their frequency of touch over multiple time frames.",
+      "required_metrics": [
+        {
+          "metric": "support_levels",
+          "calculation": "Price levels with repeated bounces over 30 and 60 days",
+          "purpose": "Detect recurring support areas"
+        },
+        {
+          "metric": "resistance_levels",
+          "calculation": "Price levels with repeated failures over 30 and 60 days",
+          "purpose": "Detect recurring resistance areas"
+        },
+        {
+          "metric": "frequency_of_touch",
+          "calculation": "Count of touches on identified support/resistance levels over specified periods",
+          "purpose": "Assess the reliability of support/resistance"
+        }
+      ],
+      "comparisons": [
+        "Current price vs identified support/resistance levels",
+        "Frequency of touch vs typical historical occurrences"
+      ]
+    },
+    "results": "METRIC:support_levels_30 VALUE:189.8 UNIT:price TYPE:float\nMETRIC:support_levels_30 VALUE:190.65 UNIT:price TYPE:float\nMETRIC:resistance_levels_30 VALUE:188.4 UNIT:price TYPE:float\nMETRIC:support_levels_60 VALUE:189.8 UNIT:price TYPE:float\nMETRIC:support_levels_60 VALUE:190.65 UNIT:price TYPE:float\nMETRIC:resistance_levels_60 VALUE:188.4 UNIT:price TYPE:float\nMETRIC:frequency_of_touch VALUE:2 UNIT:counts TYPE:int\n"
+  },
+  {
+    "insight_type": "momentum_analysis",
+    "question": {
+      "insight_type": "momentum_analysis",
+      "question": "Examine the market momentum by calculating and comparing relative strength indices and their levels over the past month.",
+      "required_metrics": [
+        {
+          "metric": "RSI",
+          "calculation": "Relative Strength Index calculation using 14-day price net changes",
+          "purpose": "Gauge the speed and change of price movements"
+        },
+        {
+          "metric": "average_RSI",
+          "calculation": "Average of RSI over the past month",
+          "purpose": "Identify typical momentum levels"
+        },
+        {
+          "metric": "momentum_signal",
+          "calculation": "Identify if RSI is above 70 (overbought) or below 30 (oversold)",
+          "purpose": "Signal potential reversal conditions"
+        }
+      ],
+      "comparisons": [
+        "Current RSI vs average RSI",
+        "RSI readings vs overbought/oversold thresholds"
+      ]
+    },
+    "results": "METRIC:RSI\tVALUE:71.73913043478265\tUNIT:\tTYPE:float\nMETRIC:average_RSI\tVALUE:nan\tUNIT:\tTYPE:float\nMETRIC:momentum_signal\tVALUE:overbought\tUNIT:\tTYPE:str\n"
+  }
+]

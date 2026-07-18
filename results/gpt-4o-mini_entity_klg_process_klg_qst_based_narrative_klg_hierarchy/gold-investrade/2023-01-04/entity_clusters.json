@@ -1,0 +1,27 @@
+[
+  {
+    "cluster_name": "Precious Metals",
+    "entities": [
+      "Gold",
+      "Silver"
+    ],
+    "reason_of_clustering": "Gold and Silver are both precious metals that are often viewed as safe haven investments. They tend to move in correlation, particularly during times of economic uncertainty, influencing each other's prices and demand."
+  },
+  {
+    "cluster_name": "Currency Correlation",
+    "entities": [
+      "Gold",
+      "Dollar Index"
+    ],
+    "reason_of_clustering": "The value of Gold is typically inversely related to the Dollar Index. As the Dollar strengthens, Gold prices often decline, and vice versa. Investors monitor this relationship to inform their trading strategies."
+  },
+  {
+    "cluster_name": "Market Sentiment Indicators",
+    "entities": [
+      "Gold",
+      "Dollar Index",
+      "Silver"
+    ],
+    "reason_of_clustering": "All three entities serve as indicators of market sentiment. Rising Gold and Silver prices usually signal investor pessimism or fear, while a strengthening Dollar Index may indicate confidence in the economy and a shift away from these safe-haven assets."
+  }
+]

@@ -1,0 +1,12 @@
+METRIC:price_pattern_head_and_shoulders
+VALUE:0
+UNIT:binary
+TYPE:int
+METRIC:price_pattern_double_top
+VALUE:0
+UNIT:binary
+TYPE:int
+METRIC:price_pattern_flag
+VALUE:0
+UNIT:binary
+TYPE:int

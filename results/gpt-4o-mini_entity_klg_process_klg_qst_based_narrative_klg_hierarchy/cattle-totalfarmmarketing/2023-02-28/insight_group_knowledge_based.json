@@ -1,0 +1,114 @@
+[
+  {
+    "cluster_name": "Live Cattle Futures",
+    "entities": [
+      "Live Cattle Future (front month) (April)",
+      "Live Cattle Future (second month) (June)",
+      "Live Cattle Future (third month) (August)"
+    ],
+    "cluster_insights": [
+      {
+        "type": "Market Sentiment Summary",
+        "description": "Current market sentiment for live cattle futures shows mixed signals with predominantly bearish sentiment in April and June, while August shows a more positive outlook.",
+        "supporting_insights": [
+          "The market sentiment is predominantly negative in April with an average weekly close-open change of -0.6100.",
+          "In June, 40% of the days closed higher but with 60% remaining lower indicating bearish sentiment.",
+          "August shows 40% of days closing higher, which suggests a more favorable market sentiment."
+        ],
+        "significance": "Understanding the overall market sentiment helps traders identify potential market behavior and make informed decisions about investment opportunities in live cattle futures.",
+        "significance_score": 0.8
+      },
+      {
+        "type": "Volume and Price Relationship",
+        "description": "While trading volumes have decreased in the front and third month contracts, significant volumes in June indicate strong market interest that may influence price trends.",
+        "supporting_insights": [
+          "April shows a slight drop in volume which could suggest trader uncertainty.",
+          "June's volume is significantly above the 30-day average indicating increased trading activity.",
+          "August's decline in volume reflects reduced interest, possibly preceding a price move."
+        ],
+        "significance": "Volume dynamics can heavily indicate trader sentiment and potential future price movements, thus serving as a critical factor in investment decisions.",
+        "significance_score": 0.7
+      },
+      {
+        "type": "Price Trends and Resistance Levels",
+        "description": "Current prices are near resistance levels across all future months, and this poses potential challenges for sustaining further gains.",
+        "supporting_insights": [
+          "April's price of 165.48 is just above the resistance level of 165.1.",
+          "June's price of 161.35 is near the resistance level of 160.7.",
+          "August's price of 160.25 is also hovering close to resistance levels."
+        ],
+        "significance": "Resistance levels play a critical role in dictating trader behavior and can influence the market's direction as prices approach these key points.",
+        "significance_score": 0.9
+      },
+      {
+        "type": "Influences Between Cattle Futures",
+        "description": "The price movements of live cattle futures are likely to influence feeder cattle futures pricing due to their interconnected nature.",
+        "supporting_insights": [
+          "The bullish slight price movement in live cattle futures encourages price recovery in feeder cattle.",
+          "The bearish outlook in live cattle may prompt traders to reassess positions in feeder cattle futures."
+        ],
+        "significance": "Understanding these interrelations allows traders to anticipate price movements in related markets, enhancing overall investment strategy.",
+        "significance_score": 0.75
+      }
+    ]
+  },
+  {
+    "cluster_name": "Feeder Cattle Futures",
+    "entities": [
+      "Feeder Cattle Future (front month) (March)",
+      "Feeder Cattle Future (second month) (April)",
+      "Feeder Cattle Future (third month) (May)"
+    ],
+    "cluster_insights": [
+      {
+        "type": "Market Sentiment Analysis",
+        "description": "The overall positive market sentiment among feeder cattle futures indicates strong buyer interest and potential for continued upward momentum.",
+        "supporting_insights": [
+          "80% of days closing higher in March and April",
+          "100% of days closing higher in May"
+        ],
+        "significance": "This sentiment suggests that market participants are optimistic about future price increases, indicating a bullish outlook across the contracts.",
+        "significance_score": 0.85
+      },
+      {
+        "type": "Volume and Sentiment Relationship",
+        "description": "The increased trading volume in April indicates heightened market activity and positive sentiment compared to the declining volume in March.",
+        "supporting_insights": [
+          "Volume increased by 58.49% in April",
+          "Volume decreased by 62.87% in March"
+        ],
+        "significance": "This highlights the contrasting market behavior, where April's surge reflects positive sentiment while March's decline suggests uncertainty.",
+        "significance_score": 0.8
+      },
+      {
+        "type": "Price Positioning Relative to Support and Resistance",
+        "description": "Prices of April and May contracts are above both support and resistance levels, suggesting potential for further upward movement.",
+        "supporting_insights": [
+          "April contract trading at 195.08 above both support (187.95) and resistance (190.05)",
+          "May contract trading at 199.62 above support (192.4) and resistance (193.98)"
+        ],
+        "significance": "This positioning indicates a strong bullish sentiment and the possibility of price appreciation, crucial for traders making investment decisions.",
+        "significance_score": 0.9
+      },
+      {
+        "type": "Influence of Price Trends",
+        "description": "The relationship between live cattle and feeder cattle futures suggests that bullish trends in live cattle can positively influence feeder cattle prices.",
+        "supporting_insights": [
+          "Bullish price movement in live cattle is expected to increase feeder cattle future prices."
+        ],
+        "significance": "Understanding this relationship can help traders anticipate price movements and adjust their strategies accordingly.",
+        "significance_score": 0.75
+      },
+      {
+        "type": "Volatility Patterns Comparison",
+        "description": "The comparison of volatility across months shows that front month contracts are more erratic while the third month exhibits more stability.",
+        "supporting_insights": [
+          "Front month contracts have higher volatility due to immediate market news.",
+          "Third month contracts reflect stable trends."
+        ],
+        "significance": "This insight helps traders adjust their risk management strategies based on the characteristics of each contract.",
+        "significance_score": 0.7
+      }
+    ]
+  }
+]

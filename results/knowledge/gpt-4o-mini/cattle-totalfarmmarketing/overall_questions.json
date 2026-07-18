@@ -1,0 +1,18 @@
+{
+  "system_patterns": [
+    "What historical patterns in price volatility have been observed during specific seasons or market events?",
+    "How do different cattle futures (front month vs. third month) respond to changes in market conditions collectively?"
+  ],
+  "causal_networks": [
+    "What are the primary drivers of price changes in the live and feeder cattle futures market?",
+    "How does the correlation between live cattle prices and feeder cattle prices vary in different market conditions?"
+  ],
+  "strategic_implications": [
+    "What strategic moves can traders make based on historical price trend patterns in relation to market sentiment?",
+    "How might changes in traded volume signal shifts in market confidence or investor behavior?"
+  ],
+  "feedback_systems": [
+    "What feedback mechanisms exist between price trends and trading volume in the cattle market?",
+    "How do support and resistance levels interact with market sentiment to influence price movements?"
+  ]
+}

@@ -1,0 +1,127 @@
+[
+  {
+    "insight_type": "volatility_analysis",
+    "question": "Evaluate the volatility of the oil market on a given day by calculating various price range and distribution measures.",
+    "required_metrics": [
+      {
+        "metric": "daily_range",
+        "calculation": "High minus Low for the date",
+        "purpose": "Determine the price range for the day"
+      },
+      {
+        "metric": "average_true_range",
+        "calculation": "14-day average of daily_range",
+        "purpose": "Measure stock volatility over a rolling period"
+      },
+      {
+        "metric": "bollinger_bands",
+        "calculation": "Standard deviation bands around a 20-day SMA of closing_price",
+        "purpose": "Identify volatility and potential price breakouts"
+      }
+    ],
+    "comparisons": [
+      "Daily range vs average true range",
+      "Closing price vs Bollinger Bands",
+      "Current vs historical volatility levels"
+    ]
+  },
+  {
+    "insight_type": "volume_analysis",
+    "question": "Analyze trading volume to identify potential shifts in market sentiment or emerging trends.",
+    "required_metrics": [
+      {
+        "metric": "average_volume",
+        "calculation": "30-day average of Volume",
+        "purpose": "Get benchmark for normal trading activity"
+      },
+      {
+        "metric": "volume_spike",
+        "calculation": "Volume on the date minus average_volume",
+        "purpose": "Detect unusually high trading activity"
+      }
+    ],
+    "comparisons": [
+      "Volume vs average volume",
+      "Volume spikes vs price changes",
+      "Current vs historical volume spikes"
+    ]
+  },
+  {
+    "insight_type": "price_analysis",
+    "question": "Determine the price strength by comparing the closing price against past performance and mean reversion levels.",
+    "required_metrics": [
+      {
+        "metric": "closing_price_change",
+        "calculation": "Close on date minus Close on previous day",
+        "purpose": "Measure daily price change"
+      },
+      {
+        "metric": "mean_reversion",
+        "calculation": "Difference between closing_price and 50-day SMA",
+        "purpose": "Identify overbought or oversold conditions"
+      },
+      {
+        "metric": "price_change_percentage",
+        "calculation": "(closing_price_change / Close on previous day) * 100",
+        "purpose": "Quantify magnitude of the day's price change"
+      }
+    ],
+    "comparisons": [
+      "Closing price vs mean reversion",
+      "Price changes vs historical averages",
+      "Price movement vs broader market moves"
+    ]
+  },
+  {
+    "insight_type": "support_resistance_analysis",
+    "question": "Identify key support and resistance levels based on recent high and low price points over a specified period.",
+    "required_metrics": [
+      {
+        "metric": "recent_lows",
+        "calculation": "Lowest Low in the last 30 days",
+        "purpose": "Determine a support level"
+      },
+      {
+        "metric": "recent_highs",
+        "calculation": "Highest High in the last 30 days",
+        "purpose": "Determine a resistance level"
+      },
+      {
+        "metric": "current_price_position",
+        "calculation": "Close minus recent_lows divided by recent_highs minus recent_lows",
+        "purpose": "Position within the established range"
+      }
+    ],
+    "comparisons": [
+      "Current price vs recent lows/highs",
+      "Distance from support/resistance levels",
+      "Support/resistance strength vs recent price trends"
+    ]
+  },
+  {
+    "insight_type": "momentum_analysis",
+    "question": "Evaluate market momentum by looking at changes in price and volume over short intervals.",
+    "required_metrics": [
+      {
+        "metric": "price_momentum",
+        "calculation": "Change in closing price over last 5 days",
+        "purpose": "Assess short-term price momentum"
+      },
+      {
+        "metric": "volume_momentum",
+        "calculation": "Change in Volume over last 5 days",
+        "purpose": "Identify shifts in trading activity"
+      },
+      {
+        "metric": "momentum_index",
+        "calculation": "(Close - Lowest Low in last 10 days) / (Highest High in last 10 days - Lowest Low in last 10 days) * 100",
+        "purpose": "Quantify momentum as a percentage"
+      }
+    ],
+    "comparisons": [
+      "Price vs volume momentum",
+      "Current momentum vs recent momentum",
+      "Momentum index vs historical momentum"
+    ]
+  }
+]

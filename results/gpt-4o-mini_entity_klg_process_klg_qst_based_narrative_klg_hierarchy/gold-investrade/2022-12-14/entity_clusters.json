@@ -1,0 +1,26 @@
+[
+  {
+    "cluster_name": "Precious Metals",
+    "entities": [
+      "Gold",
+      "Silver"
+    ],
+    "reason_of_clustering": "Gold and Silver are categorized as precious metals, often influenced by similar market dynamics, including inflation, currency strength, and overall economic stability."
+  },
+  {
+    "cluster_name": "Safe-Haven Assets",
+    "entities": [
+      "Gold",
+      "Dollar Index"
+    ],
+    "reason_of_clustering": "Gold is regarded as a safe-haven asset that often appreciates in value when the Dollar Index falls, as investors seek stability during economic uncertainty."
+  },
+  {
+    "cluster_name": "Market Sentiment Indicators",
+    "entities": [
+      "Dollar Index",
+      "Silver"
+    ],
+    "reason_of_clustering": "The Dollar Index and Silver price movements can indicate market sentiment. A strong Dollar Index often correlates with lower Silver prices, reflecting shifts in investor confidence and risk appetite."
+  }
+]

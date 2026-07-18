@@ -1,0 +1,4 @@
+METRIC:Closing_Trend_7d	VALUE:up	UNIT:	TYPE:str
+METRIC:Opening_Trend_7d	VALUE:up	UNIT:	TYPE:str
+METRIC:Trend_Comparison	VALUE:up vs up	UNIT:	TYPE:str
+METRIC:Closing_Volume_Correlation	VALUE:0.17308401825505532	UNIT:	TYPE:float

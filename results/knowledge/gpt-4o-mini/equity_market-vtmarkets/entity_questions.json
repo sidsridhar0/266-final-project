@@ -1,0 +1,108 @@
+[
+  {
+    "insight_type": "volatility",
+    "question": "What is the historical volatility of each product over the past 30 days based on daily closing prices to assess risk?",
+    "required_metrics": [
+      {
+        "metric": "daily_returns",
+        "calculation": "(Closing price on day n - Closing price on day n-1) / Closing price on day n-1",
+        "purpose": "Calculate daily percentage returns for each product"
+      },
+      {
+        "metric": "volatility_30d",
+        "calculation": "Standard deviation of daily_returns for the past 30 days",
+        "purpose": "Measure the level of price fluctuation over a specific period"
+      }
+    ],
+    "comparisons": [
+      "Current product volatility vs average historical volatility",
+      "Volatility of product A vs product B"
+    ]
+  },
+  {
+    "insight_type": "price performance",
+    "question": "How does the current closing price compare to the opening price over the last week for each product to evaluate short-term price performance?",
+    "required_metrics": [
+      {
+        "metric": "weekly_open_close_difference",
+        "calculation": "Closing price - Opening price for each day in the last week",
+        "purpose": "Evaluate whether closing prices have trended above or below opening prices"
+      },
+      {
+        "metric": "average_weekly_performance",
+        "calculation": "Average of weekly_open_close_difference over the last 5 trading days",
+        "purpose": "Summarize price performance over the short-term"
+      }
+    ],
+    "comparisons": [
+      "Current weekly performance vs historical weekly averages",
+      "Comparison of average weekly performance among different products"
+    ]
+  },
+  {
+    "insight_type": "market momentum",
+    "question": "Is there a positive or negative momentum in prices based on the last month of trading relative to volume traded?",
+    "required_metrics": [
+      {
+        "metric": "month_return",
+        "calculation": "(Closing price at end of month - Closing price at start of month) / Closing price at start of month",
+        "purpose": "Determine price movement direction for the month"
+      },
+      {
+        "metric": "average_daily_volume",
+        "calculation": "Total volume traded over the month / Number of trading days in the month",
+        "purpose": "Understand trading activity level relative to price movement"
+      }
+    ],
+    "comparisons": [
+      "Month return vs average daily volume",
+      "Momentum from current month vs previous month"
+    ]
+  },
+  {
+    "insight_type": "supply and demand",
+    "question": "What trends can be analyzed from volume spikes compared to average volume to assess supply and demand dynamics for each product?",
+    "required_metrics": [
+      {
+        "metric": "average_volume",
+        "calculation": "Total volume for the period / Number of days in the period",
+        "purpose": "Establish baseline trading volume for comparison"
+      },
+      {
+        "metric": "volume_spike",
+        "calculation": "Volume on a given day - average_volume",
+        "purpose": "Identify days with unusual volume activity"
+      }
+    ],
+    "comparisons": [
+      "Current volume vs average volume",
+      "Days with volume spikes vs days without for correlation with price changes"
+    ]
+  },
+  {
+    "insight_type": "closing trends",
+    "question": "How do the closing prices move relative to the highest and lowest prices throughout the week to identify potential breakout or breakdown points?",
+    "required_metrics": [
+      {
+        "metric": "weekly_high",
+        "calculation": "Maximum closing price over the past week",
+        "purpose": "Set benchmark for breakout analysis"
+      },
+      {
+        "metric": "weekly_low",
+        "calculation": "Minimum closing price over the past week",
+        "purpose": "Set benchmark for breakdown analysis"
+      },
+      {
+        "metric": "current_close_vs_high_low",
+        "calculation": "Current closing price - weekly_high or current closing price - weekly_low",
+        "purpose": "Assess position of current price relative to weekly high and low"
+      }
+    ],
+    "comparisons": [
+      "Current closing price vs weekly high",
+      "Current closing price vs weekly low",
+      "Price movement in relation to breakout/breakdown levels"
+    ]
+  }
+]

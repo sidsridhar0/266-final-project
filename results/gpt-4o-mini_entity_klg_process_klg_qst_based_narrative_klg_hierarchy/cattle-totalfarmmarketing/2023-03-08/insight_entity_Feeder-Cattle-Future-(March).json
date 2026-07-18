@@ -1,0 +1,39 @@
+{
+  "type": "all",
+  "entity": "Feeder Cattle Future (front month) (March)",
+  "interpretation": "The analysis of feeder cattle futures reveals a market experiencing moderate volatility with a slight upward trend in prices. A significant drop in trading volume indicates decreased trader engagement, while key support and resistance levels highlight favorable market positioning. Furthermore, overall market sentiment remains positive with more days closing higher than lower.",
+  "significance_score": 0.78,
+  "score_reasoning": "The combination of slight upward price movements, positive market sentiment, established support and resistance boundaries, along with decreased trading volume, indicates market consolidation. Traders should be cautious of potential price fluctuations while remaining attentive to underlying bullish sentiment.",
+  "individual_insights": [
+    {
+      "question": "Evaluate market volatility for the product on the date of interest by calculating the average true range (ATR) and the standard deviation of the closing prices over the last 14 days.",
+      "interpretation": "The ATR of 1.8307 indicates moderate volatility, suggesting that traders should prepare for potential price fluctuations. The standard deviation of 2.1945 reveals that recent closing prices deviate slightly from the average, reaffirming the presence of some market movement.",
+      "significance_score": 0.7,
+      "reasoning": ""
+    },
+    {
+      "question": "Analyze trading volume trends by comparing the volume on the date of interest against the average volume over the past 30 days.",
+      "interpretation": "Current trading volume at 2706 is significantly lower than the 30-day average of 5372.8571, suggesting a drop of 49.64%. This substantial reduction in volume could reflect decreased trader interest or potential market consolidation.",
+      "significance_score": 0.8,
+      "reasoning": ""
+    },
+    {
+      "question": "Identify significant price movements by evaluating the percentage change in closing price from the previous day to the current day.",
+      "interpretation": "The percentage change of 0.8484% indicates a slight increase in pricing from the previous day, suggesting a modest upward trend. The last closing price of 193.75 is showing a positive signal in the context of recent price movements.",
+      "significance_score": 0.6,
+      "reasoning": ""
+    },
+    {
+      "question": "Determine key support and resistance levels by analyzing the closing prices over the last 30 days to find price levels that have been touched multiple times.",
+      "interpretation": "With a support level at 186.45 and a resistance level at 186.82, the current price of 193.75 is well above these levels, indicating a strong market posture. The distances to both support and resistance levels suggest a bullish sentiment.",
+      "significance_score": 0.75,
+      "reasoning": ""
+    },
+    {
+      "question": "Evaluate market sentiment by analyzing the closing prices relative to their opening prices over the past week to assess whether prices are closing higher or lower than they opened.",
+      "interpretation": "With a weekly close-open change of 2.09 and 60% of days closing higher than their opening prices, this indicates a positive market sentiment. The larger number of higher closes compared to lower ones supports an upward trend over the week.",
+      "significance_score": 0.85,
+      "reasoning": ""
+    }
+  ]
+}

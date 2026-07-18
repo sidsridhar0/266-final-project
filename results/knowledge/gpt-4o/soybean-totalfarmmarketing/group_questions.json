@@ -1,0 +1,22 @@
+{
+  "group_characteristics": [
+    "What common patterns appear across different 'Soybean Oil Future' and 'Soybean Meal Future' contracts in the volatility analysis?",
+    "How do group characteristics of 'Soybeans Future' influence price movement analysis patterns?",
+    "In what ways do historical closing price patterns of 'Soybean Oil Future' differ from those of 'Soybean Meal Future' and what group-level characteristics underlie these differences?"
+  ],
+  "inter_group_dynamics": [
+    "How do volatility trends in 'Soybean Oil Futures' typically interact with those in 'Soybean Meal Futures'?",
+    "What factors influence the interaction between trading volume trends in 'Soybeans Future' and price movement analysis across other soybean-related entities?",
+    "How do volume trend dynamics in 'Soybean Oil Future' affect intraday price movements in the same and related contracts?"
+  ],
+  "propagation_patterns": [
+    "How do effects in price volatility spread between 'front month' and 'third month' contracts within the soybean futures group?",
+    "What conditions affect the propagation of volume trend changes from 'Soybean Meal Future' to 'Soybeans Future'?",
+    "In what ways do changes in closing price trends in 'Soybean Oil Future' propagate to affect expectations in 'Soybean Meal Future'?"
+  ],
+  "causal_chains": [
+    "What typical cause-effect sequences occur between the volatility of 'front month' and subsequent contracts?",
+    "How do volume trends in 'Soybean Oil Futures' influence causal chains in price movement analysis for 'Soybeans Future'?",
+    "In what ways do group characteristics of 'Soybeans Future' influence causal chains in intraday price analysis?"
+  ]
+}

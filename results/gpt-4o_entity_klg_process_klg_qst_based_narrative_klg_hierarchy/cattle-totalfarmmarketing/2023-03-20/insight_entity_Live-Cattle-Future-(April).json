@@ -1,0 +1,34 @@
+{
+  "type": "all",
+  "entity": "Live Cattle Future (front month) (April)",
+  "interpretation": "The market shows signs of reduced trading activity and volatility, with more downward price movements than upward ones indicating a bearish trend. However, support levels are near, and momentum metrics hint at possible stabilization or reversal.",
+  "significance_score": 0.72,
+  "score_reasoning": "The lowered volume and slightly reduced volatility suggest caution among traders, while the bearish trend and approach to support levels could lead to critical decision points. Momentum indicators near oversold levels further add potential for market shifts, making this a crucial period for monitoring potential trend reversals.",
+  "individual_insights": [
+    {
+      "question": "Assess the daily volatility of the cattle market by comparing the intraday price range relative to the closing price over the past month.",
+      "interpretation": "The current intraday range is slightly below the average intraday range over the past 30 days, indicating slightly reduced daily price movements. The percentage volatility is below historical levels, reflecting lower relative volatility compared to the closing price.",
+      "significance_score": 0.65
+    },
+    {
+      "question": "Evaluate the trading activity by analyzing the volume trends and identifying any significant spikes or declines over the past two weeks.",
+      "interpretation": "There is a substantial decrease in trading volume, with current volume being 59.07% less than the average over the past 14 days. This decline suggests reduced market participation or interest.",
+      "significance_score": 0.8
+    },
+    {
+      "question": "Determine the consistency of the price trend by analyzing the frequency of upward or downward movements in closing prices over the past quarter.",
+      "interpretation": "The market has experienced more downward movements than upward movements in closing prices over the past 90 days, with a trend consistency ratio indicating only 31.58% of trading days were upward. This suggests a predominantly bearish trend.",
+      "significance_score": 0.75
+    },
+    {
+      "question": "Identify key support and resistance levels by evaluating price patterns and their frequency of touch over multiple time frames.",
+      "interpretation": "Support levels were identified at 164.5, 164.78, and 165.08, with a resistance level at 166.1. The frequency of touch on these levels was low (2 touches), which indicates moderate confidence in these levels as firm support or resistance.",
+      "significance_score": 0.6
+    },
+    {
+      "question": "Examine the market momentum by calculating and comparing relative strength indices and their levels over the past month.",
+      "interpretation": "The RSI is slightly above the oversold threshold of 30, which could indicate a potential for reversal or consolidation. The overall momentum signal is neutral, suggesting indecisiveness in market direction.",
+      "significance_score": 0.7
+    }
+  ]
+}

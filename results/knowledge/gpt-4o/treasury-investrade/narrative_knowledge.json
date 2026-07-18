@@ -1,0 +1,28 @@
+{
+  "narrative_structures": "Begin with a summary of the previous day's market performance, highlighting any significant changes or events. Follow with detailed analysis of specific bond yields, noting trends and potential implications for investors. Conclude with an outlook for the next trading day, offering actionable insights or recommendations.",
+  "focus_entities": [
+    {
+      "entities_name": "United States 10-Year Bond Yield",
+      "reasoning": "Widely considered a benchmark for long-term interest rates, influencing borrowing costs and used in forecasting economic trends."
+    },
+    {
+      "entities_name": "United States 2-Year Bond Yield",
+      "reasoning": "Sensitive to Federal Reserve policy changes, it captures investor expectations on future rate changes and economic outlook."
+    }
+  ],
+  "focus_insights": [
+    {
+      "insight_types": "Yield Curve Analysis",
+      "reasoning": "Examining the relationship between short-term and long-term bond yields helps in understanding economic expectations and potential recession risks."
+    },
+    {
+      "insight_types": "Interest Rate Change Indicators",
+      "reasoning": "Predicting changes in interest rates can help investors make informed decisions on bond investments and portfolio adjustments."
+    }
+  ],
+  "domain_language": [
+    "Yields should be expressed in percentage terms, indicating basis point changes where relevant.",
+    "Future price indications should discuss implications in terms of potential yield movements and investor strategies.",
+    "Use terms like 'hawkish' or 'dovish' to describe investor sentiment or central bank inclination towards interest rate adjustments."
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "metric_patterns": [
+    {
+      "key_idea": "How do changes in volatility of soybean futures typically relate to momentum in soybean meal futures?",
+      "description": "Generally, higher volatility in soybean futures can signal shifts in momentum for soybean meal futures. When soybean prices experience increased volatility, it often leads to wider price swings that can enhance the momentum in soybean meal as traders react to supply and demand dynamics."
+    },
+    {
+      "key_idea": "What conditions affect the relationship between trading volume and price trends in soybean futures?",
+      "description": "The relationship between trading volume and price trends in soybean futures is influenced by market news, weather conditions, and crop reports. High volume during price increases often indicates strong bullish sentiment, while high volume during price declines may suggest strong bearish pressure. Additionally, periods of key announcements can lead to spikes in trading volume that shift price trends."
+    }
+  ],
+  "entity_interactions": [
+    {
+      "key_idea": "What are common ways that soybean meal futures affect soybean oil futures?",
+      "description": "Soybean meal futures can influence soybean oil futures through their correlation with soybean processing ratios. When meal prices rise significantly, it can indicate increasing demand for soybeans, which may drive up the prices of soybean oil as well, given the products are derived from the same crops."
+    },
+    {
+      "key_idea": "Under what conditions do soybean prices influence soybean meal prices most strongly?",
+      "description": "Soybean prices influence soybean meal prices most significantly during harvest seasons and when supply forecasts are revised. If soybean prices rise due to adverse weather affecting crop yields, meal prices typically follow suit due to expected supply shortages."
+    }
+  ],
+  "common_factors": [
+    {
+      "key_idea": "What external factors commonly affect multiple soybean futures and meal prices?",
+      "description": "External factors such as global demand for soy products, tariffs and trade policies, and domestic agricultural policies can significantly impact multiple soybean futures. Weather patterns and catastrophic events affecting crop yield also play critical roles in shaping market prices."
+    },
+    {
+      "key_idea": "How do seasonal factors typically impact different soybean-related entities?",
+      "description": "Seasonally, prices tend to be lower during harvest periods due to peak supply and higher during off-seasons due to scarcity. Seasonal weather patterns also create variability, especially influencing planting and harvesting schedules, which in turn impacts futures pricing."
+    }
+  ],
+  "temporal_patterns": [
+    {
+      "key_idea": "What typical sequences of changes in soybean prices occur before significant increases in soybean oil futures?",
+      "description": "Typically, an initial rise in soybean prices due to supply concerns or favorable demand often precedes increases in soybean oil futures. Following this, if inventory reports show tightening supplies of soybeans, soybean oil prices often surge as processors anticipate higher costs of raw inputs."
+    },
+    {
+      "key_idea": "How do time-based factors affect relationships between front month and second month soybean futures?",
+      "description": "Time-based factors like expiration dates influence pricing relationships where front month futures are typically more volatile as they approach expiration. This can lead to significant spreads between front and second month futures, influenced by expectations of market trends based on impending crop reports or weather forecasts."
+    }
+  ],
+  "system_patterns": [
+    {
+      "key_idea": "What system-level conditions influence relationships between soybean meal and soybean oil futures?",
+      "description": "System-level conditions such as the overall capacity for processing soybeans and demand elasticity for meal and oil determine the extent of the relationship between these futures. Increased demand for either product can lead to interdependent price movements due to processing margins and supply chain logistics."
+    },
+    {
+      "key_idea": "How do structural factors in agriculture affect interactions between different soybean futures?",
+      "description": "Structural factors such as the number of processing plants, transportation infrastructure, and regional supply chain efficiencies heavily influence interactions between soybean futures. Changes in production technologies or shifts in consumption patterns can also result in significant alterations to these relations."
+    }
+  ]
+}

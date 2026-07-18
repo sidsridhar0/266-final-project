@@ -1,0 +1,22 @@
+{
+  "metric_patterns": [
+    "How do changes in daily price volatility of the S&P 500 Materials typically relate to changes in the closing price trend of the S&P 500 Health Care?",
+    "What conditions affect the relationship between trade volume analysis of the NASDAQ Composite and performance comparison of the S&P 500 Consumer Discretionary?"
+  ],
+  "entity_interactions": [
+    "What are common ways that fluctuations in the United States 10-Year Bond Yield affect the performance of the S&P 500 Financials?",
+    "Under what conditions do the S&P 500 Communication Services and the Dollar Index influence each other most strongly?"
+  ],
+  "common_factors": [
+    "What external factors commonly affect multiple entities such as the NASDAQ Composite and the MSCI World index?",
+    "How do economic indicators typically impact different entities like the Dow Jones Industrial Average and Gold?"
+  ],
+  "temporal_patterns": [
+    "What typical sequences of changes occur in the high-low range analysis of the S&P 500 Real Estate over a 5-day moving average period?",
+    "How do time-based factors affect relationships between the closing price trends of the S&P 500 Utilities and the CBOE Volatility Index?"
+  ],
+  "system_patterns": [
+    "What system-level conditions influence relationships between the United States 2-Year Bond Yield and the performance of the S&P 500 Energy?",
+    "How do structural factors in global markets affect interactions between the Russell 2000 and the S&P 500?"
+  ]
+}

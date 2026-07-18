@@ -1,0 +1,26 @@
+[
+  {
+    "cluster_name": "Precious Metals",
+    "entities": [
+      "Gold",
+      "Silver"
+    ],
+    "reason_of_clustering": "Gold and silver are both considered precious metals, often traded in similar markets and influenced by comparable economic factors. They tend to respond to shifts in investor sentiment and are seen as safe-haven assets during market volatility, making them closely related."
+  },
+  {
+    "cluster_name": "Currency Influencers",
+    "entities": [
+      "Gold",
+      "Dollar Index"
+    ],
+    "reason_of_clustering": "Gold is priced in U.S. dollars, so there is an inverse relationship between the dollar index and gold prices. When the dollar strengthens, gold usually weakens and vice versa, making these two entities important for understanding currency dynamics and their impact on gold trading."
+  },
+  {
+    "cluster_name": "Market Indicators",
+    "entities": [
+      "Dollar Index",
+      "Silver"
+    ],
+    "reason_of_clustering": "The dollar index often serves as a barometer for economic stability, which can affect the price of silver as well. As silver is both an industrial metal and a precious metal, its price can be influenced by broader economic conditions reflected in the dollar index."
+  }
+]

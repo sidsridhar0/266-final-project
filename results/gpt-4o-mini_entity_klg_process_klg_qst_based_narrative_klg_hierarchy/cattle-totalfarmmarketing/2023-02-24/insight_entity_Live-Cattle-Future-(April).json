@@ -1,0 +1,39 @@
+{
+  "type": "all",
+  "entity": "Live Cattle Future (second month) (April)",
+  "interpretation": "The analysis reveals a market with moderate volatility (ATR 1.1850) and significant trading activity (volume increase 20.05%). Despite slight positive price movement, the overall sentiment reflects a balance with equal days closing higher and lower. The identified support and resistance levels highlight critical price zones, with the current price slightly above resistance, suggesting a potential for upward momentum if market conditions favor.",
+  "significance_score": 0.68,
+  "score_reasoning": "The composite score reflects a combination of notable trading volume and supportive volatility metrics against a backdrop of neutral sentiment, indicating a market poised for potential upward movement but with underlying challenges given the mixed signals on price behavior.",
+  "individual_insights": [
+    {
+      "question": "Evaluate market volatility for the product on the date of interest by calculating the average true range (ATR) and the standard deviation of the closing prices over the last 14 days.",
+      "interpretation": "The ATR is measured at 1.1850, indicating a moderate level of volatility over the past 14 days, suggesting potential for price movement. The standard deviation of 0.6363 reflects that the closing prices have fluctuated moderately around the average.",
+      "significance_score": 0.7,
+      "reasoning": ""
+    },
+    {
+      "question": "Analyze trading volume trends by comparing the volume on the date of interest against the average volume over the past 30 days.",
+      "interpretation": "Current volume is 29,610, which is significantly higher than the 30-day average of 24,665, marking a 20.05% increase. This suggests heightened trading activity, possibly indicating strong market interest or reaction to news.",
+      "significance_score": 0.8,
+      "reasoning": ""
+    },
+    {
+      "question": "Identify significant price movements by evaluating the percentage change in closing price from the previous day to the current day.",
+      "interpretation": "The price increase of 0.0363% from the previous day indicates a subtle upward movement. The closing price yesterday was 165.32, with today's closing price at 165.38, suggesting a slight positive momentum.",
+      "significance_score": 0.6,
+      "reasoning": ""
+    },
+    {
+      "question": "Determine key support and resistance levels by analyzing the closing prices over the last 30 days to find price levels that have been touched multiple times.",
+      "interpretation": "The support level identified at 160.52 suggests a potential price floor, while a resistance level at 165.1 indicates where upward movements could face challenges. The current price of 165.38 is slightly above the resistance, suggesting a potential breakout.",
+      "significance_score": 0.75,
+      "reasoning": ""
+    },
+    {
+      "question": "Evaluate market sentiment by analyzing the closing prices relative to their opening prices over the past week to assess whether prices are closing higher or lower than they opened.",
+      "interpretation": "The closing prices are nearly balanced with 50% of the days closing higher and 50% lower, reflecting a neutral sentiment in the market with no clear directional bias over the last week.",
+      "significance_score": 0.5,
+      "reasoning": ""
+    }
+  ]
+}

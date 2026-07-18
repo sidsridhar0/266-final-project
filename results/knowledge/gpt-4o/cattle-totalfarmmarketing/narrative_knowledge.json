@@ -1,0 +1,36 @@
+{
+  "narrative_structures": "Effective market reports often follow a structure that begins with an overview of current market conditions, followed by an analysis of trends and patterns in key market indicators. The narrative should then offer potential implications for investors, strategies for future investment, and conclude with expert insights or predictions. Charts and tables should be used to simplify data presentation.",
+  "focus_entities": [
+    {
+      "entities_name": "Feeder Cattle Future (front month) (March)",
+      "reasoning": "The front month futures are most sensitive to immediate market changes and reflect current sentiment."
+    },
+    {
+      "entities_name": "Live Cattle Future (second month) (April)",
+      "reasoning": "Provides insights into expectations about market conditions slightly beyond the near term, useful for strategic planning."
+    },
+    {
+      "entities_name": "Live Cattle Future (third month) (June)",
+      "reasoning": "Indicates medium-term market sentiment and supply and demand expectations."
+    }
+  ],
+  "focus_insights": [
+    {
+      "insight_types": "Price Movement Analysis",
+      "reasoning": "Understanding price fluctuations helps assess risk and potential return on investments."
+    },
+    {
+      "insight_types": "Volume Pattern Analysis",
+      "reasoning": "Volume patterns provide insights into the strength and sustainability of price movements."
+    },
+    {
+      "insight_types": "Supply and Demand Factors",
+      "reasoning": "Critical in understanding price setting dynamics and long-term trends."
+    }
+  ],
+  "domain_language": [
+    "Futures prices should be expressed in terms of contracts and basis points.",
+    "Use terms such as 'bullish', 'bearish', 'uptrend', 'downtrend' to describe market conditions.",
+    "Percentages and price per unit (e.g., per 100 pounds) help relate numerical data to real-world impact."
+  ]
+}

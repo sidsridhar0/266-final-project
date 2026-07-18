@@ -1,0 +1,39 @@
+{
+  "type": "all",
+  "entity": "Feeder Cattle Future (front month) (March)",
+  "interpretation": "The Feeder Cattle futures market is experiencing significant short-term volatility, though volume activity remains stable, indicating no major accumulation or distribution phases. Despite recent weekly declines, long-term price performance remains strong, suggesting durability. Static support and resistance levels without volume spikes reduce breakout likelihood, while the absence of detectable price patterns suggests limited immediate directional cues.",
+  "significance_score": 0.65,
+  "score_reasoning": "The market exhibits high short-term volatility, indicating potential trading opportunities for short-term traders. However, stable volume and the absence of technical price patterns point towards a market in equilibrium without significant directional biases. The market's strong year-to-date performance underscores resilience, suggesting that any immediate weaknesses may not indicate long-term downturns.",
+  "individual_insights": [
+    {
+      "question": "Evaluate the volatility of cattle prices by calculating and analyzing daily price ranges, comparing them to average price ranges over different periods.",
+      "interpretation": "The daily price range for Feeder Cattle stands at 3.42, contrasting with a weekly average price range of 2.10 and a monthly average of 1.94. This indicates a significantly higher daily volatility compared to both the weekly and monthly averages, suggesting heightened short-term market fluctuations.",
+      "significance_score": 0.8,
+      "reasoning": ""
+    },
+    {
+      "question": "Analyze the trading volume activity in relation to price movements to identify potential accumulation or distribution phases.",
+      "interpretation": "The average 20-day trading volume is 5545.93 units, with a small volume change of 261.07 units or 4.71%. This suggests stable trading activity without substantial shifts, indicating no significant accumulation or distribution phases.",
+      "significance_score": 0.5,
+      "reasoning": ""
+    },
+    {
+      "question": "Compare cattle price performance over different time frames to evaluate recent price strength relative to historical averages.",
+      "interpretation": "The current week saw a price decrease of 0.88, the month showed no change, while the year-to-date performance increased by 4.38. This points to strong long-term growth despite recent short-term weakness.",
+      "significance_score": 0.7,
+      "reasoning": ""
+    },
+    {
+      "question": "Determine potential breakout scenarios by analyzing key price levels and volume spikes.",
+      "interpretation": "Support and resistance levels are at 182.7 and 191.1, respectively, without volume spikes suggesting significant market interest. These static levels imply limited breakout potential in the absence of increased volume.",
+      "significance_score": 0.6,
+      "reasoning": ""
+    },
+    {
+      "question": "Identify common technical price patterns such as head and shoulders, double tops/bottoms, and flags that indicate potential price reversals or continuations.",
+      "interpretation": "No identifiable technical patterns such as head and shoulders or double tops/bottoms were found in the last 30 days. This lack of patterns indicates an absence of clear signals for imminent price reversals or continuations.",
+      "significance_score": 0.4,
+      "reasoning": ""
+    }
+  ]
+}

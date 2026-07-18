@@ -1,0 +1,37 @@
+{
+  "narrative_structures": "The narrative should follow a clear, logical structure starting with a brief summary of current market conditions, followed by an analysis of recent price movements and the factors influencing these changes. This should be accompanied by graphical representations where applicable. The report should conclude with potential future scenarios, including both optimistic and pessimistic outcomes, and actionable insights for investors.",
+  "focus_entities": [
+    {
+      "entities_name": "Lean Hogs Future (front month) (April)",
+      "reasoning": "The front month is typically the most liquid and actively traded, providing the most immediate representation of current market sentiment."
+    },
+    {
+      "entities_name": "Lean Hogs Future (second month) (May)",
+      "reasoning": "Offers insights into near-term expectations and trends just beyond the immediate period, helping to understand potential short-term shifts."
+    },
+    {
+      "entities_name": "Lean Hogs Future (third month) (May)",
+      "reasoning": "Provides a perspective on medium-term market expectations, aiding in analyzing evolving patterns beyond immediate futures."
+    }
+  ],
+  "focus_insights": [
+    {
+      "insight_types": "Price Movements",
+      "reasoning": "Understanding the trajectory of prices is vital for evaluating market direction and making informed investment decisions."
+    },
+    {
+      "insight_types": "Demand-Supply Dynamics",
+      "reasoning": "Supply constraints or demand surges can significantly impact pricing, critical for forecasting and risk management."
+    },
+    {
+      "insight_types": "Policy and Regulation Changes",
+      "reasoning": "Any changes in agricultural policy or trade regulations can have profound impacts on futures pricing and market stability."
+    }
+  ],
+  "domain_language": [
+    "Use terminology like 'bullish' and 'bearish' to describe upward or downward markets.",
+    "Price changes should be expressed in terms of percentage changes and absolute figures.",
+    "Discuss market conditions in terms of technical indicators such as moving averages, support/resistance levels, and relative strength index (RSI).",
+    "Incorporate jargon typical to commodities trading, such as contango and backwardation."
+  ]
+}

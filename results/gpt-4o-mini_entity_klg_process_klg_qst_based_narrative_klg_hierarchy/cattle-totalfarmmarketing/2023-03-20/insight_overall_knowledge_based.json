@@ -1,0 +1,86 @@
+[
+  {
+    "type": "market sentiment",
+    "description": "Overall bearish sentiment pervades the cattle futures market across all months, characterized by declining closing prices and decreased trading volumes.",
+    "supporting_insights": [
+      "declining closing prices",
+      "decreased trading volumes",
+      "20% of days closing higher"
+    ],
+    "entities": [
+      "Feeder Cattle Future (third month)",
+      "Feeder Cattle Future (second month)",
+      "Feeder Cattle Future (front month)",
+      "Live Cattle Future (third month)",
+      "Live Cattle Future (second month)",
+      "Live Cattle Future (front month)"
+    ],
+    "significance": "This insight captures the overall market dynamics and provides a clear direction for traders considering investments in cattle futures.",
+    "significance_score": 0.9
+  },
+  {
+    "type": "support/resistance levels impact",
+    "description": "All futures are trading significantly below established support levels, indicating potential for further price declines.",
+    "supporting_insights": [
+      "identified support levels",
+      "current pricing trends below support"
+    ],
+    "entities": [
+      "Feeder Cattle Future (third month)",
+      "Feeder Cattle Future (second month)",
+      "Live Cattle Future (third month)",
+      "Live Cattle Future (second month)",
+      "Live Cattle Future (front month)",
+      "Feeder Cattle Future (front month)"
+    ],
+    "significance": "Understanding this relationship is crucial for predicting future market behavior and informing investment strategies.",
+    "significance_score": 0.85
+  },
+  {
+    "type": "volume and market sentiment relation",
+    "description": "Declining trading volumes across all futures suggest reduced market participation and heightened uncertainty among investors.",
+    "supporting_insights": [
+      "significant drops in trading volume",
+      "negative market sentiment"
+    ],
+    "entities": [
+      "Feeder Cattle Future (third month)",
+      "Feeder Cattle Future (second month)",
+      "Live Cattle Future (third month)",
+      "Live Cattle Future (front month)",
+      "Feeder Cattle Future (front month)"
+    ],
+    "significance": "This insight highlights the connection between decreased trading volume and negative sentiment, guiding traders on when to be cautious.",
+    "significance_score": 0.8
+  },
+  {
+    "type": "correlation",
+    "description": "Both live and feeder cattle futures are showing moderate volatility and declining trading volumes, pointing to bearish sentiment in the cattle market.",
+    "supporting_insights": [
+      "moderate volatility observed",
+      "declining trading volumes across all futures"
+    ],
+    "entities": [
+      "Feeder Cattle Future (third month)",
+      "Feeder Cattle Future (second month)",
+      "Live Cattle Future (third month)",
+      "Live Cattle Future (front month)"
+    ],
+    "significance": "This correlation informs traders about the interconnected dynamics of market sentiment across different cattle futures.",
+    "significance_score": 0.75
+  },
+  {
+    "type": "impact of price trends on future expectations",
+    "description": "The bearish outlook indicated in feeder cattle may reflect similarly in live cattle futures, as both show signs of hesitance and market pressure.",
+    "supporting_insights": [
+      "downward pricing trends",
+      "similar market pressures in both futures"
+    ],
+    "entities": [
+      "Feeder Cattle Future (third month)",
+      "Live Cattle Future (third month)"
+    ],
+    "significance": "Recognizing this impact can aid traders in making informed predictions about future price movements across cattle futures.",
+    "significance_score": 0.7
+  }
+]

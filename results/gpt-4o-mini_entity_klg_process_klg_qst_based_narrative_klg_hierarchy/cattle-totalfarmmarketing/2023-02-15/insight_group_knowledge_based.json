@@ -1,0 +1,116 @@
+[
+  {
+    "cluster_name": "Live Cattle Futures",
+    "entities": [
+      "Live Cattle Future (front month) (February)",
+      "Live Cattle Future (second month) (April)",
+      "Live Cattle Future (third month) (June)"
+    ],
+    "cluster_insights": [
+      {
+        "type": "volatility and trading activity",
+        "description": "Low volatility and significantly reduced trading volumes indicate muted market participation and potential caution among investors.",
+        "supporting_insights": [
+          "Live Cattle Future (second month) (April) shows moderate volatility slightly under historical norms and significant reduction in market activity.",
+          "Live Cattle Future (third month) (June) exhibits lower volatility and trading volume than historical averages.",
+          "Live Cattle Future (front month) (February) reflects significantly low trading volume, implying reduced market activity."
+        ],
+        "significance": "This insight highlights a general sense of market indecision and possible bearish sentiment, which is critical for understanding current investment risks and opportunities.",
+        "significance_score": 0.85
+      },
+      {
+        "type": "proximity to resistance levels influencing sentiment",
+        "description": "All cattle futures are near critical resistance thresholds, suggesting potential for significant price movements.",
+        "supporting_insights": [
+          "Live Cattle Future (second month) (April) is close to its resistance level at 165.25.",
+          "Live Cattle Future (third month) (June) approaches resistance at 160.75.",
+          "Live Cattle Future (front month) (February) is just below its resistance of 162.8."
+        ],
+        "significance": "Understanding these levels is crucial as they may dictate trader behavior and lead to potential price breakouts or reversals.",
+        "significance_score": 0.8
+      },
+      {
+        "type": "volume and market sentiment relationship",
+        "description": "Decreased trading volumes across all futures reflect muted market sentiment and uncertainty among investors.",
+        "supporting_insights": [
+          "Current volume for Live Cattle Future (second month) (April) is significantly lower than the 30-day average volume.",
+          "Live Cattle Future (third month) (June) shows decreased trading volume compared to historical norms.",
+          "Live Cattle Future (front month) (February) indicates over 70% drop in trading volume."
+        ],
+        "significance": "Low trading volume can foreshadow future price movements and indicates an environment of caution which is critical for making investment decisions.",
+        "significance_score": 0.75
+      },
+      {
+        "type": "price resistance interaction",
+        "description": "The proximity of  prices to resistance levels across different contracts suggests critical evaluation points for potential price action.",
+        "supporting_insights": [
+          "All futures are nearing resistance levels which could significantly influence market dynamics.",
+          "The identification of support and resistance levels plays a crucial role in guiding traders' decision-making.",
+          "Each future's position relative to resistance indicates potential upward momentum or risk of reversal."
+        ],
+        "significance": "This insight provides traders with strategic points to enter or exit positions, enhancing their decision-making process.",
+        "significance_score": 0.7
+      }
+    ]
+  },
+  {
+    "cluster_name": "Feeder Cattle Futures",
+    "entities": [
+      "Feeder Cattle Future (front month) (March)",
+      "Feeder Cattle Future (second month) (April)",
+      "Feeder Cattle Future (third month) (May)"
+    ],
+    "cluster_insights": [
+      {
+        "type": "correlation between opening/closing trends and volume",
+        "description": "Both insights reflect a sideways trend in closing and opening prices, which correlates with lower trading volumes, indicating a general market indecision affecting both live and feeder cattle futures.",
+        "supporting_insights": [
+          "March shows sideways trend in both opening and closing prices.",
+          "April aligns with similar indecision characterized by volume changes."
+        ],
+        "significance": "Market indecision presents a risk to future price movement, making this insight crucial for understanding potential trading behavior.",
+        "significance_score": 0.8
+      },
+      {
+        "type": "proximity to resistance levels influencing sentiment",
+        "description": "Both cattle futures are at critical resistance thresholds, suggesting similar market conditions that could lead to significant price movements if these levels are broken or reversed.",
+        "supporting_insights": [
+          "March futures at resistance level of 188.58.",
+          "May futures near resistance at 196.20."
+        ],
+        "significance": "Resistance levels are key psychological points that can prompt selling pressure, making this insight vital for traders.",
+        "significance_score": 0.85
+      },
+      {
+        "type": "low volatility and its impact on trading activity",
+        "description": "The insights both emphasize low volatility and trading activity, which often indicates reduced market participation and can foreshadow future price movements once volatility returns.",
+        "supporting_insights": [
+          "March displays mild volatility with low movement.",
+          "May shows significant stability in price trends."
+        ],
+        "significance": "Understanding low volatility can alert traders to the potential for sudden price shifts, making this insight influential for event-driven strategies.",
+        "significance_score": 0.75
+      },
+      {
+        "type": "Volume and Market Sentiment Relationship",
+        "description": "Both insights show decreased trading volumes in their respective futures markets, suggesting a muted market sentiment and potentially caution among investors.",
+        "supporting_insights": [
+          "March volume significantly lower than historical averages.",
+          "April shows increased activity but still carries cautious sentiment."
+        ],
+        "significance": "Volume often signifies market health; changes here could indicate shifts before price movements occur, providing timely information to investors.",
+        "significance_score": 0.78
+      },
+      {
+        "type": "market activity and volume relationship",
+        "description": "Both insights demonstrate low trading volume and its potential impact on market sentiment, with implications for both feeder and live cattle futures.",
+        "supporting_insights": [
+          "Volume changes significantly differ between March and April.",
+          "May reflects minimal volume change contributing to its price stability."
+        ],
+        "significance": "Understanding volume trends is crucial for predicting future price actions and gauging trader sentiment towards the market.",
+        "significance_score": 0.76
+      }
+    ]
+  }
+]

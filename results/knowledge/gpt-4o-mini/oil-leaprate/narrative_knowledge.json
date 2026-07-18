@@ -1,0 +1,38 @@
+{
+  "narrative_structures": "Daily market reports should follow a clear and engaging narrative structure, typically including an introduction that summarizes the day's key events or trends, a detailed analysis of each entity (WTI Crude Oil, Natural Gas, Brent Crude Oil), market sentiment, macroeconomic factors impacting prices, chart analyses, and a conclusion with predictions or recommendations for investors.",
+  "focus_entities": [
+    {
+      "entities_name": "WTI Crude Oil",
+      "reasoning": "WTI is the primary benchmark for North American oil prices, and fluctuations in its price can significantly impact the overall oil market and economic indicators."
+    },
+    {
+      "entities_name": "Brent Crude Oil",
+      "reasoning": "As the main international benchmark, Brent often influences global oil prices and is essential for understanding international market dynamics."
+    },
+    {
+      "entities_name": "Natural Gas",
+      "reasoning": "Natural gas is a key energy source, and its price trends often correlate with seasonal demand, energy policies, and competition with oil, making it crucial for market analysis."
+    }
+  ],
+  "focus_insights": [
+    {
+      "insight_types": "Price Trends",
+      "reasoning": "Understanding current and historical price trends is essential for predicting future movements and assessing investment opportunities."
+    },
+    {
+      "insight_types": "Supply and Demand Dynamics",
+      "reasoning": "An analysis of supply levels, production rates, and demand forecasts helps readers understand the drivers behind price changes."
+    },
+    {
+      "insight_types": "Geopolitical Events",
+      "reasoning": "Geopolitical factors can cause significant volatility in oil and gas prices; thus, insight into such events is crucial for investment decisions."
+    }
+  ],
+  "domain_language": [
+    "Values should be expressed in specific units (e.g., USD per barrel for oil, USD per million British thermal units for natural gas).",
+    "Future prices may be indicated with terms like 'expected to rise,' 'predicted to decline,' or 'forecasted trends suggesting...'.",
+    "Use industry-standard abbreviations (e.g., WTI, Brent) to maintain clarity and familiarity.",
+    "Incorporate statistical language that reflects the confidence of insights (e.g., 'based on recent data trends, there is a 70% probability of...').",
+    "Utilize technical jargon judiciously, providing brief definitions where necessary to ensure readability for all audience levels."
+  ]
+}

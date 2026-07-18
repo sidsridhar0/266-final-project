@@ -1,0 +1,72 @@
+{
+  "Volatility Analysis": [
+    {
+      "key_idea": "Common patterns across groups",
+      "description": "The front and second-month futures often exhibit higher volatility due to proximity to delivery and immediate agricultural conditions. Trading strategies should account for increased risk exposure during periods of high volatility, particularly in the front month contracts."
+    },
+    {
+      "key_idea": "How effects propagate through groups",
+      "description": "Price shocks in front month contracts can quickly spread to second and third month futures, affecting volatility across the board. Traders should monitor news closely for potential triggers affecting the nearest expiration."
+    },
+    {
+      "key_idea": "Causal relationships at group level",
+      "description": "Macroeconomic factors such as interest rates, currency fluctuation, and global supply-demand dynamics cause volatility shifts across all wheat futures. Weather patterns are particularly influential in causing spikes in volatility due to their impact on crop yields."
+    }
+  ],
+  "Momentum Analysis": [
+    {
+      "key_idea": "Common patterns across groups",
+      "description": "Momentum indicators often signal trends when there are significant price shifts in related market conditions. The consistency of positive or negative momentum across multiple months generally signals a strong trend."
+    },
+    {
+      "key_idea": "How effects propagate through groups",
+      "description": "Momentum tends to propagate from front to back months following the trend set by the most actively traded futures. Traders use the momentum of front month contracts to predict potential moves in subsequent months."
+    },
+    {
+      "key_idea": "Causal relationships at group level",
+      "description": "The immediate supply-demand factors, geopolitical news, and export data serve as primary momentum drivers, creating ripple effects in future month contracts."
+    }
+  ],
+  "Volume Analysis": [
+    {
+      "key_idea": "Common patterns across groups",
+      "description": "High volume periods are often precursors to price corrections or breakouts, particularly in front and second-month futures as they tend to have higher liquidity."
+    },
+    {
+      "key_idea": "How effects propagate through groups",
+      "description": "Sudden increases in volume in front month contracts can signal impending price movements across second and third month contracts as traders adjust positions."
+    },
+    {
+      "key_idea": "Causal relationships at group level",
+      "description": "Volume spikes are often caused by positions being rolled over, speculative trades on news events, or institutional portfolio reallocations, affecting near-term months more significantly."
+    }
+  ],
+  "Price Performance": [
+    {
+      "key_idea": "Common patterns across groups",
+      "description": "Price performance can vary significantly between KC HRW and Chicago SRW futures due to regional supply-demand differences affecting the underlying wheat quality and availability; this pattern persists across all contract months."
+    },
+    {
+      "key_idea": "How effects propagate through groups",
+      "description": "Price discrepancies in initial trades often lead to adjustments in secondary and tertiary month prices as the market realigns expectations based on new market information."
+    },
+    {
+      "key_idea": "Causal relationships at group level",
+      "description": "Hedging activities by producers, government policy changes, and weather forecasts are key factors influencing price performance across wheat future groups."
+    }
+  ],
+  "Support and Resistance Analysis": [
+    {
+      "key_idea": "Common patterns across groups",
+      "description": "Both support and resistance levels are generally based on historical price data and tend to be closely watched by traders across all future months, aligning with technical analysis strategies common in commodities trading."
+    },
+    {
+      "key_idea": "How effects propagate through groups",
+      "description": "Breaks of significant support or resistance in front-month futures often signal adjustments that cascade into subsequent month futures, generating new trading opportunities and realignment of investor expectations."
+    },
+    {
+      "key_idea": "Causal relationships at group level",
+      "description": "Support and resistance shifts are largely driven by changes in fundamentals such as crop reports, global trade agreements, and speculative trading actions by major financial institutions."
+    }
+  ]
+}

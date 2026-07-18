@@ -1,0 +1,37 @@
+{
+  "narrative_structures": "A well-organized daily market report typically includes an overview of current market conditions, followed by a detailed analysis of key trends and movements, supported by relevant data. The narrative can be structured chronologically or by thematic categories, such as supply and demand dynamics, geopolitical influences, and technical analysis. Conclusions and actionable insights should be clearly stated.",
+  "focus_entities": [
+    {
+      "entities_name": "WTI Crude Oil",
+      "reasoning": "WTI is a major benchmark for oil prices in North America and serves as a key indicator for global oil market trends."
+    },
+    {
+      "entities_name": "Brent Crude Oil",
+      "reasoning": "Brent is the international benchmark, influencing pricing in most global oil transactions, making it essential for understanding global oil market behavior."
+    },
+    {
+      "entities_name": "Natural Gas",
+      "reasoning": "Natural gas prices can be highly correlated with oil prices and are affected by seasonal demand, making it a critical component of the energy market."
+    }
+  ],
+  "focus_insights": [
+    {
+      "insight_types": "Price Movements",
+      "reasoning": "Tracking the daily price changes of oil and natural gas helps investors understand current market volatility and potential future trends."
+    },
+    {
+      "insight_types": "Supply and Demand Dynamics",
+      "reasoning": "Analyzing inventory levels, production rates, and consumption trends provides insights into market stability and price movements."
+    },
+    {
+      "insight_types": "Geopolitical Events",
+      "reasoning": "Events affecting oil-producing regions can significantly impact prices, making it imperative to include geopolitical analysis in reports."
+    }
+  ],
+  "domain_language": [
+    "Use terms like 'bullish' and 'bearish' to describe market sentiment.",
+    "Express future prices in terms of expectations, e.g., 'expected to hover around $70 per barrel'.",
+    "Incorporate technical indicators (e.g., moving averages, RSI) to provide clarity on price trends.",
+    "Utilize 'spot price' to describe current market value and 'futures price' for anticipated future values."
+  ]
+}

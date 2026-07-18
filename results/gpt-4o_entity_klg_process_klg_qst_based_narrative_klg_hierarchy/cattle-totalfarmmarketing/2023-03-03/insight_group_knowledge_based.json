@@ -1,0 +1,85 @@
+[
+  {
+    "cluster_name": "Live Cattle Futures Cluster",
+    "entities": [
+      "Live Cattle Future (front month) (April)",
+      "Live Cattle Future (second month) (June)",
+      "Live Cattle Future (third month) (August)"
+    ],
+    "cluster_insights": [
+      {
+        "type": "volatility_and_momentum",
+        "description": "Increased short-term volatility and trading volumes hint at possible accumulation or distribution across the Live Cattle Futures markets.",
+        "supporting_insights": [
+          "volatility_and_momentum",
+          "volatility and momentum relationship",
+          "volatility and momentum"
+        ],
+        "significance": "This insight highlights the dynamic conditions across the entire Live Cattle Futures Cluster, suggesting that traders may be repositioning based on changing expectations, impacting market sentiment and potentially setting up trend developments.",
+        "significance_score": 0.9
+      },
+      {
+        "type": "trading_volume_and_price_performance",
+        "description": "Diverging market engagement with heightened activity in Live Cattle Futures against more stable trends in Feeder Cattle Futures, signaling differences in market sentiment.",
+        "supporting_insights": [
+          "trading_volume_and_price_performance",
+          "volatility_and_price_stability",
+          "trading_volume_and_price_action"
+        ],
+        "significance": "The disparity in market activity between Live and Feeder Cattle Futures suggests that the Live Cattle market could drive sentiment, potentially influencing other related markets. This can affect investors' allocation and risk management strategies.",
+        "significance_score": 0.85
+      },
+      {
+        "type": "inter-contract influence",
+        "description": "Market activity and price behavior in front-month Live Cattle Futures can propagate to subsequent months, affecting overall market dynamics.",
+        "supporting_insights": [
+          "Inter-monthal Influence",
+          "inter-contract influence",
+          "Cross-Futures Influence"
+        ],
+        "significance": "Understanding the cascading effect from front-month to subsequent contracts helps market participants strategize effectively to anticipate potential future trends or shifts within the same futures structure.",
+        "significance_score": 0.88
+      }
+    ]
+  },
+  {
+    "cluster_name": "Feeder Cattle Futures Cluster",
+    "entities": [
+      "Feeder Cattle Future (front month) (March)",
+      "Feeder Cattle Future (second month) (April)",
+      "Feeder Cattle Future (third month) (May)"
+    ],
+    "cluster_insights": [
+      {
+        "type": "volatility_and_price_stability",
+        "description": "The March Feeder Cattle Future shows reduced volatility and price stability, while the May Futures show increased volatility with potential breakout scenarios, indicating differing market conditions.",
+        "supporting_insights": [
+          "Both insights highlight increased trading volumes and suggest a correlation between trading volumes and price actions in their respective markets.",
+          "Volatility and Momentum Relationship: Both the May and April Feeder Cattle Futures show increased volatility, which can be associated with potential changes in market momentum and possible trend developments."
+        ],
+        "significance": "This divergent volatility suggests that traders may use stable March futures to manage risk while speculating on more volatile April and May futures. The disparity in volatility highlights differing stages of market expectations and readiness for potential breakout opportunities.",
+        "significance_score": 0.8
+      },
+      {
+        "type": "trading_volume_and_price_action",
+        "description": "High trading volumes in both April and May contracts without corresponding technical price patterns indicate strong market activity and possible consolidation before a major directional move.",
+        "supporting_insights": [
+          "Both May and April contracts exhibit increased trading volume without clear technical price patterns to predict precise movements, suggesting steady interest and potential consolidation before a directional move.",
+          "Significant volume changes across feeder cattle futures can precede large price shifts by indicating changes in market sentiment."
+        ],
+        "significance": "The increased trading volume suggests heightened trader interest ahead of potential price movements, emphasizing the role of volume in signaling potential breakout or consolidation patterns. This reinforces the market's dynamics of responding to significant volume spikes.",
+        "significance_score": 0.85
+      },
+      {
+        "type": "price_level_and_breakout_scenario",
+        "description": "Potential breakout scenarios are present across contracts, with price levels testing key supports and resistances, indicating market anticipation for directional movements.",
+        "supporting_insights": [
+          "Price Level and Breakout Scenario Relationship: Both sets of futures indicate potential breakout scenarios with price testing key levels, but lack clear technical patterns.",
+          "Identifying support and resistance levels helps in understanding future price action and market structure."
+        ],
+        "significance": "Key price levels indicate areas where significant market shifts may occur, impacting traders' strategies and future price trends. The testing of these levels is crucial for predicting potential future movements.",
+        "significance_score": 0.9
+      }
+    ]
+  }
+]

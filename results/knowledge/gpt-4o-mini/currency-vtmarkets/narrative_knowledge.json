@@ -1,0 +1,54 @@
+{
+  "narrative_structures": "Utilize a problem-solution framework, starting with a summary of current market conditions, followed by an analysis of influencing factors, and concluding with actionable insights or recommendations for investors.",
+  "focus_entities": [
+    {
+      "entities_name": "Australian Dollar",
+      "reasoning": "Significant for understanding commodity-related markets and trade dynamics, especially with the Asia-Pacific region."
+    },
+    {
+      "entities_name": "British Pound",
+      "reasoning": "Important for insights into UK economic health and Brexit implications, which can heavily influence global markets."
+    },
+    {
+      "entities_name": "Dollar Index",
+      "reasoning": "A critical benchmark for evaluating the strength of the US dollar against a basket of currencies, impacting global trade."
+    },
+    {
+      "entities_name": "Euro",
+      "reasoning": "Essential for assessing economic and monetary stability within the Eurozone, affecting investor sentiment and trade."
+    },
+    {
+      "entities_name": "Japanese Yen",
+      "reasoning": "Often seen as a safe-haven currency; its fluctuations can indicate market risk sentiment."
+    },
+    {
+      "entities_name": "Gold",
+      "reasoning": "Traditionally viewed as a hedge against inflation and currency devaluation, influencing both commodity and forex markets."
+    }
+  ],
+  "focus_insights": [
+    {
+      "insight_types": "Interest rate changes",
+      "reasoning": "Directly influence currency valuations and investor decisions; understanding central bank policies is crucial."
+    },
+    {
+      "insight_types": "Geopolitical events",
+      "reasoning": "Can create volatility in currency markets, impacting investor confidence and trading strategies."
+    },
+    {
+      "insight_types": "Economic indicators",
+      "reasoning": "Data releases (e.g., GDP, employment rates) provide critical context on currency movements and likely trends."
+    },
+    {
+      "insight_types": "Market sentiment analysis",
+      "reasoning": "Understanding trader psychology and positioning can offer insights into potential market movements."
+    }
+  ],
+  "domain_language": [
+    "Maintain a neutral tone, avoiding overly technical jargon unless necessary for clarity.",
+    "Use absolute values for currency changes (e.g., 'The Euro increased by 0.3% against the Dollar').",
+    "Express future price expectations with phrases like 'expected to stabilize around', 'forecasted to trade within', or 'predicted to reach'.",
+    "Include performance comparisons and historical context to provide depth (e.g., 'This is a decline from last week\u2019s level').",
+    "State data with precision while ensuring it's accessible, such as citing specific percentages or share movement."
+  ]
+}

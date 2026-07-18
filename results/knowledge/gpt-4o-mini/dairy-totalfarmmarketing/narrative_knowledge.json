@@ -1,0 +1,37 @@
+{
+  "narrative_structures": "Effective narrative structures for daily market reports often follow a 'Context-Analysis-Insight-Action' format. This structure starts by providing context on current market conditions, progresses into detailed analysis of influential factors affecting the entities, highlights key insights derived from the analysis, and concludes with actionable recommendations or observations that assist readers in making informed investment decisions.",
+  "focus_entities": [
+    {
+      "entities_name": "Class III Milk Future (front month) (April)",
+      "reasoning": "It serves as a key indicator of short-term market sentiment in dairy pricing and influences other classes of milk futures."
+    },
+    {
+      "entities_name": "Class IV Milk Future (front month) (April)",
+      "reasoning": "It reflects market conditions for butterfat and skim milk powder, essential for understanding overall dairy product pricing."
+    },
+    {
+      "entities_name": "Class III Milk Future (third month) (June)",
+      "reasoning": "It indicates expectations for seasonally adjusted prices and is vital for strategic planning by producers."
+    }
+  ],
+  "focus_insights": [
+    {
+      "insight_types": "Price Movement Trends",
+      "reasoning": "Analyzing past and current price movements can offer predictive insights into future market developments."
+    },
+    {
+      "insight_types": "Supply and Demand Indicators",
+      "reasoning": "These insights help assess potential risks or opportunities within the market based on production rates and consumption patterns."
+    },
+    {
+      "insight_types": "Global Market Influence",
+      "reasoning": "Understanding international factors affecting dairy prices can provide a broader context for domestic market fluctuations."
+    }
+  ],
+  "domain_language": [
+    "Future prices should be expressed in terms of 'cents per pound' or 'dollars per hundredweight' for clarity.",
+    "Use precise language when describing price fluctuations, such as 'increased by' or 'decreased to' rather than vague terms.",
+    "Incorporate technical terms like 'backwardation' and 'contango' to describe market structures when relevant.",
+    "Avoid jargon unless it's defined, maintaining accessibility for all levels of financial literacy."
+  ]
+}

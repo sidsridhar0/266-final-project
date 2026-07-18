@@ -1,0 +1,26 @@
+[
+  {
+    "cluster_name": "Gold and Silver",
+    "entities": [
+      "Gold",
+      "Silver"
+    ],
+    "reason_of_clustering": "Gold and silver are precious metals that often follow similar market trends and are both considered safe-haven assets. Investors typically buy these metals during economic uncertainty, leading to correlated price movements."
+  },
+  {
+    "cluster_name": "Gold and Dollar Index",
+    "entities": [
+      "Gold",
+      "Dollar Index"
+    ],
+    "reason_of_clustering": "The price of gold typically has an inverse relationship with the Dollar Index. When the dollar weakens, gold prices tend to rise, as gold becomes cheaper for foreign investors. Analyzing their relationship helps investors assess market conditions."
+  },
+  {
+    "cluster_name": "Silver and Dollar Index",
+    "entities": [
+      "Silver",
+      "Dollar Index"
+    ],
+    "reason_of_clustering": "Similar to gold, silver's price can also be influenced by fluctuations in the Dollar Index. A robust dollar can pressure silver prices, while a weaker dollar can cause them to rise. Their linkage provides insight into macroeconomic factors affecting both metals."
+  }
+]

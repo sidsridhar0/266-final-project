@@ -1,0 +1,37 @@
+{
+  "narrative_structures": "A day-to-day overview of market performance that includes a summary of significant price movements, a comparison of various future contracts, key market drivers, and projections for upcoming sessions. Each report may also illustrate broader trends over time and potential impacts of external factors.",
+  "focus_entities": [
+    {
+      "entities_name": "Corn Future (front month) (May)",
+      "reasoning": "As the immediate contract nearing expiration, the front month price reflects current sentiment and supply-demand dynamics and influences other futures."
+    },
+    {
+      "entities_name": "Corn Future (third month) (September)",
+      "reasoning": "The September contract provides insights into seasonal trends and other fundamental factors affecting corn prices later in the year."
+    },
+    {
+      "entities_name": "Corn Future (second month) (July)",
+      "reasoning": "This contract helps in assessing mid-summer conditions and potential impacts from weather patterns or planting outcomes."
+    }
+  ],
+  "focus_insights": [
+    {
+      "insight_types": "Price Movement Trends",
+      "reasoning": "Understanding short-term price movements is crucial for making timely investment decisions."
+    },
+    {
+      "insight_types": "Supply and Demand Analysis",
+      "reasoning": "Insights into supply-side factors (like weather and crop yield predictions) versus demand-side shifts (such as export demand) guide future pricing expectations."
+    },
+    {
+      "insight_types": "Market Sentiment Indicators",
+      "reasoning": "Sentiment analysis offers clues about traders' psychological factors, which can lead to volatility and market shifts."
+    }
+  ],
+  "domain_language": [
+    "Prices are typically expressed in cents per bushel for corn futures.",
+    "Use terms like 'bullish' and 'bearish' to describe market sentiment.",
+    "Include percentage changes in prices to illustrate volatility and performance.",
+    "Incorporate reference to delivery months to analyze and compare contract performance."
+  ]
+}

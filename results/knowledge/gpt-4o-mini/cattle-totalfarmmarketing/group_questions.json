@@ -1,0 +1,18 @@
+{
+  "group_characteristics": [
+    "What common volatility patterns appear across different future months of live and feeder cattle?",
+    "How do the price trends of front month futures compare to third month futures in terms of behavior patterns?"
+  ],
+  "inter_group_dynamics": [
+    "How do price movements of live cattle futures influence the price actions of feeder cattle futures?",
+    "What factors influence the average volume traded among different cattle future months?"
+  ],
+  "propagation_patterns": [
+    "How does a significant price change in front month futures affect the subsequent movements in second and third month futures?",
+    "What market sentiment conditions facilitate the propagation of trends from live cattle futures to feeder cattle futures?"
+  ],
+  "causal_chains": [
+    "What typical cause-effect sequences exist between changes in traded volume and corresponding price trends across cattle futures?",
+    "How do identified support and resistance levels influence the causal relationships between different cattle futures?"
+  ]
+}

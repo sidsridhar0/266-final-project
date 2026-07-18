@@ -1,0 +1,39 @@
+{
+  "type": "all",
+  "entity": "Feeder Cattle Future (third month) (May)",
+  "interpretation": "The feeder cattle futures market shows moderate volatility with an ATR of 2.2200 and slight bearish sentiment reflected in the recent price drop of -0.3859%. Volume remains stable with a slight uptick, but trading below key support levels indicates caution is needed. Market sentiment is largely negative with a higher percentage of days closing lower than higher.",
+  "significance_score": 0.64,
+  "score_reasoning": "The combination of bearish price trends, proximity to significant support levels, and a generally negative market sentiment suggests that investors should be vigilant. The overall stability in trading volume adds a layer of liquidity assurance but also indicates a market hesitant to move upward. Thus, while the recent performance presents opportunities, it requires careful consideration.",
+  "individual_insights": [
+    {
+      "question": "Evaluate market volatility for the product on the date of interest by calculating the average true range (ATR) and the standard deviation of the closing prices over the last 14 days.",
+      "interpretation": "The ATR is 2.2200, indicating a moderate level of volatility in the feeder cattle futures market. The standard deviation of 2.4905 shows that the closing prices have experienced fluctuations around the average. This moderate volatility suggests that traders should remain cautious while making decisions.",
+      "significance_score": 0.7,
+      "reasoning": ""
+    },
+    {
+      "question": "Analyze trading volume trends by comparing the volume on the date of interest against the average volume over the past 30 days.",
+      "interpretation": "The current volume of 5,574 is slightly above the 30-day average volume of 5,553.57, indicating a 0.37% increase. This suggests that trading activity is relatively stable, with no significant anomalies, which is positive for market liquidity.",
+      "significance_score": 0.6,
+      "reasoning": ""
+    },
+    {
+      "question": "Identify significant price movements by evaluating the percentage change in closing price from the previous day to the current day.",
+      "interpretation": "The percentage change of -0.3859% indicates a slight decline in the closing price from the previous day, suggesting bearish sentiment in the market. This reflects potential caution for investors, as the price is moving downward.",
+      "significance_score": 0.5,
+      "reasoning": ""
+    },
+    {
+      "question": "Determine key support and resistance levels by analyzing the closing prices over the last 30 days to find price levels that have been touched multiple times.",
+      "interpretation": "Current price at 198.78 is below the support level of 198.82 and significantly closer to the resistance level of 199.62. This positions the market near a critical support zone, suggesting that a breakout below could indicate a deeper decline.",
+      "significance_score": 0.8,
+      "reasoning": ""
+    },
+    {
+      "question": "Evaluate market sentiment by analyzing the closing prices relative to their opening prices over the past week to assess whether prices are closing higher or lower than they opened.",
+      "interpretation": "With only 40% of days closing higher than they opened, while 60% closed lower, the overall sentiment is bearish. The average weekly close-open change of -2.07 signifies a downward trend in market confidence.",
+      "significance_score": 0.9,
+      "reasoning": ""
+    }
+  ]
+}

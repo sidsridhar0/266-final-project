@@ -1,0 +1,52 @@
+{
+  "metric_patterns": [
+    {
+      "key_idea": "How do changes in daily price volatility (ATR) typically relate to changes in trading volume for wheat futures?",
+      "description": "Typically, an increase in daily price volatility (ATR) leads to a corresponding increase in trading volume as market participants react to uncertainty and potential price movements. High volatility often attracts traders seeking to capitalize on price fluctuations, whereas low volatility may result in reduced trading activity."
+    },
+    {
+      "key_idea": "What conditions affect the relationship between price momentum and trend strength in wheat markets?",
+      "description": "The relationship between price momentum and trend strength is often influenced by market news, seasonal factors, and changes in supply-demand dynamics. For instance, strong positive news (like decreased yields or export increases) can enhance upward price momentum and solidify a bullish trend, while negative news can reverse this momentum."
+    }
+  ],
+  "entity_interactions": [
+    {
+      "key_idea": "What are common ways that Chicago SRW Wheat Futures affect KC HRW Wheat Futures prices?",
+      "description": "Chicago SRW Wheat Futures often serve as a price benchmark for KC HRW Wheat Futures, influencing their pricing through correlations in supply and demand. Market sentiment and expected price movements in Chicago can cause traders to adjust positions in KC contracts, especially under similar market conditions."
+    },
+    {
+      "key_idea": "Under what conditions do front month and second month contracts for wheat influence each other most strongly?",
+      "description": "Front and second month contracts typically influence each other strongly during periods of strong market volatility or news events impacting supply and demand. During planting and harvesting seasons, proximity to expiration can lead to arbitrage opportunities, causing fluctuations in their relationship."
+    }
+  ],
+  "common_factors": [
+    {
+      "key_idea": "What external factors commonly affect multiple wheat futures contracts, such as weather or geopolitical events?",
+      "description": "External factors such as climatic conditions (droughts, floods), geopolitical tensions affecting trade routes, and economic sanctions can significantly influence all wheat futures contracts. For instance, adverse weather may reduce crop yields, causing price spikes across all entities."
+    },
+    {
+      "key_idea": "How do trade policies typically impact different wheat market entities?",
+      "description": "Trade policies, such as tariffs, export restrictions, and subsidies, can create disparities in pricing among different wheat types. For example, an export ban on SRW wheat may increase demand for HRW wheat, creating ripple effects in pricing and trading volumes across various contracts."
+    }
+  ],
+  "temporal_patterns": [
+    {
+      "key_idea": "What typical sequences of changes occur in price trends before a trend reversal in the wheat market?",
+      "description": "Before a trend reversal in the wheat market, typical sequences often begin with a period of diverging moving averages, followed by a tightening of price patterns, increased volatility, leading eventually to a breakout or breakdown. Traders often recognize these signals as potential trend reversal indicators."
+    },
+    {
+      "key_idea": "How do time-based factors affect relationships between front month and second month wheat futures?",
+      "description": "Time-based factors such as seasonal harvests, contract expiration dates, and market sentiment shift closer to expiration can heighten the relationship between front month and second month contracts. During critical trading periods, front month prices can significantly pull second month prices due to the immediate market response."
+    }
+  ],
+  "system_patterns": [
+    {
+      "key_idea": "What system-level conditions influence relationships between different wheat future entities?",
+      "description": "System-level conditions such as overall market liquidity, speculative trading activities, and macroeconomic indicators (like interest rates) create the framework within which different wheat futures prices interact. High liquidity generally creates tighter spreads between different contracts."
+    },
+    {
+      "key_idea": "How do structural factors in agricultural markets affect interactions between Chicago SRW and KC HRW Wheat Futures?",
+      "description": "Structural factors, including the supply chain dynamics, transportation costs, and regional demand variations, can affect wheat futures interactions. Infrastructure capabilities, such as rail and port access, can create discrepancies in price movements, leading to challenges in arbitrage opportunities across contracts."
+    }
+  ]
+}

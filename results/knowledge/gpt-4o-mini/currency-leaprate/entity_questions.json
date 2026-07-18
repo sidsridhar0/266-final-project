@@ -1,0 +1,107 @@
+[
+  {
+    "insight_type": "volatility analysis",
+    "question": "What is the volatility of the currency over the last 30 days, measured by the standard deviation of close prices?",
+    "required_metrics": [
+      {
+        "metric": "30-day_std_dev",
+        "calculation": "Standard deviation of closing_price over the past 30 days",
+        "purpose": "Measure price volatility"
+      },
+      {
+        "metric": "average_close",
+        "calculation": "Average of closing_price over the past 30 days",
+        "purpose": "Facilitate understanding of volatility in relation to average price"
+      }
+    ],
+    "comparisons": [
+      "Current volatility vs historical volatility",
+      "Current volatility vs average price"
+    ]
+  },
+  {
+    "insight_type": "price movement assessment",
+    "question": "What were the percentage changes in the closing price compared to the previous day across the last 7 days?",
+    "required_metrics": [
+      {
+        "metric": "percentage_change",
+        "calculation": "((Close_today - Close_yesterday) / Close_yesterday) * 100 for each day",
+        "purpose": "Identify day-to-day price movement"
+      }
+    ],
+    "comparisons": [
+      "Today's percentage change vs previous 7 days' average percentage change",
+      "Percentage change magnitude across the last week"
+    ]
+  },
+  {
+    "insight_type": "trend strength analysis",
+    "question": "What is the strength of the closing price trend over the past 14 days using Bollinger Bands?",
+    "required_metrics": [
+      {
+        "metric": "SMA_14",
+        "calculation": "14-day Simple Moving Average of closing_price",
+        "purpose": "Identify the center of price movement"
+      },
+      {
+        "metric": "Upper_Band",
+        "calculation": "SMA_14 + (2 * 14-day standard deviation of closing_price)",
+        "purpose": "Identify potential overbought conditions"
+      },
+      {
+        "metric": "Lower_Band",
+        "calculation": "SMA_14 - (2 * 14-day standard deviation of closing_price)",
+        "purpose": "Identify potential oversold conditions"
+      },
+      {
+        "metric": "current_price_position",
+        "calculation": "current closing_price relative to Upper_Band and Lower_Band",
+        "purpose": "Assess trend strength and potential reversals"
+      }
+    ],
+    "comparisons": [
+      "Current price position relative to Upper and Lower Bands",
+      "Price movement within the bands vs historical performance"
+    ]
+  },
+  {
+    "insight_type": "support/resistance level assessment",
+    "question": "What are the key support and resistance levels established in the previous 30 days?",
+    "required_metrics": [
+      {
+        "metric": "support_level",
+        "calculation": "Minimum closing_price levels identified in the last 30 days",
+        "purpose": "Establish price levels where buying interest is strong"
+      },
+      {
+        "metric": "resistance_level",
+        "calculation": "Maximum closing_price levels identified in the last 30 days",
+        "purpose": "Establish price levels where selling interest is strong"
+      }
+    ],
+    "comparisons": [
+      "Current price vs identified support and resistance levels",
+      "Historical support/resistance efficacy over past performance"
+    ]
+  },
+  {
+    "insight_type": "volume trend analysis",
+    "question": "How does the trading volume over the past 14 days compare to the historical average volume?",
+    "required_metrics": [
+      {
+        "metric": "average_volume_14_days",
+        "calculation": "Average of volume over the last 14 days",
+        "purpose": "Identify recent volume trends"
+      },
+      {
+        "metric": "historical_average_volume",
+        "calculation": "Average volume over a designated longer historical period",
+        "purpose": "Provide context for current volume levels"
+      }
+    ],
+    "comparisons": [
+      "14-day average volume vs historical average volume",
+      "Current trading day's volume vs daily average of last 14 days"
+    ]
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "cluster_name": "Gold and Silver",
+    "entities": [
+      "Gold",
+      "Silver"
+    ],
+    "reason_of_clustering": "Gold and Silver are both precious metals and are often used as a hedge against inflation and currency fluctuations. They tend to move in tandem in response to macroeconomic factors, such as changes in interest rates, geopolitical tensions, and overall market sentiment."
+  },
+  {
+    "cluster_name": "Gold and Dollar Index",
+    "entities": [
+      "Gold",
+      "Dollar Index"
+    ],
+    "reason_of_clustering": "Gold often has an inverse relationship with the Dollar Index. When the Dollar strengthens, gold prices typically weaken, and vice versa. This cluster helps investors understand the dynamics between gold and currency strength, impacting investment decisions in precious metals."
+  },
+  {
+    "cluster_name": "Silver and Dollar Index",
+    "entities": [
+      "Silver",
+      "Dollar Index"
+    ],
+    "reason_of_clustering": "Similar to gold, silver prices are influenced by the Dollar Index. A stronger dollar generally puts downward pressure on silver prices, while a weaker dollar tends to support higher silver prices. Analyzing this relationship is crucial for investors considering both silver and currency transactions."
+  }
+]

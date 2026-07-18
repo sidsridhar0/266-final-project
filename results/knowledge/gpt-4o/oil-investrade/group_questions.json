@@ -1,0 +1,22 @@
+{
+  "group_characteristics": [
+    "What common patterns appear across Natural Gas, WTI Crude Oil, and Brent Crude Oil volatility?",
+    "How do characteristics of price momentum impact observed behaviors in different oil entities?",
+    "Are there shared seasonal patterns in price structure between Natural Gas and crude oils?"
+  ],
+  "inter_group_dynamics": [
+    "How do trading volume fluctuations in one entity influence price momentum in the others?",
+    "What role do seasonal patterns in one oil product play in affecting the volatility of the others?",
+    "How does the price structure of WTI Crude Oil interact with the volume analysis of Brent Crude Oil?"
+  ],
+  "propagation_patterns": [
+    "How do volatile movements in WTI Crude Oil affect the price structure of Natural Gas and Brent Crude?",
+    "What conditions affect the spread of seasonal pattern trends across Natural Gas and crude oil groups?",
+    "How does a change in volume analysis of Natural Gas propagate to the volatility of the crude oil groups?"
+  ],
+  "causal_chains": [
+    "What typical cause-effect sequences occur at the group level when there is a change in price momentum?",
+    "How do the characteristics of volatility influence the causal chains observed in volume analysis?",
+    "What causal sequences are triggered across groups when significant changes in price structure are identified?"
+  ]
+}

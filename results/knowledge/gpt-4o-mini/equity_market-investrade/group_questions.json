@@ -1,0 +1,18 @@
+{
+  "group_characteristics": [
+    "What common patterns appear across S&P 500 sectors in relation to volatility during economic downturns?",
+    "How do characteristics of the MSCI World index affect behavior patterns of S&P 500 indices?"
+  ],
+  "inter_group_dynamics": [
+    "How do fluctuations in the United States 10-Year Bond Yield typically interact with the performance of the S&P 500 Financials?",
+    "What factors influence between-group relationships such as between S&P 500 Energy and Gold?"
+  ],
+  "propagation_patterns": [
+    "How do effects of high trading volumes in the NASDAQ Composite typically spread across other S&P 500 sectors?",
+    "What conditions affect the propagation of price momentum across sectors like S&P 500 Information Technology and S&P 500 Communication Services?"
+  ],
+  "causal_chains": [
+    "What typical cause-effect sequences occur at the group level between CBOE Volatility Index and S&P 500 indices?",
+    "How do group characteristics, such as sensitivity to interest rates, influence causal chains between S&P 500 Consumer Staples and S&P 500 Consumer Discretionary?"
+  ]
+}

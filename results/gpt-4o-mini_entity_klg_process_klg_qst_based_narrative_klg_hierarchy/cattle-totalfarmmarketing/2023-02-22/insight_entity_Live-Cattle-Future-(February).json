@@ -1,0 +1,39 @@
+{
+  "type": "all",
+  "entity": "Live Cattle Future (front month) (February)",
+  "interpretation": "The analysis reveals moderate volatility in the Live Cattle Future market, with significant reductions in trading volume and a stable price movement. Current prices are above established support and resistance levels, reflecting strong bullish sentiment in the market.",
+  "significance_score": 0.74,
+  "score_reasoning": "The combination of decreased trading volume, muted price changes, and strong positive market sentiment suggests cautious optimism. However, the low trading volume might indicate waning interest, potentially leading to increased volatility in the future. Overall, the market shows resilience but faces challenges in sustaining momentum.",
+  "individual_insights": [
+    {
+      "question": "Evaluate market volatility for the product on the date of interest by calculating the average true range (ATR) and the standard deviation of the closing prices over the last 14 days.",
+      "interpretation": "The Average True Range (ATR) is 0.9721, indicating moderate volatility. The standard deviation of closing prices is 1.6252, suggesting some fluctuations around the average price but not extreme volatility.",
+      "significance_score": 0.6,
+      "reasoning": ""
+    },
+    {
+      "question": "Analyze trading volume trends by comparing the volume on the date of interest against the average volume over the past 30 days.",
+      "interpretation": "Current trading volume of 836 is significantly lower than the 30-day average volume of 7661.0952, with a volume change percentage of -89.0877, indicating a notable decrease in market activity.",
+      "significance_score": 0.8,
+      "reasoning": ""
+    },
+    {
+      "question": "Identify significant price movements by evaluating the percentage change in closing price from the previous day to the current day.",
+      "interpretation": "A percentage change of 0.0910 suggests a very minimal increase in price from the previous day\u2019s closing price of 164.7500, indicating stability or a lack of momentum in price movement.",
+      "significance_score": 0.4,
+      "reasoning": ""
+    },
+    {
+      "question": "Determine key support and resistance levels by analyzing the closing prices over the last 30 days to find price levels that have been touched multiple times.",
+      "interpretation": "The support level is identified at 156.72 and the resistance level at 157.85, with the current price being 164.9. This indicates that prices are significantly above both the support and resistance levels, suggesting strong upward potential.",
+      "significance_score": 0.7,
+      "reasoning": ""
+    },
+    {
+      "question": "Evaluate market sentiment by analyzing the closing prices relative to their opening prices over the past week to assess whether prices are closing higher or lower than they opened.",
+      "interpretation": "With a closing price change of 2.1800 and 100% of the days closing higher than they opened, market sentiment is strongly positive, indicating bullish behavior and confidence in the market.",
+      "significance_score": 0.9,
+      "reasoning": ""
+    }
+  ]
+}

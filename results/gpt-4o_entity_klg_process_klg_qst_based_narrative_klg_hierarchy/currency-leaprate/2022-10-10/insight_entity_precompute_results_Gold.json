@@ -1,0 +1,132 @@
+[
+  {
+    "insight_type": "volatility_analysis",
+    "question": {
+      "insight_type": "volatility analysis",
+      "question": "Assess the daily price volatility to gauge potential risk and reward by analyzing day-to-day price range and volume change.",
+      "required_metrics": [
+        {
+          "metric": "Daily High-Low Range",
+          "calculation": "High price minus Low price for the day",
+          "purpose": "Measure the intraday volatility of the price"
+        },
+        {
+          "metric": "Average True Range (ATR)",
+          "calculation": "14-day average of the daily high-low range",
+          "purpose": "Assess market volatility over a medium-term period"
+        },
+        {
+          "metric": "Volume Change",
+          "calculation": "Percentage change in volume compared to previous day",
+          "purpose": "Indicate potential interest or exit from positions by traders"
+        }
+      ],
+      "comparisons": [
+        "Daily volatility vs historical volatility",
+        "Volume changes relative to volatility"
+      ]
+    },
+    "results": "METRIC:Daily High-Low Range\tVALUE:32.930000\tUNIT:float\tTYPE:None\nMETRIC:Average True Range (ATR)\tVALUE:27.609286\tUNIT:float\tTYPE:None\nMETRIC:Volume Change\tVALUE:-1.371882\tUNIT:percent\tTYPE:float\n"
+  },
+  {
+    "insight_type": "momentum_analysis",
+    "question": {
+      "insight_type": "momentum analysis",
+      "question": "Evaluate the current momentum of the product by analyzing price movements and relative trends using momentum metrics and indicators.",
+      "required_metrics": [
+        {
+          "metric": "Rate of Change (ROC)",
+          "calculation": "[(Close price - Close price n days ago) / Close price n days ago] * 100",
+          "purpose": "Quantify the speed and magnitude of price movement"
+        },
+        {
+          "metric": "Relative Strength Index (RSI)",
+          "calculation": "RSI = 100 - [100 / (1 + RS)], where RS = Average gain / Average loss over a certain period",
+          "purpose": "Identify overbought or oversold conditions"
+        }
+      ],
+      "comparisons": [
+        "Current ROC vs historical ROC",
+        "RSI position within typical trading range"
+      ]
+    },
+    "results": "METRIC:Rate of Change (ROC)\tVALUE:2.782485440483152\tUNIT:percent\tTYPE:float\nMETRIC:Relative Strength Index (RSI)\tVALUE:50.76742506319968\tUNIT:index\tTYPE:float\n"
+  },
+  {
+    "insight_type": "performance_benchmarking",
+    "question": {
+      "insight_type": "performance benchmarking",
+      "question": "Compare current performance against historical benchmarks to identify relative strength or weakness in market conditions.",
+      "required_metrics": [
+        {
+          "metric": "Daily Close Price",
+          "calculation": "Use the close price for the given day",
+          "purpose": "Directly observe market performance"
+        },
+        {
+          "metric": "Weekly Performance",
+          "calculation": "Percentage change in close price over last week",
+          "purpose": "Identify recent performance trends"
+        },
+        {
+          "metric": "Monthly Performance",
+          "calculation": "Percentage change in close price over last month",
+          "purpose": "Identify longer-term performance trends"
+        }
+      ],
+      "comparisons": [
+        "Daily performance relative to weekly and monthly performance",
+        "Current close vs average historical benchmarks"
+      ]
+    },
+    "results": "METRIC:Daily Close Price\tVALUE:1667.8\tUNIT:\tTYPE:float\nMETRIC:Weekly Performance\tVALUE:0.0000\tUNIT:percent\tTYPE:float\nMETRIC:Monthly Performance\tVALUE:0.0000\tUNIT:percent\tTYPE:float\n"
+  },
+  {
+    "insight_type": "liquidity_assessment",
+    "question": {
+      "insight_type": "liquidity assessment",
+      "question": "Determine liquidity conditions by evaluating volume patterns and price stability, to understand ease of entering or exiting positions.",
+      "required_metrics": [
+        {
+          "metric": "Average Daily Volume",
+          "calculation": "14-day average of daily trading volume",
+          "purpose": "Gauge trading liquidity over medium-term"
+        },
+        {
+          "metric": "Volume to Price Volatility Ratio",
+          "calculation": "Average daily volume divided by Average True Range",
+          "purpose": "Indicate liquidity conditions relative to volatility"
+        }
+      ],
+      "comparisons": [
+        "Current volume vs average volume",
+        "Liquidity ratio comparisons over different periods"
+      ]
+    },
+    "results": "METRIC:Average Daily Volume\tVALUE:8392.92857142857\tUNIT:shares\tTYPE:float\nMETRIC:Volume to Price Volatility Ratio\tVALUE:303.9893410602023\tUNIT:ratio\tTYPE:float\n"
+  },
+  {
+    "insight_type": "support_and_resistance_analysis",
+    "question": {
+      "insight_type": "support and resistance analysis",
+      "question": "Evaluate key support and resistance levels to understand possible trading opportunities or risks.",
+      "required_metrics": [
+        {
+          "metric": "Key Support Level",
+          "calculation": "Lowest price level with the most bounces in the last 30 days",
+          "purpose": "Liability that price might bounce upward"
+        },
+        {
+          "metric": "Key Resistance Level",
+          "calculation": "Highest price level with the most rejects in the last 30 days",
+          "purpose": "Liability that the price might bounce downward"
+        }
+      ],
+      "comparisons": [
+        "Current price vs key support/resistance levels",
+        "Historical price interactions with support/resistance"
+      ]
+    },
+    "results": "METRIC: Key Support Level\tVALUE: 1616.14\tUNIT: price\tTYPE: float\nMETRIC: Key Resistance Level\tVALUE: 1640.65\tUNIT: price\tTYPE: float\n"
+  }
+]

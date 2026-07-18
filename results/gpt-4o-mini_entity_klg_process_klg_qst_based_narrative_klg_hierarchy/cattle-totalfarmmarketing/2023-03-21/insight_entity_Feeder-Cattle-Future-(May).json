@@ -1,0 +1,39 @@
+{
+  "type": "all",
+  "entity": "Feeder Cattle Future (third month) (May)",
+  "interpretation": "Current analysis of Feeder Cattle Futures indicates moderate volatility with an ATR of 2.1629 and a standard deviation of 2.4869. However, trading volume has decreased by 18.92% from the 30-day average, suggesting lower market activity. The near-zero day-to-day percentage price change illustrates stability, while support is identified at 198.82 and resistance at 199.62. Furthermore, a significant bearish sentiment prevails based on weekly closing data.",
+  "significance_score": 0.658,
+  "score_reasoning": "The combination of moderate volatility, declining trading volume, and bearish market sentiment highlights potential risks for traders. The proximity to resistance suggests that upward movement may be limited without increased buying pressure, while the established support level could provide a safety net against larger declines.",
+  "individual_insights": [
+    {
+      "question": "Evaluate market volatility for the product on the date of interest by calculating the average true range (ATR) and the standard deviation of the closing prices over the last 14 days.",
+      "interpretation": "The average true range (ATR) of 2.1629 indicates moderate volatility, suggesting that price movements could be significant within this range. The standard deviation of closing prices at 2.4869 further supports this, highlighting that the prices have fluctuated moderately around the mean.",
+      "significance_score": 0.7,
+      "reasoning": ""
+    },
+    {
+      "question": "Analyze trading volume trends by comparing the volume on the date of interest against the average volume over the past 30 days.",
+      "interpretation": "The current trading volume of 4544 is below the average volume of 5604, representing an 18.92% decrease. This decline may indicate subdued market interest, potentially leading to less price movement and false price signals.",
+      "significance_score": 0.6,
+      "reasoning": ""
+    },
+    {
+      "question": "Identify significant price movements by evaluating the percentage change in closing price from the previous day to the current day.",
+      "interpretation": "The percentage change in closing price from yesterday to today is a mere 0.2009%, indicating very little movement day-over-day. This minimal change suggests that the market is stable currently without significant upward or downward pressure.",
+      "significance_score": 0.5,
+      "reasoning": ""
+    },
+    {
+      "question": "Determine key support and resistance levels by analyzing the closing prices over the last 30 days to find price levels that have been touched multiple times.",
+      "interpretation": "The support level is identified at 198.82, while the resistance level is at 199.62. The current price of 199.55 is close to the resistance level and above the support level, indicating potential for a breakout or retraction.",
+      "significance_score": 0.8,
+      "reasoning": ""
+    },
+    {
+      "question": "Evaluate market sentiment by analyzing the closing prices relative to their opening prices over the past week to assess whether prices are closing higher or lower than they opened.",
+      "interpretation": "Over the past week, prices closed lower than they opened for 80% of the days, with a weekly closing/opening change of -3.56. This indicates a generally bearish sentiment in the market, which could lead to further declines if the trend continues.",
+      "significance_score": 0.75,
+      "reasoning": ""
+    }
+  ]
+}

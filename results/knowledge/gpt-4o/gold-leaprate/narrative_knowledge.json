@@ -1,0 +1,37 @@
+{
+  "narrative_structures": "Effective daily market reports in finance should follow a structure that begins with an overarching summary to establish immediate context, followed by detailed analyses of specific entities and their interconnections. It further delves into the causes of market movements, potential future impacts, and concludes with investment recommendations based on observed trends.",
+  "focus_entities": [
+    {
+      "entities_name": "Gold",
+      "reasoning": "Gold is a precious metal often seen as a 'safe haven' asset. Its price fluctuations can indicate investor sentiment towards risk and inflation expectations."
+    },
+    {
+      "entities_name": "Silver",
+      "reasoning": "Similar to Gold, Silver acts as both an investment and an industrial commodity. Its price trends can provide insights into both market risk attitudes and industrial demand."
+    },
+    {
+      "entities_name": "Dollar Index",
+      "reasoning": "The Dollar Index measures the value of the US dollar against a basket of foreign currencies. It is crucial in understanding currency impacts on commodity prices like Gold and Silver, as they are typically priced in USD."
+    }
+  ],
+  "focus_insights": [
+    {
+      "insight_types": "Trends Analysis",
+      "reasoning": "Identifying both short-term and long-term trends helps investors make informed decisions regarding entry or exit points."
+    },
+    {
+      "insight_types": "Correlations and Divergences",
+      "reasoning": "Analyzing how asset prices move in relation to one another can reveal underlying market dynamics or anticipate potential shifts."
+    },
+    {
+      "insight_types": "Sentiment Indicators",
+      "reasoning": "Investor sentiment can often be a powerful driver of market movements. Insights into how sentiment affects asset prices provide additional layers of analysis beyond fundamental data."
+    }
+  ],
+  "domain_language": [
+    "Forecasts should express potential futures with probability expressions like 'likely', 'expected', or 'projected'.",
+    "Use precise quantitative data supported by qualitative analysis for context.",
+    "Clear differentiation between 'bullish' (expecting prices to rise) and 'bearish' (expecting prices to fall) outlooks.",
+    "Use terminology familiar to the finance sector, like 'volatility', 'liquidity', and 'risk profiles'."
+  ]
+}

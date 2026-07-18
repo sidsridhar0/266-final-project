@@ -1,0 +1,37 @@
+{
+  "narrative_structures": "Daily market reports should follow a clear structure: 1) Executive Summary - Brief overview of market movements and key developments, 2) Market Analysis - In-depth examination of price trends for selected wheat futures with historical comparisons, 3) Fundamental Factors - Discussion of supply and demand dynamics, weather conditions, and geopolitical influences, 4) Technical Analysis - Insights from chart patterns and indicators, 5) Conclusion - Summary of findings and actionable recommendations for investors.",
+  "focus_entities": [
+    {
+      "entities_name": "Chicago SRW Wheat Future (front month) (May)",
+      "reasoning": "As a key benchmark, it reflects the immediate market sentiment and is critical for traders focusing on short-term strategies."
+    },
+    {
+      "entities_name": "KC HRW Wheat Future (second month) (July)",
+      "reasoning": "This represents medium-term trends and can signal the projected supply-side developments impacting the market."
+    },
+    {
+      "entities_name": "Chicago SRW Wheat Future (third month) (September)",
+      "reasoning": "Future contracts beyond front month are important for understanding how investors are pricing longer-term expectations."
+    }
+  ],
+  "focus_insights": [
+    {
+      "insight_types": "Price Trends and Volatility",
+      "reasoning": "Monitoring price fluctuations helps investors gauge market sentiment and react appropriately to changing conditions."
+    },
+    {
+      "insight_types": "Supply and Demand Changes",
+      "reasoning": "Insights into crop yields, inventory levels, and import/export dynamics drive investment decisions."
+    },
+    {
+      "insight_types": "Geopolitical and Economic Factors",
+      "reasoning": "Understanding external influences like trade policies or conflicts helps contextualize price movements."
+    }
+  ],
+  "domain_language": [
+    "Express future prices as 'trading at', 'currently priced at', or 'settled at'.",
+    "Use terms like 'bullish' or 'bearish' to describe market sentiment.",
+    "Indicate changes in price in percentages for clarity, e.g., 'increased by 3%'.",
+    "Utilize industry jargon, such as 'basis', 'premium', and 'spread', appropriately while maintaining accessibility."
+  ]
+}

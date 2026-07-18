@@ -1,0 +1,58 @@
+{
+  "group_characteristics": [
+    {
+      "key_idea": "What common patterns appear across different 'Soybean Oil Future' and 'Soybean Meal Future' contracts in the volatility analysis?",
+      "description": "Soybean Oil Future contracts often display greater volatility compared to Soybean Meal Future contracts. This is due to soybean oil\u2019s sensitivity to changes in crude oil prices and biofuel policy news. In contrast, soybean meal prices are more closely tied to livestock feed demand. Volatility in these contracts can also be influenced by global crop reports and weather forecasts."
+    },
+    {
+      "key_idea": "How do group characteristics of 'Soybeans Future' influence price movement analysis patterns?",
+      "description": "Soybeans Future contracts are affected by both seasonal planting and harvesting cycles and macroeconomic factors such as trade agreements. These characteristics lead to price patterns often featuring gradual rise during planting season due to anticipated supply shortages, and then adjustments during harvest depending on yield forecasts. Price analysis is thus linked to both domestic and international agricultural forecasts."
+    },
+    {
+      "key_idea": "In what ways do historical closing price patterns of 'Soybean Oil Future' differ from those of 'Soybean Meal Future' and what group-level characteristics underlie these differences?",
+      "description": "Historically, Soybean Oil Futures show more pronounced closing price swings compared to Soybean Meal Futures due to diverging end-uses; oil is influenced by energy sectors, while meal is influenced by animal feed industries. Additionally, while oil often converges towards crude oil price movements, meal maintains correlations with livestock and poultry industry dynamics."
+    }
+  ],
+  "inter_group_dynamics": [
+    {
+      "key_idea": "How do volatility trends in 'Soybean Oil Futures' typically interact with those in 'Soybean Meal Futures'?",
+      "description": "Volatility trends in Soybean Oil Futures often lead to correlated but opposite volatility changes in Soybean Meal Futures. When oil prices rise sharply, meal prices may temporarily fall as the cost squeeze impacts producers, who adjust demand according to oil-related operational costs."
+    },
+    {
+      "key_idea": "What factors influence the interaction between trading volume trends in 'Soybeans Future' and price movement analysis across other soybean-related entities?",
+      "description": "Increased trading volumes in Soybeans Futures can signal pronounced market sentiment that may consequently influence price movements across Soybean Oil and Meal Futures. Market conditions such as weather patterns, export data, or geopolitical events tend to amplify these interactions through speculative trading and hedging activities."
+    },
+    {
+      "key_idea": "How do volume trend dynamics in 'Soybean Oil Future' affect intraday price movements in the same and related contracts?",
+      "description": "Volume surges in Soybean Oil Futures typically lead to sharp intraday price movements due to increased speculative activity. This volatility can spill over to related soybean contracts as traders adjust positions across similar commodities to hedge risks, creating ripple effects throughout the market."
+    }
+  ],
+  "propagation_patterns": [
+    {
+      "key_idea": "How do effects in price volatility spread between 'front month' and 'third month' contracts within the soybean futures group?",
+      "description": "Price volatility in front-month contracts often propagates to third-month contracts as traders reassess long-term supply-demand dynamics. News impacting short-term trade, such as revised crop estimates, will initially affect front-month prices, which traders incorporate into longer-dated contracts, thereby propagating volatility."
+    },
+    {
+      "key_idea": "What conditions affect the propagation of volume trend changes from 'Soybean Meal Future' to 'Soybeans Future'?",
+      "description": "The propagation of volume trend changes from Soybean Meal Futures to Soybeans Futures typically depends on market conditions like feed crop demand shifts, tariffs, and supply chain disruptions. Speculative trading in meal can also attract market interest in soybeans, affecting volume trends in those contracts."
+    },
+    {
+      "key_idea": "In what ways do changes in closing price trends in 'Soybean Oil Future' propagate to affect expectations in 'Soybean Meal Future'?",
+      "description": "Changes in Soybean Oil Future closing price trends often set expectations for Soybean Meal Futures when both are influenced by overarching factors like climate predictions affecting input costs. Further, divergences between oil and meal prices can reflect market recalibrations in light of demand expectations for different end uses."
+    }
+  ],
+  "causal_chains": [
+    {
+      "key_idea": "What typical cause-effect sequences occur between the volatility of 'front month' and subsequent contracts?",
+      "description": "Typical cause-effect sequences in volatility between front month and subsequent contracts start with an event causing sharp front-month volatility, like a weather anomaly, which then adjusts traders' expectations for future supply risks, thereby increasing volatility in subsequent contracts."
+    },
+    {
+      "key_idea": "How do volume trends in 'Soybean Oil Futures' influence causal chains in price movement analysis for 'Soybeans Future'?",
+      "description": "Volume trends in Soybean Oil Futures often lead to significant price movement in Soybeans Futures through the causal chain of increased hedging and speculation in response to changes in oil consumption forecasts. The cross-impact occurs as traders cover risks associated with oil price instability by adjusting broader soybean positions."
+    },
+    {
+      "key_idea": "In what ways do group characteristics of 'Soybeans Future' influence causal chains in intraday price analysis?",
+      "description": "The characteristics of Soybean Futures, such as sensitivity to planting data and export conditions, strongly influence causal chains in intraday price analysis. Short-term trader reactions to agriculture policy changes or sudden news about crop progress lead to amplified market movements within the day, impacting a range of soybean-related contracts."
+    }
+  ]
+}

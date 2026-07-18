@@ -1,0 +1,36 @@
+{
+  "narrative_structures": "Daily market reports should start with a summary of key market movements and trends. This is followed by an analysis of price changes and volume shifts, a comparison with previous periods, and the identification of underlying factors influencing these changes. Reports should conclude with strategic insights and actionable recommendations for investors.",
+  "focus_entities": [
+    {
+      "entities_name": "Soybeans Future (front month) (May)",
+      "reasoning": "Front month futures are critical as they capture the most recent market sentiment and immediate supply-demand dynamics."
+    },
+    {
+      "entities_name": "Soybean Meal Future (second month) (July)",
+      "reasoning": "Second month futures provide insights into expected near-term trends and are crucial for understanding supply pipeline adjustments."
+    },
+    {
+      "entities_name": "Soybean Oil Future (third month) (August)",
+      "reasoning": "Third month futures reflect market expectations and potential strategic positioning several months down the line."
+    }
+  ],
+  "focus_insights": [
+    {
+      "insight_types": "Price Trends",
+      "reasoning": "Tracking price trends over time helps identify bullish or bearish market conditions and interpret broader agricultural market dynamics."
+    },
+    {
+      "insight_types": "Volume Analysis",
+      "reasoning": "Analyzing trading volumes can provide insights into market liquidity and reinforce price movements."
+    },
+    {
+      "insight_types": "Market Sentiment Indicators",
+      "reasoning": "Indicators like open interest or daily trading volume reflect investor sentiment and predict future market movements."
+    }
+  ],
+  "domain_language": [
+    "Futures prices should be stated explicitly with expiration months and compared against previous days' closing for context.",
+    "Use financial terms like 'bullish,' 'bearish,' 'long position,' and 'short covering' to convey market trends and positioning.",
+    "Express changes in basis points for precision and relate them to historical averages for audience context."
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "Typical Patterns and Relationships": [
+    {
+      "key_idea": "Price correlation between soybean futures and soybean meal/oil futures",
+      "description": "Soybean meal and soybean oil are by-products of soybean processing; therefore, their futures prices are often correlated. Price movements in soybean futures can influence meal and oil futures. For instance, an increase in soybean futures might lead to a decrease in soybean meal and oil futures if the primary demand is for beans processing."
+    },
+    {
+      "key_idea": "Seasonal price fluctuations",
+      "description": "Soybean and its product markets typically experience seasonal patterns due to planting and harvesting periods. Prices often peak during planting due to uncertainties and again during harvest when supply levels impact prices."
+    }
+  ],
+  "Common Influencing Factors": [
+    {
+      "key_idea": "Impact of weather conditions",
+      "description": "Adverse weather conditions, particularly in key soybean growing regions like the United States and Brazil, can significantly affect soybean yields, influencing the futures prices of soybeans and their products."
+    },
+    {
+      "key_idea": "Global demand and supply dynamics",
+      "description": "The global demand for soybeans and their products, particularly from major importers like China, strongly impacts prices. Additionally, the supply prospects in competing countries can shift market dynamics."
+    }
+  ],
+  "Important Conditions and Contexts": [
+    {
+      "key_idea": "Governmental policy and trade agreements",
+      "description": "Changes in tariffs, trade agreements, or subsidies can impact the competitive landscape for soybeans and their products, thereby influencing futures prices. For instance, improved trade relations with China, a major importer, can benefit U.S. soybean futures."
+    },
+    {
+      "key_idea": "Biofuel policies and mandates",
+      "description": "Soybean oil is a significant feedstock for biodiesel production. Changes in biofuel policies, such as subsidies or mandates, directly affect the demand for soybean oil."
+    }
+  ],
+  "Notable Exceptions or Special Cases": [
+    {
+      "key_idea": "Impact of disease outbreaks",
+      "description": "Outbreaks of plant diseases or pests that specifically target soybean crops can create supply disruptions leading to price volatility. This impact can be aggravated by lack of effective containment strategies."
+    },
+    {
+      "key_idea": "Unexpected geopolitical events",
+      "description": "Unforeseen geopolitical events, such as trade disputes or wars, can suddenly change market conditions for soybean-related commodities. These events often result in supply chain disruptions or shifts in trade patterns."
+    }
+  ]
+}

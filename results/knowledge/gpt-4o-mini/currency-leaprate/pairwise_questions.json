@@ -1,0 +1,22 @@
+{
+  "metric_patterns": [
+    "How do changes in volatility assessments (ATR) typically relate to market momentum (ROC) for the Australian Dollar and British Pound?",
+    "What conditions affect the relationship between trend strength (RSI) and price performance (percentage change) for Euro and Japanese Yen?"
+  ],
+  "entity_interactions": [
+    "What are common ways that the Dollar Index affects the price performance of the Euro?",
+    "Under what conditions do the Australian Dollar and Gold influence each other most strongly?"
+  ],
+  "common_factors": [
+    "What external factors commonly affect multiple entities like the British Pound and the Japanese Yen?",
+    "How do global economic indicators typically impact different currencies such as the Euro and the Dollar Index?"
+  ],
+  "temporal_patterns": [
+    "What typical sequences of changes occur in market momentum (ROC) and trend strength (RSI) for the Australian Dollar and Gold over time?",
+    "How do time-based factors affect relationships between liquidity analysis and volatility assessments for the British Pound?"
+  ],
+  "system_patterns": [
+    "What system-level conditions influence relationships between the Euro, Japanese Yen, and Dollar Index during market disruptions?",
+    "How do structural factors in the global economy affect interactions between Gold and the Australian Dollar?"
+  ]
+}

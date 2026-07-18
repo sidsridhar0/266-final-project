@@ -1,0 +1,34 @@
+{
+  "type": "all",
+  "entity": "Live Cattle Future (third month) (August)",
+  "interpretation": "The cattle market demonstrates heightened daily volatility with increased trading activity. The price trend shows a slight inclination towards negative movement. Identified support and resistance levels suggest moderations in price actions, while RSI indicates neutral momentum.",
+  "significance_score": 0.65,
+  "score_reasoning": "The overall market condition is characterized by fluctuation and large trading volumes, which may signal increased market interest or reaction to external stimuli. While the price trend leans negatively, supportive resistance levels and neutral momentum provide a balanced view. This calls for cautious optimism in investment decisions.",
+  "individual_insights": [
+    {
+      "question": "Assess the daily volatility of the cattle market by comparing the intraday price range relative to the closing price over the past month.",
+      "interpretation": "The intraday range of 1.12 is higher than the average intraday range of 0.9485, indicating increased daily price movements. The percentage volatility of 0.7083% suggests higher-than-average fluctuations relative to the closing price.",
+      "significance_score": 0.7
+    },
+    {
+      "question": "Evaluate the trading activity by analyzing the volume trends and identifying any significant spikes or declines over the past two weeks.",
+      "interpretation": "The volume change of 7272.07 units is significantly higher than the average volume of 10880.93 units, with a percentage volume change of 66.83%. This indicates an unusual spike in trading activity.",
+      "significance_score": 0.8
+    },
+    {
+      "question": "Determine the consistency of the price trend by analyzing the frequency of upward or downward movements in closing prices over the past quarter.",
+      "interpretation": "There were more down days (11) compared to up days (8) over the past quarter, resulting in a trend consistency ratio of 0.4211. This indicates a slightly higher frequency of downward movements.",
+      "significance_score": 0.6
+    },
+    {
+      "question": "Identify key support and resistance levels by evaluating price patterns and their frequency of touch over multiple time frames.",
+      "interpretation": "The support level is identified at 158.8, with resistance levels at 159.38 and 159.78. With a frequency of touch of 2, these levels are moderately tested, suggesting potential barriers for price movements.",
+      "significance_score": 0.5
+    },
+    {
+      "question": "Examine the market momentum by calculating and comparing relative strength indices and their levels over the past month.",
+      "interpretation": "The RSI reading of 39.29 falls in a neutral momentum zone and does not indicate immediate overbought or oversold conditions. However, the absence of average RSI data limits further insight.",
+      "significance_score": 0.4
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "narrative_structures": "Daily market reports should start with an overview of major trends and indices performance to provide a context, followed by sector-specific analyses highlighting significant movements. Include comparisons to recent history for perspective and conclude with investment implications based on current insights.",
+  "focus_entities": [
+    {
+      "entities_name": "S&P 500",
+      "reasoning": "As a leading indicator of U.S. equities and overall market health, it gives insight into economic conditions and trends."
+    },
+    {
+      "entities_name": "United States 10-Year Bond Yield",
+      "reasoning": "Serves as a benchmark for interest rates and investor sentiment regarding economic growth and inflation."
+    },
+    {
+      "entities_name": "NASDAQ Composite",
+      "reasoning": "Reflects the performance of the technology sector, a critical component of modern economies and a driver of market dynamics."
+    },
+    {
+      "entities_name": "Dollar Index",
+      "reasoning": "Indicates the strength of the U.S. dollar compared to other currencies, influencing international trade and investment."
+    },
+    {
+      "entities_name": "CBOE Volatility Index",
+      "reasoning": "Known as the 'fear index,' it signals market volatility and investor sentiment, crucial for risk management."
+    }
+  ],
+  "focus_insights": [
+    {
+      "insight_types": "Sector Rotation",
+      "reasoning": "Understanding changes in investor focus between different sectors helps identify emerging opportunities and risks."
+    },
+    {
+      "insight_types": "Interest Rate Trends",
+      "reasoning": "Impact on borrowing costs, economic growth, and market valuation, critical for strategic planning."
+    },
+    {
+      "insight_types": "Earnings Reports",
+      "reasoning": "Directly affect stock valuations and provide insights into corporate health and future growth potential."
+    },
+    {
+      "insight_types": "Geopolitical Events",
+      "reasoning": "Shape global market conditions and investor confidence, requiring timely analysis."
+    }
+  ],
+  "domain_language": [
+    "Use terms like 'bullish' or 'bearish' to describe market sentiment.",
+    "Express price forecasts with 'targets,' indicating considered analysis.",
+    "Use percentage terms for indices movements to standardize reporting.",
+    "Refer to interest rates in terms of 'basis points' for precision."
+  ]
+}

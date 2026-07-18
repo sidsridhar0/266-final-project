@@ -1,0 +1,117 @@
+[
+  {
+    "insight_type": "volatility",
+    "question": {
+      "insight_type": "volatility",
+      "question": "Assess the daily volatility of the currency pair by calculating the percentage difference between the daily high and low prices.",
+      "required_metrics": [
+        {
+          "metric": "daily_volatility",
+          "calculation": "((High - Low) / Low) * 100",
+          "purpose": "Understand the daily price fluctuation range"
+        }
+      ],
+      "comparisons": [
+        "Compare daily volatility against historical averages",
+        "Compare current volatility with previous market sessions"
+      ]
+    },
+    "results": "METRIC:daily_volatility\nVALUE:0.3180416345412474\nUNIT:percent\nTYPE:float\n"
+  },
+  {
+    "insight_type": "volume_analysis",
+    "question": {
+      "insight_type": "volume_analysis",
+      "question": "Evaluate the trading interest and activity in the currency pair by analyzing the volume levels and their change over time.",
+      "required_metrics": [
+        {
+          "metric": "average_volume",
+          "calculation": "Average of Volume over specified period (e.g., 20 days)",
+          "purpose": "Benchmark current trading activity"
+        },
+        {
+          "metric": "volume_trend",
+          "calculation": "Slope of Volume over time using linear regression",
+          "purpose": "Identify if trading activity is increasing or decreasing"
+        }
+      ],
+      "comparisons": [
+        "Current volume vs 20-day average volume",
+        "Volume trend vs price trend"
+      ]
+    },
+    "results": "METRIC:average_volume\tVALUE:0.0\tUNIT:units\tTYPE:float\nMETRIC:volume_trend\tVALUE:0.0\tUNIT:units per day\tTYPE:float\n"
+  },
+  {
+    "insight_type": "momentum",
+    "question": {
+      "insight_type": "momentum",
+      "question": "Determine the strength and direction of the price momentum for the currency pair by examining key momentum indicators.",
+      "required_metrics": [
+        {
+          "metric": "RSI",
+          "calculation": "Relative Strength Index using 14-day period",
+          "purpose": "Identify overbought or oversold conditions"
+        },
+        {
+          "metric": "stochastic_oscillator",
+          "calculation": "Stochastic Oscillator using 14-day period",
+          "purpose": "Determine momentum of price using the ratio of price range"
+        }
+      ],
+      "comparisons": [
+        "RSI value vs overbought/oversold thresholds",
+        "Stochastic Oscillator vs historical values"
+      ]
+    },
+    "results": "METRIC:RSI VALUE:66.79 UNIT:integer TYPE:float\nMETRIC:stochastic_oscillator VALUE:78.96 UNIT:integer TYPE:float\n"
+  },
+  {
+    "insight_type": "price_action",
+    "question": {
+      "insight_type": "price action",
+      "question": "Evaluate the strength of daily price movements by calculating daily candlestick analysis metrics such as wick length.",
+      "required_metrics": [
+        {
+          "metric": "upper_wick_length",
+          "calculation": "High - max(Open, Close)",
+          "purpose": "Gauge selling pressure after reaching highs"
+        },
+        {
+          "metric": "lower_wick_length",
+          "calculation": "min(Open, Close) - Low",
+          "purpose": "Gauge buying pressure after dipping to lows"
+        }
+      ],
+      "comparisons": [
+        "Compare upper wick length with lower wick length",
+        "Daily price action vs candle patterns"
+      ]
+    },
+    "results": "METRIC:upper_wick_length\tVALUE:0.1800\tUNIT:\tTYPE:float\nMETRIC:lower_wick_length\tVALUE:0.1000\tUNIT:\tTYPE:float\n"
+  },
+  {
+    "insight_type": "price_level_significance",
+    "question": {
+      "insight_type": "price level significance",
+      "question": "Determine key price levels by identifying significant support and resistance areas based on historical price data.",
+      "required_metrics": [
+        {
+          "metric": "historical_highs",
+          "calculation": "Price peaks identified over a specific period",
+          "purpose": "Identify resistance levels"
+        },
+        {
+          "metric": "historical_lows",
+          "calculation": "Price troughs identified over a specific period",
+          "purpose": "Identify support levels"
+        }
+      ],
+      "comparisons": [
+        "Current price vs historical highs and lows",
+        "Support/resistance levels vs recent price activity"
+      ]
+    },
+    "results": "METRIC:historical_highs\tVALUE:104.67\tUNIT:price\tTYPE:float\nMETRIC:historical_lows\tVALUE:100.82\tUNIT:price\tTYPE:float\nMETRIC:current_price\tVALUE:103.86\tUNIT:price\tTYPE:float\n"
+  }
+]

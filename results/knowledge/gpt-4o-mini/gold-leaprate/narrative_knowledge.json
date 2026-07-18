@@ -1,0 +1,37 @@
+{
+  "narrative_structures": "An effective narrative structure for daily market reports should begin with a succinct summary of market performance, followed by an analysis of key influencing factors such as economic data releases, geopolitical events, and central bank decisions. Next, it should delve into each significant entity, providing insights into recent trends, price changes, and factors affecting their performance. Additionally, the report should conclude with a forward-looking perspective, including potential scenarios and recommendations for investors.",
+  "focus_entities": [
+    {
+      "entities_name": "Dollar Index",
+      "reasoning": "The Dollar Index is crucial as it indicates the strength of the U.S. dollar against a basket of currencies, which directly impacts gold and silver prices."
+    },
+    {
+      "entities_name": "Gold",
+      "reasoning": "Gold is a safe-haven asset that often fluctuates based on market uncertainties, inflation expectations, and interest rates, making it vital for investors."
+    },
+    {
+      "entities_name": "Silver",
+      "reasoning": "Silver often follows trends set by gold and has industrial uses, giving it unique characteristics that can be affected by economic cycles."
+    }
+  ],
+  "focus_insights": [
+    {
+      "insight_types": "Market sentiment analysis",
+      "reasoning": "Understanding current market sentiment helps investors gauge potential future price movements and identify buying or selling opportunities."
+    },
+    {
+      "insight_types": "Historical price trends",
+      "reasoning": "Analyzing historical price movements provides context for current prices and helps predict possible future trends."
+    },
+    {
+      "insight_types": "Economic indicators",
+      "reasoning": "Key economic indicators, such as inflation rates and employment data, are fundamental in shaping market expectations and price behavior."
+    }
+  ],
+  "domain_language": [
+    "Prices should be expressed clearly in terms of spot prices and percentage changes.",
+    "Use terms like 'bullish' and 'bearish' to describe market sentiment.",
+    "Incorporate phrases such as 'support and resistance levels' and 'market volatility' for clarity on price movements.",
+    "Future price projections should be framed as scenarios (e.g., 'if current trends continue, prices may reach...') rather than certainties."
+  ]
+}

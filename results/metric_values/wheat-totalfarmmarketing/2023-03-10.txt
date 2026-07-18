@@ -1,0 +1,396 @@
+Entity: Chicago SRW Wheat Future (front month) (March)
+Price Information:
+  Open: 662.25
+  High: 666.75
+  Low: 662.25
+  Close: 666.75
+  Volume: 42
+
+Moving Averages:
+  SMA_10: 684.3500
+  SMA_20: 722.0375
+  EMA_20: 708.7225
+  EMA_50: 735.9113
+  EMA_100: 748.9957
+
+Oscillators:
+  RSI_14: 17.68%
+  MACD_Line: -25.3921
+  MACD_Signal: -19.6118
+  MACD_Histogram: -5.7802
+  Stochastic_%K: 11.0647
+  Stochastic_%D: 3.6882
+
+Volatility Indicators:
+  BB_Upper: 810.1058
+  BB_Middle: 722.0375
+  BB_Lower: 633.9692
+  BB_Width: 0.2439
+  ATR_20: 15.9125
+  Daily_Volatility: 0.2855
+  Weekly_Volatility: 0.1457
+  Monthly_Volatility: 0.0608
+
+Volume Indicators:
+  Volume: 42.0000
+  Volume_MA_10: 2727.0000
+  Volume_MA_20: 27995.7000
+  Volume_ROC: 0.0000
+  Vol_Price_Corr_20: 0.8893
+
+Price Indicators:
+  Daily_Range: 4.5000
+  Daily_Range_Pct: 0.67%
+  Weekly_Range: 38.7500
+  Weekly_Range_Pct: 5.81%
+  Price_Change_1d: 13.2500
+  Price_Change_Pct_1d: 2.03%
+  Price_Change_5d: -29.0000
+  Price_Change_Pct_5d: -4.17%
+  Price_Change_7d: -30.2500
+  Price_Change_Pct_7d: -4.34%
+
+Support & Resistance:
+  Pivot: 665.2500
+  Support1: 663.7500
+  Support2: 660.7500
+  Resistance1: 668.2500
+  Resistance2: 669.7500
+  Support_Level: 653.5000
+  Resistance_Level: 797.5000
+
+Momentum:
+  Momentum_10: -41.5000
+  Momentum_Pct_10: -5.86%
+
+
+Entity: KC HRW Wheat Future (second month) (May)
+Price Information:
+  Open: 779.50
+  High: 803.75
+  Low: 772.50
+  Close: 798.25
+  Volume: 18481
+
+Moving Averages:
+  SMA_10: 806.1000
+  SMA_20: 843.7125
+  EMA_20: 830.7915
+  EMA_50: 856.4016
+  EMA_100: 868.6900
+
+Oscillators:
+  RSI_14: 21.49%
+  MACD_Line: -24.0028
+  MACD_Signal: -18.6806
+  MACD_Histogram: -5.3223
+  Stochastic_%K: 19.5817
+  Stochastic_%D: 9.7868
+
+Volatility Indicators:
+  BB_Upper: 928.5092
+  BB_Middle: 843.7125
+  BB_Lower: 758.9158
+  BB_Width: 0.2010
+  ATR_20: 20.0375
+  Daily_Volatility: 0.2718
+  Weekly_Volatility: 0.1606
+  Monthly_Volatility: 0.0587
+
+Volume Indicators:
+  Volume: 18481.0000
+  Volume_MA_10: 21992.6000
+  Volume_MA_20: 23641.4500
+  Volume_ROC: -28.6283
+  Vol_Price_Corr_20: 0.0067
+
+Price Indicators:
+  Daily_Range: 31.2500
+  Daily_Range_Pct: 3.91%
+  Weekly_Range: 47.5000
+  Weekly_Range_Pct: 5.95%
+  Price_Change_1d: 21.0000
+  Price_Change_Pct_1d: 2.70%
+  Price_Change_5d: -18.0000
+  Price_Change_Pct_5d: -2.21%
+  Price_Change_7d: -18.0000
+  Price_Change_Pct_7d: -2.21%
+
+Support & Resistance:
+  Pivot: 791.5000
+  Support1: 779.2500
+  Support2: 760.2500
+  Resistance1: 810.5000
+  Resistance2: 822.7500
+  Support_Level: 772.5000
+  Resistance_Level: 909.7500
+
+Momentum:
+  Momentum_10: -37.0000
+  Momentum_Pct_10: -4.43%
+
+
+Entity: KC HRW Wheat Future (front month) (March)
+Price Information:
+  Open: 799.50
+  High: 811.25
+  Low: 799.50
+  Close: 811.25
+  Volume: 4
+
+Moving Averages:
+  SMA_10: 812.8250
+  SMA_20: 851.9375
+  EMA_20: 839.1981
+  EMA_50: 866.3771
+  EMA_100: 879.7131
+
+Oscillators:
+  RSI_14: 24.01%
+  MACD_Line: -24.7787
+  MACD_Signal: -20.0655
+  MACD_Histogram: -4.7131
+  Stochastic_%K: 19.3798
+  Stochastic_%D: 7.2090
+
+Volatility Indicators:
+  BB_Upper: 940.3397
+  BB_Middle: 851.9375
+  BB_Lower: 763.5353
+  BB_Width: 0.2075
+  ATR_20: 18.0750
+  Daily_Volatility: 0.2836
+  Weekly_Volatility: 0.1660
+  Monthly_Volatility: 0.0614
+
+Volume Indicators:
+  Volume: 4.0000
+  Volume_MA_10: 831.1000
+  Volume_MA_20: 10405.1500
+  Volume_ROC: inf
+  Vol_Price_Corr_20: 0.9060
+
+Price Indicators:
+  Daily_Range: 11.7500
+  Daily_Range_Pct: 1.45%
+  Weekly_Range: 32.2500
+  Weekly_Range_Pct: 3.98%
+  Price_Change_1d: 25.0000
+  Price_Change_Pct_1d: 3.18%
+  Price_Change_5d: -11.2500
+  Price_Change_Pct_5d: -1.37%
+  Price_Change_7d: -10.0000
+  Price_Change_Pct_7d: -1.22%
+
+Support & Resistance:
+  Pivot: 807.3333
+  Support1: 803.4167
+  Support2: 795.5833
+  Resistance1: 815.1667
+  Resistance2: 819.0833
+  Support_Level: 786.2500
+  Resistance_Level: 921.5000
+
+Momentum:
+  Momentum_10: -30.5000
+  Momentum_Pct_10: -3.62%
+
+
+Entity: Chicago SRW Wheat Future (third month) (July)
+Price Information:
+  Open: 676.25
+  High: 694.50
+  Low: 672.00
+  Close: 690.00
+  Volume: 28477
+
+Moving Averages:
+  SMA_10: 706.0250
+  SMA_20: 740.9500
+  EMA_20: 728.5452
+  EMA_50: 753.4821
+  EMA_100: 765.4208
+
+Oscillators:
+  RSI_14: 16.30%
+  MACD_Line: -23.4159
+  MACD_Signal: -17.9893
+  MACD_Histogram: -5.4267
+  Stochastic_%K: 15.3518
+  Stochastic_%D: 6.7865
+
+Volatility Indicators:
+  BB_Upper: 821.9402
+  BB_Middle: 740.9500
+  BB_Lower: 659.9598
+  BB_Width: 0.2186
+  ATR_20: 17.0250
+  Daily_Volatility: 0.2500
+  Weekly_Volatility: 0.1376
+  Monthly_Volatility: 0.0532
+
+Volume Indicators:
+  Volume: 28477.0000
+  Volume_MA_10: 25071.5000
+  Volume_MA_20: 22884.9500
+  Volume_ROC: -31.8047
+  Vol_Price_Corr_20: -0.5284
+
+Price Indicators:
+  Daily_Range: 22.5000
+  Daily_Range_Pct: 3.26%
+  Weekly_Range: 46.5000
+  Weekly_Range_Pct: 6.74%
+  Price_Change_1d: 13.0000
+  Price_Change_Pct_1d: 1.92%
+  Price_Change_5d: -26.7500
+  Price_Change_Pct_5d: -3.73%
+  Price_Change_7d: -28.0000
+  Price_Change_Pct_7d: -3.90%
+
+Support & Resistance:
+  Pivot: 685.5000
+  Support1: 676.5000
+  Support2: 663.0000
+  Resistance1: 699.0000
+  Resistance2: 708.0000
+  Support_Level: 672.0000
+  Resistance_Level: 810.0000
+
+Momentum:
+  Momentum_10: -39.2500
+  Momentum_Pct_10: -5.38%
+
+
+Entity: KC HRW Wheat Future (third month) (July)
+Price Information:
+  Open: 771.00
+  High: 794.25
+  Low: 763.75
+  Close: 789.00
+  Volume: 9750
+
+Moving Averages:
+  SMA_10: 798.7250
+  SMA_20: 834.2625
+  EMA_20: 821.6750
+  EMA_50: 845.4192
+  EMA_100: 856.6252
+
+Oscillators:
+  RSI_14: 20.31%
+  MACD_Line: -22.6991
+  MACD_Signal: -17.1901
+  MACD_Histogram: -5.5091
+  Stochastic_%K: 19.8428
+  Stochastic_%D: 9.4999
+
+Volatility Indicators:
+  BB_Upper: 913.9889
+  BB_Middle: 834.2625
+  BB_Lower: 754.5361
+  BB_Width: 0.1911
+  ATR_20: 18.4250
+  Daily_Volatility: 0.2557
+  Weekly_Volatility: 0.1526
+  Monthly_Volatility: 0.0552
+
+Volume Indicators:
+  Volume: 9750.0000
+  Volume_MA_10: 10317.7000
+  Volume_MA_20: 10702.4000
+  Volume_ROC: -11.9162
+  Vol_Price_Corr_20: -0.1251
+
+Price Indicators:
+  Daily_Range: 30.5000
+  Daily_Range_Pct: 3.87%
+  Weekly_Range: 47.5000
+  Weekly_Range_Pct: 6.02%
+  Price_Change_1d: 20.0000
+  Price_Change_Pct_1d: 2.60%
+  Price_Change_5d: -19.7500
+  Price_Change_Pct_5d: -2.44%
+  Price_Change_7d: -20.2500
+  Price_Change_Pct_7d: -2.50%
+
+Support & Resistance:
+  Pivot: 782.3333
+  Support1: 770.4167
+  Support2: 751.8333
+  Resistance1: 800.9167
+  Resistance2: 812.8333
+  Support_Level: 763.7500
+  Resistance_Level: 894.2500
+
+Momentum:
+  Momentum_10: -39.0000
+  Momentum_Pct_10: -4.71%
+
+
+Entity: Chicago SRW Wheat Future (second month) (May)
+Price Information:
+  Open: 665.75
+  High: 683.50
+  Low: 661.00
+  Close: 679.25
+  Volume: 56324
+
+Moving Averages:
+  SMA_10: 697.2750
+  SMA_20: 734.1875
+  EMA_20: 720.9581
+  EMA_50: 747.3207
+  EMA_100: 759.9116
+
+Oscillators:
+  RSI_14: 16.55%
+  MACD_Line: -24.8293
+  MACD_Signal: -18.9753
+  MACD_Histogram: -5.8540
+  Stochastic_%K: 14.7773
+  Stochastic_%D: 6.4222
+
+Volatility Indicators:
+  BB_Upper: 820.1353
+  BB_Middle: 734.1875
+  BB_Lower: 648.2397
+  BB_Width: 0.2341
+  ATR_20: 17.9625
+  Daily_Volatility: 0.2718
+  Weekly_Volatility: 0.1475
+  Monthly_Volatility: 0.0578
+
+Volume Indicators:
+  Volume: 56324.0000
+  Volume_MA_10: 57704.5000
+  Volume_MA_20: 59632.9000
+  Volume_ROC: -29.3849
+  Vol_Price_Corr_20: -0.0597
+
+Price Indicators:
+  Daily_Range: 22.5000
+  Daily_Range_Pct: 3.31%
+  Weekly_Range: 50.0000
+  Weekly_Range_Pct: 7.36%
+  Price_Change_1d: 13.5000
+  Price_Change_Pct_1d: 2.03%
+  Price_Change_5d: -29.5000
+  Price_Change_Pct_5d: -4.16%
+  Price_Change_7d: -30.7500
+  Price_Change_Pct_7d: -4.33%
+
+Support & Resistance:
+  Pivot: 674.5833
+  Support1: 665.6667
+  Support2: 652.0833
+  Resistance1: 688.1667
+  Resistance2: 697.0833
+  Support_Level: 661.0000
+  Resistance_Level: 807.5000
+
+Momentum:
+  Momentum_10: -42.5000
+  Momentum_Pct_10: -5.89%
+
+

@@ -1,0 +1,22 @@
+{
+  "metric_patterns": [
+    "How do changes in price volatility for WTI Crude Oil typically relate to changes in price volatility for Brent Crude Oil?",
+    "What conditions affect the relationship between trading volume and price strength for Natural Gas?"
+  ],
+  "entity_interactions": [
+    "What are common ways that fluctuations in Brent Crude Oil prices affect WTI Crude Oil prices?",
+    "Under what conditions do Natural Gas and Crude Oil entities influence each other most strongly?"
+  ],
+  "common_factors": [
+    "What external factors commonly affect multiple entities like WTI Crude Oil, Brent Crude Oil, and Natural Gas?",
+    "How do geopolitical events typically impact prices across different oil and gas metrics?"
+  ],
+  "temporal_patterns": [
+    "What typical sequences of changes in closing prices occur before significant volatility spikes in WTI Crude Oil?",
+    "How do time-based factors, such as seasonal demand, affect relationships between Brent Crude Oil and Natural Gas prices?"
+  ],
+  "system_patterns": [
+    "What system-level conditions influence relationships between oil markets and natural gas markets?",
+    "How do structural factors, such as production capacity and storage availability, affect interactions among WTI Crude Oil, Brent Crude Oil, and Natural Gas?"
+  ]
+}

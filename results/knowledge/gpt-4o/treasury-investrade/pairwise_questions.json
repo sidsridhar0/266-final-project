@@ -1,0 +1,23 @@
+{
+  "metric_patterns": [
+    "How does the volatility in United States 30-Year Bond Yield relate to momentum in United States 10-Year Bond Yield?",
+    "What is the typical relationship between trading volume and support/resistance levels in United States 5-Year Bond Yield?",
+    "How do changes in the United States 1-Year Bond Yield's volatility affect its subsequent breakout patterns?"
+  ],
+  "entity_interactions": [
+    "How do fluctuations in United States 7-Year Bond Yield impact the trading behavior of United States 2-Year Bond Yield?",
+    "What are the common influences of United States 3-Year Bond Yield on United States 5-Year Bond Yield during periods of high volatility?"
+  ],
+  "common_factors": [
+    "What macroeconomic indicators most commonly affect the yields of United States Treasury Bonds?",
+    "How do changes in Federal Reserve interest rate decisions typically impact multiple United States bond yield curves?"
+  ],
+  "temporal_patterns": [
+    "What typical sequences of changes occur across different bond yields when the yield curve steepens or flattens?",
+    "How do quarterly GDP announcements affect the momentum and volatility of United States 10-Year and 30-Year Bond Yields?"
+  ],
+  "system_patterns": [
+    "What financial system-level conditions influence the correlation between short-term and long-term bond yields?",
+    "How do regulatory changes in the financial sector affect the interaction between various United States bond yields?"
+  ]
+}

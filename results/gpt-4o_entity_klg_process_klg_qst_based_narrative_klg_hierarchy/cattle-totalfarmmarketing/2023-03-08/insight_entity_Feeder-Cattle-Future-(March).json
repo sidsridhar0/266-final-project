@@ -1,0 +1,34 @@
+{
+  "type": "all",
+  "entity": "Feeder Cattle Future (front month) (March)",
+  "interpretation": "The analysis reveals heightened market volatility, a significant reduction in trading volume, and an upward price trend with strong resistance at known levels. The overbought RSI indicates potential upcoming corrections.",
+  "significance_score": 0.75,
+  "score_reasoning": "The collective data portrays a market experiencing increased volatility and declining volume, hinting at investor hesitation or external economic influences. While a consistent upward trend is observed, the presence of strong resistance and the overbought RSI suggest caution, as the market might face a correction or price consolidation, impacting investment decisions in the cattle futures market.",
+  "individual_insights": [
+    {
+      "question": "Assess the daily volatility of the cattle market by comparing the intraday price range relative to the closing price over the past month.",
+      "interpretation": "The current intraday range of 2.55 is significantly higher than the average intraday range of 1.79, indicating increased daily volatility. The percentage volatility is 1.32%, suggesting variability in market prices relative to their closing prices. This implies heightened market fluctuations in the Feeder Cattle Future, possibly due to external economic conditions or sudden market sentiment changes.",
+      "significance_score": 0.8
+    },
+    {
+      "question": "Evaluate the trading activity by analyzing the volume trends and identifying any significant spikes or declines over the past two weeks.",
+      "interpretation": "The trading volume has decreased by 1,683 units from the average of 4,389 units, marking a 38.35% drop in volume. This substantial reduction indicates a significant decline in trading activity, possibly pointing to reduced investor interest or market manipulation concerns.",
+      "significance_score": 0.7
+    },
+    {
+      "question": "Determine the consistency of the price trend by analyzing the frequency of upward or downward movements in closing prices over the past quarter.",
+      "interpretation": "Over 90 days, there were 14 up days and 7 down days, leading to a trend consistency ratio of 0.67. This suggests a more consistent upward price trend. This insight into price patterns indicates potential bullish investor sentiment or favorable market conditions.",
+      "significance_score": 0.6
+    },
+    {
+      "question": "Identify key support and resistance levels by evaluating price patterns and their frequency of touch over multiple time frames.",
+      "interpretation": "The resistance level at 187.22 has been repeatedly tested over 30 and 60 days, with a frequency of touch of 2, indicating strong resistance at this price point. Awareness of such resistance levels can guide investors in strategizing entry or exit positions.",
+      "significance_score": 0.5
+    },
+    {
+      "question": "Examine the market momentum by calculating and comparing relative strength indices and their levels over the past month.",
+      "interpretation": "The current RSI of 76.99, which is above the typical overbought threshold of 70, signals an overbought market condition, suggesting potential for price correction. This might point toward a need for correction or a consolidation phase.",
+      "significance_score": 0.7
+    }
+  ]
+}

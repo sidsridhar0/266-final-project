@@ -1,0 +1,22 @@
+{
+  "metric_patterns": [
+    "How do changes in daily volatility for S&P 500 Materials typically relate to changes in the Dow Jones Industrial Average?",
+    "What conditions affect the relationship between the USA 2-Year Bond Yield and the price momentum of S&P 500 Industrials?"
+  ],
+  "entity_interactions": [
+    "What are common ways that movements in the Dollar Index affect the S&P 500 Consumer Discretionary?",
+    "Under what conditions do the CBOE Volatility Index and the NASDAQ Composite influence each other most strongly?"
+  ],
+  "common_factors": [
+    "What external factors commonly affect multiple entities like the MSCI World Index and the NASDAQ 100?",
+    "How do interest rate changes typically impact different entities such as the S&P 500 Financials and the United States 10-Year Bond Yield?"
+  ],
+  "temporal_patterns": [
+    "What typical sequences of changes occur in trading volumes across the S&P 500 Health Care and S&P 500 Energy?",
+    "How do time-based factors affect relationships between the S&P 500 Utilities and the CBOE Volatility Index over different market cycles?"
+  ],
+  "system_patterns": [
+    "What system-level conditions influence relationships between equity entities like the Russell 2000 and S&P 500?",
+    "How do structural factors in the materials sector affect interactions between S&P 500 Materials and Gold prices?"
+  ]
+}

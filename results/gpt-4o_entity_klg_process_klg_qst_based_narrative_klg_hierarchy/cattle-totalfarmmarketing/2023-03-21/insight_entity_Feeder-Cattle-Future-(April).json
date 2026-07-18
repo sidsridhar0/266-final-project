@@ -1,0 +1,34 @@
+{
+  "type": "all",
+  "entity": "Feeder Cattle Future (second month) (April)",
+  "interpretation": "The market exhibits modest volatility with increased intraday price activity but faces a significant decline in trading volume, raising concerns of reduced market engagement. Price trends lack clear directionality, maintaining a balanced up-and-down frequency. Momentum indicators are neutral, while support and resistance levels remain undefined due to data gaps.",
+  "significance_score": 0.65,
+  "score_reasoning": "Despite balanced daily price fluctuations, the substantial drop in volume hints at potential market disinterest or change in trading patterns. The consistency ratio reflects a stable but direction-less trend, while momentum analysis suggests no current reversal risks. Lack of support/resistance data indicates limited predictive insights, limiting full technical analysis.",
+  "individual_insights": [
+    {
+      "question": "Assess the daily volatility of the cattle market by comparing the intraday price range relative to the closing price over the past month.",
+      "interpretation": "The current intraday price range is 2.20, slightly higher than the average intraday range of 2.11, indicating a marginally higher daily volatility. With a percentage volatility of 1.13%, the current day's volatility is within a reasonable range relative to the closing price.",
+      "significance_score": 0.7
+    },
+    {
+      "question": "Evaluate the trading activity by analyzing the volume trends and identifying any significant spikes or declines over the past two weeks.",
+      "interpretation": "The trading volume on the date of interest decreased significantly by 2,204 units, representing a 31.25% reduction from the average volume of 7,053.14 units. This notable drop in trading activity might suggest decreased interest or speculative behavior in the market.",
+      "significance_score": 0.8
+    },
+    {
+      "question": "Determine the consistency of the price trend by analyzing the frequency of upward or downward movements in closing prices over the past quarter.",
+      "interpretation": "Over the past quarter, there were 10 upward days and 9 downward days, resulting in a trend consistency ratio of 0.5. This indicates an evenly balanced market trend with no clear directional bias.",
+      "significance_score": 0.5
+    },
+    {
+      "question": "Identify key support and resistance levels by evaluating price patterns and their frequency of touch over multiple time frames.",
+      "interpretation": "No specific results provided for support or resistance levels, suggesting insufficient data or inconclusive patterns in current price movements for reliable identification.",
+      "significance_score": 0.3
+    },
+    {
+      "question": "Examine the market momentum by calculating and comparing relative strength indices and their levels over the past month.",
+      "interpretation": "The Relative Strength Index (RSI) is at 52.73, indicating neutral momentum, neither signaling an overbought (above 70) nor oversold (below 30) market. Lack of average RSI data impairs full momentum analysis.",
+      "significance_score": 0.6
+    }
+  ]
+}

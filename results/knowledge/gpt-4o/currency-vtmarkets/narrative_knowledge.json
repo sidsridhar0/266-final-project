@@ -1,0 +1,53 @@
+{
+  "narrative_structures": "Market reports typically start with an overview of the current market conditions, followed by a breakdown of individual entities, analysis of trends, and concluding with potential future outlooks and investment recommendations.",
+  "focus_entities": [
+    {
+      "entities_name": "British Pound",
+      "reasoning": "The British Pound is significant due to its role in global forex markets, its susceptibility to geopolitical events, and its impact on the European and UK economies."
+    },
+    {
+      "entities_name": "Japanese Yen",
+      "reasoning": "The Yen serves as a safe-haven currency, influenced by Asian markets and economic policies from the Bank of Japan, making it important for risk management."
+    },
+    {
+      "entities_name": "Australian Dollar",
+      "reasoning": "The Australian Dollar is closely tied to commodity prices, especially gold and iron ore, which makes it significant for understanding commodity-driven economies."
+    },
+    {
+      "entities_name": "Gold",
+      "reasoning": "Gold is a key indicator of market sentiment, acting as a hedge against inflation and currency devaluation, influencing economic stability."
+    },
+    {
+      "entities_name": "Euro",
+      "reasoning": "The Euro is pivotal in assessing the health of the Eurozone economy, reflecting regional economic policies and global trade dynamics."
+    },
+    {
+      "entities_name": "Dollar Index",
+      "reasoning": "The Dollar Index provides a comprehensive measure of the U.S. Dollar\u2019s strength against a basket of major currencies and is crucial in understanding global economic shifts."
+    }
+  ],
+  "focus_insights": [
+    {
+      "insight_types": "Current Market Prices",
+      "reasoning": "Providing immediate prices gives readers a snapshot of the market landscape, crucial for time-sensitive investment decisions."
+    },
+    {
+      "insight_types": "Trend Analysis",
+      "reasoning": "Understanding both short-term and long-term trends equips readers with knowledge to make informed decisions based on historical data."
+    },
+    {
+      "insight_types": "Economic Indicators",
+      "reasoning": "Insights into indicators such as interest rates, inflation rates, and GDP forecasts help in assessing currency valuations and future movements."
+    },
+    {
+      "insight_types": "Geopolitical Events",
+      "reasoning": "Highlighting political developments, trade agreements, and diplomatic relations can signal potential market volatility or stability."
+    }
+  ],
+  "domain_language": [
+    "Future prices should be expressed conditionally, using phrases like 'expected to', 'forecasted', or 'anticipated'.",
+    "Use clear and specific terminology like 'bullish' or 'bearish' to describe market trends.",
+    "Adopt precise percentage expressions for changes, e.g., 'rose by 2%' instead of 'went up'.",
+    "Provide quantified comparisons, such as 'higher than' or 'lower than historic averages.'"
+  ]
+}

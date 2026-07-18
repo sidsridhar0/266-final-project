@@ -1,0 +1,22 @@
+{
+  "system_patterns": [
+    "What patterns emerge at the system level when comparing volatility across different S&P 500 sectors?",
+    "How do sectors like S&P 500 Materials and S&P 500 Health Care behave collectively during periods of economic uncertainty?",
+    "What correlations exist between the performance of the S&P 500 and the MSCI World index over time?"
+  ],
+  "causal_networks": [
+    "What major causal networks exist between interest rates, bond yields, and equity market performance?",
+    "How do changes in the Dollar Index impact the trading volumes of key stock sectors?",
+    "What causal relationships are observed between CBOE Volatility Index movements and sector performance in the S&P 500?"
+  ],
+  "strategic_implications": [
+    "What are the system-wide implications of rising bond yields on equity sector performance, particularly in S&P 500 Financials and Utilities?",
+    "How do behavioral trends in the Nasdaq Composite influence overall market volatility and investor strategies?",
+    "What strategic implications arise from divergences in trading volume trends across various market sectors?"
+  ],
+  "feedback_systems": [
+    "What feedback loops exist between the S&P 500 Communication Services and the overall stock market volatility?",
+    "How does the behavior of the CBOE Volatility Index regulate investor sentiment towards emerging market trends?",
+    "What regulatory mechanisms are observed between stock performance in sectors like Energy and macroeconomic indicators such as gold prices?"
+  ]
+}

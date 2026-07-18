@@ -1,0 +1,35 @@
+[
+  {
+    "cluster_name": "Gold and Dollar Index",
+    "entities": [
+      "Gold",
+      "Dollar Index"
+    ],
+    "reason_of_clustering": "Gold prices are inversely correlated to the Dollar Index. When the Dollar strengthens, gold prices tend to decrease, and vice versa. This relationship is crucial for investors to understand market conditions and make informed decisions regarding gold investments."
+  },
+  {
+    "cluster_name": "Gold and Silver",
+    "entities": [
+      "Gold",
+      "Silver"
+    ],
+    "reason_of_clustering": "Gold and silver are both precious metals and often move in tandem as they react to similar factors like inflation, interest rates, and overall market sentiment. Investors typically view both metals as safe-haven assets, which makes their price movements interrelated."
+  },
+  {
+    "cluster_name": "Silver and Dollar Index",
+    "entities": [
+      "Silver",
+      "Dollar Index"
+    ],
+    "reason_of_clustering": "Similar to gold, silver prices often exhibit an inverse relationship with the Dollar Index. Understanding this connection helps investors gauge potential price movements of silver in response to fluctuations in the US dollar's strength."
+  },
+  {
+    "cluster_name": "Gold, Silver, and Dollar Index",
+    "entities": [
+      "Gold",
+      "Silver",
+      "Dollar Index"
+    ],
+    "reason_of_clustering": "This cluster encompasses the three key entities involved in precious metal investment dynamics. The interaction among these entities provides a holistic view of how market factors influence precious metals' performance, aiding investors in making comprehensive investment strategies."
+  }
+]

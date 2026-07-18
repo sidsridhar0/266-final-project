@@ -1,0 +1,34 @@
+{
+  "type": "all",
+  "entity": "Live Cattle Future (front month) (April)",
+  "interpretation": "The cattle market shows above-average daily volatility and a significant decline in trading volume. There is a prevailing downside trend, yet potential support levels may offer buying opportunities, especially since the market appears oversold according to RSI indicators.",
+  "significance_score": 0.85,
+  "score_reasoning": "The collective findings indicate a market characterized by volatility and reduced trading activity amid a general downward price trend, but potential reversal signals (RSI and support levels) may present entry opportunities for investors.",
+  "individual_insights": [
+    {
+      "question": "Assess the daily volatility of the cattle market by comparing the intraday price range relative to the closing price over the past month.",
+      "interpretation": "The intraday price range is 1.55 while the average is 1.315, suggesting today's volatility is above average. The percentage volatility is 0.95%, which indicates relatively high daily price swings.",
+      "significance_score": 0.8
+    },
+    {
+      "question": "Evaluate the trading activity by analyzing the volume trends and identifying any significant spikes or declines over the past two weeks.",
+      "interpretation": "The trading volume has declined significantly with a volume change of -16137.21 and a percentage change of -66.46%, indicating a considerable decrease in trading activity.",
+      "significance_score": 0.9
+    },
+    {
+      "question": "Determine the consistency of the price trend by analyzing the frequency of upward or downward movements in closing prices over the past quarter.",
+      "interpretation": "The number of down days (14) exceeds up days (8) and the trend consistency ratio is 0.3636, suggesting a prevailing downward trend in the price movement.",
+      "significance_score": 0.7
+    },
+    {
+      "question": "Identify key support and resistance levels by evaluating price patterns and their frequency of touch over multiple time frames.",
+      "interpretation": "Key support levels are around 164.5, 164.78, 165.08 and resistance levels at 162.65, 166.1. The frequency of touch is low (2), indicating these levels may be formidable barriers or supports.",
+      "significance_score": 0.7
+    },
+    {
+      "question": "Examine the market momentum by calculating and comparing relative strength indices and their levels over the past month.",
+      "interpretation": "The current RSI is 28.53, indicating an oversold condition which might suggest a potential reversal or buying opportunity.",
+      "significance_score": 0.9
+    }
+  ]
+}

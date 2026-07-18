@@ -1,0 +1,37 @@
+{
+  "narrative_structures": "Begin with a brief overview of current market conditions, followed by in-depth analysis of significant changes, root causes, and trends. Use comparisons with historical data to contextualize current events, and conclude with forward-looking statements and potential implications for investors.",
+  "focus_entities": [
+    {
+      "entities_name": "Brent Crude Oil",
+      "reasoning": "Brent Crude Oil is a major benchmark for global oil prices and reflects international trading patterns, making it crucial for understanding global market movements."
+    },
+    {
+      "entities_name": "WTI Crude Oil",
+      "reasoning": "WTI Crude Oil is a key benchmark for oil pricing in North America and its trends are vital for understanding regional supply and demand dynamics."
+    },
+    {
+      "entities_name": "Natural Gas",
+      "reasoning": "Natural Gas prices are important due to their impact on energy markets and consumer prices, as well as their influence on alternative energy sources."
+    }
+  ],
+  "focus_insights": [
+    {
+      "insight_types": "Price Fluctuations",
+      "reasoning": "Understanding price fluctuations is essential for investors to gauge volatility and make informed predictions about future trends."
+    },
+    {
+      "insight_types": "Supply and Demand Trends",
+      "reasoning": "Identifying shifts in supply and demand trends helps explain price movements and provides insight into future pricing."
+    },
+    {
+      "insight_types": "Geopolitical Events",
+      "reasoning": "Geopolitical developments often have immediate and significant impacts on oil prices, necessitating close monitoring and analysis."
+    }
+  ],
+  "domain_language": [
+    "Use terms like 'bullish' and 'bearish' to describe market sentiment.",
+    "Report future prices with a range or specific target, using 'forecast', 'projection', or 'expectation'.",
+    "Adopt precise financial terminology and quantifiable metrics to maintain credibility.",
+    "Highlight significant figures in dollar terms with proper currency annotation, e.g., $/barrel."
+  ]
+}

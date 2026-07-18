@@ -1,0 +1,105 @@
+[
+  {
+    "insight_type": "volatility assessment",
+    "question": "How has the volatility changed on the date of interest compared to the previous periods?",
+    "required_metrics": [
+      {
+        "metric": "daily_range",
+        "calculation": "High minus Low for the day",
+        "purpose": "Measure daily price movement"
+      },
+      {
+        "metric": "average_true_range_14",
+        "calculation": "14-day average of the true range (max[High - Low, abs(High - previous_close), abs(Low - previous_close)])",
+        "purpose": "Assess historical volatility levels"
+      },
+      {
+        "metric": "current_volatility",
+        "calculation": "Standard deviation of the daily range over the last 14 days",
+        "purpose": "Quantify recent price fluctuations"
+      }
+    ],
+    "comparisons": [
+      "Current volatility vs historical average_true_range_14",
+      "Current daily range vs previous daily ranges"
+    ]
+  },
+  {
+    "insight_type": "momentum analysis",
+    "question": "Is the currency displaying bullish or bearish momentum based on key momentum indicators over the date of interest?",
+    "required_metrics": [
+      {
+        "metric": "RSI_14",
+        "calculation": "14-day Relative Strength Index calculated using closing prices",
+        "purpose": "Identify overbought or oversold conditions"
+      },
+      {
+        "metric": "momentum_10",
+        "calculation": "Closing price minus closing price 10 days ago",
+        "purpose": "Measure momentum direction and strength"
+      }
+    ],
+    "comparisons": [
+      "Current RSI vs neutral level (50)",
+      "Current momentum value vs past momentum values"
+    ]
+  },
+  {
+    "insight_type": "volume trend analysis",
+    "question": "What is the trend of trading volume on the date of interest compared to previous trends?",
+    "required_metrics": [
+      {
+        "metric": "average_volume_20",
+        "calculation": "20-day average of daily volume",
+        "purpose": "Determine typical trading activity"
+      },
+      {
+        "metric": "volume_change",
+        "calculation": "Current day volume minus previous day volume",
+        "purpose": "Detect sudden changes in trading interest"
+      }
+    ],
+    "comparisons": [
+      "Current volume vs average volume_20",
+      "Day-over-day volume changes"
+    ]
+  },
+  {
+    "insight_type": "price movement pattern",
+    "question": "What are the discernible price movement patterns based on historical highs and lows, and current price?",
+    "required_metrics": [
+      {
+        "metric": "recent_highs",
+        "calculation": "Highest prices over the last 20 days",
+        "purpose": "Identify resistance levels"
+      },
+      {
+        "metric": "recent_lows",
+        "calculation": "Lowest prices over the last 20 days",
+        "purpose": "Identify support levels"
+      }
+    ],
+    "comparisons": [
+      "Current price position relative to recent highs and lows"
+    ]
+  },
+  {
+    "insight_type": "relative performance analysis",
+    "question": "How does the currency's performance compare with its peers on the date of interest?",
+    "required_metrics": [
+      {
+        "metric": "current_return",
+        "calculation": "Closing price divided by Open price minus 1",
+        "purpose": "Measure daily return"
+      },
+      {
+        "metric": "peer_average_return",
+        "calculation": "Average of current_return of peer symbols",
+        "purpose": "Establish peer benchmark performance"
+      }
+    ],
+    "comparisons": [
+      "Currency's current_return vs peer_average_return"
+    ]
+  }
+]

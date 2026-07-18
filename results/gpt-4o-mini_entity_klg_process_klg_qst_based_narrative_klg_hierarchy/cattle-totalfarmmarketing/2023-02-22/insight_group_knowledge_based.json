@@ -1,0 +1,112 @@
+[
+  {
+    "cluster_name": "Live Cattle Futures",
+    "entities": [
+      "Live Cattle Future (front month) (February)",
+      "Live Cattle Future (second month) (April)",
+      "Live Cattle Future (third month) (June)"
+    ],
+    "cluster_insights": [
+      {
+        "type": "market sentiment correlation",
+        "description": "Both live and feeder cattle futures show a positive market sentiment with significant trading volumes, indicating growing confidence among traders and suggesting a broader bullish trend in the cattle market.",
+        "supporting_insights": [
+          "The sentiment in Live Cattle Future (April) remains slightly positive with 50% of trading days closing higher.",
+          "The closing price for Live Cattle Future (February) has shown consistent bullish behavior with 100% of days closing higher."
+        ],
+        "significance": "This insight highlights the overall bullish sentiment in the cattle market, which can attract further investments and influence trading strategies positively.",
+        "significance_score": 0.9
+      },
+      {
+        "type": "Volume and Sentiment Relationship",
+        "description": "Low trading volumes in Live Cattle Futures correlate with muted market activity, while activity in Feeder Cattle Futures indicates a more stable sentiment.",
+        "supporting_insights": [
+          "Live Cattle Future (April) witnessed an 11.70% decrease in trading volume.",
+          "Feeder Cattle Futures showed increased trading activity."
+        ],
+        "significance": "Understanding the relationship between volume and sentiment can provide traders with clearer indicators of market confidence and potential future movements.",
+        "significance_score": 0.85
+      },
+      {
+        "type": "Causal Relationship",
+        "description": "The decrease in trading volume for Live Cattle Futures may signal lowered interest, while the increased trading activity in Feeder Cattle Futures indicates stronger market sentiment for that segment.",
+        "supporting_insights": [
+          "Live Cattle Future (April) has a notable decrease in volume.",
+          "Increased market activity in Feeder Cattle Futures suggests traders reallocating interest."
+        ],
+        "significance": "This insight suggests a possible shift in trader focus, which might impact the future price movements in live cattle futures, creating strategic opportunities.",
+        "significance_score": 0.8
+      },
+      {
+        "type": "price trends and volatility relationship",
+        "description": "The volatility levels in live cattle futures could impact the behavior of feeder cattle futures, suggesting that as live cattle trend upward, feeder cattle may also reflect bullish behavior.",
+        "supporting_insights": [
+          "Live Cattle Future (June) has shown bullish sentiment with 75% of days closing higher.",
+          "Feeder Cattle Futures show upward price trends."
+        ],
+        "significance": "This indicates synchronized movements in cattle prices, which can be critical for strategizing cross-market investments.",
+        "significance_score": 0.75
+      }
+    ]
+  },
+  {
+    "cluster_name": "Feeder Cattle Futures",
+    "entities": [
+      "Feeder Cattle Future (front month) (March)",
+      "Feeder Cattle Future (second month) (April)",
+      "Feeder Cattle Future (third month) (May)"
+    ],
+    "cluster_insights": [
+      {
+        "type": "correlation",
+        "description": "Both feeder cattle futures are experiencing bullish sentiment and increased trading activity, suggesting strong market dynamics and investor confidence.",
+        "supporting_insights": [
+          "75% of days in all futures closing higher than they opened",
+          "Increased trading volumes in all futures above average"
+        ],
+        "significance": "Indicates a robust overall positive sentiment in feeder cattle futures that can lead to sustained upward trends and attract more investors.",
+        "significance_score": 0.9
+      },
+      {
+        "type": "influence",
+        "description": "The upward price movement in Feeder Cattle Futures indicates that traders may expect higher future prices, reinforcing the positive sentiment observed across different contracts.",
+        "supporting_insights": [
+          "Current prices above support and resistance levels in all contracts",
+          "Consistently positive percentage changes in prices"
+        ],
+        "significance": "Highlights the market\u2019s anticipation of further price increases, bolstering trader confidence across the board.",
+        "significance_score": 0.85
+      },
+      {
+        "type": "trend continuation",
+        "description": "The upward price movements in feeder cattle futures correlate with favorable sentiment in live cattle futures, suggesting continuity of positive trends in the cattle market.",
+        "supporting_insights": [
+          "Positive market sentiment observed across feeder and live cattle futures",
+          "Strong bullish indicators across multiple months of feeder cattle futures"
+        ],
+        "significance": "Suggests a confluence of favorable conditions that may lead to extended bullish runs, underlining the cyclical nature of cattle pricing.",
+        "significance_score": 0.8
+      },
+      {
+        "type": "market sentiment correlation",
+        "description": "Both live and feeder cattle futures show a positive market sentiment with significant trading volumes, indicating growing confidence among traders and suggesting a broader bullish trend in the cattle market.",
+        "supporting_insights": [
+          "Increased trading volumes correlating with bullish sentiment",
+          "Positive price changes in both live and feeder cattle futures"
+        ],
+        "significance": "Indicates that the overall sentiment in the livestock market is strong, which may suggest favorable conditions for investment decisions.",
+        "significance_score": 0.75
+      },
+      {
+        "type": "volume and sentiment relationship",
+        "description": "Both insights indicate a relationship where low trading volumes correlate with muted market activity. The Feeder Cattle Futures' moderate volatility and price trend contrasts with the Live Cattle Futures' significantly lower trading volumes, suggesting that market sentiment may be uncertain for Live Cattle but relatively stable for Feeder Cattle.",
+        "supporting_insights": [
+          "Volume decrease in Live Cattle Futures while Feeder Cattle Futures show increased interest",
+          "Average trading volumes in Feeder Cattle Futures above recent averages"
+        ],
+        "significance": "Identifies a divergence in market participation, which could highlight potential areas for investment focus, especially towards feeder cattle.",
+        "significance_score": 0.7
+      }
+    ]
+  }
+]

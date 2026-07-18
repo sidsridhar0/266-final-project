@@ -1,0 +1,54 @@
+{
+  "narrative_structures": "Effective daily market reports should follow a structured narrative that includes an introduction, a market overview, analysis of significant trends, specific entity performance insights, and a conclusion with actionable investment suggestions. Start with an engaging opening that highlights the day's key movements, followed by detailed sections on price changes, influences on market conditions, and a synthesis of important data points leading to strategic recommendations.",
+  "focus_entities": [
+    {
+      "entities_name": "Lean Hogs Future (front month) (April)",
+      "reasoning": "As the near-term contract, April's futures pricing will directly impact immediate supply, demand, and stock levels in the lean hog market, making it crucial for investment decisions."
+    },
+    {
+      "entities_name": "Lean Hogs Future (front month) (February)",
+      "reasoning": "This contract will provide insights into anticipated market movements just prior to peak demand periods, influencing pricing trends and seasonal production adjustments."
+    },
+    {
+      "entities_name": "Lean Hogs Future (second month) (April)",
+      "reasoning": "Understanding the second month contract allows investors to gauge transitional price expectations ahead of the front month's expiry and market adjustments."
+    },
+    {
+      "entities_name": "Lean Hogs Future (third month) (May)",
+      "reasoning": "The May contract provides a longer-term perspective on market forecasts that can impact strategic positioning for producers or traders preparing for future cycles."
+    },
+    {
+      "entities_name": "Lean Hogs Future (second month) (May)",
+      "reasoning": "The second month's insights will reflect seasonal trends that can influence supply chains and pricing, valuable for anticipating mid-harvest shifts in consumer demand."
+    }
+  ],
+  "focus_insights": [
+    {
+      "insight_types": "Price Trends",
+      "reasoning": "Analyzing price trends provides critical insights into market behavior and allows investors to make informed decisions based on current and historical price movements."
+    },
+    {
+      "insight_types": "Supply and Demand Dynamics",
+      "reasoning": "Understanding changing supply and demand factors is essential, as they directly influence pricing and market stability, impacting investment strategies."
+    },
+    {
+      "insight_types": "Market Sentiment",
+      "reasoning": "Investor sentiments, influenced by news, weather patterns, and economic indicators, can drive volatility and should be incorporated to contextualize price movements."
+    },
+    {
+      "insight_types": "Comparative Analysis",
+      "reasoning": "Comparative analysis across different months helps illustrate seasonal impacts and assists investors in positioning themselves in anticipation of price fluctuations."
+    },
+    {
+      "insight_types": "Regulatory Changes",
+      "reasoning": "Changes in regulations affecting hog production and trade can significantly influence market conditions and should be reported for their implications on future prices."
+    }
+  ],
+  "domain_language": [
+    "Express future prices in terms of 'cents per pound' for clarity.",
+    "Use terms like 'bullish' and 'bearish' to describe market sentiment.",
+    "Incorporate specific dates for agreement expirations to define timelines.",
+    "Highlight price changes as 'increased by' or 'decreased by' followed by the amount for precision.",
+    "Utilize technical analysis terminology such as 'support' and 'resistance levels' when describing price movements."
+  ]
+}

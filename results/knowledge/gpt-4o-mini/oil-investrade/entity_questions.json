@@ -1,0 +1,102 @@
+[
+  {
+    "insight_type": "volatility analysis",
+    "question": "Calculate the daily volatility of the oil market by analyzing the difference between the high and low prices over a period of 14 days.",
+    "required_metrics": [
+      {
+        "metric": "daily_volatility",
+        "calculation": "High - Low for each day",
+        "purpose": "To assess how much the price fluctuates on a daily basis"
+      },
+      {
+        "metric": "14_day_avg_volatility",
+        "calculation": "14-day average of daily_volatility",
+        "purpose": "To understand the average volatility over the specified period"
+      }
+    ],
+    "comparisons": [
+      "Current daily volatility vs historical volatility",
+      "14-day avg volatility vs longer-term averages"
+    ]
+  },
+  {
+    "insight_type": "performance analysis",
+    "question": "Evaluate the overall performance of oil by calculating the percentage change in the closing price over the last 30 days compared to its opening price.",
+    "required_metrics": [
+      {
+        "metric": "percentage_change",
+        "calculation": "((Close - Open) / Open) * 100",
+        "purpose": "To determine the price performance in percentage terms"
+      },
+      {
+        "metric": "close_price_30_days_ago",
+        "calculation": "Closing price from 30 days prior",
+        "purpose": "To provide a reference point for performance calculation"
+      }
+    ],
+    "comparisons": [
+      "Current performance vs 30-day historical performance",
+      "Performance across different products in the oil sector"
+    ]
+  },
+  {
+    "insight_type": "trading volume analysis",
+    "question": "Analyze trading activity by calculating the average daily trading volume over the last week and its comparison with the average volume of the previous month.",
+    "required_metrics": [
+      {
+        "metric": "average_daily_volume_last_week",
+        "calculation": "Sum of Volume over last 7 days / 7",
+        "purpose": "To assess recent trading interest and activity"
+      },
+      {
+        "metric": "average_daily_volume_last_month",
+        "calculation": "Sum of Volume over last 30 days / 30",
+        "purpose": "To understand historical trading volume trends"
+      }
+    ],
+    "comparisons": [
+      "Average daily volume last week vs last month",
+      "Volume spikes in relation to price movements"
+    ]
+  },
+  {
+    "insight_type": "price trend analysis",
+    "question": "Identify the trend direction over the last month by comparing the closing prices to a set of established trend lines derived from historical data.",
+    "required_metrics": [
+      {
+        "metric": "monthly_trend_line",
+        "calculation": "Linear regression line based on closing prices over the last 30 days",
+        "purpose": "To determine the overall trend direction in prices"
+      },
+      {
+        "metric": "previous_close",
+        "calculation": "Previous day's closing price",
+        "purpose": "To compare current close against previous trends"
+      }
+    ],
+    "comparisons": [
+      "Current closing price vs trend line",
+      "Price movements relative to historical trends and market conditions"
+    ]
+  },
+  {
+    "insight_type": "market sentiment analysis",
+    "question": "Evaluate market sentiment by comparing recent price movements and trading volume against historical performance metrics such as standard deviations and average prices.",
+    "required_metrics": [
+      {
+        "metric": "standard_deviation",
+        "calculation": "Standard deviation of closing prices over the last 30 days",
+        "purpose": "To assess the volatility and sentiment of the market"
+      },
+      {
+        "metric": "average_price_last_30_days",
+        "calculation": "Sum of closing prices over the last 30 days / 30",
+        "purpose": "To provide a baseline for comparison"
+      }
+    ],
+    "comparisons": [
+      "Current prices vs average price",
+      "Volume fluctuation vs price movement trends to gauge sentiment"
+    ]
+  }
+]

@@ -1,0 +1,108 @@
+[
+  {
+    "insight_type": "volatility",
+    "question": "Evaluate the daily price volatility for a given product by analyzing the range between the high and low prices, and compare it with historical volatility levels.",
+    "required_metrics": [
+      {
+        "metric": "daily_volatility",
+        "calculation": "High minus Low for the day",
+        "purpose": "Measure of intraday price range and volatility"
+      },
+      {
+        "metric": "historical_volatility",
+        "calculation": "Standard deviation of daily logarithmic returns over the past 30 days",
+        "purpose": "Contextualize current volatility with historical patterns"
+      }
+    ],
+    "comparisons": [
+      "Current daily volatility vs historical volatility",
+      "Volatility levels of different products on the same date"
+    ]
+  },
+  {
+    "insight_type": "price movement",
+    "question": "Assess the intraday price movement dynamics by examining opening, closing, high, and low prices, and determine significant price ticks or reversals.",
+    "required_metrics": [
+      {
+        "metric": "opening_price",
+        "calculation": "Recorded open price for the day",
+        "purpose": "Establish starting price for daily price action analysis"
+      },
+      {
+        "metric": "closing_price",
+        "calculation": "Recorded close price for the day",
+        "purpose": "Establish ending price for daily price action analysis"
+      },
+      {
+        "metric": "highest_price",
+        "calculation": "Recorded high price for the day",
+        "purpose": "Identify peak price level during trading session"
+      },
+      {
+        "metric": "lowest_price",
+        "calculation": "Recorded low price for the day",
+        "purpose": "Identify bottom price level during trading session"
+      }
+    ],
+    "comparisons": [
+      "Closing price vs opening price",
+      "High vs low price for range analysis",
+      "Price reversals compared to typical tick patterns"
+    ]
+  },
+  {
+    "insight_type": "trading volume",
+    "question": "Analyze trading volume changes to identify potential anomaly in trade interest and consider how volume trends relate to price changes.",
+    "required_metrics": [
+      {
+        "metric": "daily_volume",
+        "calculation": "Total volume traded for the day",
+        "purpose": "Capture the total interest in trading the product for the day"
+      },
+      {
+        "metric": "average_volume_30",
+        "calculation": "Average trade volume over the past 30 days",
+        "purpose": "Provide comparison point for current day's volume"
+      }
+    ],
+    "comparisons": [
+      "Current volume vs 30-day average volume",
+      "Price movement correlation with volume changes"
+    ]
+  },
+  {
+    "insight_type": "market performance",
+    "question": "Determine the overall market performance for a specific product by computing the daily percentage change in closing price and benchmark it against relative market indices or other dairy products.",
+    "required_metrics": [
+      {
+        "metric": "daily_return",
+        "calculation": "((Close - Open) / Open) * 100",
+        "purpose": "Quantify daily return as a percentage change"
+      },
+      {
+        "metric": "benchmark_return",
+        "calculation": "Set based on relevant market indices or peer products",
+        "purpose": "Provide benchmarking for context in market performance"
+      }
+    ],
+    "comparisons": [
+      "Daily return vs benchmark return",
+      "Inter-product daily performance comparison"
+    ]
+  },
+  {
+    "insight_type": "price stability",
+    "question": "Evaluate price stability through daily close price fluctuations, using standard deviation analysis over recent periods to assess consistency in closing prices.",
+    "required_metrics": [
+      {
+        "metric": "closing_price_std",
+        "calculation": "Standard deviation of closing prices over the past 20 days",
+        "purpose": "Assess the variability and stability of daily closing prices"
+      }
+    ],
+    "comparisons": [
+      "Current closing price stability vs historical stability",
+      "Stability metrics between different product names"
+    ]
+  }
+]

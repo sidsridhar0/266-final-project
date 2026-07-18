@@ -1,0 +1,206 @@
+{
+  "pairwise_knowledge": {
+    "Volatility": [
+      {
+        "key_idea": "Typical patterns and relationships",
+        "description": "Volatility in dairy futures, like Class III and IV Milk, often follows seasonal patterns due to predictable changes in supply and demand, such as peak production months or increased consumption periods."
+      },
+      {
+        "key_idea": "Common influencing factors",
+        "description": "Key factors influencing volatility include feed costs, weather conditions affecting milk production, changes in consumer preferences, and shifts in global trade policies."
+      },
+      {
+        "key_idea": "Important conditions and contexts",
+        "description": "Understanding the historical price trends and prevailing economic conditions is crucial in assessing whether current volatility levels are within normal ranges or indicative of broader market disruptions."
+      },
+      {
+        "key_idea": "Notable exceptions or special cases",
+        "description": "Sudden regulatory changes or international trade developments can lead to atypical volatility spikes, deviating from historically observed patterns."
+      }
+    ],
+    "Price Momentum": [
+      {
+        "key_idea": "Typical patterns and relationships",
+        "description": "Price momentum in milk futures is often aligned with broader agricultural market trends, where shifts are seen during periods of economic growth or contraction."
+      },
+      {
+        "key_idea": "Common influencing factors",
+        "description": "Influences on price momentum include currency fluctuations, overall market sentiment, and shifts in macroeconomic indicators such as inflation."
+      },
+      {
+        "key_idea": "Important conditions and contexts",
+        "description": "Analysis of momentum indicators like RSI and MACD should be in the context of historical performance and broader economic events to accurately predict future price movements."
+      },
+      {
+        "key_idea": "Notable exceptions or special cases",
+        "description": "Unpredictable events like natural disasters or geopolitical tensions can significantly impact price momentum, leading to abrupt reversals or trends."
+      }
+    ],
+    "Volume Analysis": [
+      {
+        "key_idea": "Typical patterns and relationships",
+        "description": "Volume analysis often reveals increased trading activity preceding major economic reports or trade announcements that influence dairy markets."
+      },
+      {
+        "key_idea": "Common influencing factors",
+        "description": "Changes in market volume are frequently driven by fundamental supply and demand dynamics, including crop yield reports and dairy consumption trends."
+      },
+      {
+        "key_idea": "Important conditions and contexts",
+        "description": "Volume spikes often occur around contract expirations or rollovers, necessitating a contextual understanding of liquidity and participation dynamics."
+      },
+      {
+        "key_idea": "Notable exceptions or special cases",
+        "description": "Panic buying or selling can lead to atypical volume surges, temporarily distorting typical volume trends and analysis."
+      }
+    ],
+    "Price Range Exploration": [
+      {
+        "key_idea": "Typical patterns and relationships",
+        "description": "Milk futures often exhibit tighter price ranges during stable economic times and wider ranges during periods of uncertainty or economic stress."
+      },
+      {
+        "key_idea": "Common influencing factors",
+        "description": "External factors such as government policy changes, international trade deals, and input cost variations frequently impact the explored price range of dairy futures."
+      },
+      {
+        "key_idea": "Important conditions and contexts",
+        "description": "It's important to contextualize the OHLC data within seasonal cycles of production and consumption to gain a precise understanding of market sentiment."
+      },
+      {
+        "key_idea": "Notable exceptions or special cases",
+        "description": "Significant global events or unexpected technological advancements in dairy farming could bring about abrupt shifts in price ranges."
+      }
+    ],
+    "Support and Resistance Levels": [
+      {
+        "key_idea": "Typical patterns and relationships",
+        "description": "Support and resistance levels in dairy futures are frequently tested and serve as reliable indicators for potential breakout or reversal points in price trends."
+      },
+      {
+        "key_idea": "Common influencing factors",
+        "description": "These levels are influenced by production costs, inventory levels, and consumption trends, which establish psychological barriers based on historical price behaviors."
+      },
+      {
+        "key_idea": "Important conditions and contexts",
+        "description": "Understanding the broader market environment and historical price benchmarks is essential to effectively leverage support and resistance levels in trading strategies."
+      },
+      {
+        "key_idea": "Notable exceptions or special cases",
+        "description": "Major policy announcements or shifts in international trade relations can lead to the breaking of established support and resistance levels, altering previously stable trading channels."
+      }
+    ]
+  },
+  "group_knowledge": {
+    "volatility": [
+      {
+        "key_idea": "Evaluate market volatility for each dairy product",
+        "description": "Class III and IV milk futures often show increased volatility during certain seasonal demand phases, like summer when ice cream production rises (Class IV-sensitive) and holiday seasons when cheese consumption peaks (Class III-sensitive). Volatility in one contract, like the front month (March-April), can propagate to subsequent months (May-June), reflecting concerns about supply chain disruptions or expected shifts in milk production. The ATR metric can highlight times of higher-than-average fluctuations, signaling potential market corrections or the reaction to new supply/demand data."
+      }
+    ],
+    "price_momentum": [
+      {
+        "key_idea": "Determine price momentum by analyzing RSI and MACD",
+        "description": "RSI and MACD for dairy futures indicate the strength and sustainability of price trends. Positive RSI and MACD values in Class III futures, for instance, can suggest robust cheese demand pushing milk prices up. Conversely, declining RSI/MACD in Class IV futures might hint at an oversupply of butter or powdered milk. Momentum changes can originate in the front month and affect subsequent contracts as processors adjust purchasing strategies based on perceived market strength or weakness."
+      }
+    ],
+    "volume_analysis": [
+      {
+        "key_idea": "Assess market participation by evaluating volume trends",
+        "description": "Increased trading volumes often accompany breakout price movements, confirming market interest in either supporting or selling off at significant price levels. For instance, if Class IV Milk Futures (March) show a sharp uptick in volume, it might indicate that participants expect sustained price movements, potentially impacting April and May contracts. Volume trends not only confirm price directions but also suggest institutional interest or hedging activities responding to price risks."
+      }
+    ],
+    "price_range_exploration": [
+      {
+        "key_idea": "Analyze price range shifts through OHLC",
+        "description": "Price range analysis using OHLC data can uncover intraday volatility and investor sentiment. A wide price range in the Class III Futures (April) usually indicates uncertainty or new information affecting market sentiment. Tighter ranges can suggest consensus or waiting for further market signals. Range shifts typically start in near-term contracts, as traders react to immediate market conditions, then move to longer-term contracts as expectations solidify."
+      }
+    ],
+    "support_and_resistance_levels": [
+      {
+        "key_idea": "Identify key support and resistance levels",
+        "description": "Historical peaks and troughs in milk futures establish crucial support and resistance levels, aiding traders in decision-making. For instance, a resistance level breached in Class IV Futures for April might suggest a new upward potential if sustained by volume and sentiment. Conversely, frequent testing of a support level in Class III Futures could eventually lead to a collapse if buyer confidence weakens. These levels guide hedgers and speculators on potential entries and exits, with breaks in these levels often triggering enhanced trading activity across consecutive contract months."
+      }
+    ]
+  },
+  "overall_knowledge": {
+    "Volatility Analysis": [
+      {
+        "key_idea": "Volatility patterns across dairy futures",
+        "description": "Dairy futures, particularly Class III and IV milk futures, exhibit varying levels of volatility depending on factors such as seasonality and market demand. Historically, Class III futures tend to show higher volatility during spring due to factors like milk production changes and demand fluctuations. This volatility can be gauged using the average true range (ATR), and comparing it over time provides insights into periods of stability versus disruption."
+      },
+      {
+        "key_idea": "Strategic implications of volatility",
+        "description": "Understanding volatility helps in tailoring risk management strategies. High volatility in Class III futures during certain months, like May and June, may prompt strategies such as options hedging or adjustments in forward contracts to mitigate risk. Increasing ATR indicates either upcoming market stress or expansion opportunities that require strategic positioning."
+      }
+    ],
+    "Price Momentum": [
+      {
+        "key_idea": "Momentum indicators in dairy markets",
+        "description": "Price momentum indicators such as RSI and MACD are essential in forecasting bullish or bearish trends in dairy futures. For example, an RSI above 70 suggests overbought conditions potentially aligning with seasonal peaks like May for Class III milk, indicating a potential price reversal or correction. Similarly, MACD crossovers signal momentum shifts that justify strategic buy/sell decisions."
+      },
+      {
+        "key_idea": "Implications of momentum shifts",
+        "description": "Strategically, recognizing momentum trends allows for capitalizing on short-term price movements within the dairy sector. Positive momentum signaled by MACD and RSI can affirm opening or maintaining long positions, whereas divergence or weakening momentum warrants exit strategies or reallocations."
+      }
+    ],
+    "Volume Analysis": [
+      {
+        "key_idea": "Volume trends and market participation",
+        "description": "Volume analysis reveals participation levels in Class III and IV futures markets. Spikes in volume often precede or coincide with significant price movements, suggesting institutional interest or news-driven trading. Consistent high volume during a price uptrend confirms bullish sentiment, whereas high volume with declining prices might indicate distribution or sell-offs."
+      },
+      {
+        "key_idea": "Strategic implications of volume insights",
+        "description": "Recognizing volume patterns aids in identifying genuine market movements versus speculative spikes. High volumes during resistive incidents endorse market reliability and can guide investment in either sustaining or cutting positions in Class III and IV futures."
+      }
+    ],
+    "Price Range Exploration": [
+      {
+        "key_idea": "OHLC and market sentiment",
+        "description": "Analyzing OHLC data highlights underlying market sentiments and directional trends for dairy futures. Wide daily ranges with higher closes often reflect bullish sentiments, particularly during periods of perceived supply constraints or increasing demand, such as March through June for Class III futures."
+      },
+      {
+        "key_idea": "Strategic implications of price ranges",
+        "description": "Exploring price ranges provides cues for tactical entry points. Observing narrow ranges during stable conditions suggests consolidation periods that precede breakouts, while volatile ranges during market announcements can open strategic entry points for investors."
+      }
+    ],
+    "Support and Resistance Levels": [
+      {
+        "key_idea": "Identifying support and resistance in dairy futures",
+        "description": "Support and resistance levels act as psychological barriers, with price peaks and troughs forming benchmarks. In Class III and IV futures, historical data over 60 days help map these levels which often align with seasonal supply cycles impacting price stability or volatility."
+      },
+      {
+        "key_idea": "Strategic use of support and resistance",
+        "description": "Mapping support and resistance aids in anticipating market entry/exit points. Breaches of these levels may trigger strategic re-evaluation of positions, with successful tests suggesting trend continuation signifying potential for profit capture in the volatile dairy futures landscape."
+      }
+    ]
+  },
+  "narrative_knowledge": {
+    "narrative_structures": "A typical narrative structure for daily market reports should begin with a summary of the key movements in the market, providing a snapshot of significant changes for a quick overview. This is followed by a detailed analysis of market trends, including any emerging patterns or anomalies. Subsequent sections should feature insights into potential future movements based on current data, incorporating both technical analysis and fundamental analysis to offer a comprehensive outlook. The report should conclude with actionable recommendations or considerations for investors.",
+    "focus_entities": [
+      {
+        "entities_name": "Class III Milk Future (third month) (May)",
+        "reasoning": "This represents a critical future position that can indicate market sentiment for the coming months, providing insights into seasonal trends and price forecasts."
+      },
+      {
+        "entities_name": "Class IV Milk Future (front month) (March)",
+        "reasoning": "As the front month contract, it reflects the most immediate market conditions and can heavily influence short-term investor decisions."
+      }
+    ],
+    "focus_insights": [
+      {
+        "insight_types": "Price Volatility",
+        "reasoning": "Understanding price volatility is crucial for assessing market risks and making informed hedging and trading decisions."
+      },
+      {
+        "insight_types": "Supply and Demand Dynamics",
+        "reasoning": "These dynamics directly influence pricing and help identify underlying factors affecting market movements, aiding in strategic planning."
+      }
+    ],
+    "domain_language": [
+      "Prices should be expressed in terms of current contract trading values, often using specific currency expressions (e.g., USD per hundredweight).",
+      "Terminology such as 'bullish' or 'bearish' should be used to quickly convey expected market directions.",
+      "Graphs and charts are commonly incorporated to visually represent data trends and support written analysis."
+    ]
+  }
+}

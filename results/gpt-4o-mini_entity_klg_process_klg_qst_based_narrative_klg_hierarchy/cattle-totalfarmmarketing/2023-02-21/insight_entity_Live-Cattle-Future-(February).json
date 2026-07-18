@@ -1,0 +1,39 @@
+{
+  "type": "all",
+  "entity": "Live Cattle Future (front month) (February)",
+  "interpretation": "The analysis of the Live Cattle Futures market reveals a generally stable but cautiously optimistic environment. While volatility remains moderate, trading activity has decreased significantly, indicating potential caution among investors. The slight positive price change and strong bullish sentiment from the past week suggest underlying strength, yet the contrast with low trading volume might alert traders to watch for potential reversals.",
+  "significance_score": 0.66,
+  "score_reasoning": "The findings highlight a mixed market profile with signs of positive sentiment tempered by low volume, suggesting that while prices may trend upward, investor participation is lacking, which could lead to volatility if market conditions change.",
+  "individual_insights": [
+    {
+      "question": "Evaluate market volatility for the product on the date of interest by calculating the average true range (ATR) and the standard deviation of the closing prices over the last 14 days.",
+      "interpretation": "The ATR of 0.9743 indicates relatively low to moderate volatility in the Live Cattle Futures market, whereas the standard deviation of 1.6399 suggests that the closing prices have been fluctuating moderately around their average over the past 14 days.",
+      "significance_score": 0.6,
+      "reasoning": ""
+    },
+    {
+      "question": "Analyze trading volume trends by comparing the volume on the date of interest against the average volume over the past 30 days.",
+      "interpretation": "The current volume of 2360 is significantly below the average volume of 7926.15 over the past 30 days, reflecting a decrease in trading activity by approximately 70.23%. This suggests a lack of market participation and could signify lower interest or caution among investors.",
+      "significance_score": 0.7,
+      "reasoning": ""
+    },
+    {
+      "question": "Identify significant price movements by evaluating the percentage change in closing price from the previous day to the current day.",
+      "interpretation": "The percentage change of 0.7214% from the previous closing price of 163.57 indicates a slight upward movement in price, which could reflect positive trader sentiment or responses to recent market conditions.",
+      "significance_score": 0.5,
+      "reasoning": ""
+    },
+    {
+      "question": "Determine key support and resistance levels by analyzing the closing prices over the last 30 days to find price levels that have been touched multiple times.",
+      "interpretation": "Current price of 164.75 is positioned above the identified support level of 156.72 by 8.03 and below the resistance level of 157.85 by 6.90, indicating the potential for further movement within this range and susceptibility to reversals depending on market behavior.",
+      "significance_score": 0.65,
+      "reasoning": ""
+    },
+    {
+      "question": "Evaluate market sentiment by analyzing the closing prices relative to their opening prices over the past week to assess whether prices are closing higher or lower than they opened.",
+      "interpretation": "With a weekly close-open change of 1.21 and 100% of days closing higher, the market demonstrates strong bullish sentiment, suggesting broad investor confidence in continuing price increases.",
+      "significance_score": 0.8,
+      "reasoning": ""
+    }
+  ]
+}

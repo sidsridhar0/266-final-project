@@ -1,0 +1,132 @@
+[
+  {
+    "insight_type": "volatility",
+    "question": "Evaluate the historical and current volatility levels for the asset by analyzing price ranges and calculating volatility indicators over multiple periods.",
+    "required_metrics": [
+      {
+        "metric": "ATR_14",
+        "calculation": "Average True Range over the last 14 periods based on high, low, and close prices",
+        "purpose": "Measure current volatility levels"
+      },
+      {
+        "metric": "high_low_range",
+        "calculation": "Daily range calculated as High minus Low",
+        "purpose": "Quantify daily price movement magnitude"
+      },
+      {
+        "metric": "historical_volatility_30",
+        "calculation": "Standard deviation of daily returns over 30 days",
+        "purpose": "Assess longer-term volatility trends"
+      }
+    ],
+    "comparisons": [
+      "Current ATR vs historical ATR",
+      "Daily range vs historical averages",
+      "Current vs historical volatility"
+    ]
+  },
+  {
+    "insight_type": "momentum",
+    "question": "Assess the current momentum in price movements to identify potential continuation or reversal patterns using momentum indicators.",
+    "required_metrics": [
+      {
+        "metric": "RSI_14",
+        "calculation": "Relative Strength Index over the last 14 periods",
+        "purpose": "Identify overbought or oversold conditions"
+      },
+      {
+        "metric": "momentum_14",
+        "calculation": "Closing price 14 days ago minus current closing price",
+        "purpose": "Measure speed and magnitude of recent price changes"
+      },
+      {
+        "metric": "rate_of_change_14",
+        "calculation": "(Closing price today / Closing price 14 days ago) - 1",
+        "purpose": "Track percentage changes in price"
+      }
+    ],
+    "comparisons": [
+      "Current RSI vs threshold levels (30/70)",
+      "Momentum vs historical momentum",
+      "Rate of change vs previous 14 periods"
+    ]
+  },
+  {
+    "insight_type": "volume_analysis",
+    "question": "Analyze how recent trading volumes compare to historical averages to detect accumulation or distribution phases.",
+    "required_metrics": [
+      {
+        "metric": "volume_5_MA",
+        "calculation": "5-day moving average of volume",
+        "purpose": "Smooth out short-term volume fluctuations"
+      },
+      {
+        "metric": "volume_50_MA",
+        "calculation": "50-day moving average of volume",
+        "purpose": "Assess longer-term volume trends"
+      },
+      {
+        "metric": "volume_to_price_change_ratio",
+        "calculation": "Daily volume divided by absolute price change",
+        "purpose": "Identify volume's impact on price movements"
+      }
+    ],
+    "comparisons": [
+      "Current volume vs moving averages",
+      "Volume trends vs price trends",
+      "Volume/price change ratio vs historical values"
+    ]
+  },
+  {
+    "insight_type": "price_directional_bias",
+    "question": "Determine the directional bias of the asset using price patterns and moving average crossovers.",
+    "required_metrics": [
+      {
+        "metric": "EMA_12",
+        "calculation": "12-day Exponential Moving Average of closing price",
+        "purpose": "Shorter period indicator for crossovers"
+      },
+      {
+        "metric": "EMA_26",
+        "calculation": "26-day Exponential Moving Average of closing price",
+        "purpose": "Longer period indicator for crossovers"
+      },
+      {
+        "metric": "daily_price_pattern",
+        "calculation": "Identification of candlestick patterns (e.g., Doji, Hammer)",
+        "purpose": "Predict potential reversal or continuation"
+      }
+    ],
+    "comparisons": [
+      "EMA crossovers (12 vs 26)",
+      "Price movements vs identified patterns",
+      "Current bias vs historical direction"
+    ]
+  },
+  {
+    "insight_type": "performance_over_time",
+    "question": "Compare the asset's performance over multiple timeframes to determine its relative strength against market or sector benchmarks.",
+    "required_metrics": [
+      {
+        "metric": "closing_price_change_weekly",
+        "calculation": "Closing price today minus closing price 5 trading days ago",
+        "purpose": "Short-term performance analysis"
+      },
+      {
+        "metric": "closing_price_change_monthly",
+        "calculation": "Closing price today minus closing price 20 trading days ago",
+        "purpose": "Medium-term performance analysis"
+      },
+      {
+        "metric": "sector_index_performance",
+        "calculation": "Percentage change in relevant sector index over similar periods",
+        "purpose": "Benchmark for sector performance"
+      }
+    ],
+    "comparisons": [
+      "Asset weekly/monthly performance vs benchmarks",
+      "Current performance vs historical averages",
+      "Asset vs sector/index performance"
+    ]
+  }
+]

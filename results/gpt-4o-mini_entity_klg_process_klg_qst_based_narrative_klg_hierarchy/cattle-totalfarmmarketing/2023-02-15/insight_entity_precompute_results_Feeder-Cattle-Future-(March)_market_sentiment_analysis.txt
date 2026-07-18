@@ -1,0 +1,4 @@
+METRIC:Closing_Trend_7d	VALUE:sideways	UNIT:	TYPE:str
+METRIC:Opening_Trend_7d	VALUE:sideways	UNIT:	TYPE:str
+METRIC:Trend_Comparison	VALUE:sideways vs sideways	UNIT:	TYPE:str
+METRIC:Closing_Volume_Correlation	VALUE:0.5772688250510468	UNIT:	TYPE:float

@@ -1,0 +1,52 @@
+{
+  "Volatility Analysis": [
+    {
+      "key_idea": "Relationship between Daily Range and Market News",
+      "description": "Volatility in crude oil and natural gas markets often spikes during the release of critical market news or economic indicators, such as OPEC meetings, inventory reports, or geopolitical tensions. Such events can widen the daily range significantly."
+    },
+    {
+      "key_idea": "ATR as a Volatility Measure",
+      "description": "The Average True Range (ATR) is frequently used to gauge market volatility, with higher values indicating more significant price movement and potential trading opportunities. ATR should be compared over different periods to assess changes in market volatility."
+    }
+  ],
+  "Liquidity Analysis": [
+    {
+      "key_idea": "Volume Trends Indicative of Market Liquidity",
+      "description": "Higher trading volumes typically indicate better liquidity, facilitating smoother execution of large trades without causing significant price impacts. Seasonal demand changes and production adjustments are common influencers of volume trends."
+    },
+    {
+      "key_idea": "Liquidity and Price Stability",
+      "description": "Increased liquidity typically coincides with greater price stability as the market can absorb large transactions without substantial price fluctuations. Conversely, low liquidity can lead to higher volatility."
+    }
+  ],
+  "Price Momentum": [
+    {
+      "key_idea": "RSI in Detecting Overbought or Oversold Conditions",
+      "description": "The Relative Strength Index (RSI) is a common momentum indicator that helps identify overbought (>70) or oversold (<30) market conditions, often preceding price reversals or trend continuations."
+    },
+    {
+      "key_idea": "Divergence Patterns",
+      "description": "Price momentum diversions, where price makes a new high but the momentum indicator does not, can signal potential trend reversals or weakening trends."
+    }
+  ],
+  "Performance Comparison": [
+    {
+      "key_idea": "Comparative Returns Analysis",
+      "description": "Comparing returns of Brent and WTI crude oil can reveal relative performance often influenced by geographical supply and demand factors, currency swings, and regional disruptions."
+    },
+    {
+      "key_idea": "Temporal Impact on Returns",
+      "description": "Different periods (e.g., quarterly vs. yearly) can highlight varying performance drivers, such as seasonality, economic cycles, or policy changes affecting one commodity distinctly."
+    }
+  ],
+  "Support/Resistance Strength": [
+    {
+      "key_idea": "Volume Clusters at Price Levels",
+      "description": "High trading volumes around specific price levels often indicate stronger support or resistance, as these levels represent significant market interest and potential reversal zones."
+    },
+    {
+      "key_idea": "Support and Resistance Breach Implications",
+      "description": "Breaching established support or resistance levels may signal significant trend shifts, often confirmed by subsequent volume increases, validating the new price direction."
+    }
+  ]
+}

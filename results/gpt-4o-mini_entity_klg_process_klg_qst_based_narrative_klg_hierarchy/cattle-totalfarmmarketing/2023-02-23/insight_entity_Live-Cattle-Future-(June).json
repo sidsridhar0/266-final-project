@@ -1,0 +1,39 @@
+{
+  "type": "all",
+  "entity": "Live Cattle Future (third month) (June)",
+  "interpretation": "The analysis of Live Cattle futures indicates a moderately volatile market with a significant increase in trading volume. Prices are above key resistance levels, supported by bullish sentiment as 75% of the trading days last week closed higher.",
+  "significance_score": 0.66,
+  "score_reasoning": "The combination of increased trading volume and the closing price above resistance, alongside a predominantly positive closing trend, suggests a strong upward momentum in the market, which is favorable for investors considering entry points.",
+  "individual_insights": [
+    {
+      "question": "Evaluate market volatility for the product on the date of interest by calculating the average true range (ATR) and the standard deviation of the closing prices over the last 14 days.",
+      "interpretation": "The ATR is 0.8543, indicating a moderate level of volatility for Live Cattle futures, while the standard deviation of closing prices at 0.5490 points to noticeable price fluctuations around the average. This suggests a market that may undergo significant price movement.",
+      "significance_score": 0.65,
+      "reasoning": ""
+    },
+    {
+      "question": "Analyze trading volume trends by comparing the volume on the date of interest against the average volume over the past 30 days.",
+      "interpretation": "The current volume stands at 17,210, significantly higher than the 30-day average of 11,861.95, reflecting a 45.09% increase. This spike indicates heightened market activity which could precede or accompany price movements.",
+      "significance_score": 0.75,
+      "reasoning": ""
+    },
+    {
+      "question": "Identify significant price movements by evaluating the percentage change in closing price from the previous day to the current day.",
+      "interpretation": "The percentage change in price from yesterday is 0.1117%, suggesting modest daily movement. The previous closing price was 161.10, and the slight increase may indicate stability rather than volatility at current levels.",
+      "significance_score": 0.4,
+      "reasoning": ""
+    },
+    {
+      "question": "Determine key support and resistance levels by analyzing the closing prices over the last 30 days to find price levels that have been touched multiple times.",
+      "interpretation": "The identified support level is 157.38 and the resistance level is 158.2. The current price of 161.28 is above resistance, indicating that the market may continue to experience upward momentum, but potential corrections could occur if it faces selling pressure.",
+      "significance_score": 0.7,
+      "reasoning": ""
+    },
+    {
+      "question": "Evaluate market sentiment by analyzing the closing prices relative to their opening prices over the past week to assess whether prices are closing higher or lower than they opened.",
+      "interpretation": "The weekly analysis shows that prices have closed higher 75% of the time, suggesting bullish sentiment in the market, which reflects positively on investor confidence and potential for continued buying pressure.",
+      "significance_score": 0.8,
+      "reasoning": ""
+    }
+  ]
+}

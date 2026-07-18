@@ -1,0 +1,27 @@
+[
+  {
+    "cluster_name": "Precious Metals",
+    "entities": [
+      "Gold",
+      "Silver"
+    ],
+    "reason_of_clustering": "Gold and Silver are both classified as precious metals and are commonly traded together in commodity markets. They often reflect similar market sentiments, inflationary pressures, and geopolitical risks, influencing their price movements in tandem."
+  },
+  {
+    "cluster_name": "Safe Haven Assets",
+    "entities": [
+      "Gold",
+      "Dollar Index"
+    ],
+    "reason_of_clustering": "Gold is traditionally viewed as a safe haven during economic uncertainty while the Dollar Index serves as a gauge of the dollar's strength against a basket of currencies. Movements in the Dollar Index can inversely affect gold prices, making them relevant to investors seeking stability."
+  },
+  {
+    "cluster_name": "Correlation Indicators",
+    "entities": [
+      "Gold",
+      "Silver",
+      "Dollar Index"
+    ],
+    "reason_of_clustering": "All three entities are interrelated in the sense that they are often used as indicators for broader market trends. Changes in gold and silver prices can signal shifts in market sentiment, which are also reflected in the Dollar Index, thus providing a comprehensive view of market conditions."
+  }
+]

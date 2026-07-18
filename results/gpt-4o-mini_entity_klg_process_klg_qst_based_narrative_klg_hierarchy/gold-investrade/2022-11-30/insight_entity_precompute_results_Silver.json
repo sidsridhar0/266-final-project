@@ -1,0 +1,122 @@
+[
+  {
+    "insight_type": "volatility_analysis",
+    "question": {
+      "insight_type": "volatility analysis",
+      "question": "Analyze the volatility of gold prices over the past month by calculating the daily price range and standard deviation of closing prices.",
+      "required_metrics": [
+        {
+          "metric": "daily_price_range",
+          "calculation": "High - Low on each day",
+          "purpose": "Measure daily price fluctuations"
+        },
+        {
+          "metric": "30_day_std_dev",
+          "calculation": "Standard deviation of last 30 days' closing prices",
+          "purpose": "Understand price volatility and risk"
+        }
+      ],
+      "comparisons": [
+        "Current daily price range vs historical averages",
+        "Current standard deviation vs previous months"
+      ]
+    },
+    "results": "METRIC:daily_price_range\tVALUE:0.990000000000002\tUNIT:USD\tTYPE:float\nMETRIC:30_day_std_dev\tVALUE:nan\tUNIT:USD\tTYPE:float\nMETRIC:historical_daily_range_avg\tVALUE:0.673478260869565\tUNIT:USD\tTYPE:float\nMETRIC:historical_std_dev_avg\tVALUE:nan\tUNIT:USD\tTYPE:float\n"
+  },
+  {
+    "insight_type": "price_trend_strength",
+    "question": {
+      "insight_type": "price trend strength",
+      "question": "Evaluate the strength of the price trend by comparing the current close price to the 14-day Relative Strength Index (RSI) and determining overbought or oversold conditions.",
+      "required_metrics": [
+        {
+          "metric": "RSI_14",
+          "calculation": "14-day RSI based on average gains and losses",
+          "purpose": "Identify trends' strength and overbought/oversold conditions"
+        },
+        {
+          "metric": "current_close",
+          "calculation": "Close price of the most recent trading day",
+          "purpose": "Determine positioning against RSI signals"
+        }
+      ],
+      "comparisons": [
+        "Current RSI level vs 70 (overbought) and 30 (oversold) thresholds",
+        "Current close price vs historical RSI trends"
+      ]
+    },
+    "results": "METRIC:RSI_14\tVALUE:56.2500\tUNIT:\tTYPE:float64\nMETRIC:current_close\tVALUE:22.1900\tUNIT:\tTYPE:float64\nMarket is neither overbought nor oversold.\n"
+  },
+  {
+    "insight_type": "volume_analysis",
+    "question": {
+      "insight_type": "volume analysis",
+      "question": "Assess the trading volume trends by comparing the current volume against the average volume over the last 30 days.",
+      "required_metrics": [
+        {
+          "metric": "current_volume",
+          "calculation": "Total trading volume on the most recent day",
+          "purpose": "Gauge market activity"
+        },
+        {
+          "metric": "avg_30_day_volume",
+          "calculation": "Average trading volume over the last 30 days",
+          "purpose": "Identify significant spikes or drops in trading activity"
+        }
+      ],
+      "comparisons": [
+        "Current volume vs average 30-day volume",
+        "Current volume vs historical averages during market events"
+      ]
+    },
+    "results": "METRIC:current_volume\tVALUE:5518.0\tUNIT:volume\tTYPE:float\nMETRIC:avg_30_day_volume\tVALUE:5778.409090909091\tUNIT:volume\tTYPE:float\n"
+  },
+  {
+    "insight_type": "percentage_change",
+    "question": {
+      "insight_type": "percentage change",
+      "question": "Calculate the percentage price change from the opening price to the closing price on the current trading day and compare it with the previous day's change.",
+      "required_metrics": [
+        {
+          "metric": "percentage_change_current",
+          "calculation": "(Close - Open) / Open * 100",
+          "purpose": "Measure daily price movement as a percentage"
+        },
+        {
+          "metric": "percentage_change_previous",
+          "calculation": "(Close - Open) / Open * 100 from the previous day",
+          "purpose": "Analyze daily change trend"
+        }
+      ],
+      "comparisons": [
+        "Current percentage change vs previous day's change",
+        "Current percentage change vs historical trends"
+      ]
+    },
+    "results": "METRIC:percentage_change_current\tVALUE:4.4235\tUNIT:percent\tTYPE:float\nMETRIC:percentage_change_previous\tVALUE:1.5774\tUNIT:percent\tTYPE:float\n"
+  },
+  {
+    "insight_type": "support_and_resistance_levels",
+    "question": {
+      "insight_type": "support and resistance levels",
+      "question": "Determine key support and resistance levels by analyzing the high, low, and close prices over the past 30 days, identifying two significant price levels.",
+      "required_metrics": [
+        {
+          "metric": "support_level",
+          "calculation": "Identify the lowest price with several rebounds in the past 30 days",
+          "purpose": "Define a level where buying interest may increase"
+        },
+        {
+          "metric": "resistance_level",
+          "calculation": "Identify the highest price with several rejections in the past 30 days",
+          "purpose": "Establish a level where selling pressure may increase"
+        }
+      ],
+      "comparisons": [
+        "Current price vs support and resistance levels",
+        "Recent price movements relative to identified support/resistance"
+      ]
+    },
+    "results": "METRIC:support_level\tVALUE:18.86\tUNIT:price\tTYPE:float\nMETRIC:resistance_level\tVALUE:22.25\tUNIT:price\tTYPE:float\nMETRIC:closing_price\tVALUE:22.19\tUNIT:price\tTYPE:float\n"
+  }
+]

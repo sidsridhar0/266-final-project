@@ -1,0 +1,94 @@
+[
+  {
+    "cluster_name": "Live Cattle Futures Cluster",
+    "entities": [
+      "Live Cattle Future (front month) (February)",
+      "Live Cattle Future (second month) (April)",
+      "Live Cattle Future (third month) (June)"
+    ],
+    "cluster_insights": [
+      {
+        "type": "Trend Correlation",
+        "description": "Both Feeder Cattle and Live Cattle Futures are experiencing predominantly upward trends with more up-days than down-days and trend consistency ratios indicating a bullish trend over the past quarter. They both have reduced trading volume, suggesting limited market participation, and RSI values indicating potential overbought conditions.",
+        "supporting_insights": [
+          "Entity insight for February demonstrating a strong upward trend with consistent upward price movements.",
+          "Entity insight for April showing a moderately strong upward trend in price movement consistency.",
+          "Entity insight for June indicating a moderately bullish trend over the past quarter."
+        ],
+        "significance": "The sustained upward trends across different months indicate a strong market sentiment towards cattle futures. This could guide investment decisions as traders may anticipate further upward movements, despite the risk of corrections due to overbought conditions.",
+        "significance_score": 0.9
+      },
+      {
+        "type": "RSI and Overbought Conditions",
+        "description": "Both Feeder and Live Cattle Futures are close to reaching overbought RSI levels, suggesting that both markets might face similar potential for price reversals in the near term.",
+        "supporting_insights": [
+          "Entity insight for February with RSI of 89.23 indicating an overbought condition.",
+          "Entity insight for April with RSI of 72.03 indicating an overbought condition.",
+          "Pairwise insight indicating both markets might face price reversals due to overbought conditions."
+        ],
+        "significance": "RSI is a key momentum indicator, and reaching overbought levels suggests a high probability of market correction. This insight is crucial for short-term trading and hedging strategies, alerting traders to the risk of imminent price reversals.",
+        "significance_score": 0.85
+      },
+      {
+        "type": "Volume and Market Engagement Relationship",
+        "description": "While Feeder Cattle Futures show stable trading activity with slight upward trends, Live Cattle Futures for the same month reflect reduced volume and potential waning participation.",
+        "supporting_insights": [
+          "Significant volume decrease noted in February and April contracts, highlighting reduced trading activity.",
+          "Pairwise insight on volume decrease pointing to potential waning participation across live cattle futures."
+        ],
+        "significance": "Trading volume is a direct measure of market engagement and liquidity. A consistent decrease can indicate underlying issues such as trader disinterest or external market disruptions, which are critical for understanding market dynamics and planning trades.",
+        "significance_score": 0.8
+      },
+      {
+        "type": "Volatility and Stability Comparison",
+        "description": "While both Feeder Cattle and Live Cattle Futures exhibit decreased trading volumes, their volatility patterns differ. The Live Cattle Future's reduced volatility reflects significantly decreased market activity, whereas the Feeder Cattle Future sustains moderate volatility, indicating persistent market engagement albeit reduced.",
+        "supporting_insights": [
+          "Entity insight for June indicating reduced daily volatility.",
+          "Entity insight for February exhibiting relatively stable volatility."
+        ],
+        "significance": "Understanding the differing volatility and stability levels can guide risk management strategies, as traders need to adjust their approaches based on market activity levels. This difference highlights the need to consider specific contract behaviors when planning trades or hedges.",
+        "significance_score": 0.75
+      }
+    ]
+  },
+  {
+    "cluster_name": "Feeder Cattle Futures Cluster",
+    "entities": [
+      "Feeder Cattle Future (front month) (March)",
+      "Feeder Cattle Future (second month) (April)",
+      "Feeder Cattle Future (third month) (May)"
+    ],
+    "cluster_insights": [
+      {
+        "type": "Market Momentum and Volatility Relationship",
+        "description": "Both Feeder Cattle Futures (second and front month) show lower than average intraday ranges, indicating reduced volatility. However, the front month displays a stronger upward price trend, suggesting differing momentum despite similar volatility.",
+        "supporting_insights": [
+          "The Feeder Cattle Future (second month) exhibits stable conditions with moderate volatility and slight upward momentum.",
+          "The Feeder Cattle Future (front month) demonstrates moderate volatility with a robust upward trend."
+        ],
+        "significance": "The differences in momentum despite similar volatility highlight varying market sentiment, which is crucial for traders to adjust strategies according to market expectations.",
+        "significance_score": 0.85
+      },
+      {
+        "type": "Trend Correlation",
+        "description": "Both Feeder Cattle Futures are experiencing predominantly upward trends with more up-days than down-days and show RSI values approaching overbought conditions.",
+        "supporting_insights": [
+          "Feeder Cattle Future (front month) has a trend consistency ratio of 0.67, showing strong upward momentum.",
+          "Feeder Cattle Future (second month) has 12 up days out of 19, indicating positive sentiment."
+        ],
+        "significance": "The prevalent upward trend across these contracts indicates overall positive market sentiment, preparing traders for potential trend continuation or reversal scenarios.",
+        "significance_score": 0.9
+      },
+      {
+        "type": "RSI and Overbought Conditions",
+        "description": "Both Feeder Cattle Futures show RSI levels nearing overbought conditions, suggesting possible price reversals.",
+        "supporting_insights": [
+          "The RSI for Feeder Cattle Future (second month) is 67.45, indicating proximity to the overbought threshold.",
+          "Feeder Cattle Future (front month) has an RSI of 65.19, showing strong but worrisome momentum."
+        ],
+        "significance": "RSI nearing overbought conditions is significant as it alerts traders to potential price corrections, helping manage market entry and exit effectively.",
+        "significance_score": 0.82
+      }
+    ]
+  }
+]

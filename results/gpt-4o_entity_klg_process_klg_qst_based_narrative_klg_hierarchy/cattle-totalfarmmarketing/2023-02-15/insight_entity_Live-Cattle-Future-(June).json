@@ -1,0 +1,34 @@
+{
+  "type": "all",
+  "entity": "Live Cattle Future (third month) (June)",
+  "interpretation": "The cattle market is currently exhibiting reduced daily volatility and trading volume, possibly indicating decreased market activity. The trend over the past quarter has been moderately bullish, but current resistance and support levels are weakly defined. The market is nearing an overbought condition, suggesting caution for potential reversal.",
+  "significance_score": 0.7,
+  "score_reasoning": "The reduced volatility and trading volume suggest traders might be adopting a wait-and-see approach, possibly due to economic or seasonal factors. The moderately bullish trend shows prevailing optimism among investors, but nearing overbought conditions highlight the risk for potential corrections. Weak support and resistance levels suggest the market lacks firm price direction.",
+  "individual_insights": [
+    {
+      "question": "Assess the daily volatility of the cattle market by comparing the intraday price range relative to the closing price over the past month.",
+      "interpretation": "The intraday range for the current date is 0.72, which is lower than the average intraday range of 0.92 over the past month, suggesting reduced volatility today compared to the monthly average. The percentage volatility today is 0.45%, indicating that today's price range is relatively stable within the context of closing prices.",
+      "significance_score": 0.7
+    },
+    {
+      "question": "Evaluate the trading activity by analyzing the volume trends and identifying any significant spikes or declines over the past two weeks.",
+      "interpretation": "The volume today was lower by 3207.93 units from the average of 12176.93 units, representing a 26.34% decrease. This significant drop suggests a potential reduction in trading interest or market liquidity.",
+      "significance_score": 0.8
+    },
+    {
+      "question": "Determine the consistency of the price trend by analyzing the frequency of upward or downward movements in closing prices over the past quarter.",
+      "interpretation": "Over the past quarter, there were 12 up days compared to 9 down days, with a trend consistency ratio of 0.57. This indicates a moderately bullish trend over the period.",
+      "significance_score": 0.6
+    },
+    {
+      "question": "Identify key support and resistance levels by evaluating price patterns and their frequency of touch over multiple time frames.",
+      "interpretation": "Key support at 159.8 and resistance levels between 157.43 and 160.75 have only been touched 2-3 times, indicating potential but not strong reliability of these levels. The frequency is low, suggesting limited attempts to test these levels.",
+      "significance_score": 0.5
+    },
+    {
+      "question": "Examine the market momentum by calculating and comparing relative strength indices and their levels over the past month.",
+      "interpretation": "The current RSI is 69.58, close to the overbought threshold of 70, indicating the market is nearing an overbought condition, but the average RSI couldn't be determined due to missing data. Current momentum appears neutral.",
+      "significance_score": 0.7
+    }
+  ]
+}

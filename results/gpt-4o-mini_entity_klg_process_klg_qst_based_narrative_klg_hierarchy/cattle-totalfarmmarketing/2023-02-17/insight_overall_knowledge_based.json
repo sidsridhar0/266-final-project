@@ -1,0 +1,75 @@
+[
+  {
+    "type": "price proximity to resistance",
+    "description": "Current prices for both feeder and live cattle futures are nearing critical resistance levels, suggesting potential price resistance that traders should consider before executing trades.",
+    "supporting_insights": [
+      "The current price of 190.45 for second month feeder cattle is approaching a resistance level of 192.45.",
+      "The price of 186.52 for front month feeder cattle is nearing a resistance level of 188.58.",
+      "The current price of 194.35 for third month feeder cattle is close to a resistance of 196.20.",
+      "The current price of 163.57 for front month live cattle is nearing a resistance level of 164.08.",
+      "The current price of 160.12 for third month live cattle is approaching a resistance of 160.75."
+    ],
+    "entities": [
+      "Feeder Cattle Future (second month)",
+      "Feeder Cattle Future (front month)",
+      "Feeder Cattle Future (third month)",
+      "Live Cattle Future (front month)",
+      "Live Cattle Future (third month)"
+    ],
+    "significance": "Understanding resistance levels is crucial for traders as it indicates potential reversal points that could impact pricing strategies.",
+    "significance_score": 0.9
+  },
+  {
+    "type": "impact of traded volume and market sentiment",
+    "description": "Decreased trading volumes across various cattle futures reflect a lack of market engagement and uncertain market sentiment, while elevated volumes indicate stronger participation and trader confidence.",
+    "supporting_insights": [
+      "Current trading volume for feeder cattle futures (April) is 2911, lower than the average of 3288.95, indicating reduced market participation.",
+      "The volume for feeder cattle futures (March) is 4102, significantly below the average of 7247, indicating diminished trading activity.",
+      "Current volume for feeder cattle (May) is close to average, reflecting standard trading activity.",
+      "Front month live cattle futures have a trading volume of 2754, significantly lower than the average of 9031.27.",
+      "Third month live cattle futures show heightened trading activity with a volume of 12371, above the average of 11187."
+    ],
+    "entities": [
+      "Feeder Cattle Future (second month)",
+      "Feeder Cattle Future (front month)",
+      "Feeder Cattle Future (third month)",
+      "Live Cattle Future (front month)",
+      "Live Cattle Future (third month)"
+    ],
+    "significance": "Volume can be a leading indicator of sentiment, helping traders gauge market confidence and potential price movements.",
+    "significance_score": 0.85
+  },
+  {
+    "type": "correlation between price trends and volatility",
+    "description": "Variations in market volatility are significantly related to price trends, indicating how increased volatility can impact market sentiment and trader behavior.",
+    "supporting_insights": [
+      "Feeder cattle futures exhibit lower volatility with slight price decreases, suggesting stability.",
+      "Live cattle futures show increased volatility alongside a slight upward price trend, indicating potential bullish sentiment.",
+      "The live cattle market experiences mixed signals with conflicting closing and opening trends amidst higher volatility."
+    ],
+    "entities": [
+      "Feeder Cattle Future (second month)",
+      "Feeder Cattle Future (front month)",
+      "Live Cattle Future (front month)",
+      "Live Cattle Future (third month)"
+    ],
+    "significance": "Monitoring the relationship between volatility and price trends helps traders understand potential market movements and make informed decisions.",
+    "significance_score": 0.8
+  },
+  {
+    "type": "volatility patterns",
+    "description": "Different volatility patterns are observed across front month and third month cattle futures, impacting trader strategies due to their varying sensitivities to market news.",
+    "supporting_insights": [
+      "Front month cattle futures tend to show higher volatility in response to immediate market changes.",
+      "Third month futures exhibit more stable patterns influenced by longer-term market expectations and seasonality."
+    ],
+    "entities": [
+      "Live Cattle Future (front month)",
+      "Live Cattle Future (third month)",
+      "Feeder Cattle Future (front month)",
+      "Feeder Cattle Future (third month)"
+    ],
+    "significance": "Recognizing different volatility patterns aids in formulating strategies based on the maturity of futures contracts.",
+    "significance_score": 0.75
+  }
+]

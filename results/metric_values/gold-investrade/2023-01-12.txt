@@ -1,0 +1,195 @@
+Entity: Gold
+Price Information:
+  Open: 1875.90
+  High: 1899.97
+  Low: 1875.37
+  Close: 1897.13
+  Volume: 5623
+
+Moving Averages:
+  SMA_10: 1856.5490
+  SMA_20: 1830.4885
+  EMA_20: 1842.0748
+  EMA_50: 1824.7323
+  EMA_100: 1817.8467
+
+Oscillators:
+  RSI_14: 80.22%
+  MACD_Line: 19.4214
+  MACD_Signal: 11.6876
+  MACD_Histogram: 7.7338
+  Stochastic_%K: 97.2247
+  Stochastic_%D: 94.4225
+
+Volatility Indicators:
+  BB_Upper: 1895.7679
+  BB_Middle: 1830.4885
+  BB_Lower: 1765.2091
+  BB_Width: 0.0713
+  ATR_20: 20.0515
+  Daily_Volatility: 0.1247
+  Weekly_Volatility: 0.0549
+  Monthly_Volatility: 0.0306
+
+Volume Indicators:
+  Volume: 5623.0000
+  Volume_MA_10: 6146.2000
+  Volume_MA_20: 8077.4500
+  Volume_ROC: -1.2643
+  Vol_Price_Corr_20: -0.5184
+
+Price Indicators:
+  Daily_Range: 24.6000
+  Daily_Range_Pct: 1.30%
+  Weekly_Range: 68.1000
+  Weekly_Range_Pct: 3.59%
+  Price_Change_1d: 21.2000
+  Price_Change_Pct_1d: 1.13%
+  Price_Change_5d: 64.1200
+  Price_Change_Pct_5d: 3.50%
+  Price_Change_7d: 57.5200
+  Price_Change_Pct_7d: 3.13%
+
+Support & Resistance:
+  Pivot: 1890.8233
+  Support1: 1881.6767
+  Support2: 1866.2233
+  Resistance1: 1906.2767
+  Resistance2: 1915.4233
+  Support_Level: 1775.0900
+  Resistance_Level: 1899.9700
+
+Momentum:
+  Momentum_10: 82.2400
+  Momentum_Pct_10: 4.53%
+
+
+Entity: Silver
+Price Information:
+  Open: 23.42
+  High: 24.12
+  Low: 23.40
+  Close: 23.77
+  Volume: 4241
+
+Moving Averages:
+  SMA_10: 23.7300
+  SMA_20: 23.7090
+  EMA_20: 23.7011
+  EMA_50: 23.7116
+  EMA_100: 23.7178
+
+Oscillators:
+  RSI_14: 50.43%
+  MACD_Line: -0.0187
+  MACD_Signal: 0.0018
+  MACD_Histogram: -0.0205
+  Stochastic_%K: 45.6522
+  Stochastic_%D: 33.0918
+
+Volatility Indicators:
+  BB_Upper: 24.3289
+  BB_Middle: 23.7090
+  BB_Lower: 23.0891
+  BB_Width: 0.0523
+  ATR_20: 0.5665
+  Daily_Volatility: 0.2700
+  Weekly_Volatility: 0.1105
+  Monthly_Volatility: 0.0641
+
+Volume Indicators:
+  Volume: 4241.0000
+  Volume_MA_10: 4626.4000
+  Volume_MA_20: 6025.0500
+  Volume_ROC: -0.6093
+  Vol_Price_Corr_20: -0.0086
+
+Price Indicators:
+  Daily_Range: 0.7200
+  Daily_Range_Pct: 3.03%
+  Weekly_Range: 0.9100
+  Weekly_Range_Pct: 3.83%
+  Price_Change_1d: 0.3500
+  Price_Change_Pct_1d: 1.49%
+  Price_Change_5d: 0.5300
+  Price_Change_Pct_5d: 2.28%
+  Price_Change_7d: -0.2400
+  Price_Change_Pct_7d: -1.00%
+
+Support & Resistance:
+  Pivot: 23.7633
+  Support1: 23.4067
+  Support2: 23.0433
+  Resistance1: 24.1267
+  Resistance2: 24.4833
+  Support_Level: 22.5700
+  Resistance_Level: 24.5200
+
+Momentum:
+  Momentum_10: -0.1300
+  Momentum_Pct_10: -0.54%
+
+
+Entity: Dollar Index
+Price Information:
+  Open: 103.06
+  High: 103.29
+  Low: 102.08
+  Close: 102.25
+  Volume: 0
+
+Moving Averages:
+  SMA_10: 103.6730
+  SMA_20: 103.9990
+  EMA_20: 103.7706
+  EMA_50: 103.9362
+  EMA_100: 103.9705
+
+Oscillators:
+  RSI_14: 36.49%
+  MACD_Line: -0.2678
+  MACD_Signal: -0.0710
+  MACD_Histogram: -0.1968
+  Stochastic_%K: 4.7887
+  Stochastic_%D: 8.4116
+
+Volatility Indicators:
+  BB_Upper: 105.3685
+  BB_Middle: 103.9990
+  BB_Lower: 102.6295
+  BB_Width: 0.0263
+  ATR_20: 0.8505
+  Daily_Volatility: 0.0898
+  Weekly_Volatility: 0.0425
+
+Volume Indicators:
+  Volume: 0.0000
+  Volume_MA_10: 0.0000
+  Volume_MA_20: 0.0000
+
+Price Indicators:
+  Daily_Range: 1.2100
+  Daily_Range_Pct: 1.18%
+  Weekly_Range: 3.5500
+  Weekly_Range_Pct: 3.47%
+  Price_Change_1d: -0.9400
+  Price_Change_Pct_1d: -0.91%
+  Price_Change_5d: -2.7900
+  Price_Change_Pct_5d: -2.66%
+  Price_Change_7d: -2.2700
+  Price_Change_Pct_7d: -2.17%
+
+Support & Resistance:
+  Pivot: 102.5400
+  Support1: 101.7900
+  Support2: 101.3300
+  Resistance1: 103.0000
+  Resistance2: 103.7500
+  Support_Level: 102.0800
+  Resistance_Level: 105.6300
+
+Momentum:
+  Momentum_10: -2.2100
+  Momentum_Pct_10: -2.12%
+
+

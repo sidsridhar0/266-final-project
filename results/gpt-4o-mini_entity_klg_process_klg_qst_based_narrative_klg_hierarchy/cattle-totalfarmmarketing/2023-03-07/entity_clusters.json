@@ -1,0 +1,20 @@
+[
+  {
+    "cluster_name": "Live Cattle Futures",
+    "entities": [
+      "Live Cattle Future (front month) (April)",
+      "Live Cattle Future (second month) (June)",
+      "Live Cattle Future (third month) (August)"
+    ],
+    "reason_of_clustering": "These entities are all live cattle futures contracts with different expiration months. They are traded on the same underlying commodity and share a common market dynamic, influenced by factors such as cattle supply, demand trends, and seasonal patterns in production and consumption."
+  },
+  {
+    "cluster_name": "Feeder Cattle Futures",
+    "entities": [
+      "Feeder Cattle Future (front month) (March)",
+      "Feeder Cattle Future (second month) (April)",
+      "Feeder Cattle Future (third month) (May)"
+    ],
+    "reason_of_clustering": "These entities are feeder cattle futures contracts that also represent different months of expiration. As with live cattle futures, they are influenced by similar market factors but specifically relate to feeder cattle, which are young cattle raised for beef production. The clustering indicates their direct relationship in terms of hedging or speculative trading in the cattle market."
+  }
+]

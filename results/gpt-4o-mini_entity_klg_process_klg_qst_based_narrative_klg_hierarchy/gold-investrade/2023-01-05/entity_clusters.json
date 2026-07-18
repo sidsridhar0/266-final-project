@@ -1,0 +1,26 @@
+[
+  {
+    "cluster_name": "Precious Metals Cluster",
+    "entities": [
+      "Gold",
+      "Silver"
+    ],
+    "reason_of_clustering": "Gold and Silver are both precious metals that often move in correlation with each other due to their status as safe-haven assets. They tend to attract similar investor sentiment, especially during economic uncertainty."
+  },
+  {
+    "cluster_name": "Currency Impact Cluster",
+    "entities": [
+      "Gold",
+      "Dollar Index"
+    ],
+    "reason_of_clustering": "The Dollar Index measures the value of the U.S. dollar relative to a basket of foreign currencies. Gold is typically inversely related to the dollar's strength, making it essential to analyze both together to understand their impact on market trends."
+  },
+  {
+    "cluster_name": "Investment Asset Cluster",
+    "entities": [
+      "Gold",
+      "Silver"
+    ],
+    "reason_of_clustering": "Both Gold and Silver are popular investment assets, particularly among those looking to hedge against inflation or currency devaluation. Their performance is often evaluated in conjunction with one another."
+  }
+]

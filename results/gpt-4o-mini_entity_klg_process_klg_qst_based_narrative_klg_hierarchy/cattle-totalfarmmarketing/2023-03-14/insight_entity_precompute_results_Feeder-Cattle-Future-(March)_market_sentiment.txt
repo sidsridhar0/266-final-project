@@ -1,0 +1,12 @@
+METRIC:weekly_close_open_change
+VALUE:-2.842170943040401e-14
+UNIT:currency
+TYPE:float
+METRIC:days_closed_higher_percentage
+VALUE:20.0
+UNIT:percent
+TYPE:float
+METRIC:days_closed_lower_percentage
+VALUE:80.0
+UNIT:percent
+TYPE:float

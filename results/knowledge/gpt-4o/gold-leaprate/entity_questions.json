@@ -1,0 +1,97 @@
+[
+  {
+    "insight_type": "volatility analysis",
+    "question": "Assess the volatility of the gold-leaprate market for the current trading day compared to the average of the last 30 days.",
+    "required_metrics": [
+      {
+        "metric": "daily_range",
+        "calculation": "High minus Low for the current day",
+        "purpose": "Measure current day volatility"
+      },
+      {
+        "metric": "avg_30d_volatility",
+        "calculation": "Average of daily_range over the last 30 days",
+        "purpose": "Establish a benchmark for typical volatility"
+      }
+    ],
+    "comparisons": [
+      "Current daily range vs average 30-day volatility"
+    ]
+  },
+  {
+    "insight_type": "volume trend",
+    "question": "Determine if there are significant changes in trading volume that could indicate market interest or lack thereof.",
+    "required_metrics": [
+      {
+        "metric": "current_volume",
+        "calculation": "Volume for the current day",
+        "purpose": "Understand current trading interest"
+      },
+      {
+        "metric": "avg_30d_volume",
+        "calculation": "Average Volume over the last 30 days",
+        "purpose": "Establish typical trading interest"
+      }
+    ],
+    "comparisons": [
+      "Current volume vs average 30-day volume"
+    ]
+  },
+  {
+    "insight_type": "closing price analysis",
+    "question": "Examine the relationship between the closing price and the daily opening price to understand price directionality.",
+    "required_metrics": [
+      {
+        "metric": "closing_price",
+        "calculation": "Close for the current day",
+        "purpose": "Measure end of day price level"
+      },
+      {
+        "metric": "opening_price",
+        "calculation": "Open for the current day",
+        "purpose": "Measure start of day price level"
+      }
+    ],
+    "comparisons": [
+      "Closing price vs opening price"
+    ]
+  },
+  {
+    "insight_type": "price reversal potential",
+    "question": "Identify potential price reversal patterns by examining price behavior near recent support and resistance levels.",
+    "required_metrics": [
+      {
+        "metric": "recent_support",
+        "calculation": "Previous low points within the last 30 days",
+        "purpose": "Identify potential support levels"
+      },
+      {
+        "metric": "recent_resistance",
+        "calculation": "Previous high points within the last 30 days",
+        "purpose": "Identify potential resistance levels"
+      }
+    ],
+    "comparisons": [
+      "Current price vs recent support/resistance levels"
+    ]
+  },
+  {
+    "insight_type": "price movement",
+    "question": "Analyze the day's price movement to determine the day's most significant price driver: opening, intra-day high/low, or closing",
+    "required_metrics": [
+      {
+        "metric": "intra_day_high_low_diff",
+        "calculation": "High minus Low for the current day",
+        "purpose": "Measure intra-day price volatility"
+      },
+      {
+        "metric": "open_close_diff",
+        "calculation": "Open minus Close for the current day",
+        "purpose": "Measure net price direction at closing"
+      }
+    ],
+    "comparisons": [
+      "Open-Close diff vs intra-day high-low diff"
+    ]
+  }
+]

@@ -1,0 +1,22 @@
+{
+  "metric_patterns": [
+    "How do changes in volatility typically relate to changes in price trends for live and feeder cattle futures?",
+    "What conditions affect the relationship between traded volume and market sentiment in the cattle market?"
+  ],
+  "entity_interactions": [
+    "What are common ways that live cattle futures affect feeder cattle futures?",
+    "Under what conditions doFebruary and April live cattle futures influence each other most strongly?"
+  ],
+  "common_factors": [
+    "What external factors commonly affect multiple cattle futures entities, such as live cattle and feeder cattle?",
+    "How do feed prices typically impact different live and feeder cattle futures?"
+  ],
+  "temporal_patterns": [
+    "What typical sequences of changes occur in price trends and volatility in the cattle market over a 30-day period?",
+    "How do time-based factors such as seasonality affect relationships between different cattle futures?"
+  ],
+  "system_patterns": [
+    "What system-level conditions influence relationships between live cattle and feeder cattle futures?",
+    "How do structural factors in agricultural commodities affect interactions between live and feeder cattle futures?"
+  ]
+}

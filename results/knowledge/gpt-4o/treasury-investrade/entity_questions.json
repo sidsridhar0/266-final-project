@@ -1,0 +1,131 @@
+[
+  {
+    "insight_type": "volatility analysis",
+    "question": "Evaluate the daily volatility of each product by comparing the range of price movements and their consistency over time.",
+    "required_metrics": [
+      {
+        "metric": "daily_range",
+        "calculation": "High minus Low",
+        "purpose": "Measure intraday price movement"
+      },
+      {
+        "metric": "average_daily_range_14",
+        "calculation": "14-day average of daily_range",
+        "purpose": "Assess recent volatility trend"
+      },
+      {
+        "metric": "coefficient_of_variation",
+        "calculation": "Standard deviation of closing prices divided by their mean over 30 days",
+        "purpose": "Determine consistency and relative volatility"
+      }
+    ],
+    "comparisons": [
+      "Current day's range vs average daily range",
+      "Current day's volatility vs historical daily volatility",
+      "Volatility levels among different products"
+    ]
+  },
+  {
+    "insight_type": "momentum analysis",
+    "question": "Assess the momentum of a product's price by analyzing changes in key momentum indicators.",
+    "required_metrics": [
+      {
+        "metric": "RSI_14",
+        "calculation": "Relative Strength Index over 14 days",
+        "purpose": "Determine the strength of price movements"
+      },
+      {
+        "metric": "momentum_10",
+        "calculation": "Current closing price minus closing price 10 days ago",
+        "purpose": "Identify short-term directional force"
+      },
+      {
+        "metric": "stochastic_oscillator",
+        "calculation": "Comparison of a security's closing price to its price range over a recent period",
+        "purpose": "Identify overbought or oversold conditions"
+      }
+    ],
+    "comparisons": [
+      "Current vs prior momentum readings",
+      "RSI levels relative to thresholds for overbought/oversold"
+    ]
+  },
+  {
+    "insight_type": "liquidity analysis",
+    "question": "Analyze the liquidity conditions by evaluating trading volume and its relation to price movements.",
+    "required_metrics": [
+      {
+        "metric": "average_volume_50",
+        "calculation": "50-day moving average of Volume",
+        "purpose": "Identify normal trading volume"
+      },
+      {
+        "metric": "volume_change",
+        "calculation": "Current Volume minus average_volume_50",
+        "purpose": "Determine significant deviations in trading volume"
+      },
+      {
+        "metric": "volume_to_price_change_ratio",
+        "calculation": "Volume divided by daily price change (Close minus Open)",
+        "purpose": "Measure the relationship between volume and price"
+      }
+    ],
+    "comparisons": [
+      "Current vs historical average volume",
+      "Volume spikes vs price changes",
+      "Liquidity conditions across different products"
+    ]
+  },
+  {
+    "insight_type": "price movement patterns",
+    "question": "Identify common price movement patterns by examining relationships in daily high, low, opening, and closing prices.",
+    "required_metrics": [
+      {
+        "metric": "bullish_engulfing",
+        "calculation": "Today's close > open & Yesterday's close < yesterday's open & Today's close > Yesterday's open",
+        "purpose": "Identify bullish reversal patterns"
+      },
+      {
+        "metric": "bearish_engulfing",
+        "calculation": "Today's open > close & Yesterday's close > yesterday's open & Today's close < Yesterday's close",
+        "purpose": "Identify bearish reversal patterns"
+      },
+      {
+        "metric": "inside_day",
+        "calculation": "Today's high < Yesterday's high & Today's low > Yesterday's low",
+        "purpose": "Spot consolidation and potential breakout patterns"
+      }
+    ],
+    "comparisons": [
+      "Pattern occurrence frequency",
+      "Pattern emergence across different products",
+      "Patterns relative to general market conditions"
+    ]
+  },
+  {
+    "insight_type": "performance comparison",
+    "question": "Perform comparative analysis on different products to evaluate their relative performance over a specified time period.",
+    "required_metrics": [
+      {
+        "metric": "percentage_change_30",
+        "calculation": "(Current Close - Close 30 days ago) / Close 30 days ago * 100",
+        "purpose": "Measure percentage change over the month"
+      },
+      {
+        "metric": "relative_performance_index",
+        "calculation": "Product percentage change minus average percentage change of comparable products",
+        "purpose": "Gauge relative performance strength"
+      },
+      {
+        "metric": "sharpe_ratio",
+        "calculation": "(mean return - risk-free rate) / standard deviation of return over 30 days",
+        "purpose": "Measure risk-adjusted return"
+      }
+    ],
+    "comparisons": [
+      "Product performance vs competitors",
+      "Standard vs adjusted performance metrics",
+      "Performance relative to market indices"
+    ]
+  }
+]

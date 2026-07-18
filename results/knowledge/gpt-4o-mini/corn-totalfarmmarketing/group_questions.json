@@ -1,0 +1,18 @@
+{
+  "group_characteristics": [
+    "What common patterns appear across the different corn future contracts (May, July, September)?",
+    "How do daily volatility measures of corn futures compare among the front month, second month, and third month contracts?"
+  ],
+  "inter_group_dynamics": [
+    "How do the different maturity months of corn futures (front, second, third) typically interact in terms of price movements and trading volumes?",
+    "What external factors (e.g., weather, market news) influence relationships between the various corn future contracts?"
+  ],
+  "propagation_patterns": [
+    "How do price changes in front month corn futures typically affect the pricing of the second and third month contracts?",
+    "What market conditions enhance the transmission of volatility from one corn future contract to another?"
+  ],
+  "causal_chains": [
+    "What typical cause-effect sequences are observed when trading volume spikes in the corn market and how do they affect closing price trends across different contracts?",
+    "How do patterns in support and resistance levels for one corn future contract influence the trading decisions of related contracts?"
+  ]
+}

@@ -1,0 +1,132 @@
+[
+  {
+    "insight_type": "volatility analysis",
+    "question": "Evaluate the market volatility by computing volatility metrics over specified periods to understand price fluctuations of corn futures.",
+    "required_metrics": [
+      {
+        "metric": "daily_return",
+        "calculation": "percentage change in closing price from previous day",
+        "purpose": "Measure daily price change"
+      },
+      {
+        "metric": "rolling_volatility",
+        "calculation": "Standard deviation of daily returns over a 30-day rolling window",
+        "purpose": "Identify short-term price volatility"
+      },
+      {
+        "metric": "average_true_range (ATR)",
+        "calculation": "14-day average of the true range (max(high - low, high - previous close, previous close - low))",
+        "purpose": "Assess average price movement range"
+      }
+    ],
+    "comparisons": [
+      "Current volatility vs historical averages",
+      "Volatility trends over short and medium terms",
+      "Price reactions during high volatility periods"
+    ]
+  },
+  {
+    "insight_type": "liquidity and volume analysis",
+    "question": "Analyze the liquidity conditions by observing patterns in trading volume and their correlation to price movements.",
+    "required_metrics": [
+      {
+        "metric": "average_volume",
+        "calculation": "Average of daily volume over last 20 days",
+        "purpose": "Determine the normal level of trading activity"
+      },
+      {
+        "metric": "volume_spike",
+        "calculation": "Significant deviation from average_volume (such as >1.5 times average)",
+        "purpose": "Identify unusual trading activity"
+      },
+      {
+        "metric": "volume_moving_average",
+        "calculation": "50-day moving average of volume",
+        "purpose": "Gauge longer-term volume changes"
+      }
+    ],
+    "comparisons": [
+      "Volume spikes vs price changes",
+      "Current trading volume vs moving averages",
+      "Liquidity impacts during market events"
+    ]
+  },
+  {
+    "insight_type": "price performance analysis",
+    "question": "Assess the performance of corn futures through recent price movements relative to past performance and key benchmarks.",
+    "required_metrics": [
+      {
+        "metric": "price_change",
+        "calculation": "Closing price today minus closing price 7 days ago",
+        "purpose": "Measure short-term price performance"
+      },
+      {
+        "metric": "percentage_change_monthly",
+        "calculation": "Percentage change from last month's closing average",
+        "purpose": "Evaluate month-over-month performance"
+      },
+      {
+        "metric": "ytd_change",
+        "calculation": "Percentage change in closing price from the first trading day of the year",
+        "purpose": "Assess year-to-date performance"
+      }
+    ],
+    "comparisons": [
+      "Current price performance vs historical averages",
+      "Comparison with key commodity indices",
+      "Short-term vs long-term price trends"
+    ]
+  },
+  {
+    "insight_type": "technical indicator analysis",
+    "question": "Analyze the current market position using key technical indicators to generate signals for potential buy/sell opportunities.",
+    "required_metrics": [
+      {
+        "metric": "RSI",
+        "calculation": "Relative Strength Index calculated over 14 days",
+        "purpose": "Identify overbought or oversold conditions"
+      },
+      {
+        "metric": "bollinger_bands",
+        "calculation": "20-day moving average +/- 2 standard deviations of closing price",
+        "purpose": "Visualize volatility and identify potential market turnarounds"
+      },
+      {
+        "metric": "stochastic_oscillator",
+        "calculation": "14-day period high and low compared to current closing price",
+        "purpose": "Identify price momentum and reversal points"
+      }
+    ],
+    "comparisons": [
+      "RSI levels vs overbought/oversold thresholds",
+      "Price vs Bollinger Bands",
+      "Current vs historical technical indicator signals"
+    ]
+  },
+  {
+    "insight_type": "price trend comparison",
+    "question": "Compare recent trends against seasonal patterns to determine if current price movements align with historical seasonal trends.",
+    "required_metrics": [
+      {
+        "metric": "seasonal_average_price",
+        "calculation": "Historical average closing price for the same month across multiple years",
+        "purpose": "Establish baseline seasonal performance"
+      },
+      {
+        "metric": "seasonal_high_low",
+        "calculation": "Historical maximum and minimum prices for the same month",
+        "purpose": "Identify expected seasonal price range"
+      },
+      {
+        "metric": "current_seasonal_deviation",
+        "calculation": "Current closing price minus seasonal_average_price",
+        "purpose": "Assess deviation from typical seasonal trends"
+      }
+    ],
+    "comparisons": [
+      "Current price trend vs historical seasonal averages",
+      "Deviation from typical seasonal volatility",
+      "Short-term current trends vs long-term seasonal patterns"
+    ]
+  }
+]

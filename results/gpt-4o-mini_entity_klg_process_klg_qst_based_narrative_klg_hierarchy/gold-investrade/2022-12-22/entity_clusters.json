@@ -1,0 +1,26 @@
+[
+  {
+    "cluster_name": "Gold and Silver Cluster",
+    "entities": [
+      "Gold",
+      "Silver"
+    ],
+    "reason_of_clustering": "Gold and silver are both precious metals that often move in tandem due to shared market perceptions and investor behavior. They are seen as safe-haven assets and can be influenced by similar macroeconomic factors such as inflation, currency fluctuations, and geopolitical uncertainty."
+  },
+  {
+    "cluster_name": "Gold and Dollar Index Cluster",
+    "entities": [
+      "Gold",
+      "Dollar Index"
+    ],
+    "reason_of_clustering": "Gold often has an inverse relationship with the Dollar Index; as the dollar strengthens, gold tends to weaken and vice versa. This relationship is crucial for investors as it affects the purchasing power of gold and therefore influences investment decisions in gold."
+  },
+  {
+    "cluster_name": "Silver and Dollar Index Cluster",
+    "entities": [
+      "Silver",
+      "Dollar Index"
+    ],
+    "reason_of_clustering": "Similar to gold, silver's price is also affected by changes in the Dollar Index. As a commodity priced in dollars, fluctuations in the dollar value impact silver prices, making this cluster significant for understanding market dynamics."
+  }
+]

@@ -1,0 +1,81 @@
+[
+  {
+    "type": "Volume and Market Sentiment",
+    "description": "The reduction in trading volume across various futures indicates a cautious sentiment among traders.",
+    "supporting_insights": [
+      "The current trading volume for Live Cattle Futures is significantly lower than the 30-day average, suggesting reduced market activity and caution among traders.",
+      "Feeder Cattle Futures also show decreased volume, indicating a lack of participation from investors."
+    ],
+    "entities": [
+      "Live Cattle Future (third month)",
+      "Live Cattle Future (front month)",
+      "Feeder Cattle Future (front month)",
+      "Feeder Cattle Future (second month)",
+      "Feeder Cattle Future (third month)"
+    ],
+    "significance": "A decline in trading volume can serve as an early warning sign for potential volatility and suggests that traders are hesitant to take positions, which may affect future price movements.",
+    "significance_score": 0.85
+  },
+  {
+    "type": "Support/Resistance Positioning and Market Sentiment",
+    "description": "Prices are positioned near significant support and resistance levels, indicating potential for price movement and reversal.",
+    "supporting_insights": [
+      "Live Cattle Futures (August) is close to critical support at 158.72 and resistance at 160.25.",
+      "Live Cattle Futures (April) is close to support at 164.1 and resistance at 165.48.",
+      "Feeder Cattle Futures (March) current price is above support at 188.2 and close to resistance at 189.8."
+    ],
+    "entities": [
+      "Live Cattle Future (third month)",
+      "Live Cattle Future (front month)",
+      "Feeder Cattle Future (front month)"
+    ],
+    "significance": "The positioning of prices around these levels can trigger significant trading decisions, influencing both short-term trading strategies and longer-term market outlook.",
+    "significance_score": 0.8
+  },
+  {
+    "type": "Weekly Sentiment Trends",
+    "description": "Overall bearish sentiment is observed across multiple entities, affecting trading dynamics.",
+    "supporting_insights": [
+      "The weekly close-open change for Live Cattle Futures (August) shows a prevailing bearish sentiment.",
+      "Feeder Cattle Futures (March) also exhibits a negative weekly close-open change.",
+      "The majority of trading days closing lower than opening prices indicate a consistent bearish trend."
+    ],
+    "entities": [
+      "Live Cattle Future (third month)",
+      "Live Cattle Future (front month)",
+      "Feeder Cattle Future (front month)",
+      "Feeder Cattle Future (second month)",
+      "Feeder Cattle Future (third month)"
+    ],
+    "significance": "Identifying bearish trends can guide traders on when to hedge or adjust their positions, thus mitigating potential losses.",
+    "significance_score": 0.75
+  },
+  {
+    "type": "Price Momentum Relationship",
+    "description": "Recent positive price changes amidst bearish sentiment reflect a complex market dynamic.",
+    "supporting_insights": [
+      "Despite overall bearish sentiment, Live Cattle Futures (April) experienced a positive price change of 1.1656%.",
+      "Feeder Cattle Futures (May) also showed a positive movement of 1.94%."
+    ],
+    "entities": [
+      "Live Cattle Future (front month)",
+      "Feeder Cattle Future (third month)"
+    ],
+    "significance": "Understanding how price momentum behaves in such environments can help traders capitalize on short-term gains while managing risk in broader bearish trends.",
+    "significance_score": 0.7
+  },
+  {
+    "type": "Price Trend Correlation",
+    "description": "Divergent trends between different cattle future contracts suggest varying market influences.",
+    "supporting_insights": [
+      "April Live Cattle futures show bearish trends while Feeder Cattle futures demonstrate positive price movements.",
+      "Market dynamics can create opportunities for arbitrage or hedging between contracts."
+    ],
+    "entities": [
+      "Live Cattle Future (front month)",
+      "Feeder Cattle Future (second month)"
+    ],
+    "significance": "This correlation can guide traders on strategies to exploit disparities and improve their portfolio resilience.",
+    "significance_score": 0.65
+  }
+]

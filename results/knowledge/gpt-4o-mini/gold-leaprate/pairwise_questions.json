@@ -1,0 +1,22 @@
+{
+  "metric_patterns": [
+    "How do changes in the average true range (ATR) of gold typically relate to changes in the dollar index?",
+    "What conditions affect the relationship between gold's volatility and its closing price trends?"
+  ],
+  "entity_interactions": [
+    "What are common ways that the dollar index affects the price movements of gold and silver?",
+    "Under what conditions do gold and silver prices influence each other most strongly?"
+  ],
+  "common_factors": [
+    "What external factors commonly affect the performance of gold, silver, and the dollar index?",
+    "How do geopolitical events typically impact the prices of gold and silver?"
+  ],
+  "temporal_patterns": [
+    "What typical sequences of changes occur in the volatility of gold prices following shifts in the dollar index?",
+    "How do time-based factors like seasonal demand affect relationships between gold and silver prices?"
+  ],
+  "system_patterns": [
+    "What system-level conditions influence relationships between gold, silver, and the dollar index?",
+    "How do macroeconomic indicators affect the interactions between gold and silver markets?"
+  ]
+}

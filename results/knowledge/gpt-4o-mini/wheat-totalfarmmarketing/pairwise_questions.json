@@ -1,0 +1,22 @@
+{
+  "metric_patterns": [
+    "How do changes in daily price volatility (ATR) typically relate to changes in trading volume for wheat futures?",
+    "What conditions affect the relationship between price momentum and trend strength in wheat markets?"
+  ],
+  "entity_interactions": [
+    "What are common ways that Chicago SRW Wheat Futures affect KC HRW Wheat Futures prices?",
+    "Under what conditions do front month and second month contracts for wheat influence each other most strongly?"
+  ],
+  "common_factors": [
+    "What external factors commonly affect multiple wheat futures contracts, such as weather or geopolitical events?",
+    "How do trade policies typically impact different wheat market entities?"
+  ],
+  "temporal_patterns": [
+    "What typical sequences of changes occur in price trends before a trend reversal in the wheat market?",
+    "How do time-based factors affect relationships between front month and second month wheat futures?"
+  ],
+  "system_patterns": [
+    "What system-level conditions influence relationships between different wheat future entities?",
+    "How do structural factors in agricultural markets affect interactions between Chicago SRW and KC HRW Wheat Futures?"
+  ]
+}

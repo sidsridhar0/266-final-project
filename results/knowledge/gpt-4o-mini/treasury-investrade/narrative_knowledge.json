@@ -1,0 +1,41 @@
+{
+  "narrative_structures": "A chronological narrative that begins with key highlights of market movements, followed by analysis of each entity, integration of macroeconomic news influences, and concluding with implications for investors.",
+  "focus_entities": [
+    {
+      "entities_name": "United States 10-Year Bond Yield",
+      "reasoning": "It is considered a benchmark for other interest rates and is closely watched for signs of market sentiment regarding inflation and economic growth."
+    },
+    {
+      "entities_name": "United States 2-Year Bond Yield",
+      "reasoning": "Often used as an indicator of short-term interest rate expectations, it reflects the market's outlook on monetary policy."
+    },
+    {
+      "entities_name": "United States 30-Year Bond Yield",
+      "reasoning": "It represents long-term debt outlook and is pertinent for understanding long-term economic trends and inflation expectations."
+    },
+    {
+      "entities_name": "United States 5-Year Bond Yield",
+      "reasoning": "It serves as an indicator of intermediate-term rates and monetary policy expectations."
+    }
+  ],
+  "focus_insights": [
+    {
+      "insight_types": "Yield spread analysis",
+      "reasoning": "Understanding the difference between short-term and long-term yields can indicate market sentiment regarding future economic expansion or contraction."
+    },
+    {
+      "insight_types": "Historical performance comparisons",
+      "reasoning": "Analyzing current yields against historical averages helps to contextualize market conditions and investor sentiment."
+    },
+    {
+      "insight_types": "Macroeconomic event impacts",
+      "reasoning": "Evaluation of how recent economic data releases or Federal Reserve announcements affect bond yields can provide insights into market expectations."
+    }
+  ],
+  "domain_language": [
+    "Prices should be expressed in basis points (bps) to convey small changes in yields clearly.",
+    "Use terms like 'inverted yield curve' or 'steepening yield curve' to describe specific yield movements.",
+    "Market fluctuations should be described in terms of volatility or stability to indicate the level of risk.",
+    "Quotes from market analysts or economists should be incorporated to provide credibility and expert opinions."
+  ]
+}

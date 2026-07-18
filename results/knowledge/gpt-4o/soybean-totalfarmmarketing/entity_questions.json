@@ -1,0 +1,97 @@
+[
+  {
+    "insight_type": "volatility analysis",
+    "question": "Evaluate the daily price volatility for soybeans and its impact on investment decisions by examining historical price fluctuations and current day's range.",
+    "required_metrics": [
+      {
+        "metric": "daily_range",
+        "calculation": "High minus Low",
+        "purpose": "Measure the intraday volatility"
+      },
+      {
+        "metric": "average_true_range",
+        "calculation": "14-day moving average of true range (High - Low)",
+        "purpose": "Assess historical volatility over the past two weeks"
+      }
+    ],
+    "comparisons": [
+      "Current daily range vs average true range",
+      "Current daily range vs historical daily ranges"
+    ]
+  },
+  {
+    "insight_type": "volume trend",
+    "question": "Determine the strength of the current market movement by analyzing volume trends and comparing them to price changes for soybeans over recent periods.",
+    "required_metrics": [
+      {
+        "metric": "average_volume",
+        "calculation": "5-day moving average of Volume",
+        "purpose": "Identify typical trade volume"
+      },
+      {
+        "metric": "volume_change",
+        "calculation": "Current Volume minus Previous Day's Volume",
+        "purpose": "Identify change in trading activity"
+      }
+    ],
+    "comparisons": [
+      "Current volume vs average volume",
+      "Volume changes correlated with price changes"
+    ]
+  },
+  {
+    "insight_type": "momentum analysis",
+    "question": "Assess the momentum of soybean prices by analyzing price movement velocity and strength, using various momentum indicators.",
+    "required_metrics": [
+      {
+        "metric": "RSI",
+        "calculation": "100 minus (100 divided by (1 plus relative strength over 14 days))",
+        "purpose": "Measure speed and change of price movements"
+      },
+      {
+        "metric": "momentum",
+        "calculation": "Current Closing Price minus Closing Price n days ago",
+        "purpose": "Evaluate acceleration of trend"
+      }
+    ],
+    "comparisons": [
+      "RSI vs historical RSI levels",
+      "Current momentum vs historical momentum"
+    ]
+  },
+  {
+    "insight_type": "price pattern analysis",
+    "question": "Identify potential price pattern formations and predict future movements by analyzing closing price sequences for established patterns like head and shoulders, double tops, etc.",
+    "required_metrics": [
+      {
+        "metric": "price_pattern",
+        "calculation": "Analyze sequence of closing prices for known technical patterns",
+        "purpose": "Predict potential price reversals or continuations"
+      }
+    ],
+    "comparisons": [
+      "Identified patterns vs historical outcomes",
+      "Price formations vs subsequent market movements"
+    ]
+  },
+  {
+    "insight_type": "profitability analysis",
+    "question": "Evaluate profitability potential by analyzing daily closing prices, entry and exit strategies, and their historical implications for soybeans.",
+    "required_metrics": [
+      {
+        "metric": "profit_margin",
+        "calculation": "(Close minus Open) divided by Open",
+        "purpose": "Estimate potential profit of a daily trade"
+      },
+      {
+        "metric": "historical_profitability",
+        "calculation": "Average profit margin over last 30 days",
+        "purpose": "Assess sustainability of current profit margins"
+      }
+    ],
+    "comparisons": [
+      "Today's profit margin vs historical average",
+      "Profit margin consistency over time"
+    ]
+  }
+]

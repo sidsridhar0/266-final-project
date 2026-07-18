@@ -1,0 +1,34 @@
+{
+  "type": "all",
+  "entity": "Live Cattle Future (third month) (June)",
+  "interpretation": "The analysis reveals moderate daily volatility with current fluctuations slightly above average, a noticeable decline in trading volume hinting at cautious market sentiment, no strong directional price trend, and clear support and resistance levels being touched frequently. The RSI indicates neutral momentum, suggesting no immediate overbought or oversold conditions.",
+  "significance_score": 0.7,
+  "score_reasoning": "The collective insights suggest a market with stable but slightly volatile prices, showing a marked decrease in participant activity which might point to uncertainty or consolidation. The well-defined support and resistance levels along with neutral momentum further underscore these findings, providing traders specific levels to watch for potential market movements.",
+  "individual_insights": [
+    {
+      "question": "Assess the daily volatility of the cattle market by comparing the intraday price range relative to the closing price over the past month.",
+      "interpretation": "The intraday range of 1.0 is slightly above the average of 0.92. The percentage volatility on the date of interest is 0.63%, indicating slightly higher than typical volatility. This suggests a relatively stable market with minor increased fluctuations.",
+      "significance_score": 0.7
+    },
+    {
+      "question": "Evaluate the trading activity by analyzing the volume trends and identifying any significant spikes or declines over the past two weeks.",
+      "interpretation": "The current volume is 43.36% below the average volume of 12182.43, indicating a significant decline in trading activity. This reduced trading volume could imply reduced market interest or trader caution.",
+      "significance_score": 0.8
+    },
+    {
+      "question": "Determine the consistency of the price trend by analyzing the frequency of upward or downward movements in closing prices over the past quarter.",
+      "interpretation": "There are 12 up days and 10 down days, yielding a trend consistency ratio of 0.5455. This almost equal distribution suggests no strong directional trend over the past quarter.",
+      "significance_score": 0.6
+    },
+    {
+      "question": "Identify key support and resistance levels by evaluating price patterns and their frequency of touch over multiple time frames.",
+      "interpretation": "Support is identified at 159.8 and resistance at 160.75 and 157.43 across 30 and 60-day frames with frequent touches noted. These levels are significant for indicating potential reversal points in the market.",
+      "significance_score": 0.9
+    },
+    {
+      "question": "Examine the market momentum by calculating and comparing relative strength indices and their levels over the past month.",
+      "interpretation": "With an RSI of 63.32, the market is neither overbought nor oversold, indicating neutral momentum. The absence of an average RSI complicates deeper analysis.",
+      "significance_score": 0.5
+    }
+  ]
+}

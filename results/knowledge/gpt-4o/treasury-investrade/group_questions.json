@@ -1,0 +1,31 @@
+{
+  "group_characteristics": [
+    "What common patterns appear across different durations of United States Bond Yields in terms of volatility analysis?",
+    "How does the historical volatility across various bond yield entities compare, and what does it suggest about group-level patterns?",
+    "What insights can be drawn about momentum detection when analyzing entities of similar yield durations?",
+    "How do volume analysis findings compare across different United States Bond Yields and what does it suggest about group sentiments?",
+    "What are the common support and resistance levels across different bond yield durations and how do they indicate group behavior?",
+    "How do breakout patterns manifest similarly or differently across bond yields of varying durations?"
+  ],
+  "inter_group_dynamics": [
+    "How do different bond yield durations interact and influence each other in terms of volatility?",
+    "What role does trading volume in shorter-duration bonds play in affecting longer-duration bond yields and vice versa?",
+    "How do sentiment changes reflected in one group of bond yields influence momentum detection in another group?",
+    "What impact do support and resistance level breaches on short-term bonds have on longer-term bonds?",
+    "How do fluctuations in the 7-year and 10-year bond yields affect the behavior of shorter-duration bond yields?"
+  ],
+  "propagation_patterns": [
+    "How do changes in volatility in one bond yield duration affect other bond yield groups?",
+    "What conditions lead to the propagation of momentum shifts from one set of bond yields to another?",
+    "How does trading volume increase in one bond yield category propagate changes across the group spectrum?",
+    "Under what conditions do breakout occurrences in one duration of bond yield affect the rest?",
+    "How do global economic indicators influence the propagation of trends among different bond yields?"
+  ],
+  "causal_chains": [
+    "What typical cause-effect sequences are observed among different bond yields during periods of market stress?",
+    "How do changes in the United States economy create causal chains affecting bond yield volatilities?",
+    "How does the enforcement of a monetary policy initiate a causal chain affecting all bond yields?",
+    "What causal relationships exist between geopolitical events and their impact across various bond yield durations?",
+    "How do changes in inflation expectations create causal chains impacting bond yield momentum differently across durations?"
+  ]
+}

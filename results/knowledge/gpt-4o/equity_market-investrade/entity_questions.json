@@ -1,0 +1,107 @@
+[
+  {
+    "insight_type": "volatility_analysis",
+    "question": "Assess the daily price volatility by measuring the percentage change between the high and low prices and comparing it to the average historical volatility.",
+    "required_metrics": [
+      {
+        "metric": "daily_volatility",
+        "calculation": "(high - low) / open * 100",
+        "purpose": "Measure the percentage price swing on the given day"
+      },
+      {
+        "metric": "average_volatility",
+        "calculation": "Average of daily_volatility over the last 30 days",
+        "purpose": "Determine the normal volatility range for the stock"
+      }
+    ],
+    "comparisons": [
+      "Daily volatility vs average volatility",
+      "Current session volatility against previous sessions"
+    ]
+  },
+  {
+    "insight_type": "volume_analysis",
+    "question": "Analyze trading volume changes by comparing today's volume with historical volume averages to understand trading interest shifts.",
+    "required_metrics": [
+      {
+        "metric": "average_volume",
+        "calculation": "Average trading volume over the last 30 days",
+        "purpose": "Establish a benchmark for normal trading activity"
+      },
+      {
+        "metric": "volume_today_vs_average",
+        "calculation": "Volume of current day / average_volume",
+        "purpose": "Identify significant changes in trading activity"
+      }
+    ],
+    "comparisons": [
+      "Today's volume vs average volume",
+      "Volume spikes on key price movements"
+    ]
+  },
+  {
+    "insight_type": "price_movement",
+    "question": "Examine daily price movement by analyzing percentage change from open to close and comparing it with historical averages to assess potential shifts in market sentiment.",
+    "required_metrics": [
+      {
+        "metric": "daily_percent_change",
+        "calculation": "(close - open) / open * 100",
+        "purpose": "Quantify the net daily price change"
+      },
+      {
+        "metric": "average_daily_change",
+        "calculation": "Average of daily_percent_change over the last 30 days",
+        "purpose": "Evaluate whether current movement follows historical trends"
+      }
+    ],
+    "comparisons": [
+      "Daily percent change vs average daily change",
+      "Positive vs negative price developments"
+    ]
+  },
+  {
+    "insight_type": "support_resistance_analysis",
+    "question": "Identify potential support and resistance levels by evaluating recent highs and lows to inform on potential entry and exit points.",
+    "required_metrics": [
+      {
+        "metric": "recent_highs",
+        "calculation": "Record of the highest prices over the last 30 days",
+        "purpose": "Potential resistance level candidates"
+      },
+      {
+        "metric": "recent_lows",
+        "calculation": "Record of the lowest prices over the last 30 days",
+        "purpose": "Potential support level candidates"
+      }
+    ],
+    "comparisons": [
+      "Current price vs recent highs/lows",
+      "Breakout levels vs established ranges"
+    ]
+  },
+  {
+    "insight_type": "momentum_analysis",
+    "question": "Track momentum changes by using daily price movement and comparing it with key moving averages to determine bullish or bearish trends.",
+    "required_metrics": [
+      {
+        "metric": "close_SMA_20",
+        "calculation": "20-day Simple Moving Average of closing prices",
+        "purpose": "Short-term momentum indication"
+      },
+      {
+        "metric": "close_SMA_50",
+        "calculation": "50-day Simple Moving Average of closing prices",
+        "purpose": "Medium-term momentum indication"
+      },
+      {
+        "metric": "momentum_indicator",
+        "calculation": "Close price - close_SMA_20",
+        "purpose": "Evaluate current momentum relative to a short-term trend"
+      }
+    ],
+    "comparisons": [
+      "Price vs moving averages",
+      "Momentum indicator changes day-to-day"
+    ]
+  }
+]

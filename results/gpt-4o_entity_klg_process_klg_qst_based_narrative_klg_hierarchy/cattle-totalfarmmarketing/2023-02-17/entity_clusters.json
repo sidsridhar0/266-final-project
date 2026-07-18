@@ -1,0 +1,20 @@
+[
+  {
+    "cluster_name": "Live Cattle Futures",
+    "entities": [
+      "Live Cattle Future (front month) (February)",
+      "Live Cattle Future (second month) (April)",
+      "Live Cattle Future (third month) (June)"
+    ],
+    "reason_of_clustering": "These futures contracts are grouped because they all pertain to the live cattle market, providing price information for livestock at different future delivery dates. This clustering helps financial analysts and investors to compare performance across term structures and make strategic decisions based on expected market movements and seasonal trends."
+  },
+  {
+    "cluster_name": "Feeder Cattle Futures",
+    "entities": [
+      "Feeder Cattle Future (front month) (March)",
+      "Feeder Cattle Future (second month) (April)",
+      "Feeder Cattle Future (third month) (May)"
+    ],
+    "reason_of_clustering": "These contracts are grouped together as they all relate to feeder cattle, which are younger and lighter cattle that will eventually be sold as live cattle. Investors and analysts cluster these to evaluate the cost and availability of these cattle at various future dates, which can impact the live cattle market and related investment decisions as they are key inputs in the cattle value chain."
+  }
+]

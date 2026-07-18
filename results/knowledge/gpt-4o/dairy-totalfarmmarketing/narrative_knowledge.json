@@ -1,0 +1,28 @@
+{
+  "narrative_structures": "A typical narrative structure for daily market reports should begin with a summary of the key movements in the market, providing a snapshot of significant changes for a quick overview. This is followed by a detailed analysis of market trends, including any emerging patterns or anomalies. Subsequent sections should feature insights into potential future movements based on current data, incorporating both technical analysis and fundamental analysis to offer a comprehensive outlook. The report should conclude with actionable recommendations or considerations for investors.",
+  "focus_entities": [
+    {
+      "entities_name": "Class III Milk Future (third month) (May)",
+      "reasoning": "This represents a critical future position that can indicate market sentiment for the coming months, providing insights into seasonal trends and price forecasts."
+    },
+    {
+      "entities_name": "Class IV Milk Future (front month) (March)",
+      "reasoning": "As the front month contract, it reflects the most immediate market conditions and can heavily influence short-term investor decisions."
+    }
+  ],
+  "focus_insights": [
+    {
+      "insight_types": "Price Volatility",
+      "reasoning": "Understanding price volatility is crucial for assessing market risks and making informed hedging and trading decisions."
+    },
+    {
+      "insight_types": "Supply and Demand Dynamics",
+      "reasoning": "These dynamics directly influence pricing and help identify underlying factors affecting market movements, aiding in strategic planning."
+    }
+  ],
+  "domain_language": [
+    "Prices should be expressed in terms of current contract trading values, often using specific currency expressions (e.g., USD per hundredweight).",
+    "Terminology such as 'bullish' or 'bearish' should be used to quickly convey expected market directions.",
+    "Graphs and charts are commonly incorporated to visually represent data trends and support written analysis."
+  ]
+}

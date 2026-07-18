@@ -1,0 +1,34 @@
+{
+  "type": "all",
+  "entity": "Live Cattle Future (second month) (April)",
+  "interpretation": "The Live Cattle Futures market shows slightly above-average daily volatility and a notable decrease in trading volume. The trend direction exhibits mild upward consistency with clear support and resistance levels. The momentum, gauged by the RSI, suggests some buying strength but remains in a neutral zone.",
+  "significance_score": 0.7,
+  "score_reasoning": "The combination of increased daily volatility and decreased volume could signal an upcoming market change, while consistent price trends and clear support and resistance levels provide valuable indicators for potential entry or exit points. The RSI remaining below overbought conditions supports maintaining a cautious but optimistic outlook.",
+  "individual_insights": [
+    {
+      "question": "Assess the daily volatility of the cattle market by comparing the intraday price range relative to the closing price over the past month.",
+      "interpretation": "The intraday range today is 1.32 compared to an average of 1.17 over the past 30 days, suggesting today's volatility is slightly above average. The percentage volatility stands at 0.80%, indicating that while there is an increase, it is not excessively high.",
+      "significance_score": 0.7
+    },
+    {
+      "question": "Evaluate the trading activity by analyzing the volume trends and identifying any significant spikes or declines over the past two weeks.",
+      "interpretation": "The volume on the date of interest is significantly below the 14-day average by 31.30%, indicating a decline in trading activity which could suggest reduced market interest or potential anticipation of changes.",
+      "significance_score": 0.6
+    },
+    {
+      "question": "Determine the consistency of the price trend by analyzing the frequency of upward or downward movements in closing prices over the past quarter.",
+      "interpretation": "There are 13 up days and 9 down days with a trend consistency ratio of 0.59 for upward trends over the past 90 days, showing a slight upward trend consistency compared to recent historical averages.",
+      "significance_score": 0.6
+    },
+    {
+      "question": "Identify key support and resistance levels by evaluating price patterns and their frequency of touch over multiple time frames.",
+      "interpretation": "Support levels have been identified at 163.5 and 163.55, and resistance at 164.22, all of which are consistent across both 30 and 60 days with a frequency of touch of 2, indicating moderate reliability of these levels.",
+      "significance_score": 0.8
+    },
+    {
+      "question": "Examine the market momentum by calculating and comparing relative strength indices and their levels over the past month.",
+      "interpretation": "The RSI is at 67.19, close to the overbought threshold but still neutral, indicating some buying strength but not yet in the danger zone for potential reversal.",
+      "significance_score": 0.5
+    }
+  ]
+}

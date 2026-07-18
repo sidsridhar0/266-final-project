@@ -1,0 +1,20 @@
+[
+  {
+    "cluster_name": "Live Cattle Futures",
+    "entities": [
+      "Live Cattle Future (front month) (April)",
+      "Live Cattle Future (second month) (June)",
+      "Live Cattle Future (third month) (August)"
+    ],
+    "reason_of_clustering": "These entities are clustered together as they represent futures contracts for live cattle with different settlement months. They are part of the same product category and are influenced by the same market factors, such as feed costs, demand for beef, and weather conditions. Analyzing these together helps forecast live cattle price trends and manage risk in the cattle market."
+  },
+  {
+    "cluster_name": "Feeder Cattle Futures",
+    "entities": [
+      "Feeder Cattle Future (front month) (March)",
+      "Feeder Cattle Future (second month) (April)",
+      "Feeder Cattle Future (third month) (May)"
+    ],
+    "reason_of_clustering": "These entities are grouped as they represent futures contracts for feeder cattle across different settlement months. They are similar in nature but focus on feeder cattle, which are younger and require additional feeding before slaughter. These futures are sensitive to feed grain prices, input costs, and market demand, making them crucial for understanding cost dynamics in cattle operations and making informed investment decisions."
+  }
+]

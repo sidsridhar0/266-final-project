@@ -1,0 +1,34 @@
+{
+  "type": "all",
+  "entity": "Feeder Cattle Future (front month) (March)",
+  "interpretation": "The market indicates low volatility and reduced trading activity with a slight bullish trend. The key resistance level at 187.22 suggests a price ceiling. Generally stable conditions are reflected in the neutral RSI, suggesting no immediate risk of significant price movements.",
+  "significance_score": 0.68,
+  "score_reasoning": "The declining volume and mild price trend consistency suggest the market is experiencing decreased interest but with some underlying bullishness. The significant resistance level serves as a crucial price barrier. The RSI aligns with overall stable market conditions, reinforcing a neutral view without immediate price movement concerns.",
+  "individual_insights": [
+    {
+      "question": "Assess the daily volatility of the cattle market by comparing the intraday price range relative to the closing price over the past month.",
+      "interpretation": "The current intraday range of 1.10 is below the average intraday range of 1.77, indicating lower volatility than typically seen over the past month. The percentage volatility is 0.58%, suggesting relatively stable price movements.",
+      "significance_score": 0.6
+    },
+    {
+      "question": "Evaluate the trading activity by analyzing the volume trends and identifying any significant spikes or declines over the past two weeks.",
+      "interpretation": "The volume is 33.51% below the 14-day average, indicating a substantial decrease in trading activity. This significant drop may suggest waning interest or activity in the market, which could affect liquidity and price movements.",
+      "significance_score": 0.7
+    },
+    {
+      "question": "Determine the consistency of the price trend by analyzing the frequency of upward or downward movements in closing prices over the past quarter.",
+      "interpretation": "There are 12 up days compared to 7 down days in the past quarter, with a trend consistency ratio of 0.63. This indicates a mildly bullish trend with more frequent upward movements.",
+      "significance_score": 0.65
+    },
+    {
+      "question": "Identify key support and resistance levels by evaluating price patterns and their frequency of touch over multiple time frames.",
+      "interpretation": "The resistance level is identified at 187.22 with a frequency of touch of 2 times. This suggests that the market struggles to pass this price point, indicating a strong resistance level.",
+      "significance_score": 0.75
+    },
+    {
+      "question": "Examine the market momentum by calculating and comparing relative strength indices and their levels over the past month.",
+      "interpretation": "The current RSI of 65.06 falls in the neutral range and is not overbought or oversold. The momentum signal is neutral, suggesting no immediate price reversal risk.",
+      "significance_score": 0.5
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+[
+  {
+    "cluster_name": "Live Cattle Futures",
+    "entities": [
+      "Live Cattle Future (front month) (April)",
+      "Live Cattle Future (second month) (June)",
+      "Live Cattle Future (third month) (August)"
+    ],
+    "reason_of_clustering": "These entities are all related to live cattle futures, which allows investors to speculate on the price developments of live cattle over different time horizons. Grouping them highlights market trends and seasonal changes specific to live cattle."
+  },
+  {
+    "cluster_name": "Feeder Cattle Futures",
+    "entities": [
+      "Feeder Cattle Future (front month) (March)",
+      "Feeder Cattle Future (second month) (April)",
+      "Feeder Cattle Future (third month) (May)"
+    ],
+    "reason_of_clustering": "This cluster encompasses feeder cattle futures, which are important for investors interested in the development of cattle prices prior to the live cattle market. Clustering these futures allows for analysis of pricing trends specific to feeder cattle and their impact on overall cattle market."
+  },
+  {
+    "cluster_name": "Front Month Futures",
+    "entities": [
+      "Live Cattle Future (front month) (April)",
+      "Feeder Cattle Future (front month) (March)"
+    ],
+    "reason_of_clustering": "This cluster focuses on the front month futures for live and feeder cattle. These contracts are typically more liquid and are crucial for short-term market analysis, serving as indicators for immediate market sentiment."
+  },
+  {
+    "cluster_name": "Seasonal Trends in Futures",
+    "entities": [
+      "Live Cattle Future (second month) (June)",
+      "Feeder Cattle Future (second month) (April)",
+      "Live Cattle Future (third month) (August)",
+      "Feeder Cattle Future (third month) (May)"
+    ],
+    "reason_of_clustering": "These entities represent futures that are typically affected by seasonal trends. Analyzing them together can provide insights into expected price movements due to seasonal factors like grazing patterns and cattle feeding cycles."
+  }
+]

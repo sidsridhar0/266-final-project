@@ -1,0 +1,39 @@
+{
+  "type": "all",
+  "entity": "Feeder Cattle Future (third month) (May)",
+  "interpretation": "The analysis of the feeder cattle futures market reveals moderate volatility and increased trading activity, with a notable bullish trend. The current price sits comfortably above established support and resistance levels, and market sentiment is overwhelmingly positive based on the recent weekly closing trends.",
+  "significance_score": 0.78,
+  "score_reasoning": "The composite score reflects strong trading volume, positive price movements, and high market sentiment percentages, indicating a robust and potentially profitable environment for investors in feeder cattle futures.",
+  "individual_insights": [
+    {
+      "question": "Evaluate market volatility for the product on the date of interest by calculating the average true range (ATR) and the standard deviation of the closing prices over the last 14 days.",
+      "interpretation": "The calculated ATR of 1.7586 suggests moderate volatility in the feeder cattle futures market, indicating potential for price movements. The standard deviation of 2.2297 indicates that closing prices have fluctuated around the average, reinforcing the market's variability.",
+      "significance_score": 0.7,
+      "reasoning": ""
+    },
+    {
+      "question": "Analyze trading volume trends by comparing the volume on the date of interest against the average volume over the past 30 days.",
+      "interpretation": "The current volume of 4,497 is significantly above the 30-day average volume of 3,041.1429, reflecting increased market activity and potential trader interest, with a volume change percentage of 47.8720 indicating a notable anomaly.",
+      "significance_score": 0.8,
+      "reasoning": ""
+    },
+    {
+      "question": "Identify significant price movements by evaluating the percentage change in closing price from the previous day to the current day.",
+      "interpretation": "A percentage change of 1.0713 suggests a small but positive movement in price from the previous day, indicating bullish sentiment in the short term and confirming positive momentum in the market.",
+      "significance_score": 0.6,
+      "reasoning": ""
+    },
+    {
+      "question": "Determine key support and resistance levels by analyzing the closing prices over the last 30 days to find price levels that have been touched multiple times.",
+      "interpretation": "The support level is at 194.42 and the resistance level at 195.52, with the current price at 200.95 indicating that it is trading significantly above both levels. This suggests a strong bullish trend and a potential breakout above resistance levels.",
+      "significance_score": 0.85,
+      "reasoning": ""
+    },
+    {
+      "question": "Evaluate market sentiment by analyzing the closing prices relative to their opening prices over the past week to assess whether prices are closing higher or lower than they opened.",
+      "interpretation": "With an 80% higher closings compared to open prices over the past week, market sentiment appears predominantly positive, indicating sustained demand for feeder cattle futures.",
+      "significance_score": 0.75,
+      "reasoning": ""
+    }
+  ]
+}

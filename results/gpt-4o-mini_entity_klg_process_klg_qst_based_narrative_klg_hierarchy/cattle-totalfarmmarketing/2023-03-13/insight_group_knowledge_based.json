@@ -1,0 +1,117 @@
+[
+  {
+    "cluster_name": "Live Cattle Futures",
+    "entities": [
+      "Live Cattle Future (front month) (April)",
+      "Live Cattle Future (second month) (June)",
+      "Live Cattle Future (third month) (August)"
+    ],
+    "cluster_insights": [
+      {
+        "type": "Market Sentiment Analysis",
+        "description": "Recent analysis shows a bearish sentiment across all live cattle future contracts, suggesting traders are more likely to sell at lower prices.",
+        "supporting_insights": [
+          "60% of days closing lower for August",
+          "80% of days closing lower for April",
+          "40% of days closing higher for June but overall bearish sentiment"
+        ],
+        "significance": "Understanding sentiment is critical for predicting potential price movements and shifts in trading strategies.",
+        "significance_score": 0.85
+      },
+      {
+        "type": "Volatility Assessment",
+        "description": "All entities exhibit moderate volatility, with ATR values confirming potential for price fluctuations that could impact trading strategies.",
+        "supporting_insights": [
+          "ATR of 1.0600 for August",
+          "ATR of 1.3350 for April",
+          "ATR of 1.1957 for June"
+        ],
+        "significance": "Monitoring volatility allows traders to adjust their risk management and capitalize on potential price movements.",
+        "significance_score": 0.8
+      },
+      {
+        "type": "Volume and Price Relationship",
+        "description": "Significant trading volume increases observed in Live Cattle indicate heightened market engagement despite a bearish trend.",
+        "supporting_insights": [
+          "Volume change of 94.14% for August",
+          "Volume change of 65.46% for April",
+          "Volume change of 89.73% for June"
+        ],
+        "significance": "High trading volumes can indicate market sentiment and lead to potential price changes, providing insights for investment decisions.",
+        "significance_score": 0.82
+      },
+      {
+        "type": "Support and Resistance Dynamics",
+        "description": "All three contracts are approaching critical support levels, indicating heightened risk of price declines if these levels are breached.",
+        "supporting_insights": [
+          "Support level at 158.78 and current price at 158.12 for August",
+          "Support level at 164.08 and current price at 163.55 for April",
+          "Support level at 159.72 and current price at 158.2 for June"
+        ],
+        "significance": "Identifying support and resistance levels helps traders to determine entry and exit points amid market fluctuations.",
+        "significance_score": 0.78
+      },
+      {
+        "type": "Seasonality Impact Analysis",
+        "description": "Increased trading volumes and volatility during seasonal demand conditions suggest potential opportunities based on historical price patterns.",
+        "supporting_insights": [
+          "Reference to seasonality patterns affecting trading volumes",
+          "Correlation between seasonal demand and trading activity"
+        ],
+        "significance": "Recognizing seasonal effects can guide traders to make strategic decisions aligned with expected market behaviors.",
+        "significance_score": 0.75
+      }
+    ]
+  },
+  {
+    "cluster_name": "Feeder Cattle Futures",
+    "entities": [
+      "Feeder Cattle Future (front month) (March)",
+      "Feeder Cattle Future (second month) (April)",
+      "Feeder Cattle Future (third month) (May)"
+    ],
+    "cluster_insights": [
+      {
+        "type": "Market Sentiment Analysis",
+        "description": "The overall market sentiment for feeder cattle futures shows a mixed outlook with both bearish and bullish trends across different months.",
+        "supporting_insights": [
+          "Entity: Feeder Cattle Future (front month) (March) indicates a bearish sentiment with 60% of days closing lower.",
+          "Entity: Feeder Cattle Future (second month) (April) reflects a positive sentiment with 60% of the days closing higher.",
+          "Entity: Feeder Cattle Future (third month) (May) shows bullish sentiment with an overall upward trend in the week."
+        ],
+        "significance": "Understanding sentiment is crucial for making short-term trading decisions and anticipating market movements.",
+        "significance_score": 0.8
+      },
+      {
+        "type": "Volume and Sentiment Correlation",
+        "description": "Increased trading volumes indicate strong market sentiment and investor interest that could lead to significant price movements.",
+        "supporting_insights": [
+          "Decreased volume in March futures parallels bearish sentiment.",
+          "Increased volume in April and May futures correlates with bullish trends, indicating investor confidence."
+        ],
+        "significance": "Tracking volume is essential for identifying potential reversals and confirming market trends.",
+        "significance_score": 0.75
+      },
+      {
+        "type": "Price Movement and Support Levels Relationship",
+        "description": "Support and resistance levels significantly influence price behaviors and trading decisions across feeder cattle futures.",
+        "supporting_insights": [
+          "The price of March futures is above its support level but struggling near resistance.",
+          "April futures are well above support levels, indicating stability, while May futures are poised for upward movement with current pricing above support."
+        ],
+        "significance": "Identifying these levels helps traders make informed decisions on buying and selling.",
+        "significance_score": 0.7
+      },
+      {
+        "type": "Volatility Patterns Across Future Months",
+        "description": "Moderate volatility persists across all futures, with front month contracts exhibiting more erratic price movements compared to third month contracts.",
+        "supporting_insights": [
+          "March futures show moderate volatility but declining price movements.",
+          "April and May futures present increased volatility with significant investor interest."
+        ],
+        "significance": "Awareness of volatility patterns guides risk management strategies and investor expectations.",
+        "significance_score": 0.65
+      }
+    ]
+  }
+]

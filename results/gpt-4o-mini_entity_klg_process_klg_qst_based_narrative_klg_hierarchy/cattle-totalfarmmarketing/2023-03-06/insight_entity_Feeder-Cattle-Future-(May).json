@@ -1,0 +1,39 @@
+{
+  "type": "all",
+  "entity": "Feeder Cattle Future (third month) (May)",
+  "interpretation": "The analysis indicates a moderately volatile market for Feeder Cattle Futures, with significant trading volume and a positive price movement observed recently. The price is currently positioned well above both support and resistance levels, suggesting strong upward momentum and favorable market sentiment.",
+  "significance_score": 0.78,
+  "score_reasoning": "The combination of increased volume, upward price movement, and positive sentiment reflects robust trading interest and potential for profit-taking opportunities, positioning the Feeder Cattle Futures market favorably for investors looking for upward trends.",
+  "individual_insights": [
+    {
+      "question": "Evaluate market volatility for the product on the date of interest by calculating the average true range (ATR) and the standard deviation of the closing prices over the last 14 days.",
+      "interpretation": "The ATR of 1.8186 suggests moderate volatility in the market, indicating potential price movements that traders should consider. The standard deviation of 2.7433 reflects fluctuations around the average closing price, which supports the notion of market volatility being present.",
+      "significance_score": 0.7,
+      "reasoning": ""
+    },
+    {
+      "question": "Analyze trading volume trends by comparing the volume on the date of interest against the average volume over the past 30 days.",
+      "interpretation": "Current trading volume of 6423 indicates a substantial increase of approximately 99.21% compared to the 30-day average of 3224.31. This spike could signify heightened interest or a potential market-moving event.",
+      "significance_score": 0.85,
+      "reasoning": ""
+    },
+    {
+      "question": "Identify significant price movements by evaluating the percentage change in closing price from the previous day to the current day.",
+      "interpretation": "The percentage change of 1.1446 from the previous closing price of 200.95 indicates an upward movement. This moderate increase points towards potential bullish sentiment in the market.",
+      "significance_score": 0.6,
+      "reasoning": ""
+    },
+    {
+      "question": "Determine key support and resistance levels by analyzing the closing prices over the last 30 days to find price levels that have been touched multiple times.",
+      "interpretation": "The current price at 203.25 is well above the support level of 194.42 and also above the resistance level of 194.68, indicating strong upward momentum and suggesting that current pricing could be in a breakout phase.",
+      "significance_score": 0.75,
+      "reasoning": ""
+    },
+    {
+      "question": "Evaluate market sentiment by analyzing the closing prices relative to their opening prices over the past week to assess whether prices are closing higher or lower than they opened.",
+      "interpretation": "With a positive change of 3.23 in the weekly close-open change and 80% of days closing higher than they opened, the market sentiment appears bullish, reflecting overall positive investor confidence.",
+      "significance_score": 0.8,
+      "reasoning": ""
+    }
+  ]
+}

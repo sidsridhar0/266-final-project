@@ -1,0 +1,117 @@
+[
+  {
+    "insight_type": "price_volatility",
+    "question": {
+      "insight_type": "price volatility",
+      "question": "Assess the daily price volatility by calculating and comparing the average true range (ATR) over a period.",
+      "required_metrics": [
+        {
+          "metric": "True Range",
+          "calculation": "Max(High - Low, abs(High - Previous Close), abs(Low - Previous Close))",
+          "purpose": "Measure intraday price movement range"
+        },
+        {
+          "metric": "ATR",
+          "calculation": "14-day average of True Range",
+          "purpose": "Gauge overall market volatility"
+        }
+      ],
+      "comparisons": [
+        "ATR current vs historical ATR",
+        "Intraday True Range variations"
+      ]
+    },
+    "results": "METRIC:True Range\tVALUE:8.75\tUNIT:points\tTYPE:float\nMETRIC:ATR\tVALUE:11.392857142857142\tUNIT:points\tTYPE:float\n"
+  },
+  {
+    "insight_type": "price_momentum",
+    "question": {
+      "insight_type": "price momentum",
+      "question": "Evaluate momentum by employing the Relative Strength Index (RSI) and other oscillators.",
+      "required_metrics": [
+        {
+          "metric": "RSI",
+          "calculation": "100 - (100 / (1 + RS)) where RS is average gain/average loss over 14 periods",
+          "purpose": "Quantify momentum and identify overbought/oversold conditions"
+        }
+      ],
+      "comparisons": [
+        "Current RSI vs overbought/oversold thresholds",
+        "Recent RSI trajectory vs historical movements"
+      ]
+    },
+    "results": "METRIC:RSI\tVALUE:71.0884\tUNIT:\tTYPE:float\n"
+  },
+  {
+    "insight_type": "volume_analysis",
+    "question": {
+      "insight_type": "volume analysis",
+      "question": "Analyze volume trends by calculating the On-Balance Volume (OBV) and evaluating volume spikes.",
+      "required_metrics": [
+        {
+          "metric": "OBV",
+          "calculation": "Cumulative total achieved by adding volume if closing prices increase and subtracting on declines",
+          "purpose": "Correlate volume flow with price trend"
+        },
+        {
+          "metric": "Volume Change",
+          "calculation": "Current Volume / Average Volume over last 20 days",
+          "purpose": "Identify unusual volume spikes"
+        }
+      ],
+      "comparisons": [
+        "Current OBV vs historical OBV",
+        "Volume spikes relative to price movement"
+      ]
+    },
+    "results": "METRIC:OBV\tVALUE:370553.0\tUNIT:\tTYPE:float\nMETRIC:Volume Change\tVALUE:0.8319388959560461\tUNIT:\tTYPE:float\n"
+  },
+  {
+    "insight_type": "seasonal_trend_analysis",
+    "question": {
+      "insight_type": "seasonal trend analysis",
+      "question": "Investigate potential seasonal influences on corn prices by comparing current price movements with historical seasonal patterns.",
+      "required_metrics": [
+        {
+          "metric": "Seasonal Index",
+          "calculation": "Average monthly return / overall average monthly return",
+          "purpose": "Identify typical seasonal price trends"
+        },
+        {
+          "metric": "Current Monthly Return",
+          "calculation": "Current month closing price / Previous month closing price - 1",
+          "purpose": "Analyze current month's price change"
+        }
+      ],
+      "comparisons": [
+        "Current monthly return vs seasonal indices",
+        "Year-over-year monthly price variation"
+      ]
+    },
+    "results": "METRIC:Current Monthly Return\tVALUE:0.1098\tUNIT:percent\tTYPE:float\nMETRIC:Seasonal Index\tVALUE:1.0000\tUNIT:ratio\tTYPE:float\n"
+  },
+  {
+    "insight_type": "yield_projections_impact",
+    "question": {
+      "insight_type": "yield projections impact",
+      "question": "Evaluate potential impacts of projected yield changes on market prices by examining historical correlations between yield reports and price movements.",
+      "required_metrics": [
+        {
+          "metric": "Historical Yield Report Price Impact",
+          "calculation": "Average price change on yield report release days",
+          "purpose": "Assess price sensitivity to yield changes"
+        },
+        {
+          "metric": "Current Year Yield Projections",
+          "calculation": "Industry or government forecasted yield",
+          "purpose": "Provide basis for comparative analysis"
+        }
+      ],
+      "comparisons": [
+        "Current yield projection impacts vs historical impacts",
+        "Reported yield projections vs actual prices"
+      ]
+    },
+    "results": "METRIC:Historical Yield Report Price Impact\tVALUE:0.1146\tUNIT:percent\tTYPE:float\nMETRIC:Current Year Yield Projections\tVALUE:500\tUNIT:units\tTYPE:int\n"
+  }
+]

@@ -1,0 +1,22 @@
+{
+  "metric_patterns": [
+    "How do changes in daily volatility for corn futures (September) typically relate to changes in daily volatility for corn futures (May)?",
+    "What conditions affect the relationship between closing price trends and trading volume across different corn futures?"
+  ],
+  "entity_interactions": [
+    "What are common ways that corn futures (July) affect corn futures (March) during peak trading periods?",
+    "Under what conditions do different month corn futures influence each other most strongly when market sentiment is bullish?"
+  ],
+  "common_factors": [
+    "What external factors commonly affect multiple corn futures, such as weather events and government policies?",
+    "How do supply chain disruptions typically impact both front month and third month corn futures?"
+  ],
+  "temporal_patterns": [
+    "What typical sequences of changes occur in closing prices for corn futures over a week-long trading period?",
+    "How do time-based factors, such as the approach of harvest season, affect relationships between different month corn futures?"
+  ],
+  "system_patterns": [
+    "What system-level conditions influence relationships between corn futures and physical corn prices in the market?",
+    "How do structural factors in agricultural commodity trading affect interactions between corn futures across different months?"
+  ]
+}

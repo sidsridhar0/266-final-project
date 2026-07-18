@@ -1,0 +1,27 @@
+[
+  {
+    "cluster_name": "Precious Metals",
+    "entities": [
+      "Gold",
+      "Silver"
+    ],
+    "reason_of_clustering": "Gold and Silver are both precious metals and often react similarly to market conditions. They are commonly viewed as safe-haven assets that investors flock to during times of economic uncertainty or inflation."
+  },
+  {
+    "cluster_name": "Inverse Correlation with Dollar Index",
+    "entities": [
+      "Gold",
+      "Dollar Index"
+    ],
+    "reason_of_clustering": "Gold typically has an inverse relationship with the Dollar Index. When the dollar strengthens, gold prices often decline as gold becomes more expensive for holders of other currencies. This relationship is crucial for understanding market dynamics."
+  },
+  {
+    "cluster_name": "Alternatives to Fiat Currency",
+    "entities": [
+      "Gold",
+      "Dollar Index",
+      "Silver"
+    ],
+    "reason_of_clustering": "In environments where fiat currencies like the US dollar face inflationary pressures, both gold and silver serve as alternative stores of value. Investors often turn to these metals as a hedge against currency devaluation."
+  }
+]

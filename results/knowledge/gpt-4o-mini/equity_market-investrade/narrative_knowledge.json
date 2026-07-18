@@ -1,0 +1,54 @@
+{
+  "narrative_structures": "Effective daily market reports typically follow a structured format that includes an introduction summarizing the day's market performance, a detailed analysis of key indices and sectors, insights into macroeconomic indicators, and a forward-looking conclusion that highlights potential trends and investment opportunities. The narrative should be engaging and informative, providing a coherent story that connects current events and data.",
+  "focus_entities": [
+    {
+      "entities_name": "S&P 500",
+      "reasoning": "It serves as a primary benchmark for the overall U.S. equity market and reflects the performance of 500 of the largest companies."
+    },
+    {
+      "entities_name": "NASDAQ Composite",
+      "reasoning": "This index is heavily weighted towards technology stocks, making it crucial for understanding trends in innovative sectors."
+    },
+    {
+      "entities_name": "Dow Jones Industrial Average",
+      "reasoning": "As a traditional measure of market performance, it indicates sentiment and performance of well-established companies."
+    },
+    {
+      "entities_name": "United States 10-Year Bond Yield",
+      "reasoning": "This yield is a critical indicator of future interest rates and is closely watched for signs of inflation and market conditions."
+    },
+    {
+      "entities_name": "CBOE Volatility Index",
+      "reasoning": "Also known as the 'fear index', it measures market volatility expectations and can signal investor sentiment."
+    },
+    {
+      "entities_name": "MSCI World index",
+      "reasoning": "This index helps in understanding global equity performance and is vital for investors with international exposure."
+    }
+  ],
+  "focus_insights": [
+    {
+      "insight_types": "Sector Performance",
+      "reasoning": "Analyzing daily changes in sectors such as Technology, Healthcare, and Energy helps investors identify areas of strength or weakness."
+    },
+    {
+      "insight_types": "Interest Rates and Bond Yields",
+      "reasoning": "Changes in bond yields affect equity valuations and investor sentiment, making them crucial for understanding market dynamics."
+    },
+    {
+      "insight_types": "Macroeconomic Indicators",
+      "reasoning": "Reports on employment, inflation, and GDP growth provide context for market movements and guide investment strategies."
+    },
+    {
+      "insight_types": "Market Sentiment",
+      "reasoning": "Understanding how investor sentiment shifts can provide insight into potential market direction."
+    }
+  ],
+  "domain_language": [
+    "Use precise metrics (e.g., 'up 1.5% on the day') to describe market performance.",
+    "Incorporate technical jargon (e.g., 'bullish', 'bearish', 'momentum trading') where appropriate for audience understanding.",
+    "Articulate forecasts with quantifiable predictions (e.g., 'expected to reach $X in the next 3 months').",
+    "Utilize economic indicators to contextualize predictions (e.g., 'with projected inflation rates impacting interest rates').",
+    "Employ clear, actionable language (e.g., 'consider overweighting in technology stocks') when making investment recommendations."
+  ]
+}

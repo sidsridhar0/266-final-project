@@ -1,0 +1,22 @@
+# Core Data & ML
+numpy
+pandas
+torch
+transformers
+
+# Large Language Models & Frameworks
+python-dotenv
+langchain
+langchain-community
+langchain-chroma
+langchain-openai
+
+# Vector Stores & Retrieval
+sentence-transformers
+rank_bm25
+chromadb
+
+# NLP Utilities
+nltk
+spacy
+tqdm

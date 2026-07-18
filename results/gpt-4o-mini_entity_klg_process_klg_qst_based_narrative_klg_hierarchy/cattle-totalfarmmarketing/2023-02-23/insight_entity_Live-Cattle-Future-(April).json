@@ -1,0 +1,39 @@
+{
+  "type": "all",
+  "entity": "Live Cattle Future (second month) (April)",
+  "interpretation": "The analysis indicates moderate market volatility with an ATR of 1.0886 and fluctuating price behavior around the average closing price, shown by the standard deviation of 0.5936. The trading volume is notably higher than average, suggesting increased market participation and potential price movement. Recent price changes indicate a slight upward trend while key support and resistance levels show that the current price is in a narrow range. Market sentiment remains neutral, with equal instances of closing higher and lower than opening prices.",
+  "significance_score": 0.74,
+  "score_reasoning": "The combined metrics reflect a market in a transitional phase. Increased volume suggests activity that could lead to significant price movements, while key levels of support and resistance highlight critical decision points. The overall mixed sentiment calls for cautious trading strategies as the market seeks direction amidst moderate volatility.",
+  "individual_insights": [
+    {
+      "question": "Evaluate market volatility for the product on the date of interest by calculating the average true range (ATR) and the standard deviation of the closing prices over the last 14 days.",
+      "interpretation": "The Average True Range (ATR) of 1.0886 indicates moderate volatility in the market, suggesting that traders may expect some movement in prices. The standard deviation of closing prices at 0.5936 reinforces this by showing that there have been fluctuations in the closing prices around the average. These metrics indicate potential for price movement and should be monitored for risk assessment.",
+      "significance_score": 0.7,
+      "reasoning": ""
+    },
+    {
+      "question": "Analyze trading volume trends by comparing the volume on the date of interest against the average volume over the past 30 days.",
+      "interpretation": "The current volume of 26,259 significantly exceeds the average volume of 24,471.43, which suggests an increase in trading activity and possible heightened interest or reaction to market news. The volume change percentage of 7.30% indicates a notable shift in market participation, which often precedes price changes.",
+      "significance_score": 0.8,
+      "reasoning": ""
+    },
+    {
+      "question": "Identify significant price movements by evaluating the percentage change in closing price from the previous day to the current day.",
+      "interpretation": "The percentage change of 0.1454 indicates that the price has experienced a slight increase from the previous day, suggesting a stable upward trend. This movement may signal a positive sentiment among traders and could lead to further price increases if sustained.",
+      "significance_score": 0.6,
+      "reasoning": ""
+    },
+    {
+      "question": "Determine key support and resistance levels by analyzing the closing prices over the last 30 days to find price levels that have been touched multiple times.",
+      "interpretation": "The support level of 160.52 and resistance level of 165.1 indicate critical price thresholds. The current price of 165.32 is close to the resistance level, which may pose a challenge for further upward movement. Analysis shows the price is 4.80 above support and just 0.22 above resistance, indicating market participants should watch for potential reversal or breakthrough at these levels.",
+      "significance_score": 0.75,
+      "reasoning": ""
+    },
+    {
+      "question": "Evaluate market sentiment by analyzing the closing prices relative to their opening prices over the past week to assess whether prices are closing higher or lower than they opened.",
+      "interpretation": "The weekly close-open change of 0.21 indicates that, on average, prices have closed slightly above their opening levels, with 50% of the days closing higher and 50% lower. This balanced sentiment suggests indecision in the market, requiring careful observation for future direction.",
+      "significance_score": 0.65,
+      "reasoning": ""
+    }
+  ]
+}

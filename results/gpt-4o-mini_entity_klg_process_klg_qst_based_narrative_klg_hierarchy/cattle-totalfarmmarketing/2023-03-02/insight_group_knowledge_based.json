@@ -1,0 +1,112 @@
+[
+  {
+    "cluster_name": "Live Cattle Futures",
+    "entities": [
+      "Live Cattle Future (front month) (April)",
+      "Live Cattle Future (second month) (June)",
+      "Live Cattle Future (third month) (August)"
+    ],
+    "cluster_insights": [
+      {
+        "type": "Market Sentiment Correlation",
+        "description": "The bearish sentiment in live cattle futures exhibits consistent behavior across different contract months, indicating a shared market sentiment.",
+        "supporting_insights": [
+          "Both front and second month contracts show declining price trends.",
+          "The majority of days have closed lower than opened across the futures."
+        ],
+        "significance": "Understanding the correlation of sentiment allows investors to anticipate potential market movements more effectively.",
+        "significance_score": 0.85
+      },
+      {
+        "type": "Support and Resistance Dynamics",
+        "description": "Critical support and resistance levels are influencing price action and market behavior across all live cattle futures.",
+        "supporting_insights": [
+          "Resistance levels in April and June are being tested.",
+          "Prices are near critical resistance levels which could signal selling pressure."
+        ],
+        "significance": "Recognizing these levels helps traders to manage risk and identify potential reversal points.",
+        "significance_score": 0.8
+      },
+      {
+        "type": "Volume and Sentiment Relationship",
+        "description": "Divergent trading volumes suggest varying trader sentiments and expectations among the different contract months.",
+        "supporting_insights": [
+          "April contracts exhibit declining volumes while August shows an increase.",
+          "June's volume is significantly higher than its average, indicating heightened trading activity."
+        ],
+        "significance": "Understanding volume patterns can help predict future price movements and trader behavior.",
+        "significance_score": 0.75
+      },
+      {
+        "type": "Volatility-Price Trend Relationship",
+        "description": "Moderate volatility coupled with bearish price trends is common across live cattle futures contracts.",
+        "supporting_insights": [
+          "All contracts show bearish sentiment and price declines.",
+          "ATR values indicate similar volatility levels across the contracts."
+        ],
+        "significance": "Recognizing these trends allows traders to adjust strategies in response to predicted market instability.",
+        "significance_score": 0.7
+      },
+      {
+        "type": "Causal Relationship",
+        "description": "A significant price drop in front month futures often triggers price adjustments in second and third month futures.",
+        "supporting_insights": [
+          "Declining prices in April may lead traders to reassess their positions in June and August.",
+          "Market behavior often reflects a ripple effect from front month futures."
+        ],
+        "significance": "Understanding causal dynamics aids in anticipating moves across multiple contract months.",
+        "significance_score": 0.65
+      }
+    ]
+  },
+  {
+    "cluster_name": "Feeder Cattle Futures",
+    "entities": [
+      "Feeder Cattle Future (front month) (March)",
+      "Feeder Cattle Future (second month) (April)",
+      "Feeder Cattle Future (third month) (May)"
+    ],
+    "cluster_insights": [
+      {
+        "type": "Support and Resistance Dynamics",
+        "description": "Both insights highlight critical support and resistance levels that are influencing price action in their respective contracts, indicating risk areas for traders.",
+        "supporting_insights": [
+          "March's support level at 183.25 and resistance at 187.7.",
+          "April's support level at 187.95 and resistance at 191.75.",
+          "May's support level at 192.4 and resistance at 195.52."
+        ],
+        "significance": "Understanding support and resistance levels is crucial for traders to make informed decisions about entering and exiting positions, particularly in volatile markets.",
+        "significance_score": 0.85
+      },
+      {
+        "type": "Volume and Sentiment Relationship",
+        "description": "Low trading volume in the March feeder cattle futures indicates investor caution, while increased volume and positive sentiment in the May contracts suggest a divergence in market participation.",
+        "supporting_insights": [
+          "March's trading volume drop by 71.77%.",
+          "May's volume spiking by 49.54%."
+        ],
+        "significance": "Volume changes can indicate shifts in investor sentiment and market participation, essential for predicting future price movements.",
+        "significance_score": 0.8
+      },
+      {
+        "type": "Market Sentiment Correlation",
+        "description": "The bearish sentiment in June live cattle futures contrasts with the strong bullish sentiment in May feeder cattle futures, highlighting the intertwined relationship in sentiment across different cattle futures.",
+        "supporting_insights": [
+          "80% of days in May closed higher than opened.",
+          "Market sentiment reflected in March and April shows caution amid stronger sentiment in May."
+        ],
+        "significance": "Market sentiment often drives the decisions of traders; understanding the contrasts between different segments can lead to more strategic investment decisions.",
+        "significance_score": 0.75
+      },
+      {
+        "type": "Causal",
+        "description": "Increased volume in live cattle futures may lead to decreased interest in feeder cattle futures, as speculative movements divert attention from feeder contracts.",
+        "supporting_insights": [
+          "Increases in trading volume observed across both markets."
+        ],
+        "significance": "Recognizing how shifts in volume and interest transfer between futures can assist in anticipating price movements and strategizing trades effectively.",
+        "significance_score": 0.7
+      }
+    ]
+  }
+]

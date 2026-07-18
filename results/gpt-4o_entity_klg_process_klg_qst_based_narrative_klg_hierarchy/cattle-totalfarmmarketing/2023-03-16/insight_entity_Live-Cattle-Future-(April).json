@@ -1,0 +1,34 @@
+{
+  "type": "all",
+  "entity": "Live Cattle Future (front month) (April)",
+  "interpretation": "The Live Cattle Future market is experiencing elevated volatility with a downward trend involving reduced trading activity and weak support/resistance levels. The RSI indicates a potential nearing to oversold conditions with stable but not significant movements in trend bias.",
+  "significance_score": 0.7,
+  "score_reasoning": "Combining assessments of heightened volatility, reduced volume, and downward trend bias allows for cautious trading approach due to uncertain future price stability. Neutral momentum and weak support/resistance levels underscore potential for further downward adjustments or corrections.",
+  "individual_insights": [
+    {
+      "question": "Assess the daily volatility of the cattle market by comparing the intraday price range relative to the closing price over the past month.",
+      "interpretation": "The intraday price range standing at 1.37 exceeds the 30-day average intraday range of 1.31, indicating higher than typical volatility. The percentage volatility of 0.84% suggests moderate daily price swings relative to the closing price.",
+      "significance_score": 0.7
+    },
+    {
+      "question": "Evaluate the trading activity by analyzing the volume trends and identifying any significant spikes or declines over the past two weeks.",
+      "interpretation": "The current volume is 4,705 units less than the 14-day average volume of 29,425.07 units, marking a 15.99% decline. This substantial decrease suggests reduced trading activity or investor interest.",
+      "significance_score": 0.8
+    },
+    {
+      "question": "Determine the consistency of the price trend by analyzing the frequency of upward or downward movements in closing prices over the past quarter.",
+      "interpretation": "With 8 up days against 13 down days within 90 days, the market shows a downward bias. The trend consistency ratio of 0.381 indicates a preference towards downward movements, though not strongly decisive.",
+      "significance_score": 0.6
+    },
+    {
+      "question": "Identify key support and resistance levels by evaluating price patterns and their frequency of touch over multiple time frames.",
+      "interpretation": "Support levels exist around 163.9, 164.5, 164.78, and 165.08, while a resistance level stands at 166.1, each confirmed by two touches, suggesting relatively stable but weak support/resistance.",
+      "significance_score": 0.5
+    },
+    {
+      "question": "Examine the market momentum by calculating and comparing relative strength indices and their levels over the past month.",
+      "interpretation": "The RSI at 34.27, close to the oversold threshold, suggests diminishing upward momentum. The absence of a calculated average RSI limits longer-term evaluation, resulting in a neutral momentum signal.",
+      "significance_score": 0.6
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "metric_patterns": [
+    "How do changes in volatility of the 5-Year Bond Yield typically relate to changes in the 10-Year Bond Yield?",
+    "What conditions affect the relationship between trading volume and price action insights for the 1-Year Bond Yield?"
+  ],
+  "entity_interactions": [
+    "What are common ways that fluctuations in the United States 2-Year Bond Yield affect the United States 3-Year Bond Yield?",
+    "Under what conditions do short-term bond yields influence long-term bond yields the most strongly?"
+  ],
+  "common_factors": [
+    "What external factors commonly affect multiple United States bond yields?",
+    "How do economic indicators like inflation and employment rates typically impact different United States bond yields?"
+  ],
+  "temporal_patterns": [
+    "What typical sequences of changes occur in 1-Year, 2-Year, and 5-Year Bond Yields during periods of market volatility?",
+    "How do time-based factors like upcoming Federal Reserve meetings affect relationships between different bond yields?"
+  ],
+  "system_patterns": [
+    "What system-level conditions influence relationships between short-term and long-term bond yields?",
+    "How do structural factors in monetary policy affect interactions between various United States bond yields?"
+  ]
+}

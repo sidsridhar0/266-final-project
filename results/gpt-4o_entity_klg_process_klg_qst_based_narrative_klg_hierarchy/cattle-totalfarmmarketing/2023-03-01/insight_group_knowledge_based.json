@@ -1,0 +1,113 @@
+[
+  {
+    "cluster_name": "Live Cattle Futures Cluster",
+    "entities": [
+      "Live Cattle Future (front month) (April)",
+      "Live Cattle Future (second month) (June)",
+      "Live Cattle Future (third month) (August)"
+    ],
+    "cluster_insights": [
+      {
+        "type": "Volatility and Trading Volume Correlation",
+        "description": "There is a marked increase in volatility and trading volume across the Live Cattle Futures, suggesting potential accumulation or distribution phases and readiness for significant market movement.",
+        "supporting_insights": [
+          "The cattle market is currently experiencing high volatility and increased trading volume, pointing to potential significant market movement. The daily price range is significantly higher than both 7-day and 30-day averages.",
+          "The recent increase in volatility for live cattle futures as indicated by price ranges significantly higher than weekly and monthly averages."
+        ],
+        "significance": "The simultaneous rise in volatility and trading volume indicates strong market interest and activity, which can lead to significant price movements, providing crucial insights for investors to strategize their positions.",
+        "significance_score": 0.9
+      },
+      {
+        "type": "Support/Resistance Levels and Breakout Potential",
+        "description": "Futures are nearing key support and resistance levels, with significant trading volume indicating potential breakout scenarios.",
+        "supporting_insights": [
+          "A support level is identified at 158.3 and resistance at 161.9, suggesting a potential breakout if prices test these levels again.",
+          "The futures are approaching a support level of 158.05 and a resistance level of 160.8, indicating potential breakout scenarios.",
+          "With a support level at 162.0 and a resistance level at 166.4, combined with a volume spike, the market could be poised for a breakout."
+        ],
+        "significance": "The testing of key support and resistance levels combined with volume spikes heightens the potential for breakout scenarios. This is crucial for anticipating price movements and formulating investment strategies.",
+        "significance_score": 0.85
+      },
+      {
+        "type": "Price and Volume Dynamics",
+        "description": "Strong correlation between heightened trading volume and approach to crucial price levels indicates expectations of market movement.",
+        "supporting_insights": [
+          "The current volume has increased by 57.4% from the 20-day average, indicating a potential major move.",
+          "The current trading volume shows a substantial increase of 67.69% compared to the 20-day average volume."
+        ],
+        "significance": "The significant increase in trading volume at crucial price levels suggests heightened market interest and potential accumulation or distribution, which may predict future price trends.",
+        "significance_score": 0.8
+      },
+      {
+        "type": "Volatility and Momentum Relationship",
+        "description": "Increased volatility across cattle futures contracts often leads to changes in momentum.",
+        "supporting_insights": [
+          "Both June and August Live Cattle Futures are experiencing increased volatility, which often leads to momentum changes.",
+          "Both the third month and front month live cattle futures show increased volatility, suggesting potential upcoming momentum changes."
+        ],
+        "significance": "Understanding volatility's impact on momentum is crucial for traders to adjust their strategies and anticipate possible trend changes.",
+        "significance_score": 0.78
+      },
+      {
+        "type": "Volume and Accumulation/Distribution Relationship",
+        "description": "Significant increases in trading volume suggest potential market accumulation or distribution.",
+        "supporting_insights": [
+          "Both June and August contracts exhibit significant increases in trading volume, suggesting potential market accumulation or distribution.",
+          "Both insights show significant volume increases, potentially indicating phases of accumulation or distribution."
+        ],
+        "significance": "The observed patterns imply potential phases of accumulation or distribution, providing strategic insights for both hedgers and speculators to align their trading actions.",
+        "significance_score": 0.75
+      }
+    ]
+  },
+  {
+    "cluster_name": "Feeder Cattle Futures Cluster",
+    "entities": [
+      "Feeder Cattle Future (front month) (March)",
+      "Feeder Cattle Future (second month) (April)",
+      "Feeder Cattle Future (third month) (May)"
+    ],
+    "cluster_insights": [
+      {
+        "type": "Volatility and Trading Volume Relationship",
+        "description": "Both feeder cattle futures show high short-term volatility, but while the March contract has stable volume, the May contract shows a significant increase in volume, indicating potential accumulation or distribution. This suggests that while March futures are stable, the May futures could be gearing up for a substantial price movement.",
+        "supporting_insights": [
+          "Entity: Feeder Cattle Future (front month) (March) - Stable volume despite high short-term volatility.",
+          "Entity: Feeder Cattle Future (third month) (May) - Significant volume increase indicating potential accumulation or distribution."
+        ],
+        "significance": "Significant volume changes combined with volatility indicate potential for market shifts and preparation for substantial price movement, particularly in May futures.",
+        "significance_score": 0.9
+      },
+      {
+        "type": "Support and Resistance Level Significance",
+        "description": "Potential breakout opportunities due to volume spikes as support and resistance levels are approached, particularly in April futures, contradicting the stability observed in March.",
+        "supporting_insights": [
+          "Entity: Feeder Cattle Future (front month) (March) - Static support and resistance levels suggest limited breakout potential.",
+          "Entity: Feeder Cattle Future (second month) (April) - Volume spikes and approach to support and resistance imply breakout opportunities."
+        ],
+        "significance": "The potential for critical breakout scenarios in April contracts suggests market momentum and possible directional shifts impacting investor strategies.",
+        "significance_score": 0.85
+      },
+      {
+        "type": "Volatility and Volume Correlation",
+        "description": "Both the Feeder Cattle and Live Cattle Futures are experiencing increased volatility and heightened trading volume, indicating potential accumulation or distribution phases and readiness for market movement.",
+        "supporting_insights": [
+          "Entity: Feeder Cattle Future (third month) (May) - High volatility with significant volume increase.",
+          "Entity: Feeder Cattle Future (second month) (April) - Increased volatility and significant volume rise."
+        ],
+        "significance": "The correlation between volatility and volume changes across futures reflects readiness for market movement and potential for strategic investment shifts.",
+        "significance_score": 0.8
+      },
+      {
+        "type": "Price Action and Trading Volume Relationship",
+        "description": "The correlation between heightened trading volume and near-critical levels in both Feeder and Live Cattle Futures suggests an expectation of market movement and potential direction shifts.",
+        "supporting_insights": [
+          "Entity: Feeder Cattle Future (third month) (May) - Volume spikes indicating possible breakout as prices approach critical levels.",
+          "Entity: Feeder Cattle Future (second month) (April) - Significant volume changes suggest breakout scenarios."
+        ],
+        "significance": "The likelihood of market movement as reflected by volume spikes near critical levels may inform strategic positioning in anticipation of price direction changes.",
+        "significance_score": 0.75
+      }
+    ]
+  }
+]

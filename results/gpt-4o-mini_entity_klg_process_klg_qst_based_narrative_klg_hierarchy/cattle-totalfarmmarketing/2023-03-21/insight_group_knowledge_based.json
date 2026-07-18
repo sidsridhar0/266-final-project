@@ -1,0 +1,185 @@
+[
+  {
+    "cluster_name": "Live Cattle Futures",
+    "entities": [
+      "Live Cattle Future (front month) (April)",
+      "Live Cattle Future (second month) (June)",
+      "Live Cattle Future (third month) (August)"
+    ],
+    "cluster_insights": [
+      {
+        "type": "Volatility-Price Movement Relationship",
+        "description": "Both insights point out that the current prices are below key support and resistance levels while exhibiting moderate volatility, suggesting the need for careful market monitoring.",
+        "supporting_insights": [
+          "Entity: Live Cattle Future (second month) (June)",
+          "Entity: Live Cattle Future (third month) (August)",
+          "Entity: Live Cattle Future (front month) (April)"
+        ],
+        "significance": "Identifying the potential for significant price movements given the current volatility is crucial for traders to make informed decisions.",
+        "significance_score": 0.9
+      },
+      {
+        "type": "Bearish Sentiment Correlation",
+        "description": "The presence of bearish sentiment in both feeder and live cattle futures points to a broader decline in market confidence, potentially affecting price movements across both markets.",
+        "supporting_insights": [
+          "Entity: Live Cattle Future (second month) (June)",
+          "Entity: Live Cattle Future (third month) (August)",
+          "Entity: Live Cattle Future (front month) (April)"
+        ],
+        "significance": "Understanding the prevailing bearish sentiment helps traders anticipate potential market trends and align their strategies appropriately.",
+        "significance_score": 0.85
+      },
+      {
+        "type": "Volume-Price Relationship",
+        "description": "Both insights reflect an increase in trading volumes which suggests a strong market sentiment and potential price movement, despite the prevailing bearish sentiment.",
+        "supporting_insights": [
+          "Entity: Live Cattle Future (second month) (June)",
+          "Entity: Live Cattle Future (third month) (August)",
+          "Entity: Live Cattle Future (front month) (April)"
+        ],
+        "significance": "Recognizing the relationship between volume and price helps in forecasting market actions and validating price trends.",
+        "significance_score": 0.8
+      },
+      {
+        "type": "Impact of Volatility on Price Trends",
+        "description": "The moderate volatility in both feeder and live cattle futures suggests heightened uncertainty, which could lead to significant price movements in both markets.",
+        "supporting_insights": [
+          "Entity: Live Cattle Future (second month) (June)",
+          "Entity: Live Cattle Future (third month) (August)"
+        ],
+        "significance": "Highlighting the uncertainty in the market emphasizes the need for agile trading responses and risk management strategies.",
+        "significance_score": 0.75
+      },
+      {
+        "type": "Market Sentiment Correlation",
+        "description": "Both the live and feeder cattle futures are experiencing significant declines in trading volume, reflecting a bearish market sentiment across both entities.",
+        "supporting_insights": [],
+        "significance": "Recognizing overall market sentiment can help inform longer-term investment decisions.",
+        "significance_score": 0.7
+      }
+    ]
+  },
+  {
+    "cluster_name": "Feeder Cattle Futures",
+    "entities": [
+      "Feeder Cattle Future (front month) (March)",
+      "Feeder Cattle Future (second month) (April)",
+      "Feeder Cattle Future (third month) (May)"
+    ],
+    "cluster_insights": [
+      {
+        "type": "bearish sentiment correlation",
+        "description": "The presence of bearish sentiment in both feeder and live cattle futures points to a broader decline in market confidence, potentially affecting price movements across both markets.",
+        "supporting_insights": [
+          "The negative weekly close-open change of -2.80 and 80% of days closing lower for April futures indicate bearish sentiment.",
+          "80% of days closing lower for both March and May futures reinforce prevailing bearish sentiment."
+        ],
+        "significance": "This correlation highlights that investor confidence is low, impacting all-month futures and suggesting caution in trading strategies.",
+        "significance_score": 0.9
+      },
+      {
+        "type": "volume trends influence",
+        "description": "The contrasting volume trends indicate divergent market sentiments; the decrease in feeder cattle volume suggests a lack of interest, while increased live cattle volume indicates heightened activity.",
+        "supporting_insights": [
+          "Current trading volume for March futures shows a significant decrease of 82.60% compared to the average.",
+          "April futures have a trading volume drop of 33.77% from the average, indicating declining interest."
+        ],
+        "significance": "Low trading volumes across feeder cattle futures imply less market activity and can lead to illiquidity, affecting investor decision-making.",
+        "significance_score": 0.8
+      },
+      {
+        "type": "impact of volatility on price trends",
+        "description": "The moderate volatility in both feeder and live cattle futures suggests heightened uncertainty, which could lead to significant price movements in both markets.",
+        "supporting_insights": [
+          "The ATR for second month futures is 2.1050, indicating moderate volatility.",
+          "The ATR value of 1.7014 for front month futures suggests potential price movement."
+        ],
+        "significance": "Volatility amplifies market uncertainty, warranting cautious investment choices as it indicates larger potential price swings.",
+        "significance_score": 0.75
+      },
+      {
+        "type": "market sentiment correlation",
+        "description": "Both the live and feeder cattle futures are experiencing significant declines in trading volume, reflecting a bearish market sentiment across both entities.",
+        "supporting_insights": [
+          "The trading volume declines for all future months indicate reduced market activity.",
+          "Bearish sentiment is magnified by widespread low trading volumes, signaling hesitation among investors."
+        ],
+        "significance": "This shared sentiment can create a self-reinforcing cycle of declining prices, thus affecting overall market stability.",
+        "significance_score": 0.85
+      },
+      {
+        "type": "price influence",
+        "description": "Changes in the live cattle futures market can significantly influence the feeder cattle futures market, as they reflect cost dynamics in production.",
+        "supporting_insights": [
+          "Price movements in live cattle directly correlate with feeder cattle prices due to demand dynamics.",
+          "Price stability in live cattle could lead to more stable feeder cattle futures."
+        ],
+        "significance": "Understanding this relationship aids traders in anticipating market movements and preparing for fluctuations in feeder cattle prices.",
+        "significance_score": 0.8
+      }
+    ]
+  },
+  {
+    "cluster_name": "Cattle Futures Overview",
+    "entities": [
+      "Live Cattle Future (front month) (April)",
+      "Live Cattle Future (second month) (June)",
+      "Live Cattle Future (third month) (August)",
+      "Feeder Cattle Future (front month) (March)",
+      "Feeder Cattle Future (second month) (April)",
+      "Feeder Cattle Future (third month) (May)"
+    ],
+    "cluster_insights": [
+      {
+        "type": "Bearish Sentiment Correlation",
+        "description": "The presence of bearish sentiment in both feeder and live cattle futures points to a broader decline in market confidence, potentially affecting price movements across both markets.",
+        "supporting_insights": [
+          "Overall bearish sentiment, with a significant percentage of days closing lower in both feeder and live cattle futures.",
+          "Negative weekly close-open changes indicative of a prevailing downward trend in most entities."
+        ],
+        "significance": "Understanding market sentiment is crucial for investors to anticipate price movements and make informed decisions.",
+        "significance_score": 0.9
+      },
+      {
+        "type": "Volume-Price Relationship",
+        "description": "Both insights reflect an increase in trading volumes which suggests a strong market sentiment and potential price movement, despite the prevailing bearish sentiment.",
+        "supporting_insights": [
+          "Increased trading volume in live cattle futures suggests heightened market interest.",
+          "Decreased volume in feeder cattle futures indicates a lack of interest that could lead to price stagnation."
+        ],
+        "significance": "Volume is a leading indicator for price changes, and understanding its relationship with price informs better trading strategies.",
+        "significance_score": 0.85
+      },
+      {
+        "type": "Impact of Volatility on Price Trends",
+        "description": "The moderate volatility in both feeder and live cattle futures suggests heightened uncertainty, which could lead to significant price movements in both markets.",
+        "supporting_insights": [
+          "Current ATR indicating moderate volatility across multiple contracts.",
+          "Fluctuations around average closing prices support the notion of volatility."
+        ],
+        "significance": "Recognizing volatility patterns aids traders in risk management and decision-making on entry and exit points.",
+        "significance_score": 0.8
+      },
+      {
+        "type": "Sentiment Correlation",
+        "description": "Both insights indicate a consistent bearish sentiment in the market, as evidenced by the negative weekly change and low percentage of days closing higher.",
+        "supporting_insights": [
+          "80% of days across various entities closing lower signifies a strong bearish market condition.",
+          "Frequent negative close-open changes indicate sellers are dominating the market."
+        ],
+        "significance": "This insight helps investors gauge the overall risk in their portfolio and make necessary adjustments.",
+        "significance_score": 0.75
+      },
+      {
+        "type": "Price Dynamics Relationship",
+        "description": "Both insights reflect a prevailing bearish sentiment, leading to cautious positioning by investors and traders.",
+        "supporting_insights": [
+          "Close proximity to key support and resistance levels indicates potential for consolidation or significant price movements.",
+          "Divergent performance patterns across front month and subsequent contracts reflect underlying market dynamics."
+        ],
+        "significance": "Investors need to be cautious of market conditions that favor downward movement to protect their investments.",
+        "significance_score": 0.7
+      }
+    ]
+  }
+]

@@ -1,0 +1,117 @@
+[
+  {
+    "cluster_name": "Live Cattle Futures",
+    "entities": [
+      "Live Cattle Future (front month) (April)",
+      "Live Cattle Future (second month) (June)",
+      "Live Cattle Future (third month) (August)"
+    ],
+    "cluster_insights": [
+      {
+        "type": "Volume Impact",
+        "description": "Increased trading volume in Live Cattle Futures signals heightened interest that contrasts sharply with the significant decrease in volume for Feeder Cattle Futures, suggesting diverging market sentiments.",
+        "supporting_insights": [
+          "The current trading volume is notably high for all months, indicating increased trader activity.",
+          "The significant increase in trading volume for April and June Live Cattle Futures reflects strong market sentiment."
+        ],
+        "significance": "Rising volume often precedes price changes and indicates investor confidence, crucial for anticipating market direction.",
+        "significance_score": 0.9
+      },
+      {
+        "type": "Positive Market Sentiment",
+        "description": "Both analyses show positive market sentiment towards live and feeder cattle futures despite some volatility, suggesting overall bullish sentiment in the cattle market.",
+        "supporting_insights": [
+          "60% of the days across different futures closed higher than they opened, indicating favorable market conditions.",
+          "The upward trends in closing prices across Live Cattle Futures suggest firm demand."
+        ],
+        "significance": "Positive sentiment is a strong driver of price momentum and can attract additional investor interest, sustaining bullish trends.",
+        "significance_score": 0.85
+      },
+      {
+        "type": "Impact of Price Levels",
+        "description": "Both Live and Feeder Cattle Futures are positioned above their respective support levels, indicating bullish sentiment, which could reinforce upward trends if demand persists.",
+        "supporting_insights": [
+          "Current prices are above key support levels for all Live Cattle Futures, suggesting underlying strength in the market.",
+          "The ability to maintain positions above resistance levels indicates potential for future gains."
+        ],
+        "significance": "Understanding price levels allows traders to make informed decisions about entry and exit points, influencing overall trading strategy.",
+        "significance_score": 0.8
+      },
+      {
+        "type": "Volatility and Price Movement",
+        "description": "Moderate volatility in both markets indicates potential for price movements, influencing trader strategies and sentiment in related cattle futures.",
+        "supporting_insights": [
+          "The Average True Range across all contracts indicates moderate volatility, allowing for strategic positioning by traders.",
+          "Analyses show consistent ATR readings, indicating stability with the potential for price swings."
+        ],
+        "significance": "Volatility is a critical factor for traders as it presents opportunities for profit, making it essential to monitor in active markets.",
+        "significance_score": 0.75
+      },
+      {
+        "type": "Market Sentiment and Price Levels",
+        "description": "Both March feeder cattle and April live cattle futures demonstrate bullish sentiment with their prices positioned favorably against key support and resistance levels, indicating potential upward momentum.",
+        "supporting_insights": [
+          "Favorable positioning of prices suggests that bulls are likely to push the prices higher if buying interest continues.",
+          "Resistance levels being tested may lead to breakout scenarios if surpassed."
+        ],
+        "significance": "Identifying potential breakout or breakdown scenarios based on price levels and sentiment helps traders in executing timely trades.",
+        "significance_score": 0.7
+      }
+    ]
+  },
+  {
+    "cluster_name": "Feeder Cattle Futures",
+    "entities": [
+      "Feeder Cattle Future (front month) (March)",
+      "Feeder Cattle Future (second month) (April)",
+      "Feeder Cattle Future (third month) (May)"
+    ],
+    "cluster_insights": [
+      {
+        "type": "Volume Impact",
+        "description": "Increased trading volume in Live Cattle Futures signals heightened interest that contrasts sharply with the significant decrease in volume for Feeder Cattle Futures, suggesting diverging market sentiments.",
+        "supporting_insights": [
+          "Reduced trading volume in March feeder cattle futures indicates lower market interest."
+        ],
+        "significance": "The contrasting volume trends highlight a potential shift in market sentiment, indicating that traders may be more cautious about feeder cattle futures.",
+        "significance_score": 0.8
+      },
+      {
+        "type": "Market Sentiment and Price Levels",
+        "description": "Both March feeder cattle and April live cattle futures demonstrate bullish sentiment with their prices positioned favorably against key support and resistance levels, indicating potential upward momentum.",
+        "supporting_insights": [
+          "Current prices for April and May feeder cattle futures are significantly above key support levels."
+        ],
+        "significance": "Positive market sentiment, supported by favorable price levels, suggests that traders might anticipate further price increases.",
+        "significance_score": 0.85
+      },
+      {
+        "type": "Positive Market Sentiment",
+        "description": "Both analyses show positive market sentiment towards live and feeder cattle futures despite some volatility, suggesting overall bullish sentiment in the cattle market.",
+        "supporting_insights": [
+          "Strong bullish sentiment in April and May feeder cattle futures."
+        ],
+        "significance": "This demonstrates collective optimism among traders, potentially driving up demand and prices across the cattle markets.",
+        "significance_score": 0.9
+      },
+      {
+        "type": "Causal",
+        "description": "Increased trading volume and moderate volatility in live cattle futures correlates with similarly heightened activity in feeder cattle futures, reflecting shared market momentum.",
+        "supporting_insights": [
+          "Volume spikes in April and May feeder contracts align with heightened investor interest."
+        ],
+        "significance": "This insight reveals the interconnectedness of the cattle futures markets and the influence of live cattle performance on feeder cattle trading.",
+        "significance_score": 0.75
+      },
+      {
+        "type": "Volatility and Price Movement",
+        "description": "Moderate volatility in both markets indicates potential for price movements, influencing trader strategies and sentiment in related cattle futures.",
+        "supporting_insights": [
+          "ATR values across all months indicate moderate volatility levels."
+        ],
+        "significance": "Understanding volatility patterns helps traders plan their strategies effectively, identifying opportunities for profit as well as potential risk.",
+        "significance_score": 0.7
+      }
+    ]
+  }
+]

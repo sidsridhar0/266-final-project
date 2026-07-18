@@ -1,0 +1,36 @@
+[
+  {
+    "cluster_name": "Live Cattle Futures",
+    "entities": [
+      "Live Cattle Future (front month) (February)",
+      "Live Cattle Future (second month) (April)",
+      "Live Cattle Future (third month) (June)"
+    ],
+    "reason_of_clustering": "These entities are grouped together because they all pertain to Live Cattle Futures contracts, representing the same commodity but differing by expiry month. This allows market participants to track price trends over near and medium-term horizons within the Live Cattle market."
+  },
+  {
+    "cluster_name": "Feeder Cattle Futures",
+    "entities": [
+      "Feeder Cattle Future (front month) (March)",
+      "Feeder Cattle Future (second month) (April)",
+      "Feeder Cattle Future (third month) (May)"
+    ],
+    "reason_of_clustering": "These entities are grouped because they pertain to Feeder Cattle Futures contracts. They represent the same category of livestock but vary in terms of contract expiration, providing insight into market expectations and pricing for the Feeder Cattle segment over the coming months."
+  },
+  {
+    "cluster_name": "Front-Month Futures",
+    "entities": [
+      "Live Cattle Future (front month) (February)",
+      "Feeder Cattle Future (front month) (March)"
+    ],
+    "reason_of_clustering": "The front-month futures for both Live and Feeder Cattle are clustered together as they represent the most immediate contracts, reflecting the closest delivery dates. They are critical for understanding the current supply-demand dynamics and market sentiment in the cattle market."
+  },
+  {
+    "cluster_name": "Subsequent-Month Futures",
+    "entities": [
+      "Live Cattle Future (second month) (April)",
+      "Feeder Cattle Future (second month) (April)"
+    ],
+    "reason_of_clustering": "The second-month futures for both cattle categories are grouped together as they share the same delivery month (April). This clustering helps identify patterns or anomalies in market expectations shortly after the front-month contracts."
+  }
+]

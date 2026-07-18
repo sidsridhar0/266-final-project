@@ -1,0 +1,25 @@
+{
+  "metric_patterns": [
+    "How does volatility analysis relate to changes in trading volume for corn futures?",
+    "What is the relationship between momentum analysis and price reversal signals in corn futures markets?",
+    "In what way does the closing price strength influence future volatility patterns for different contract months?"
+  ],
+  "entity_interactions": [
+    "How do the trading activities in Corn Future (front month) (March) influence the prices of Corn Future (second month) (May)?",
+    "What are the common impacts of Corn Future (third month) (September) on Corn Future (front month) (May) during high-price volatility periods?",
+    "Under what circumstances do Corn Futures of different contract months most strongly interact with each other?"
+  ],
+  "common_factors": [
+    "What macroeconomic factors commonly influence volatility across all corn futures entities?",
+    "How do weather-related factors typically impact trading volumes for different corn future contracts?",
+    "What seasonal trends affect both momentum analysis and price reversal signals across various corn futures?"
+  ],
+  "temporal_patterns": [
+    "What are the typical sequences of trading volume changes observed in the transition from March to May corn futures?",
+    "How do changes in the futures contract expiry date impact momentum analysis across corn delivery months?"
+  ],
+  "system_patterns": [
+    "What market-wide conditions influence volatility relationships between different corn futures?",
+    "How do regulatory changes in the agricultural commodities market impact interactions among corn futures of various months?"
+  ]
+}

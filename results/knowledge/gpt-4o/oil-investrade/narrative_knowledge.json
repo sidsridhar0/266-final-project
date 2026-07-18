@@ -1,0 +1,41 @@
+{
+  "narrative_structures": "A typical daily oil market report should start with an executive summary highlighting the major market moves and key drivers. Follow with sections that cover individual commodities with current prices and comparisons to previous day(s). Include market drivers, such as geopolitical factors, weather conditions, supply-demand imbalances, and macroeconomic indicators. End with an analysis or forecast for upcoming trends and investment recommendations.",
+  "focus_entities": [
+    {
+      "entities_name": "Brent Crude Oil",
+      "reasoning": "Brent Crude is a major trading classification of crude oil that serves as a major benchmark price for purchases of oil worldwide."
+    },
+    {
+      "entities_name": "WTI Crude Oil",
+      "reasoning": "WTI Crude is another prominent benchmark in oil pricing, particularly influential in the North American market."
+    },
+    {
+      "entities_name": "Natural Gas",
+      "reasoning": "Natural Gas is significant due to its role in energy production, industrial uses, and as an alternative to oil in various markets, with distinct seasonal demand patterns."
+    }
+  ],
+  "focus_insights": [
+    {
+      "insight_types": "Price Movements",
+      "reasoning": "Tracking the price movements of commodities to understand the trends and market states, which is crucial for investment decisions."
+    },
+    {
+      "insight_types": "Supply and Demand Dynamics",
+      "reasoning": "Evaluating supply constraints or surpluses and demand changes informs predictions and investment viability."
+    },
+    {
+      "insight_types": "Geopolitical Influences",
+      "reasoning": "Oil markets are sensitive to geopolitical events that may disrupt supply lines or affect international trade relations."
+    },
+    {
+      "insight_types": "Economic Indicators",
+      "reasoning": "Macroeconomic indicators like GDP growth, inflation rates, and currency fluctuations impact oil market conditions globally."
+    }
+  ],
+  "domain_language": [
+    "Use terms like 'bullish' for rising markets and 'bearish' for declining markets.",
+    "Express future prices in terms of 'futures contracts' with specific delivery months.",
+    "Reference price trends with percentage changes, typically compared to the previous day, week, or month.",
+    "Include technical markers such as support and resistance levels for traders."
+  ]
+}

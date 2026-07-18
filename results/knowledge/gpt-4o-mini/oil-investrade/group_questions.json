@@ -1,0 +1,18 @@
+{
+  "group_characteristics": [
+    "What common patterns appear in the price volatility of WTI Crude Oil, Natural Gas, and Brent Crude Oil over the last 30 days?",
+    "How do the strength of current closing prices compare across WTI Crude Oil, Natural Gas, and Brent Crude Oil relative to their recent performance?"
+  ],
+  "inter_group_dynamics": [
+    "How do changes in trading volume for WTI Crude Oil typically influence the trading volumes of Natural Gas and Brent Crude Oil?",
+    "What factors influence the relationship between the price range movements of WTI Crude Oil and Brent Crude Oil?"
+  ],
+  "propagation_patterns": [
+    "How do significant price changes in Brent Crude Oil typically affect the price movements of WTI Crude Oil and Natural Gas?",
+    "What market conditions most commonly trigger a ripple effect in volatility across these three entities?"
+  ],
+  "causal_chains": [
+    "What typical cause-effect sequences can be identified when analyzing the price strength and movement averages of Natural Gas relative to WTI Crude Oil?",
+    "How do the volatility characteristics of these entities influence the causal chains seen in their price movements?"
+  ]
+}

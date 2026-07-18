@@ -1,0 +1,22 @@
+{
+  "metric_patterns": [
+    "How do changes in daily price volatility for Lean Hogs Futures typically relate to changes in trading volume over the past week?",
+    "What conditions affect the relationship between price movement (closing vs opening price) and trading volume in Lean Hogs Futures?"
+  ],
+  "entity_interactions": [
+    "What are common ways that Lean Hogs Futures for April (front month) affects the prices of Lean Hogs Futures for May (third month)?",
+    "Under what conditions do Lean Hogs Futures for February influence those for April and May most strongly?"
+  ],
+  "common_factors": [
+    "What external factors commonly affect both Lean Hogs Futures price movement and daily price volatility?",
+    "How do supply chain disruptions typically impact trading volume across different Lean Hogs Futures entities?"
+  ],
+  "temporal_patterns": [
+    "What typical sequences of changes occur in daily price volatility and price movement of Lean Hogs Futures as they approach expiration dates?",
+    "How do time-based factors, such as seasonal demand, affect relationships between Lean Hogs Futures prices over various months?"
+  ],
+  "system_patterns": [
+    "What system-level conditions influence relationships between Lean Hogs Futures for different months?",
+    "How do structural factors in the pork industry, such as feed costs, affect interactions among Lean Hogs Futures prices?"
+  ]
+}

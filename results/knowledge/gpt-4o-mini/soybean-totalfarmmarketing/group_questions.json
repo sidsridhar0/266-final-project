@@ -1,0 +1,18 @@
+{
+  "group_characteristics": [
+    "What common volatility patterns appear across soybean futures and soybean meal futures?",
+    "How do price trends of soybean futures influence the momentum of soybean meal and soybean oil futures?"
+  ],
+  "inter_group_dynamics": [
+    "How do changes in soybean futures prices typically affect soybean meal and soybean oil futures prices?",
+    "What factors influence the correlation between trading volume in soybean futures and price changes in soybean meal futures?"
+  ],
+  "propagation_patterns": [
+    "How do fluctuations in soybean meal futures prices propagate to affect soybean oil futures prices?",
+    "What conditions affect the transmission of volatility between different soybean-related futures?"
+  ],
+  "causal_chains": [
+    "What typical cause-effect sequences occur between soybean futures volatility and soybean meal futures momentum?",
+    "How do changes in trading volume in the soybean market influence subsequent price trends in the soybean complex?"
+  ]
+}

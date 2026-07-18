@@ -1,0 +1,26 @@
+[
+  {
+    "cluster_name": "Precious Metals",
+    "entities": [
+      "Gold",
+      "Silver"
+    ],
+    "reason_of_clustering": "Gold and Silver are both considered precious metals that often move in correlation to each other due to their intrinsic value, safe-haven appeal during economic uncertainty, and shared industrial uses. Their prices tend to be influenced by similar market factors such as inflation, currency fluctuations, and geopolitical tensions."
+  },
+  {
+    "cluster_name": "Dollar Influence",
+    "entities": [
+      "Gold",
+      "Dollar Index"
+    ],
+    "reason_of_clustering": "Gold is inversely related to the Dollar Index in the financial markets. When the dollar strengthens, gold prices typically fall, as it becomes more expensive for holders of other currencies. Understanding this relationship helps investors predict gold price movements based on currency trends."
+  },
+  {
+    "cluster_name": "Industrial and Investment Commodities",
+    "entities": [
+      "Gold",
+      "Silver"
+    ],
+    "reason_of_clustering": "Both gold and silver serve dual roles as investment instruments and industrial commodities. Their prices can be influenced by demand from both investors seeking a hedge against inflation and manufacturers needing metals for production, making them relevant for market analysis related to both sectors."
+  }
+]

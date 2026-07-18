@@ -1,0 +1,38 @@
+{
+  "narrative_structures": "Daily market reports should follow a clear and logical structure, starting with an executive summary that highlights key findings, followed by a detailed analysis of market conditions, including a breakdown of the dollar index, gold, and silver prices. Conclude with actionable insights and potential future trends to aid investment decisions.",
+  "focus_entities": [
+    {
+      "entities_name": "Dollar Index",
+      "reasoning": "The Dollar Index serves as a critical benchmark for the strength of the US dollar against a basket of currencies, influencing gold and silver prices significantly."
+    },
+    {
+      "entities_name": "Gold",
+      "reasoning": "Gold is a primary safe-haven asset, often inversely correlated with the dollar and a barometer for market volatility and investor sentiment."
+    },
+    {
+      "entities_name": "Silver",
+      "reasoning": "Silver, often seen as a more volatile alternative to gold, provides insights into industrial demand and market trends, with strong correlations to both gold and broader economic conditions."
+    }
+  ],
+  "focus_insights": [
+    {
+      "insight_types": "Price Trends",
+      "reasoning": "Understanding price trends of gold and silver helps in predicting future movements and assessing market sentiment."
+    },
+    {
+      "insight_types": "Market Sentiment Analysis",
+      "reasoning": "Analyzing market sentiment gives insight into potential price movements and investor behavior, enhancing decision-making."
+    },
+    {
+      "insight_types": "Economic Indicators",
+      "reasoning": "Key economic indicators, such as inflation rates and interest rates, influence the value of the dollar and precious metals, making them important for forecasting price changes."
+    }
+  ],
+  "domain_language": [
+    "Use 'bullish' to describe upward price movements and 'bearish' for downward trends.",
+    "Express future prices with caution; phrases like 'projected to' or 'expected to trade around' indicate uncertainty.",
+    "Incorporate terms like 'safe-haven asset' for gold and silver contexts.",
+    "Specify price changes in percentage terms to enhance clarity in trends and comparisons.",
+    "Use technical analysis terms like 'support' and 'resistance' levels to communicate market analysis."
+  ]
+}

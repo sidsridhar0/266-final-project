@@ -1,0 +1,39 @@
+{
+  "type": "all",
+  "entity": "Feeder Cattle Future (third month) (May)",
+  "interpretation": "The market for Feeder Cattle Futures shows moderate volatility with an ATR of 2.2650 and a higher current trading volume of 6779 compared to the 30-day average. However, recent price movements indicate a slight upward trend, while overall sentiment remains negative with prices consistently closing lower over the last week.",
+  "significance_score": 0.7,
+  "score_reasoning": "The combination of elevated trading volume suggests active trading interest, yet the negative sentiment and price movements may reflect broader market uncertainties. Investors should pay close attention to the significant distance above support and the resistance level as a potential pivot point.",
+  "individual_insights": [
+    {
+      "question": "Evaluate market volatility for the product on the date of interest by calculating the average true range (ATR) and the standard deviation of the closing prices over the last 14 days.",
+      "interpretation": "The ATR of 2.2650 indicates a moderate level of market volatility, suggesting potential price movement in reaction to market events. The standard deviation of 2.5809 also points to price fluctuations that could influence trading decisions.",
+      "significance_score": 0.7,
+      "reasoning": ""
+    },
+    {
+      "question": "Analyze trading volume trends by comparing the volume on the date of interest against the average volume over the past 30 days.",
+      "interpretation": "Current trading volume at 6779 is significantly above the average of 4891.43, resulting in a volume change percentage of 38.59%. This surge in volume typically indicates heightened market activity and potential investor interest.",
+      "significance_score": 0.8,
+      "reasoning": ""
+    },
+    {
+      "question": "Identify significant price movements by evaluating the percentage change in closing price from the previous day to the current day.",
+      "interpretation": "A percentage change of 0.7445% from the previous day's closing price of 198.80 indicates a slight upward movement, which may reflect positive market sentiment; however, this change is relatively modest.",
+      "significance_score": 0.6,
+      "reasoning": ""
+    },
+    {
+      "question": "Determine key support and resistance levels by analyzing the closing prices over the last 30 days to find price levels that have been touched multiple times.",
+      "interpretation": "The current price of 200.28 is above the identified support level of 194.35 by 5.93, suggesting a healthy distance above this support. The price is also below the resistance level of 194.98 by 5.30, indicating potential for upward movement toward resistance.",
+      "significance_score": 0.75,
+      "reasoning": ""
+    },
+    {
+      "question": "Evaluate market sentiment by analyzing the closing prices relative to their opening prices over the past week to assess whether prices are closing higher or lower than they opened.",
+      "interpretation": "The closing prices have consistently been lower than opening prices over the past week, with all days closing lower and a total weekly change of -5.79. This indicates negative market sentiment and downward pressure on prices.",
+      "significance_score": 0.65,
+      "reasoning": ""
+    }
+  ]
+}

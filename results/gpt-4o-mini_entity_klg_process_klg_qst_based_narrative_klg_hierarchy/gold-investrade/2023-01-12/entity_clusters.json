@@ -1,0 +1,26 @@
+[
+  {
+    "cluster_name": "Precious Metals",
+    "entities": [
+      "Gold",
+      "Silver"
+    ],
+    "reason_of_clustering": "Gold and silver are both classified as precious metals and often exhibit correlated price movements. They are commonly viewed as safe-haven assets during times of economic uncertainty, which influences their market behavior together."
+  },
+  {
+    "cluster_name": "Currency Influence",
+    "entities": [
+      "Gold",
+      "Dollar Index"
+    ],
+    "reason_of_clustering": "The price of gold typically has an inverse relationship with the Dollar Index. When the dollar strengthens, gold prices often decline, and vice versa. This relationship is crucial for investors as changes in the dollar value can influence gold investment decisions."
+  },
+  {
+    "cluster_name": "Safe-Haven Assets",
+    "entities": [
+      "Gold",
+      "Silver"
+    ],
+    "reason_of_clustering": "Both gold and silver are considered safe-haven assets that attract investors during periods of market volatility and economic downturns. Their demand increases when investors seek security, making their price movements interlinked."
+  }
+]

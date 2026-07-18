@@ -1,0 +1,20 @@
+[
+  {
+    "cluster_name": "Live Cattle Futures",
+    "entities": [
+      "Live Cattle Future (front month) (April)",
+      "Live Cattle Future (second month) (June)",
+      "Live Cattle Future (third month) (August)"
+    ],
+    "reason_of_clustering": "These entities represent different maturities of Live Cattle Futures, which are financial contracts to buy or sell live cattle at a predetermined price on specific future dates. Analyzing them together highlights the pricing trends, seasonal variations, and market expectations for cattle production and demand."
+  },
+  {
+    "cluster_name": "Feeder Cattle Futures",
+    "entities": [
+      "Feeder Cattle Future (front month) (March)",
+      "Feeder Cattle Future (second month) (April)",
+      "Feeder Cattle Future (third month) (May)"
+    ],
+    "reason_of_clustering": "These entities are focused on different expirations of Feeder Cattle Futures, which are contracts dealing with younger cattle meant for feeding and future slaughter. This cluster helps analysts understand how feeder cattle pricing reacts to market conditions, feed costs, and overall beef supply changes."
+  }
+]

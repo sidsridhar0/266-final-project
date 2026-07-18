@@ -1,0 +1,108 @@
+[
+  {
+    "cluster_name": "Live Cattle Futures",
+    "entities": [
+      "Live Cattle Future (front month) (February)",
+      "Live Cattle Future (second month) (April)",
+      "Live Cattle Future (third month) (June)"
+    ],
+    "cluster_insights": [
+      {
+        "type": "volatility-price trend relationship",
+        "description": "Both insights reveal heightened volatility in the cattle market, which correlates with the current price proximity to resistance levels, indicating potential price movements.",
+        "supporting_insights": [
+          "Live Cattle Future (front month) (February) exhibits lower volatility but is near resistance.",
+          "Live Cattle Future (second month) (April) indicates heightened volatility and proximity to resistance levels.",
+          "Live Cattle Future (third month) (June) shows heightened volatility and current price near resistance."
+        ],
+        "significance": "Understanding volatility's impact on price can guide traders in anticipating market movement near resistance levels.",
+        "significance_score": 0.85
+      },
+      {
+        "type": "volume-sentiment relationship",
+        "description": "Both insights indicate low traded volumes, suggesting a lack of investor engagement and caution in the market.",
+        "supporting_insights": [
+          "Live Cattle Future (front month) (February) shows a -83.72% change in trading volume.",
+          "Live Cattle Future (second month) (April) has a volume change of -35.34%.",
+          "Live Cattle Future (third month) (June) has a volume change of -40.58%."
+        ],
+        "significance": "Low trading volumes may reflect investor hesitancy, which is critical in determining market sentiment.",
+        "significance_score": 0.78
+      },
+      {
+        "type": "support and resistance relationship",
+        "description": "Both insights demonstrate proximity to identified resistance levels, suggesting potential market tension and challenges in price movement.",
+        "supporting_insights": [
+          "Current price of Live Cattle Future (front month) (February) is near resistance at 162.82.",
+          "Live Cattle Future (second month) (April) is at 164.08 near resistance of 165.25.",
+          "Live Cattle Future (third month) (June) nears resistance at 160.75."
+        ],
+        "significance": "Identifying resistance levels is essential for predicting potential selling pressure and subsequent investment strategies.",
+        "significance_score": 0.82
+      },
+      {
+        "type": "market engagement",
+        "description": "Both futures are experiencing significantly low trading volumes, indicating a general lack of investor engagement in the cattle market.",
+        "supporting_insights": [
+          "Live Cattle Future (front month) (February) trading volume is down significantly.",
+          "Live Cattle Future (second month) (April) volume is below average.",
+          "Live Cattle Future (third month) (June) trading volume is notably low."
+        ],
+        "significance": "A lack of market engagement can lead to uncertain price movements, highlighting the need for caution in trading decisions.",
+        "significance_score": 0.75
+      }
+    ]
+  },
+  {
+    "cluster_name": "Feeder Cattle Futures",
+    "entities": [
+      "Feeder Cattle Future (front month) (March)",
+      "Feeder Cattle Future (second month) (April)",
+      "Feeder Cattle Future (third month) (May)"
+    ],
+    "cluster_insights": [
+      {
+        "type": "volatility-price trend relationship",
+        "description": "Both insights reveal heightened volatility in the cattle market, which correlates with the current price proximity to resistance levels, indicating potential price movements.",
+        "supporting_insights": [
+          "Entity: Feeder Cattle Future (third month) (May)",
+          "Entity: Feeder Cattle Future (front month) (March)"
+        ],
+        "significance": "This insight is crucial as it indicates a potential for upward price movements near resistance levels, providing traders with strategic entry points.",
+        "significance_score": 0.85
+      },
+      {
+        "type": "volume-sentiment relationship",
+        "description": "Both insights indicate low traded volumes, suggesting a lack of investor engagement and caution in the market, which typically leads to muted sentiments despite slight price changes.",
+        "supporting_insights": [
+          "Entity: Feeder Cattle Future (front month) (March)",
+          "Entity: Feeder Cattle Future (second month) (April)"
+        ],
+        "significance": "Understanding the volume-sentiment relationship helps traders gauge the level of market engagement, which can influence their investment choices.",
+        "significance_score": 0.75
+      },
+      {
+        "type": "support and resistance relationship",
+        "description": "Both insights demonstrate proximity to identified resistance levels, suggesting potential market tension and challenges in price movement, given the current pricing dynamics.",
+        "supporting_insights": [
+          "Entity: Feeder Cattle Future (third month) (May)",
+          "Entity: Feeder Cattle Future (front month) (March)",
+          "Entity: Feeder Cattle Future (second month) (April)"
+        ],
+        "significance": "The proximity to resistance levels indicates possible price ceilings that could trigger selling pressure, essential for risk management.",
+        "significance_score": 0.8
+      },
+      {
+        "type": "market engagement",
+        "description": "Both futures are experiencing significantly low trading volumes, indicating a general lack of investor engagement in the cattle market.",
+        "supporting_insights": [
+          "Entity: Feeder Cattle Future (front month) (March)",
+          "Entity: Feeder Cattle Future (second month) (April)",
+          "Entity: Feeder Cattle Future (third month) (May)"
+        ],
+        "significance": "This indicates the necessity for traders to monitor external factors affecting market interest and engagement, thus adapting their strategies.",
+        "significance_score": 0.7
+      }
+    ]
+  }
+]

@@ -1,0 +1,53 @@
+{
+  "narrative_structures": "An effective daily market report often follows a structured narrative that includes an introduction, current market overview, analysis of specific currency pairs and assets, insights into macroeconomic factors influencing the market, and conclusions or recommendations. Starting with a brief summary of overall market conditions sets the stage, followed by detailed analysis and insights that directly address audience needs for actionable information.",
+  "focus_entities": [
+    {
+      "entities_name": "Australian Dollar",
+      "reasoning": "The Australian Dollar often serves as a barometer for commodity-based economies, making it a significant indicator of market conditions influenced by commodity prices."
+    },
+    {
+      "entities_name": "British Pound",
+      "reasoning": "The British Pound's value reflects political stability, economic policy, and trade relations, making it essential for understanding European market dynamics."
+    },
+    {
+      "entities_name": "Dollar Index",
+      "reasoning": "The Dollar Index is crucial for gauging the strength of the US Dollar against a basket of currencies, impacting global investment decisions and cross-currency evaluations."
+    },
+    {
+      "entities_name": "Euro",
+      "reasoning": "The Euro represents one of the largest economies globally; its performance provides insights into European economic health and affects trade balances."
+    },
+    {
+      "entities_name": "Japanese Yen",
+      "reasoning": "The Japanese Yen is frequently considered a safe-haven currency, making its movements significant during periods of market uncertainty."
+    },
+    {
+      "entities_name": "Gold",
+      "reasoning": "Gold is seen as a hedge against inflation and currency instability, making it a key focus for investors looking for security in volatile markets."
+    }
+  ],
+  "focus_insights": [
+    {
+      "insight_types": "Market sentiment analysis for currency pairs",
+      "reasoning": "Understanding market sentiment helps investors gauge potential price movements and align their trading strategies accordingly."
+    },
+    {
+      "insight_types": "Economic data releases and their implications",
+      "reasoning": "Economic indicators such as GDP growth, employment rates, and inflation directly affect currency strength and investor confidence."
+    },
+    {
+      "insight_types": "Technical analysis on significant support and resistance levels",
+      "reasoning": "Technical analysis provides insight into potential price movements based on historical data, aiding in short-term trading decisions."
+    },
+    {
+      "insight_types": "Geopolitical events and their potential impact",
+      "reasoning": "Geopolitical events can lead to sudden market shifts, making it essential to address their implications for currency movements."
+    }
+  ],
+  "domain_language": [
+    "Use percentages to describe changes in value (e.g., 'The Australian Dollar appreciated by 0.5% against the US Dollar').",
+    "Express future price predictions in terms of potential upside or downside (e.g., 'The Euro is projected to reach 1.20 if it breaks through the resistance level').",
+    "Use terminology like 'bullish' and 'bearish' to express market sentiment.",
+    "Incorporate risk levels into recommendations (e.g., 'This currency pair presents a high-risk opportunity due to volatility')."
+  ]
+}

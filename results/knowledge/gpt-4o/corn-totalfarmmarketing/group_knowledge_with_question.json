@@ -1,0 +1,72 @@
+{
+  "price_volatility": [
+    {
+      "key_idea": "Common patterns across groups",
+      "description": "Corn futures often exhibit similar volatility patterns across different contract months due to their shared sensitivity to macroeconomic factors such as weather patterns, government reports, and global demand shifts. An increase in volatility is usually observed during the planting and harvesting seasons."
+    },
+    {
+      "key_idea": "How effects propagate through groups",
+      "description": "Volatility typically originates in the front month contracts as they are more sensitive to immediate market news and then propagates to later contracts as traders adjust for future expectations."
+    },
+    {
+      "key_idea": "Causal relationships at group level",
+      "description": "Significant daily price swings, often measured by metrics like ATR, in the closest expiry contract, can drive expectations of increased volatility in subsequent maturity months, as market participants adjust their risk assessments."
+    }
+  ],
+  "price_momentum": [
+    {
+      "key_idea": "Common patterns across groups",
+      "description": "Momentum indicators, such as RSI, typically reflect overbought or oversold conditions in all contract months, but front month contracts will often exhibit stronger momentum due to their higher sensitivity to short-term shocks and speculative trading."
+    },
+    {
+      "key_idea": "How effects propagate through groups",
+      "description": "A strong momentum signal in the near-term contracts will often lead traders to adjust positions across the spread, influencing the momentum of later-dated contracts as expectations align."
+    },
+    {
+      "key_idea": "Causal relationships at group level",
+      "description": "Persistent trends indicated by price momentum indicators such as RSI in the front month can lead to repositioning across the curve, as traders attempt to capture expected continuation of trends."
+    }
+  ],
+  "volume_analysis": [
+    {
+      "key_idea": "Common patterns across groups",
+      "description": "Volume trends, identified using tools like OBV, often show alignment across different contract months, with a tendency for volume surges to coincide with important market information releases and seasonal cycles."
+    },
+    {
+      "key_idea": "How effects propagate through groups",
+      "description": "Volume spikes in front month contracts typically signal shifts in market sentiment that ripple through to outer months, as increased participation often reflects a realignment of market expectations."
+    },
+    {
+      "key_idea": "Causal relationships at group level",
+      "description": "High volume periods, particularly when accompanied by price movement, often suggest changes in supply-demand dynamics that affect both liquidity and price expectations across the entire futures curve."
+    }
+  ],
+  "seasonal_trend_analysis": [
+    {
+      "key_idea": "Common patterns across groups",
+      "description": "Seasonal price patterns such as increased prices during planting or reduced volatility post-harvest affect all contract months similarly, though the magnitude and timing may vary."
+    },
+    {
+      "key_idea": "How effects propagate through groups",
+      "description": "Seasonal trends identified in the spot or near months tend to necessitate adjustments in anticipation for deferred contracts, as traders hedge or look to capitalize on expected price shifts."
+    },
+    {
+      "key_idea": "Causal relationships at group level",
+      "description": "The anticipation of known seasonal trends causes traders to adjust positions early, influencing price formation and stability in upcoming contract months."
+    }
+  ],
+  "yield_projections_impact": [
+    {
+      "key_idea": "Common patterns across groups",
+      "description": "Yield projections can have a profound immediate impact on front month pricing, which in turn can affect the entire curve depending on the degree of adjustment necessary for long-term supply expectations."
+    },
+    {
+      "key_idea": "How effects propagate through groups",
+      "description": "Yield report impacts typically originate from spot reactions in front month contracts and diffuse through the curve as successive contract months price in adjusted supply-demand expectations."
+    },
+    {
+      "key_idea": "Causal relationships at group level",
+      "description": "Better-than-expected yield projections can lead to immediate price drops in the nearest contracts, which then influence deferred contracts as expectations of future supply alterations take hold in long-term planning."
+    }
+  ]
+}

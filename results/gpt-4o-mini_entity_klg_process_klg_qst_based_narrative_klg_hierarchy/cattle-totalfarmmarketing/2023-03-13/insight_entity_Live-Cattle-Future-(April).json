@@ -1,0 +1,39 @@
+{
+  "type": "all",
+  "entity": "Live Cattle Future (front month) (April)",
+  "interpretation": "The analysis of the live cattle futures market indicates moderate volatility and a substantial current trading volume, reflecting active market participation. Although the market shows some bearish sentiment, with a recent price decline and majority of the week\u2019s closing prices lower than opening prices, important support and resistance levels are present that could guide future price movements.",
+  "significance_score": 0.7,
+  "score_reasoning": "The combination of increased trading volume and established volatility metrics presents a market ripe for further analysis. The proximity of the current price to the support level and the overall bearish trend underscores the necessity for tactical decision-making among investors, potentially leading to strategic positioning before significant price shifts occur.",
+  "individual_insights": [
+    {
+      "question": "Evaluate market volatility for the product on the date of interest by calculating the average true range (ATR) and the standard deviation of the closing prices over the last 14 days.",
+      "interpretation": "The Average True Range (ATR) of 1.3350 indicates moderate volatility in the live cattle futures market, while the standard deviation of 0.7039 in closing prices shows fluctuations around the average price. These values suggest that price movements can be expected within a notable range, which may influence trading strategies.",
+      "significance_score": 0.75,
+      "reasoning": ""
+    },
+    {
+      "question": "Analyze trading volume trends by comparing the volume on the date of interest against the average volume over the past 30 days.",
+      "interpretation": "The current volume of 43,213 significantly exceeds the average volume of 26,116 over the last 30 days, demonstrating a volume change of 65.46%. This spike in volume suggests heightened trading activity, potentially signaling increased interest or reaction to market events.",
+      "significance_score": 0.8,
+      "reasoning": ""
+    },
+    {
+      "question": "Identify significant price movements by evaluating the percentage change in closing price from the previous day to the current day.",
+      "interpretation": "The current day's closing price reflects a percentage change of -0.4444 from the previous day, showing a slight decline. This decrease could indicate a short-term bearish sentiment, with the closing price at 163.55 USD causing caution among traders.",
+      "significance_score": 0.65,
+      "reasoning": ""
+    },
+    {
+      "question": "Determine key support and resistance levels by analyzing the closing prices over the last 30 days to find price levels that have been touched multiple times.",
+      "interpretation": "The identified support level at 164.08 USD and resistance level at 165.1 USD indicate critical price thresholds. The current price of 163.55 is approaching the support level, which raises the potential for further downward pressure if breached.",
+      "significance_score": 0.7,
+      "reasoning": ""
+    },
+    {
+      "question": "Evaluate market sentiment by analyzing the closing prices relative to their opening prices over the past week to assess whether prices are closing higher or lower than they opened.",
+      "interpretation": "With a weekly close-open change of -1.04 and a notable 80% of days closing lower than they opened, the market sentiment appears bearish. This suggests traders are comfortable selling at lower prices over the week, indicating a lack of confidence.",
+      "significance_score": 0.64,
+      "reasoning": ""
+    }
+  ]
+}

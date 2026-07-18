@@ -1,0 +1,198 @@
+Entity: WTI Crude Oil
+Price Information:
+  Open: 78.18
+  High: 80.33
+  Low: 77.98
+  Close: 79.56
+  Volume: 219020
+
+Moving Averages:
+  SMA_10: 76.2860
+  SMA_20: 76.2860
+  EMA_20: 76.5333
+  EMA_50: 76.9751
+  EMA_100: 77.3614
+
+Oscillators:
+  RSI_14: 55.97%
+  MACD_Line: 0.0363
+  MACD_Signal: -0.4922
+  MACD_Histogram: 0.5286
+  Stochastic_%K: 92.4878
+  Stochastic_%D: 72.0213
+
+Volatility Indicators:
+  BB_Upper: 82.2252
+  BB_Middle: 76.2860
+  BB_Lower: 70.3468
+  BB_Width: 0.1557
+  ATR_20: 3.1515
+  Daily_Volatility: 0.3694
+  Weekly_Volatility: 0.1128
+  Monthly_Volatility: 0.0806
+
+Volume Indicators:
+  Volume: 219020.0000
+  Volume_MA_10: 186336.6000
+  Volume_MA_20: 263051.3000
+  Volume_ROC: 9.9073
+  Vol_Price_Corr_20: -0.1579
+
+Price Indicators:
+  Daily_Range: 2.3500
+  Daily_Range_Pct: 2.95%
+  Weekly_Range: 6.5200
+  Weekly_Range_Pct: 8.20%
+  Price_Change_1d: 2.0700
+  Price_Change_Pct_1d: 2.67%
+  Price_Change_5d: 5.2700
+  Price_Change_Pct_5d: 7.09%
+  Price_Change_7d: 2.2800
+  Price_Change_Pct_7d: 2.95%
+
+Support & Resistance:
+  Pivot: 79.2900
+  Support1: 78.2500
+  Support2: 76.9400
+  Resistance1: 80.6000
+  Resistance2: 81.6400
+  Support_Level: 70.0800
+  Resistance_Level: 83.3400
+
+Momentum:
+  Momentum_10: 8.5400
+  Momentum_Pct_10: 12.02%
+
+
+Entity: Brent Crude Oil
+Price Information:
+  Open: 81.73
+  High: 84.37
+  Low: 81.34
+  Close: 83.92
+  Volume: 7082
+
+Moving Averages:
+  SMA_10: 80.8510
+  SMA_20: 81.2030
+  EMA_20: 81.5547
+  EMA_50: 82.9762
+  EMA_100: 83.9701
+
+Oscillators:
+  RSI_14: 52.57%
+  MACD_Line: -0.6767
+  MACD_Signal: -1.1444
+  MACD_Histogram: 0.4677
+  Stochastic_%K: 95.1404
+  Stochastic_%D: 64.1459
+
+Volatility Indicators:
+  BB_Upper: 87.3467
+  BB_Middle: 81.2030
+  BB_Lower: 75.0593
+  BB_Width: 0.1513
+  ATR_20: 3.1465
+  Daily_Volatility: 0.3810
+  Weekly_Volatility: 0.1466
+  Monthly_Volatility: 0.0826
+
+Volume Indicators:
+  Volume: 7082.0000
+  Volume_MA_10: 20092.4000
+  Volume_MA_20: 19959.1500
+  Volume_ROC: -53.1985
+  Vol_Price_Corr_20: -0.5373
+
+Price Indicators:
+  Daily_Range: 3.0300
+  Daily_Range_Pct: 3.61%
+  Weekly_Range: 6.0700
+  Weekly_Range_Pct: 7.23%
+  Price_Change_1d: 2.9400
+  Price_Change_Pct_1d: 3.63%
+  Price_Change_5d: 4.8800
+  Price_Change_Pct_5d: 6.17%
+  Price_Change_7d: 1.2200
+  Price_Change_Pct_7d: 1.48%
+
+Support & Resistance:
+  Pivot: 83.2100
+  Support1: 82.0500
+  Support2: 80.1800
+  Resistance1: 85.0800
+  Resistance2: 86.2400
+  Support_Level: 75.1100
+  Resistance_Level: 89.4100
+
+Momentum:
+  Momentum_10: 7.8200
+  Momentum_Pct_10: 10.28%
+
+
+Entity: Natural Gas
+Price Information:
+  Open: 5.09
+  High: 5.24
+  Low: 4.82
+  Close: 5.08
+  Volume: 38422
+
+Moving Averages:
+  SMA_10: 6.0120
+  SMA_20: 6.1495
+  EMA_20: 6.1005
+  EMA_50: 6.6152
+  EMA_100: 6.9086
+
+Oscillators:
+  RSI_14: 44.66%
+  MACD_Line: -0.4363
+  MACD_Signal: -0.3131
+  MACD_Histogram: -0.1232
+  Stochastic_%K: 11.4035
+  Stochastic_%D: 5.5388
+
+Volatility Indicators:
+  BB_Upper: 7.5385
+  BB_Middle: 6.1495
+  BB_Lower: 4.7605
+  BB_Width: 0.4518
+  ATR_20: 0.5905
+  Daily_Volatility: 1.0071
+  Weekly_Volatility: 0.4041
+  Monthly_Volatility: 0.2151
+
+Volume Indicators:
+  Volume: 38422.0000
+  Volume_MA_10: 107106.2000
+  Volume_MA_20: 107560.1500
+  Volume_ROC: -32.5172
+  Vol_Price_Corr_20: 0.1866
+
+Price Indicators:
+  Daily_Range: 0.4200
+  Daily_Range_Pct: 8.27%
+  Weekly_Range: 1.4600
+  Weekly_Range_Pct: 28.74%
+  Price_Change_1d: 0.0800
+  Price_Change_Pct_1d: 1.60%
+  Price_Change_5d: -1.5200
+  Price_Change_Pct_5d: -23.03%
+  Price_Change_7d: -1.3500
+  Price_Change_Pct_7d: -21.00%
+
+Support & Resistance:
+  Pivot: 5.0467
+  Support1: 4.8533
+  Support2: 4.6267
+  Resistance1: 5.2733
+  Resistance2: 5.4667
+  Support_Level: 4.8200
+  Resistance_Level: 7.4200
+
+Momentum:
+  Momentum_10: -1.1600
+  Momentum_Pct_10: -18.59%
+
+

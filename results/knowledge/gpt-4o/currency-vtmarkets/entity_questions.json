@@ -1,0 +1,98 @@
+[
+  {
+    "insight_type": "volatility",
+    "question": "On the date of interest, what is the level of market volatility and how does it compare to historical levels?",
+    "required_metrics": [
+      {
+        "metric": "daily_range",
+        "calculation": "High minus Low",
+        "purpose": "Measure of intraday price movement"
+      },
+      {
+        "metric": "ATR_14",
+        "calculation": "14-day Average True Range",
+        "purpose": "Quantify historical volatility levels"
+      }
+    ],
+    "comparisons": [
+      "Daily range vs previous days",
+      "Daily range vs ATR_14"
+    ]
+  },
+  {
+    "insight_type": "momentum",
+    "question": "On the date of interest, what is the momentum of the currency pair, and are there any potential signs of acceleration or deceleration?",
+    "required_metrics": [
+      {
+        "metric": "RSI",
+        "calculation": "Relative Strength Index computed over 14 days",
+        "purpose": "Identify overbought or oversold conditions"
+      },
+      {
+        "metric": "momentum_10",
+        "calculation": "Closing price today minus closing price 10 trading days ago",
+        "purpose": "Identify acceleration or deceleration in price"
+      }
+    ],
+    "comparisons": [
+      "RSI over time",
+      "momentum_10 vs previous momentum"
+    ]
+  },
+  {
+    "insight_type": "volume analysis",
+    "question": "On the date of interest, how does the trading volume compare to average historical volumes, and what does this indicate about current market interest?",
+    "required_metrics": [
+      {
+        "metric": "average_volume_20",
+        "calculation": "20-day Average Volume",
+        "purpose": "Establish a baseline for average trading activity"
+      }
+    ],
+    "comparisons": [
+      "Current volume vs average_volume_20",
+      "Current volume vs historical trends"
+    ]
+  },
+  {
+    "insight_type": "price performance",
+    "question": "On the date of interest, how does the currency pair's performance compare with its peers or a benchmark index?",
+    "required_metrics": [
+      {
+        "metric": "price_change",
+        "calculation": "Close minus Open",
+        "purpose": "Assess daily performance"
+      },
+      {
+        "metric": "benchmark_performance",
+        "calculation": "Price change in a relevant benchmark index or peer group",
+        "purpose": "Provide a comparative market context"
+      }
+    ],
+    "comparisons": [
+      "Price change vs peers",
+      "Price change vs benchmark_performance"
+    ]
+  },
+  {
+    "insight_type": "support/resistance analysis",
+    "question": "On the date of interest, are there any significant support or resistance levels that the currency pair is approaching or has recently interacted with?",
+    "required_metrics": [
+      {
+        "metric": "support_level",
+        "calculation": "Historically observed minimum price levels",
+        "purpose": "Identify potential price floors"
+      },
+      {
+        "metric": "resistance_level",
+        "calculation": "Historically observed maximum price levels",
+        "purpose": "Identify potential price ceilings"
+      }
+    ],
+    "comparisons": [
+      "Current price vs support_level",
+      "Current price vs resistance_level",
+      "Price reaction to support/resistance levels"
+    ]
+  }
+]

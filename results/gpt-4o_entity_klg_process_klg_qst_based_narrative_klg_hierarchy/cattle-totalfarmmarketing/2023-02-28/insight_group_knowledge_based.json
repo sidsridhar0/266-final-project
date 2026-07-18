@@ -1,0 +1,102 @@
+[
+  {
+    "cluster_name": "Live Cattle Futures",
+    "entities": [
+      "Live Cattle Future (front month) (April)",
+      "Live Cattle Future (second month) (June)",
+      "Live Cattle Future (third month) (August)"
+    ],
+    "cluster_insights": [
+      {
+        "type": "Shared bullish momentum signals",
+        "description": "Both the front month live cattle and third month futures indicate positive momentum across monthly performance, signaling a shared bullish outlook.",
+        "supporting_insights": [
+          "Entity: Live Cattle Future (front month) (April) indicates a strong upward trend with potential breakout scenarios.",
+          "Entity: Live Cattle Future (third month) (August) displays consistent price rise indicating bullish tendencies."
+        ],
+        "significance": "Significant as it shows broad positive market sentiment across different futures, indicating expectations of continued price growth.",
+        "significance_score": 0.85
+      },
+      {
+        "type": "Cross-month influence during demand shifts",
+        "description": "Both front month and second month Live Cattle Futures indicate a moderate upward trend with increased volume, suggesting that shifts in demand expectations might affect future contracts.",
+        "supporting_insights": [
+          "Entity: Live Cattle Future (front month) (April) shows increased volume interest possibly related to testing resistance levels.",
+          "Entity: Live Cattle Future (second month) (June) exhibits increased trading activity indicating potential price movements."
+        ],
+        "significance": "Highlights the interconnected responses of futures to shifting demand, providing indicators for potential market movements.",
+        "significance_score": 0.8
+      },
+      {
+        "type": "Potential Breakout Indicator",
+        "description": "Both the Live Cattle Future (June) and Feeder Cattle Future (May) show increased trading volumes and proximity to key resistance levels, indicating potential breakout scenarios.",
+        "supporting_insights": [
+          "Pairwise: Increased volume in June futures near resistance suggests potential breakout scenario.",
+          "Pairwise: Volume increase in Feeder Cattle indicate market readiness for significant price action."
+        ],
+        "significance": "This provides traders with crucial points for monitoring potential breakout events, important for guiding trading strategies.",
+        "significance_score": 0.75
+      },
+      {
+        "type": "Volatility and Momentum Interaction",
+        "description": "Both June and August Live Cattle Futures exhibit moderate volatility and price stability, with decreased volatility potentially signaling a shift in momentum.",
+        "supporting_insights": [
+          "Entity: Live Cattle Future (second month) (June) shows reduced volatility in the short-term.",
+          "Entity: Live Cattle Future (third month) (August) maintains its volatility, indicating ongoing transitions."
+        ],
+        "significance": "Understanding volatility interactions helps in anticipating shifts in momentum, vital for managing market risks and opportunities.",
+        "significance_score": 0.7
+      }
+    ]
+  },
+  {
+    "cluster_name": "Feeder Cattle Futures",
+    "entities": [
+      "Feeder Cattle Future (front month) (March)",
+      "Feeder Cattle Future (second month) (April)",
+      "Feeder Cattle Future (third month) (May)"
+    ],
+    "cluster_insights": [
+      {
+        "type": "volatility and momentum relationship",
+        "description": "Both Live Cattle and Feeder Cattle markets exhibit reduced volatility but significant price growth, indicating bullish momentum with stabilization.",
+        "supporting_insights": [
+          "Entity: Feeder Cattle Future (front month) (March) - The market for feeder cattle futures indicates stabilizing prices with less volatility as recent ranges fall below short-term and medium-term averages.",
+          "Entity: Feeder Cattle Future (third month) (May) - The cattle market shows reduced short-term volatility and strong price performance."
+        ],
+        "significance": "This insight is crucial as it indicates a broad market trend of stabilization paired with bullish momentum, suggesting favorable investment conditions and reduced risk of market shocks.",
+        "significance_score": 0.9
+      },
+      {
+        "type": "Volume vs Price Momentum",
+        "description": "While front-month contracts are witnessing declining trading volumes suggesting caution, second month contracts are experiencing increased volume indicative of heightened trader interest and potential bullish sentiment.",
+        "supporting_insights": [
+          "Entity: Feeder Cattle Future (front month) (March) - The current trading volume is significantly lower than the 20-day average.",
+          "Entity: Feeder Cattle Future (second month) (April) - The current volume increase exceeds the 20-day average volume, indicating significant market interest."
+        ],
+        "significance": "Highlighting the disparity in volume trends across contract months provides insights into different investor sentiments and can guide targeting specific investment strategies to capture emerging bullish trends.",
+        "significance_score": 0.8
+      },
+      {
+        "type": "Potential Breakout Indicator",
+        "description": "Both the Live Cattle Future (June) and Feeder Cattle Future (May) show increased trading volumes and proximity to key resistance levels, indicating potential breakout scenarios.",
+        "supporting_insights": [
+          "Entity: Feeder Cattle Future (third month) (May) - The presence of a volume spike implies that the market might be gearing up for a breakout as prices near these levels.",
+          "Entity: Feeder Cattle Future (second month) (April) - Support and resistance levels suggest potential breakout scenarios backed by volume spikes."
+        ],
+        "significance": "This insight is significant as it highlights potential opportunities for substantial gains if breakouts occur, warranting trader vigilance and consideration of strategic entry or exit points.",
+        "significance_score": 0.85
+      },
+      {
+        "type": "Volatility-Momentum Relationship",
+        "description": "Both insights highlight a decrease in volatility coupled with strong price performance, indicating a potential positive momentum in the market.",
+        "supporting_insights": [
+          "Entity: Feeder Cattle Future (front month) (March) - The daily price range suggests that volatility is lower than the short-term and medium-term averages.",
+          "Entity: Feeder Cattle Future (third month) (May) - The current daily price range is lower than both the average weekly and monthly price range."
+        ],
+        "significance": "This insight reinforces the theme of market stability with an upward trajectory, suggesting robust performance potential with manageable risk, which is pivotal for strategic planning and risk assessment.",
+        "significance_score": 0.88
+      }
+    ]
+  }
+]

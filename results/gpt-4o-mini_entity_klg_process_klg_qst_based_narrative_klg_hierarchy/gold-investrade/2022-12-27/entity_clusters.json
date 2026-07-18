@@ -1,0 +1,27 @@
+[
+  {
+    "cluster_name": "Precious Metals",
+    "entities": [
+      "Gold",
+      "Silver"
+    ],
+    "reason_of_clustering": "Gold and Silver are both precious metals that often move in tandem due to shared market forces and investor sentiment. They serve as alternative investments and are influenced by similar factors such as inflation, currency fluctuations, and global economic uncertainty."
+  },
+  {
+    "cluster_name": "Safe Haven Assets",
+    "entities": [
+      "Gold",
+      "Dollar Index"
+    ],
+    "reason_of_clustering": "Gold is typically viewed as a safe-haven asset that investors turn to during times of economic instability, while the Dollar Index measures the strength of the US dollar. The relationship between gold and the dollar index is often inverse; when the dollar weakens, gold prices tend to rise as it becomes cheaper for holders of other currencies."
+  },
+  {
+    "cluster_name": "Monetary Policy Influences",
+    "entities": [
+      "Gold",
+      "Dollar Index",
+      "Silver"
+    ],
+    "reason_of_clustering": "All three entities are significantly impacted by monetary policy decisions made by central banks. Changes in interest rates and quantitative easing can affect investor behavior toward gold and silver, as well as influence the dollar's strength."
+  }
+]

@@ -1,0 +1,30 @@
+[
+  {
+    "cluster_name": "Live Cattle Futures",
+    "entities": [
+      "Live Cattle Future (front month) (February)",
+      "Live Cattle Future (second month) (April)",
+      "Live Cattle Future (third month) (June)"
+    ],
+    "reason_of_clustering": "These entities are all related to live cattle futures with different expiration dates, making them relevant for analysis of short-term and long-term price movements in the live cattle market."
+  },
+  {
+    "cluster_name": "Feeder Cattle Futures",
+    "entities": [
+      "Feeder Cattle Future (front month) (March)",
+      "Feeder Cattle Future (second month) (April)",
+      "Feeder Cattle Future (third month) (May)"
+    ],
+    "reason_of_clustering": "These entities comprise feeder cattle futures, which are also differentiated by their expiration dates. They reflect price expectations and trends for feeder cattle, which are critical for producers and investors in the cattle market."
+  },
+  {
+    "cluster_name": "Seasonal Trends in Cattle Futures",
+    "entities": [
+      "Live Cattle Future (front month) (February)",
+      "Live Cattle Future (second month) (April)",
+      "Feeder Cattle Future (front month) (March)",
+      "Feeder Cattle Future (second month) (April)"
+    ],
+    "reason_of_clustering": "These entities can be analyzed together to understand seasonal trends and how they affect both live and feeder cattle markets, particularly in relation to market demand based on factors such as weather patterns and consumer consumption."
+  }
+]

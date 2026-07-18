@@ -1,0 +1,3 @@
+METRIC:up_days	VALUE:12	UNIT:days	TYPE:int
+METRIC:down_days	VALUE:8	UNIT:days	TYPE:int
+METRIC:trend_consistency_ratio	VALUE:0.5455	UNIT:ratio	TYPE:float

@@ -1,0 +1,34 @@
+{
+  "type": "all",
+  "entity": "Live Cattle Future (second month) (April)",
+  "interpretation": "The market data for Live Cattle Futures suggests relatively low volatility and a slight decrease in trading volume compared to recent averages. Price trends have shown a modest upward consistency in recent months, yet the RSI indicates overbought conditions suggesting caution. Key support levels are near current prices, while resistance is slightly higher.",
+  "significance_score": 0.7,
+  "score_reasoning": "The comprehensive assessment reveals balanced market behavior but highlights potential caution due to overbought conditions. Investors should consider the moderate support and resistance levels, as well as the upward bias in trend consistency, while being aware of recent reduced trading volume and the implications of typically low volatility.",
+  "individual_insights": [
+    {
+      "question": "Assess the daily volatility of the cattle market by comparing the intraday price range relative to the closing price over the past month.",
+      "interpretation": "The intraday range of 0.90 is below the 30-day average of 1.17, indicating a slightly lower-than-typical daily volatility. The percentage volatility is 0.55%, suggesting the day's market movements are modest compared to historical levels.",
+      "significance_score": 0.6
+    },
+    {
+      "question": "Evaluate the trading activity by analyzing the volume trends and identifying any significant spikes or declines over the past two weeks.",
+      "interpretation": "The average trading volume is 22,260.79 units. The volume change of -393.79 units and percentage volume change of -1.77% indicate a slight decrease in trading activity, but not significantly different from the average.",
+      "significance_score": 0.5
+    },
+    {
+      "question": "Determine the consistency of the price trend by analyzing the frequency of upward or downward movements in closing prices over the past quarter.",
+      "interpretation": "There have been 12 up days compared to 9 down days, with a trend consistency ratio of 0.5714. This indicates a relatively balanced but slightly upward-biased trend over the past quarter.",
+      "significance_score": 0.7
+    },
+    {
+      "question": "Identify key support and resistance levels by evaluating price patterns and their frequency of touch over multiple time frames.",
+      "interpretation": "The support levels are identified at 163.5, 163.55, and 163.9, with resistance at 164.22. The frequency of touch at these levels is 2, suggesting moderate reliability of these levels.",
+      "significance_score": 0.6
+    },
+    {
+      "question": "Examine the market momentum by calculating and comparing relative strength indices and their levels over the past month.",
+      "interpretation": "The RSI is 70.85, which crosses into the overbought territory, indicating potential for a market pullback or correction.",
+      "significance_score": 0.8
+    }
+  ]
+}

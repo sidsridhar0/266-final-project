@@ -1,0 +1,39 @@
+{
+  "type": "all",
+  "entity": "Live Cattle Future (front month) (April)",
+  "interpretation": "The live cattle futures market exhibits signs of moderate volatility but generally bearish sentiment. Key metrics, including a significantly lower current volume compared to the 30-day average and a small daily price decline, align with this sentiment. The proximity of current prices to support and resistance levels suggests a challenging environment for upward movement, while the average sentiment over the past week confirms a downward trend.",
+  "significance_score": 0.65,
+  "score_reasoning": "The combination of decreased trading volume, bearish daily movement, and consistently lower market closes indicates a lack of buying interest, which is critical for potential upwards price movement. Thus, while the volatility could present trading opportunities, the prevailing sentiment and tested levels suggest caution and a bearish outlook in the near term.",
+  "individual_insights": [
+    {
+      "question": "Evaluate market volatility for the product on the date of interest by calculating the average true range (ATR) and the standard deviation of the closing prices over the last 14 days.",
+      "interpretation": "The ATR of 1.3586 indicates moderate volatility in the live cattle market, suggesting potential for price movement. The standard deviation of 1.4774 shows that the closing prices have fluctuated around the average over the last two weeks, reinforcing the impression of volatility.",
+      "significance_score": 0.7,
+      "reasoning": ""
+    },
+    {
+      "question": "Analyze trading volume trends by comparing the volume on the date of interest against the average volume over the past 30 days.",
+      "interpretation": "Current trading volume at 21,542 is significantly lower than the average volume of 27,676, reflecting reduced market activity. A volume decrease of 22.16% suggests a lack of strong interest from traders at this moment, which can be a signal of market caution.",
+      "significance_score": 0.6,
+      "reasoning": ""
+    },
+    {
+      "question": "Identify significant price movements by evaluating the percentage change in closing price from the previous day to the current day.",
+      "interpretation": "A percentage change of -0.0185, indicating a slight decline in price compared to the previous day, shows negativity in the market's immediate sentiment, as it highlights a closing price of 162.32 against 162.35 yesterday, reflecting a potential downtrend.",
+      "significance_score": 0.5,
+      "reasoning": ""
+    },
+    {
+      "question": "Determine key support and resistance levels by analyzing the closing prices over the last 30 days to find price levels that have been touched multiple times.",
+      "interpretation": "With a support level at 164.08 and resistance at 165.10, the current price of 162.32 is below both thresholds. This positions the cattle market potentially unfavorably, indicating that prices may struggle to rise above these levels without strong positive market catalysts.",
+      "significance_score": 0.8,
+      "reasoning": ""
+    },
+    {
+      "question": "Evaluate market sentiment by analyzing the closing prices relative to their opening prices over the past week to assess whether prices are closing higher or lower than they opened.",
+      "interpretation": "A weekly close-open change of -2.05 indicates overall downward pressure in market sentiment, with only 20% of days closing higher, signaling bearish sentiment outpacing bullish sentiment significantly (80% lower closes).",
+      "significance_score": 0.7,
+      "reasoning": ""
+    }
+  ]
+}

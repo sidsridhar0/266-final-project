@@ -1,0 +1,39 @@
+{
+  "type": "all",
+  "entity": "Feeder Cattle Future (front month) (March)",
+  "interpretation": "The cattle market exhibits increased daily volatility compared to the weekly and monthly averages, suggesting a potential new short-term trend. Price performance is strong on both weekly and monthly scales, reflecting a bullish sentiment from the start of the year. Despite these movements, trading volume does not support strong accumulation or distribution, and there are no confirmed technical patterns or signals of breakout. This implies cautious optimism while remaining on alert for volatility changes without clear supporting volume or technical patterns.",
+  "significance_score": 0.7,
+  "score_reasoning": "Collectively, the metrics point to a positive short-term price trend with increased volatility but lack clear supporting evidence from volume or technical patterns for a continued breakout. This could imply short-term investment opportunities, but traders should remain cautious and monitor for potential reversals due to the absence of strong pattern confirmations or volume support.",
+  "individual_insights": [
+    {
+      "question": "Evaluate the volatility of cattle prices by calculating and analyzing daily price ranges, comparing them to average price ranges over different periods.",
+      "interpretation": "The daily price range of 1.88 is slightly higher than the average weekly price range of 1.845 and the average monthly price range of 1.809. This indicates a slight increase in volatility on this particular day when comparing to short-term and medium-term trends. This could signal an emerging short-term volatility trend.",
+      "significance_score": 0.7,
+      "reasoning": ""
+    },
+    {
+      "question": "Analyze the trading volume activity in relation to price movements to identify potential accumulation or distribution phases.",
+      "interpretation": "The current average trading volume is 6385.50 units, which has decreased by 32.50 units, resulting in a percentage volume change of -0.51%. There is not a significant correlation between current low volume change and price movement, suggesting neither strong accumulation nor distribution activity.",
+      "significance_score": 0.6,
+      "reasoning": ""
+    },
+    {
+      "question": "Compare cattle price performance over different time frames to evaluate recent price strength relative to historical averages.",
+      "interpretation": "The current week saw a price increase of 2.20, while the month observed a larger increase of 5.83, contributing to a year-to-date change of 5.33. This indicates strong monthly performance continuing from the beginning of the year, suggesting a bullish trend in the cattle market.",
+      "significance_score": 0.8,
+      "reasoning": ""
+    },
+    {
+      "question": "Determine potential breakout scenarios by analyzing key price levels and volume spikes.",
+      "interpretation": "The support level is identified at 182.7 and resistance at 189.98, with no volume spike detected. This suggests the market is currently stable without signs of a breakout, as the price does not show significant movement towards these levels accompanied by volume spikes.",
+      "significance_score": 0.5,
+      "reasoning": ""
+    },
+    {
+      "question": "Identify common technical price patterns such as head and shoulders, double tops/bottoms, and flags that indicate potential price reversals or continuations.",
+      "interpretation": "No identifiable technical patterns such as head and shoulders, double tops, or flags were observed. This suggests current price moves are not following predictable technical patterns, indicating a lack of clear directional bias based on historical price formations.",
+      "significance_score": 0.3,
+      "reasoning": ""
+    }
+  ]
+}

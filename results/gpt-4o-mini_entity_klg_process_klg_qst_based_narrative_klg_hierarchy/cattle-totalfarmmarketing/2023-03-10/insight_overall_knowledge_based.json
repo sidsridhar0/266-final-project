@@ -1,0 +1,76 @@
+[
+  {
+    "type": "market sentiment comparison",
+    "description": "Market sentiment varies across months, with April showing negative sentiment while June and August have mixed but generally positive tendencies.",
+    "supporting_insights": [
+      "Entity 1 sentiment is negative due to price decline.",
+      "Entity 2 shows positive sentiment with closing prices higher than opening.",
+      "Entity 5 and Entity 6 indicate bullish sentiment despite slight price declines."
+    ],
+    "entities": [
+      "Live Cattle Future (front month) (April)",
+      "Live Cattle Future (second month) (June)",
+      "Live Cattle Future (third month) (August)"
+    ],
+    "significance": "Understanding how sentiment differs helps traders identify strategic opportunities and risks across different expiration months.",
+    "significance_score": 0.85
+  },
+  {
+    "type": "volume correlation",
+    "description": "Increased trading volumes across different months indicate higher market activity and interest, essential for gauging market health.",
+    "supporting_insights": [
+      "Entity 1 volume is above the 30-day average signaling interest.",
+      "Entity 3 and Entity 6 volumes show significant increases indicating bullish sentiment."
+    ],
+    "entities": [
+      "Live Cattle Future (front month) (April)",
+      "Feeder Cattle Future (second month) (April)",
+      "Feeder Cattle Future (third month) (May)"
+    ],
+    "significance": "Higher trading volumes can signal potential price movements and shifts in trader confidence, impacting investment decisions.",
+    "significance_score": 0.8
+  },
+  {
+    "type": "support and resistance impact",
+    "description": "Proximity of prices to support and resistance levels indicates potential trading opportunities and market behavior.",
+    "supporting_insights": [
+      "Entities show significant price movements near established support/resistance levels.",
+      "Entities indicate trader behavior might trigger volatility around these thresholds."
+    ],
+    "entities": [
+      "Live Cattle Future (front month) (April)",
+      "Live Cattle Future (second month) (June)",
+      "Feeder Cattle Future (second month) (April)",
+      "Feeder Cattle Future (third month) (March)"
+    ],
+    "significance": "Identifying support and resistance levels helps traders make informed decisions about entry and exit points, enhancing profitability.",
+    "significance_score": 0.75
+  },
+  {
+    "type": "trading volume and investor participation",
+    "description": "A significant decrease in trading volume in front month futures indicates reduced investor participation.",
+    "supporting_insights": [
+      "Entity 4 shows a marked decrease in volume, signaling waning investor interest.",
+      "Cooler market activity might reflect broader market uncertainty."
+    ],
+    "entities": [
+      "Feeder Cattle Future (front month) (March)"
+    ],
+    "significance": "Understanding changes in trading volume is critical for gauging market confidence and anticipating potential price movements.",
+    "significance_score": 0.7
+  },
+  {
+    "type": "impact of volume on market sentiment",
+    "description": "Increased trading volume in the feeder cattle futures reflects a bullish sentiment, contrasting with the negative sentiment in the live cattle futures market that has lower relative trading interest.",
+    "supporting_insights": [
+      "Entity 3 volume spike correlates with bullish market sentiment.",
+      "Entity 1 shows low volume and negative sentiment."
+    ],
+    "entities": [
+      "Feeder Cattle Future (second month) (April)",
+      "Live Cattle Future (front month) (April)"
+    ],
+    "significance": "Differentiating sentiment dynamics based on volume changes can inform strategic investment decisions.",
+    "significance_score": 0.65
+  }
+]

@@ -1,0 +1,37 @@
+{
+  "narrative_structures": "Daily market reports should follow a structured format that includes an overview of market conditions, price summary, analysis of trends, insights about specific entities, and a conclusion with actionable recommendations. Start with an engaging introduction that captures current market sentiment, followed by a detailed section on price movements and factors influencing these changes, and conclude with outlook or predictions.",
+  "focus_entities": [
+    {
+      "entities_name": "Soybeans Future (July)",
+      "reasoning": "This is a key future option that reflects the expectations of market conditions for soybeans in the near term, influencing trading decisions."
+    },
+    {
+      "entities_name": "Soybean Meal Future (March)",
+      "reasoning": "Being a front month contract, it is critical for traders as it provides immediate insights into market dynamics and price trends."
+    },
+    {
+      "entities_name": "Soybean Oil Future (July)",
+      "reasoning": "As by-products of soybeans, fluctuations in soybean oil impact overall profitability and signal trends in oil consumption."
+    }
+  ],
+  "focus_insights": [
+    {
+      "insight_types": "Price Trends",
+      "reasoning": "Understanding price movements is fundamental for readers to make informed decisions, allowing them to respond to market fluctuations."
+    },
+    {
+      "insight_types": "Market Demand and Supply Analysis",
+      "reasoning": "Insights into supply chains and demand projections provide critical context for price movements and market trends."
+    },
+    {
+      "insight_types": "Seasonal Trends",
+      "reasoning": "Recognizing seasonal impacts on soybean futures helps investors anticipate fluctuations and plan their strategies effectively."
+    }
+  ],
+  "domain_language": [
+    "Use terminology like 'bullish' and 'bearish' to describe market sentiments.",
+    "Express future prices in the form of 'trading at' or 'closing at', followed by specific price points.",
+    "Utilize percentage changes to convey trends, such as 'up 3% from the previous session'.",
+    "Reference technical indicators like 'moving averages\u2019 or 'resistance levels' to inform investment decisions."
+  ]
+}

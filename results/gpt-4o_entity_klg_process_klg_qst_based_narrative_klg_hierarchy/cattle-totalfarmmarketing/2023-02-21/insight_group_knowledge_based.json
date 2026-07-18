@@ -1,0 +1,101 @@
+[
+  {
+    "cluster_name": "Live Cattle Futures Cluster",
+    "entities": [
+      "Live Cattle Future (front month) (February)",
+      "Live Cattle Future (second month) (April)",
+      "Live Cattle Future (third month) (June)"
+    ],
+    "cluster_insights": [
+      {
+        "type": "volatility_comparison",
+        "description": "Both the Feeder Cattle Future and Live Cattle Future for the second month show increased volatility but differ in trading activity.",
+        "supporting_insights": [
+          "The Live Cattle Future (April) market exhibits higher than average price volatility and volume, indicating heightened market activity.",
+          "The Live Cattle Future (June) market also shows increased volatility with a volume increase of 58.41%."
+        ],
+        "significance": "This insight highlights the different trading activity responses to increased volatility, signaling differing levels of market engagement and interest, crucial for risk management and trading strategy adjustments.",
+        "significance_score": 0.8
+      },
+      {
+        "type": "volume and volatility correlation",
+        "description": "Both Live Cattle and Feeder Cattle Futures show increased volatility, yet only Live Cattle Futures display increased volume.",
+        "supporting_insights": [
+          "The substantial volume increase in Live Cattle Future (June) contrasts with the decrease in Feeder Cattle, indicating potential discrepancies in market interest."
+        ],
+        "significance": "This divergence in volume response to volatility is key to understanding trader sentiment across related markets, informing investment decisions in cattle futures.",
+        "significance_score": 0.75
+      },
+      {
+        "type": "trend divergence",
+        "description": "February Live Cattle Future contract has a stronger upward trend consistency with higher RSI compared to June's more neutral momentum.",
+        "supporting_insights": [
+          "The February contract's RSI at 89.33 indicates overbought conditions with potential for price pullbacks.",
+          "June contract remains in a neutral momentum state, suggesting differing strength and expectations."
+        ],
+        "significance": "This insight underscores varying trader expectations and risk profiles for different contract months, influencing strategic positioning in futures markets.",
+        "significance_score": 0.85
+      },
+      {
+        "type": "volatility and volume trend divergence",
+        "description": "While the Feeder Cattle Future market shows stability with reduced volatility and declining volume, the Live Cattle Future market is experiencing increased volatility and an unusual spike in volume.",
+        "supporting_insights": [
+          "Live Cattle exhibits a significant volume spike, contrary to Feeder Cattle, pointing to differing market responses."
+        ],
+        "significance": "Identifying divergence in market participation amid similar volatility conditions helps in assessing where traders are placing their focus and interpreting potential drivers behind their decisions.",
+        "significance_score": 0.8
+      }
+    ]
+  },
+  {
+    "cluster_name": "Feeder Cattle Futures Cluster",
+    "entities": [
+      "Feeder Cattle Future (front month) (March)",
+      "Feeder Cattle Future (second month) (April)",
+      "Feeder Cattle Future (third month) (May)"
+    ],
+    "cluster_insights": [
+      {
+        "type": "Volatility and Volume Correlation",
+        "description": "Increased volatility is observed across the Feeder Cattle Futures, with varying levels of trading activity. While the second month shows decreased trading activity, the third month reveals a slight reduction. This suggests differing trader responses to market conditions across contract months.",
+        "supporting_insights": [
+          "volatility_comparison",
+          "volatility_and_volume_correlation"
+        ],
+        "significance": "Understanding volatility and volume trends helps in interpreting market sentiment and anticipating trader behavior, crucial for risk management.",
+        "significance_score": 0.8
+      },
+      {
+        "type": "Trend and Momentum Analysis",
+        "description": "The futures within the Feeder Cattle cluster indicate a modest upward trend without extreme momentum signals. Notably, March shows a clearer trend and more stable conditions, while April and May present increased volatility.",
+        "supporting_insights": [
+          "momentum_analysis",
+          "trend_comparison"
+        ],
+        "significance": "Identifying consistent price trends and balanced momentum is critical for investors to forecast market behavior and tailor investment strategies.",
+        "significance_score": 0.75
+      },
+      {
+        "type": "Price Trend Support and Resistance Analysis",
+        "description": "Feeder Cattle Futures exhibit clear support and resistance levels, with the front month displaying firmly established boundaries. The reliability of these levels is moderately tested in subsequent months, reflecting varying trader confidence.",
+        "supporting_insights": [
+          "price_trend_support_and_resistance_analysis",
+          "trend_comparison"
+        ],
+        "significance": "Support and resistance analysis aids in understanding market boundaries and potential reversal or continuation points, guiding strategic trading decisions.",
+        "significance_score": 0.7
+      },
+      {
+        "type": "Market Sentiment and Trader Behavior",
+        "description": "The correlation between volatility and trading volume patterns offers insights into market sentiment, with differing responses observed in trading activity against a backdrop of increased volatility.",
+        "supporting_insights": [
+          "volatility_comparison",
+          "volatility_and_volume_correlation",
+          "volume_and_volatility_contrast"
+        ],
+        "significance": "Comprehending market sentiment is essential for interpreting future price movements and planning strategic market responses.",
+        "significance_score": 0.65
+      }
+    ]
+  }
+]

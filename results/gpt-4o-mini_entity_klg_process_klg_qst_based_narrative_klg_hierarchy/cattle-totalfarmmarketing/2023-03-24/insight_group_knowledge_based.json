@@ -1,0 +1,107 @@
+[
+  {
+    "cluster_name": "Live Cattle Futures",
+    "entities": [
+      "Live Cattle Future (front month) (April)",
+      "Live Cattle Future (second month) (June)",
+      "Live Cattle Future (third month) (August)"
+    ],
+    "cluster_insights": [
+      {
+        "type": "Volume Change Relation",
+        "description": "Both insights demonstrate a significant decline in trading volume, which is linked to bearish sentiment and reduced market participation across both front and second month contracts.",
+        "supporting_insights": [
+          "Live Cattle Future (front month) (April): trading volume has decreased significantly compared to historical averages.",
+          "Live Cattle Future (second month) (June): trading volume is significantly lower than the average volume.",
+          "Live Cattle Future (third month) (August): trading volume is slightly below the 30-day average volume."
+        ],
+        "significance": "Understanding volume changes is crucial as they directly reflect market participation and sentiment, which are essential for forecasting price movements.",
+        "significance_score": 0.9
+      },
+      {
+        "type": "Market Impact of Price Trends",
+        "description": "The downward price trends observed in both feeder cattle futures and live cattle futures suggest a broader bearish condition in the cattle market, indicating potential challenges ahead for further price stability.",
+        "supporting_insights": [
+          "Live Cattle Future (front month) (April): current price falls below key support levels.",
+          "Live Cattle Future (second month) (June): current price is below both the support level and resistance level.",
+          "Live Cattle Future (third month) (August): current price of 156.43 is below support."
+        ],
+        "significance": "Identifying broader market trends is vital for investors to gauge overall market conditions and avoid potential losses in a declining market.",
+        "significance_score": 0.85
+      },
+      {
+        "type": "Correlated Bearish Sentiment",
+        "description": "Both insights indicate a prevailing bearish sentiment in live cattle futures, despite exhibiting moderate volatility in their respective periods.",
+        "supporting_insights": [
+          "Live Cattle Future (front month) (April): 80% of days closing lower reflects negative sentiment.",
+          "Live Cattle Future (second month) (June): 80% of days closing lower indicates traders are losing confidence.",
+          "Live Cattle Future (third month) (August): only 20% of days closing higher than they opened reflects a bearish trend."
+        ],
+        "significance": "Recognizing the prevailing sentiment is crucial as it influences traders' decisions and overall market dynamics.",
+        "significance_score": 0.8
+      }
+    ]
+  },
+  {
+    "cluster_name": "Feeder Cattle Futures",
+    "entities": [
+      "Feeder Cattle Future (front month) (March)",
+      "Feeder Cattle Future (second month) (April)",
+      "Feeder Cattle Future (third month) (May)"
+    ],
+    "cluster_insights": [
+      {
+        "type": "market sentiment",
+        "description": "Overall market sentiment appears bearish across all feeder cattle futures, signaling potential downside risk for investors.",
+        "supporting_insights": [
+          "The current price of the front month is below resistance levels while showing a higher closing trend for 60% of the days.",
+          "The second month futures and third month futures show bearish sentiment with more days closing lower than higher."
+        ],
+        "significance": "Understanding the prevailing bearish sentiment can help investors make cautious decisions and manage risk effectively.",
+        "significance_score": 0.85
+      },
+      {
+        "type": "trading volume and market activity",
+        "description": "All futures are experiencing reduced trading volume, indicating uncertainty and potential low liquidity in the market.",
+        "supporting_insights": [
+          "Front month futures have a 65% decline in trading activity.",
+          "The second month futures show a -37.30% change in volume.",
+          "Third month contracts experienced a significant increase in volume but still reflect a bearish price movement."
+        ],
+        "significance": "Low trading volumes can signify a lack of market engagement and may foreshadow price stability or volatility.",
+        "significance_score": 0.75
+      },
+      {
+        "type": "price trend correlation",
+        "description": "The price trends across all futures demonstrate a correlation where changes in the front month futures influence subsequent month contract behavior.",
+        "supporting_insights": [
+          "Price dynamics of the front month suggest potential for upward trend conflicts due to resistance.",
+          "A significant price change in front month futures often leads to adjustments in second and third month contracts."
+        ],
+        "significance": "Recognizing the correlation in price movements can aid investors in timing their trades and effectively strategizing investments.",
+        "significance_score": 0.8
+      },
+      {
+        "type": "volatility patterns",
+        "description": "Moderate volatility is observed across the futures, suggesting significant price movements are possible.",
+        "supporting_insights": [
+          "The ATR values indicate moderate volatility across the front month and second month futures.",
+          "Price movements indicate responsiveness to potential external factors affecting the broader cattle market."
+        ],
+        "significance": "Investors should consider volatility as an indicator of potential price movement risk when planning trades.",
+        "significance_score": 0.7
+      },
+      {
+        "type": "support and resistance analysis",
+        "description": "Prices for all futures are trading near established support and resistance levels, influencing market behavior.",
+        "supporting_insights": [
+          "The front month futures' price is below resistance but above support.",
+          "Second month futures are near resistance levels, indicating potential for corrections.",
+          "Third month futures are trading below support, risking further declines."
+        ],
+        "significance": "Analyzing support and resistance levels is crucial for identifying potential reversal points and trade entry/exit opportunities.",
+        "significance_score": 0.76
+      }
+    ]
+  }
+]

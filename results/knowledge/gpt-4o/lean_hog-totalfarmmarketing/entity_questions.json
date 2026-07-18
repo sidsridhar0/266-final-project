@@ -1,0 +1,117 @@
+[
+  {
+    "insight_type": "price volatility",
+    "question": "Assess the volatility of lean hog prices by calculating the average true range (ATR) over different time periods.",
+    "required_metrics": [
+      {
+        "metric": "daily_range",
+        "calculation": "High minus Low for each trading day",
+        "purpose": "Measure daily price movement"
+      },
+      {
+        "metric": "ATR_14",
+        "calculation": "14-day average of daily_range",
+        "purpose": "Evaluate short-term volatility"
+      },
+      {
+        "metric": "ATR_30",
+        "calculation": "30-day average of daily_range",
+        "purpose": "Evaluate medium-term volatility"
+      }
+    ],
+    "comparisons": [
+      "ATR_14 vs ATR_30",
+      "Current volatility vs historical averages"
+    ]
+  },
+  {
+    "insight_type": "volume analysis",
+    "question": "Determine the impact of trading volumes on price movements by analyzing volume trends and their correlation with price changes.",
+    "required_metrics": [
+      {
+        "metric": "average_volume_10",
+        "calculation": "10-day average of Volume",
+        "purpose": "Establish a short-term trading volume trend"
+      },
+      {
+        "metric": "average_volume_30",
+        "calculation": "30-day average of Volume",
+        "purpose": "Establish a medium-term trading volume trend"
+      },
+      {
+        "metric": "price_change",
+        "calculation": "Close minus Open for each trading day",
+        "purpose": "Measure daily price fluctuations"
+      }
+    ],
+    "comparisons": [
+      "Volume trends vs price change",
+      "Volume spikes vs significant price movements"
+    ]
+  },
+  {
+    "insight_type": "price momentum",
+    "question": "Analyze the momentum of price changes using the relative strength index (RSI) over specified periods.",
+    "required_metrics": [
+      {
+        "metric": "average_gain_14",
+        "calculation": "Average of gains over 14 days",
+        "purpose": "Determine average upward price movement"
+      },
+      {
+        "metric": "average_loss_14",
+        "calculation": "Average of losses over 14 days",
+        "purpose": "Determine average downward price movement"
+      },
+      {
+        "metric": "RSI_14",
+        "calculation": "100 minus (100 divided by (1 plus average_gain_14 divided by average_loss_14))",
+        "purpose": "Identify price momentum"
+      }
+    ],
+    "comparisons": [
+      "Current RSI vs overbought/oversold thresholds",
+      "RSI trends vs historical price movements"
+    ]
+  },
+  {
+    "insight_type": "support/resistance analysis",
+    "question": "Identify key support and resistance levels and their influence on current price action.",
+    "required_metrics": [
+      {
+        "metric": "support_level",
+        "calculation": "Identify lowest Close in recent troughs within a 30-day window",
+        "purpose": "Detect potential price support"
+      },
+      {
+        "metric": "resistance_level",
+        "calculation": "Identify highest Close in recent peaks within a 30-day window",
+        "purpose": "Detect potential price resistance"
+      }
+    ],
+    "comparisons": [
+      "Current price vs support/resistance levels",
+      "Breakouts or bounces at support/resistance"
+    ]
+  },
+  {
+    "insight_type": "historical price pattern",
+    "question": "Evaluate historical price patterns to forecast potential support and resistance zones for future price movements.",
+    "required_metrics": [
+      {
+        "metric": "historical_highs",
+        "calculation": "Identify multiple instances of highs in the past 60 days",
+        "purpose": "Forecast potential resistance zones"
+      },
+      {
+        "metric": "historical_lows",
+        "calculation": "Identify multiple instances of lows in the past 60 days",
+        "purpose": "Forecast potential support zones"
+      }
+    ],
+    "comparisons": [
+      "Current price levels vs past high/low patterns",
+      "Effectiveness of historical patterns in predicting future movements"
+    ]
+  }
+]

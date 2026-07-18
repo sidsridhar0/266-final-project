@@ -1,0 +1,39 @@
+{
+  "type": "all",
+  "entity": "Live Cattle Future (second month) (June)",
+  "interpretation": "The analysis of the live cattle futures market indicates a moderate level of volatility with significant trading activity reflected by a notable volume increase. The current price trend shows a slight upward movement, although overall market sentiment over the past week leans bearish as more days closed lower. The positioning relative to support and resistance levels suggests caution is warranted as the price approaches critical levels.",
+  "significance_score": 0.7,
+  "score_reasoning": "The collective findings highlight a mixed outlook where positive short-term price movement contrasts with overall bearish weekly sentiment. The high trading volume supports the likelihood of continued price movement, but proximity to support raises questions about sustainability without clear upward momentum.",
+  "individual_insights": [
+    {
+      "question": "Evaluate market volatility for the product on the date of interest by calculating the average true range (ATR) and the standard deviation of the closing prices over the last 14 days.",
+      "interpretation": "The average true range (ATR) is 1.4271, indicating a moderate level of market volatility, while the standard deviation of the closing prices is 1.5880. This suggests ongoing fluctuations around the average price, reflecting typical volatility conditions.",
+      "significance_score": 0.7,
+      "reasoning": ""
+    },
+    {
+      "question": "Analyze trading volume trends by comparing the volume on the date of interest against the average volume over the past 30 days.",
+      "interpretation": "Current volume stands at 29989, compared to the 30-day average of 24546.3, representing a 22.17% increase. This significant spike suggests heightened trading activity, signaling potential investor interest or reactions to other market factors.",
+      "significance_score": 0.8,
+      "reasoning": ""
+    },
+    {
+      "question": "Identify significant price movements by evaluating the percentage change in closing price from the previous day to the current day.",
+      "interpretation": "The current day's closing price has increased by 1.4559% compared to yesterday's close of 156.60. This price rise may indicate a positive sentiment or reaction to recent events affecting live cattle futures.",
+      "significance_score": 0.75,
+      "reasoning": ""
+    },
+    {
+      "question": "Determine key support and resistance levels by analyzing the closing prices over the last 30 days to find price levels that have been touched multiple times.",
+      "interpretation": "The current price of 158.88 is below the resistance level of 161.35 and above the support level of 159.45. Being near the support level indicates a potential price floor, while breaching resistance could signal further upward potential.",
+      "significance_score": 0.65,
+      "reasoning": ""
+    },
+    {
+      "question": "Evaluate market sentiment by analyzing the closing prices relative to their opening prices over the past week to assess whether prices are closing higher or lower than they opened.",
+      "interpretation": "The market showed overall negative sentiment with 60% of the days closing lower than the opening prices, while 40% closed higher. A slight weekly close-open change of -0.28 indicates a downward trend in the short-term sentiment.",
+      "significance_score": 0.6,
+      "reasoning": ""
+    }
+  ]
+}

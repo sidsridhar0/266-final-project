@@ -1,0 +1,34 @@
+{
+  "type": "all",
+  "entity": "Live Cattle Future (second month) (April)",
+  "interpretation": "The Live Cattle Future market shows slight daily price volatility, at a relatively average level compared to historical data. Trading volume has significantly decreased, indicating reduced market participation. There is a moderate upward trend in price movement consistency, though recent momentum indicators suggest the market is overbought. Key support and resistance levels have been identified, which may act as future price anchors.",
+  "significance_score": 0.8,
+  "score_reasoning": "The consistent upward movements with underlying volume reduction and an overbought momentum signal suggest cautious optimism for continued growth. Monitoring changes around established support and resistance levels is crucial as these can indicate the direction of future price adjustments or corrections.",
+  "individual_insights": [
+    {
+      "question": "Assess the daily volatility of the cattle market by comparing the intraday price range relative to the closing price over the past month.",
+      "interpretation": "The current intraday range of 1.12 is slightly below the average intraday range of 1.1586, indicating lower than typical daily price movement. However, the percentage volatility of 0.68% suggests minor volatility when viewed relative to the closing price. Historically, current volatility is near the average, indicating a stable market condition.",
+      "significance_score": 0.7
+    },
+    {
+      "question": "Evaluate the trading activity by analyzing the volume trends and identifying any significant spikes or declines over the past two weeks.",
+      "interpretation": "The average volume over 14 days is 25089.21 units, with a volume change of -5334.21 units or a -21.26% drop in volume on the date of interest. This decline is significant, suggesting reduced trading interest or market participation.",
+      "significance_score": 0.8
+    },
+    {
+      "question": "Determine the consistency of the price trend by analyzing the frequency of upward or downward movements in closing prices over the past quarter.",
+      "interpretation": "There were 13 up days and 8 down days over the past quarter, resulting in a trend consistency ratio of 0.6190. This indicates a higher frequency of upward price movements, suggesting a moderately strong upward trend over the analyzed period.",
+      "significance_score": 0.6
+    },
+    {
+      "question": "Identify key support and resistance levels by evaluating price patterns and their frequency of touch over multiple time frames.",
+      "interpretation": "Support and resistance levels are identified at 163.55 and 164.22 respectively for both 30 and 60-day periods, with a frequency of touch of 2 times. This suggests these levels are potentially reliable anchors for price movements, being tested twice within these periods.",
+      "significance_score": 0.7
+    },
+    {
+      "question": "Examine the market momentum by calculating and comparing relative strength indices and their levels over the past month.",
+      "interpretation": "The RSI of 72.03 indicates an overbought condition, suggesting potential price correction due to the increased buying pressure. The lack of a calculated average RSI leaves uncertainty in comparing with historical RSI trends.",
+      "significance_score": 0.8
+    }
+  ]
+}

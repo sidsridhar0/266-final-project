@@ -1,0 +1,82 @@
+[
+  {
+    "cluster_name": "Live Cattle Futures Cluster",
+    "entities": [
+      "Live Cattle Future (front month) (February)",
+      "Live Cattle Future (second month) (April)",
+      "Live Cattle Future (third month) (June)"
+    ],
+    "cluster_insights": [
+      {
+        "type": "Volatility and Trading Volume",
+        "description": "Both second and third month Live Cattle Futures demonstrate a decline in trading volume and slight changes in volatility, suggesting cautious market sentiment and potential anticipation of changes.",
+        "supporting_insights": [
+          "Entity 2 and 3 both show significant volumes decline and slightly above-average volatility."
+        ],
+        "significance": "The combination of slightly increased volatility and decreased volume across multiple contract months indicates a broader market sentiment of reduced engagement and caution, potentially signaling investor uncertainty.",
+        "significance_score": 0.7
+      },
+      {
+        "type": "RSI and Market Momentum",
+        "description": "The RSI shows that the third month is neutral while the front month is significantly overbought, indicating varying momentum and potential correction risk in the front month.",
+        "supporting_insights": [
+          "Entity 3 shows neutral RSI, whereas Entity 1 shows significantly overbought RSI."
+        ],
+        "significance": "An overbought front month contract suggests an imminent correction, which is crucial for traders as it provides insights into timing potential entry or exit positions.",
+        "significance_score": 0.8
+      },
+      {
+        "type": "Trend Consistency and Price Movements",
+        "description": "The front and second month's slightly upward trend and RSI indicate buying strength, with potential corrections due to inconsistent volume and momentum.",
+        "supporting_insights": [
+          "Entity 1 and 2 show a slight upward trend and neutral to overbought RSI."
+        ],
+        "significance": "Both contracts show potential like for continuous upward movement, but there's a risk of reversal especially in the front month due to overbought conditions. This insight helps in gauging the stability and direction of price movements.",
+        "significance_score": 0.75
+      }
+    ]
+  },
+  {
+    "cluster_name": "Feeder Cattle Futures Cluster",
+    "entities": [
+      "Feeder Cattle Future (front month) (March)",
+      "Feeder Cattle Future (second month) (April)",
+      "Feeder Cattle Future (third month) (May)"
+    ],
+    "cluster_insights": [
+      {
+        "type": "Trading Volume and Market Engagement",
+        "description": "All futures show a decline in trading volume, indicating reduced market interest and potential liquidity issues.",
+        "supporting_insights": [
+          "Entity: Feeder Cattle Future (third month) (May): Volume on interest date is 8.33% lower than the 14-day average.",
+          "Entity: Feeder Cattle Future (front month) (March): Volume is 40.75% lower compared to the two-week average.",
+          "Entity: Feeder Cattle Future (second month) (April): Volume decreased by 18.04% from the average."
+        ],
+        "significance": "This trend of reduced volume across all contracts suggests a market-wide decrease in participation, possibly due to cautious sentiment, impacting liquidity and pricing efficiency.",
+        "significance_score": 0.9
+      },
+      {
+        "type": "Trend Consistency and Market Direction",
+        "description": "There is a mild to moderate upward trend across the futures, though market momentum remains neutral.",
+        "supporting_insights": [
+          "Entity: Feeder Cattle Future (third month) (May): 13 up days vs 9 down days, trend consistency ratio of 0.59.",
+          "Entity: Feeder Cattle Future (front month) (March): 14 up days vs 8 down days, trend consistency ratio of 0.64.",
+          "Pairwise Relationship Insight: Both May and March futures show slight to moderate upward trend with reduced trading volume, indicating market caution."
+        ],
+        "significance": "Despite the neutral momentum, a common upward trend suggests likely continued price increases. However, the cautious approach reflected in trading behavior could influence trend sustainability.",
+        "significance_score": 0.85
+      },
+      {
+        "type": "Support and Resistance Levels Analysis",
+        "description": "Identified support and resistance levels suggest critical pivot points for price movements.",
+        "supporting_insights": [
+          "Entity: Feeder Cattle Future (third month) (May): Support/resistance around 194.32, touched twice.",
+          "Entity: Feeder Cattle Future (front month) (March): Support at 182.7 and resistance at 187.22, both touched twice.",
+          "Entity: Feeder Cattle Future (second month) (April): Support at 190.65 and resistance at 188.4, each with two touches."
+        ],
+        "significance": "These levels are crucial for traders, affecting strategic decisions regarding entry and exit. They indicate potential constraints on price movement, providing structure and guidance for investment decisions.",
+        "significance_score": 0.8
+      }
+    ]
+  }
+]

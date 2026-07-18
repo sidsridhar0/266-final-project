@@ -1,0 +1,42 @@
+{
+  "group_characteristics": [
+    {
+      "key_idea": "What common patterns appear across the different corn future contracts (May, July, September)?",
+      "description": "Across the May, July, and September corn future contracts, seasonal patterns often emerge, with prices typically increasing during the planting and growing seasons due to supply constraints. Additionally, contracts closer to expiration (front month) exhibit higher volatility compared to later months, reflecting speculative trading and immediate market reactions to news."
+    },
+    {
+      "key_idea": "How do daily volatility measures of corn futures compare among the front month, second month, and third month contracts?",
+      "description": "Daily volatility tends to be highest in the front month contracts due to immediate delivery considerations and heightened market participation. In contrast, second and third month contracts generally exhibit lower volatility as traders evaluate longer-term trends, leading to smoother price movements over these durations."
+    }
+  ],
+  "inter_group_dynamics": [
+    {
+      "key_idea": "How do the different maturity months of corn futures (front, second, third) typically interact in terms of price movements and trading volumes?",
+      "description": "Front month contracts usually lead price movements that influence second and third month contracts. When the front month contract experiences significant price fluctuations, it often stimulates increased trading volumes across all contracts as traders adjust their positions based on anticipated price changes."
+    },
+    {
+      "key_idea": "What external factors (e.g., weather, market news) influence relationships between the various corn future contracts?",
+      "description": "Weather conditions, such as droughts or flooding during the growing season, substantially impact all contracts as these directly affect anticipated supply. Additionally, changes in agricultural policy or economic news can shift market sentiment, resulting in correlated price movements across all maturity contracts due to trader responsiveness to perceived risks."
+    }
+  ],
+  "propagation_patterns": [
+    {
+      "key_idea": "How do price changes in front month corn futures typically affect the pricing of the second and third month contracts?",
+      "description": "Price changes in front month corn futures often lead to proportional responses in second and third month contracts. When front month prices increase due to supply concerns, it typically prompts expectations for higher future prices across all contracts, reflecting a forward-looking market."
+    },
+    {
+      "key_idea": "What market conditions enhance the transmission of volatility from one corn future contract to another?",
+      "description": "Volatile market conditions, such as unexpected news releases or economic indicators, enhance the transmission of volatility. In such conditions, there is a heightened interconnectedness among contracts, with price shocks in the front month rapidly propagating to second and third month contracts due to increased speculative trading."
+    }
+  ],
+  "causal_chains": [
+    {
+      "key_idea": "What typical cause-effect sequences are observed when trading volume spikes in the corn market and how do they affect closing price trends across different contracts?",
+      "description": "Spike in trading volume often precedes price surges or downturns as traders react to new information or market sentiment shifts. High volume usually corresponds with increased volatility and may lead to significant closing price shifts, primarily impacting the front month, which can then influence subsequent months."
+    },
+    {
+      "key_idea": "How do patterns in support and resistance levels for one corn future contract influence the trading decisions of related contracts?",
+      "description": "Identifying strong support and resistance levels in one contract, particularly the front month, informs traders' strategies for related contracts. If the front month approaches a resistance level and fails to break through, traders may sell off positions in the second and third months, anticipating similar downward price pressure."
+    }
+  ]
+}

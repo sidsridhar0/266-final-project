@@ -1,0 +1,37 @@
+{
+  "narrative_structures": "Effective market reports often begin with a brief executive summary that highlights overnight trading activities, key price movements, and any significant economic news or geopolitical events. Following the introduction, a detailed analysis section delves into price change drivers such as weather forecasts, export data, and grain stock reports. This is followed by a comparative analysis with historical data to contextualize current trends. Finally, the report concludes with actionable investment insights and potential future scenarios based on the analyzed data.",
+  "focus_entities": [
+    {
+      "entities_name": "Corn Future (second month) (July)",
+      "reasoning": "The July contract is significant because it often reflects the peak summer demand and offers insight into seasonal market trends and production forecasts."
+    },
+    {
+      "entities_name": "Corn Future (front month) (March)",
+      "reasoning": "The March contract can highlight immediate market reactions and is sensitive to changes in planting intentions and early growing conditions."
+    },
+    {
+      "entities_name": "Corn Future (second month) (May)",
+      "reasoning": "The May contract is crucial for understanding the transition from old crop to new crop dynamics and its impact on pricing."
+    }
+  ],
+  "focus_insights": [
+    {
+      "insight_types": "Price Movement Analysis",
+      "reasoning": "Understanding the reasons behind price fluctuations can help investors make informed decisions and anticipate market behaviors."
+    },
+    {
+      "insight_types": "Weather Impact Assessments",
+      "reasoning": "Weather has a direct impact on crop yield expectations and hence is a critical factor for price projections in the corn market."
+    },
+    {
+      "insight_types": "Export Demand Trends",
+      "reasoning": "Tracking export patterns helps in evaluating global demand changes and potential impacts on domestic and international markets."
+    }
+  ],
+  "domain_language": [
+    "Prices are generally expressed in terms of cents per bushel.",
+    "Reports should include percentage changes to quickly convey the magnitude of price movements.",
+    "Technical terms such as 'basis', 'carry', and 'underlying' should be used accurately and contextual explanations provided where necessary.",
+    "Scenarios and forecasts should incorporate USDA reports and be expressed with reference to market expectations and historical benchmarks."
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "type": "all",
+  "entity": "Feeder Cattle Future (second month) (April)",
+  "interpretation": "The analyses indicate short-term volatility higher than normal, increased trading activity, and positive price performance, suggesting growing market interest and potential price momentum. A key resistance level may be tested in conjunction with volume spikes. Technical pattern analysis does not currently signal significant reversals.",
+  "significance_score": 0.8,
+  "score_reasoning": "The observed increased volatility and volume suggest active market conditions, possibly reflecting changes in market sentiment. The positive price performance paired with upcoming resistance levels could suggest entry points as the market tests these boundaries. However, the absence of technical patterns reduces the certainty of directional moves. Overall, traders should be cautious yet observant of potential breakouts.",
+  "individual_insights": [
+    {
+      "question": "Evaluate the volatility of cattle prices by calculating and analyzing daily price ranges, comparing them to average price ranges over different periods.",
+      "interpretation": "The daily price range of 2.15 is higher than both the average weekly price range (2.03) and the average monthly price range (1.70). This indicates an increase in short-term volatility compared to both the short-term and medium-term historical averages.",
+      "significance_score": 0.8,
+      "reasoning": ""
+    },
+    {
+      "question": "Analyze the trading volume activity in relation to price movements to identify potential accumulation or distribution phases.",
+      "interpretation": "The current trading volume (4957.36 units) shows a significant increase from the average volume over 20 days (4182.64 units), with an 84.37% change, indicating potentially strong investor interest or movements driven by market participants.",
+      "significance_score": 0.9,
+      "reasoning": ""
+    },
+    {
+      "question": "Compare cattle price performance over different time frames to evaluate recent price strength relative to historical averages.",
+      "interpretation": "The current month change of 6.27 demonstrates significant price improvement, along with a year-to-date change of 5.94. This indicates positive momentum over the month and year, despite a neutral weekly change (0.0).",
+      "significance_score": 0.7,
+      "reasoning": ""
+    },
+    {
+      "question": "Determine potential breakout scenarios by analyzing key price levels and volume spikes.",
+      "interpretation": "The price approaches key resistance level of 195.25 with a volume spike detected. This suggests a possible breakout scenario if the resistance is breached. Support is identified at 187.15.",
+      "significance_score": 0.85,
+      "reasoning": ""
+    },
+    {
+      "question": "Identify common technical price patterns such as head and shoulders, double tops/bottoms, and flags that indicate potential price reversals or continuations.",
+      "interpretation": "No significant technical patterns such as head and shoulders, double tops, or flags have been identified, suggesting no immediate indications of significant price reversals or continuations based on these criteria.",
+      "significance_score": 0.4,
+      "reasoning": ""
+    }
+  ]
+}

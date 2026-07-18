@@ -1,0 +1,128 @@
+[
+  {
+    "cluster_name": "Live Cattle Futures",
+    "entities": [
+      "Live Cattle Future (front month) (April)",
+      "Live Cattle Future (second month) (June)",
+      "Live Cattle Future (third month) (August)"
+    ],
+    "cluster_insights": [
+      {
+        "type": "volatility observation",
+        "description": "The analysis indicates moderate volatility across all live cattle future months, influencing trading decisions.",
+        "supporting_insights": [
+          "The calculated ATR for April is 1.3136 indicating moderate volatility.",
+          "The ATR for June is 1.1707, also indicating moderate volatility.",
+          "The ATR for August is 1.0229, suggesting stable but present risk."
+        ],
+        "significance": "Understanding volatility is crucial for traders to anticipate price movements and strategize accordingly.",
+        "significance_score": 0.85
+      },
+      {
+        "type": "market sentiment comparison",
+        "description": "Market sentiment varies across months, with April showing negative sentiment while June and August have mixed but generally positive tendencies.",
+        "supporting_insights": [
+          "April has a market sentiment leaning negative with 60% of days closing lower.",
+          "June shows 60% of days closing higher than they opened, indicating a positive sentiment.",
+          "August reflects a similar pattern with 60% of days closing higher despite some bearish activity."
+        ],
+        "significance": "Recognizing sentiment divergence helps investors identify where to focus their strategies and positions.",
+        "significance_score": 0.8
+      },
+      {
+        "type": "volume correlation",
+        "description": "Increased trading volumes across different months indicate higher market activity and interest, essential for gauging market health.",
+        "supporting_insights": [
+          "April\u2019s volume is 31,030, significantly exceeding the average.",
+          "June\u2019s volume change of approximately 68.66% indicates heightened activity.",
+          "August has a 38.86% increase in volume relative to its average."
+        ],
+        "significance": "Higher volumes often signal trader confidence and impact price action, making this a critical factor for market analysis.",
+        "significance_score": 0.78
+      },
+      {
+        "type": "support and resistance impact",
+        "description": "Proximity of prices to support and resistance levels indicates potential trading opportunities and market behavior.",
+        "supporting_insights": [
+          "April's support level at 163.62 is close to the current price.",
+          "June's current price is near the support level of 159.52.",
+          "August also shows proximity to its support level of 158.57."
+        ],
+        "significance": "Understanding these levels prepares traders for potential market reversals or breakouts.",
+        "significance_score": 0.75
+      },
+      {
+        "type": "cause-effect of volume and price changes",
+        "description": "The relationship between trading volume changes and price movements can indicate market future trends.",
+        "supporting_insights": [
+          "Increased volume in the front month leads to immediate price reactions.",
+          "Volume spikes often precede significant price movements, particularly in the front month.",
+          "Decreased trading volume correlates with stagnant price actions."
+        ],
+        "significance": "Recognizing these cause-effect patterns is critical for forecasting price behavior and making informed trading decisions.",
+        "significance_score": 0.74
+      }
+    ]
+  },
+  {
+    "cluster_name": "Feeder Cattle Futures",
+    "entities": [
+      "Feeder Cattle Future (front month) (March)",
+      "Feeder Cattle Future (second month) (April)",
+      "Feeder Cattle Future (third month) (May)"
+    ],
+    "cluster_insights": [
+      {
+        "type": "market sentiment analysis",
+        "description": "Increased trading volumes in feeder cattle futures reflect a bullish sentiment amidst slight price declines.",
+        "supporting_insights": [
+          "The current trading volume of 7081 in April is 16.93% higher than the 30-day average.",
+          "80% of days in April closed higher than opened, indicating a bullish market sentiment.",
+          "The current price in May is well above support at 194.55, indicating potential upward movement."
+        ],
+        "significance": "Higher trading volume alongside a high percentage of positive closing days suggests strong bullish sentiment, which is critical for investment decisions.",
+        "significance_score": 0.9
+      },
+      {
+        "type": "price relationship analysis",
+        "description": "The proximity of prices to their identified support and resistance levels in Feeder Cattle Futures suggests underlying strength in market dynamics.",
+        "supporting_insights": [
+          "In April, the current price is above support at 190.68 and below resistance at 191.60.",
+          "In May, the current price is above the support level of 194.55 but below resistance at 194.68."
+        ],
+        "significance": "Support and resistance levels are crucial for traders; the current pricing context offers traders insight into potential price movements and risk management.",
+        "significance_score": 0.85
+      },
+      {
+        "type": "volatility and market dynamics",
+        "description": "Moderate volatility is present across all months for Feeder Cattle Futures, indicating potential price fluctuations.",
+        "supporting_insights": [
+          "ATR values of 2.1257 in April and 2.1186 in May support moderate volatility.",
+          "Standard deviations across months confirm price variability around average closing prices."
+        ],
+        "significance": "Understanding volatility allows traders to gauge risk and make informed investment choices; moderate volatility can indicate healthy market activity.",
+        "significance_score": 0.8
+      },
+      {
+        "type": "trading volume and investor participation",
+        "description": "A significant decrease in trading volume in front month futures indicates reduced investor participation.",
+        "supporting_insights": [
+          "March futures show a decrease of about 55.42% in trading volume from the average.",
+          "This reduction may indicate waning interest among traders for the front month futures."
+        ],
+        "significance": "Decreased volume can signal potential market stagnation or a shift in trader focus; essential for understanding market dynamics.",
+        "significance_score": 0.75
+      },
+      {
+        "type": "inter-market relationship analysis",
+        "description": "The mixed market sentiments between feeder and live cattle futures highlight differing levels of trader interest.",
+        "supporting_insights": [
+          "Increased volume in Feeder Cattle Futures contrasts with lower volume in Live Cattle Futures.",
+          "This divergence suggests that traders may be repositioning based on market conditions or external factors."
+        ],
+        "significance": "Observation of market differences can help traders identify potential shifts in strategies and investment opportunities.",
+        "significance_score": 0.7
+      }
+    ]
+  }
+]

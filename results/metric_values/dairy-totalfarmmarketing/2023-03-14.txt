@@ -1,0 +1,389 @@
+Entity: Class III Milk Future (front month) (April)
+Price Information:
+  Open: 17.72
+  High: 17.99
+  Low: 17.72
+  Close: 17.95
+  Volume: 254
+
+Moving Averages:
+  SMA_10: 17.7570
+  SMA_20: 17.7635
+  EMA_20: 17.8072
+  EMA_50: 17.8771
+  EMA_100: 17.9296
+
+Oscillators:
+  RSI_14: 56.00%
+  MACD_Line: -0.0328
+  MACD_Signal: -0.0507
+  MACD_Histogram: 0.0179
+  Stochastic_%K: 56.9231
+  Stochastic_%D: 37.8022
+
+Volatility Indicators:
+  BB_Upper: 17.9588
+  BB_Middle: 17.7635
+  BB_Lower: 17.5682
+  BB_Width: 0.0220
+  ATR_20: 0.2275
+  Daily_Volatility: 0.1117
+  Weekly_Volatility: 0.0355
+
+Volume Indicators:
+  Volume: 254.0000
+  Volume_MA_10: 270.3000
+  Volume_MA_20: 380.2000
+  Volume_ROC: 59.7484
+  Vol_Price_Corr_20: 0.4186
+
+Price Indicators:
+  Daily_Range: 0.2700
+  Daily_Range_Pct: 1.50%
+  Weekly_Range: 0.4000
+  Weekly_Range_Pct: 2.23%
+  Price_Change_1d: 0.1700
+  Price_Change_Pct_1d: 0.96%
+  Price_Change_5d: 0.2500
+  Price_Change_Pct_5d: 1.41%
+  Price_Change_7d: 0.2000
+  Price_Change_Pct_7d: 1.13%
+
+Support & Resistance:
+  Pivot: 17.8867
+  Support1: 17.7833
+  Support2: 17.6167
+  Resistance1: 18.0533
+  Resistance2: 18.1567
+  Support_Level: 17.5300
+  Resistance_Level: 18.2300
+
+Momentum:
+  Momentum_10: -0.0800
+  Momentum_Pct_10: -0.44%
+
+
+Entity: Class IV Milk Future (front month) (April)
+Price Information:
+  Open: 18.30
+  High: 18.30
+  Low: 18.30
+  Close: 18.30
+  Volume: 0
+
+Moving Averages:
+  SMA_10: 18.3870
+  SMA_20: 18.6025
+  EMA_20: 18.5854
+  EMA_50: 18.8695
+  EMA_100: 19.0347
+
+Oscillators:
+  RSI_14: 0.00%
+  MACD_Line: -0.2198
+  MACD_Signal: -0.1990
+  MACD_Histogram: -0.0208
+  Stochastic_%K: 0.0000
+  Stochastic_%D: 0.0000
+
+Volatility Indicators:
+  BB_Upper: 19.0797
+  BB_Middle: 18.6025
+  BB_Lower: 18.1253
+  BB_Width: 0.0513
+  ATR_20: 0.0590
+  Daily_Volatility: 0.0681
+  Weekly_Volatility: 0.0175
+
+Volume Indicators:
+  Volume: 0.0000
+  Volume_MA_10: 0.2000
+  Volume_MA_20: 0.5500
+  Vol_Price_Corr_20: 0.2498
+
+Price Indicators:
+  Daily_Range: 0.0000
+  Daily_Range_Pct: 0.00%
+  Weekly_Range: 0.0000
+  Weekly_Range_Pct: 0.00%
+  Price_Change_1d: 0.0000
+  Price_Change_Pct_1d: 0.00%
+  Price_Change_5d: -0.1000
+  Price_Change_Pct_5d: -0.54%
+  Price_Change_7d: -0.2100
+  Price_Change_Pct_7d: -1.13%
+
+Support & Resistance:
+  Pivot: 18.3000
+  Support1: 18.3000
+  Support2: 18.3000
+  Resistance1: 18.3000
+  Resistance2: 18.3000
+  Support_Level: 18.3000
+  Resistance_Level: 19.0000
+
+Momentum:
+  Momentum_10: -0.3500
+  Momentum_Pct_10: -1.88%
+
+
+Entity: Class IV Milk Future (third month) (June)
+Price Information:
+  Open: 18.42
+  High: 18.42
+  Low: 18.42
+  Close: 18.42
+  Volume: 9
+
+Moving Averages:
+  SMA_10: 18.4650
+  SMA_20: 18.8695
+  EMA_20: 18.7899
+  EMA_50: 19.1869
+  EMA_100: 19.4040
+
+Oscillators:
+  RSI_14: 17.42%
+  MACD_Line: -0.3288
+  MACD_Signal: -0.2836
+  MACD_Histogram: -0.0452
+  Stochastic_%K: 15.4545
+  Stochastic_%D: 5.4751
+
+Volatility Indicators:
+  BB_Upper: 19.7561
+  BB_Middle: 18.8695
+  BB_Lower: 17.9829
+  BB_Width: 0.0940
+  ATR_20: 0.1130
+  Daily_Volatility: 0.1182
+  Weekly_Volatility: 0.0368
+
+Volume Indicators:
+  Volume: 9.0000
+  Volume_MA_10: 3.5000
+  Volume_MA_20: 2.4500
+  Volume_ROC: inf
+  Vol_Price_Corr_20: -0.2412
+
+Price Indicators:
+  Daily_Range: 0.0000
+  Daily_Range_Pct: 0.00%
+  Weekly_Range: 0.1700
+  Weekly_Range_Pct: 0.92%
+  Price_Change_1d: 0.1700
+  Price_Change_Pct_1d: 0.93%
+  Price_Change_5d: 0.0700
+  Price_Change_Pct_5d: 0.38%
+  Price_Change_7d: -0.2700
+  Price_Change_Pct_7d: -1.44%
+
+Support & Resistance:
+  Pivot: 18.4200
+  Support1: 18.4200
+  Support2: 18.4200
+  Resistance1: 18.4200
+  Resistance2: 18.4200
+  Support_Level: 18.2500
+  Resistance_Level: 19.6500
+
+Momentum:
+  Momentum_10: -0.5600
+  Momentum_Pct_10: -2.95%
+
+
+Entity: Class III Milk Future (second month) (May)
+Price Information:
+  Open: 17.93
+  High: 18.53
+  Low: 17.80
+  Close: 18.53
+  Volume: 757
+
+Moving Averages:
+  SMA_10: 17.7070
+  SMA_20: 17.7610
+  EMA_20: 17.8555
+  EMA_50: 18.0343
+  EMA_100: 18.1688
+
+Oscillators:
+  RSI_14: 65.83%
+  MACD_Line: -0.0675
+  MACD_Signal: -0.1504
+  MACD_Histogram: 0.0829
+  Stochastic_%K: 100.0000
+  Stochastic_%D: 64.9573
+
+Volatility Indicators:
+  BB_Upper: 18.2426
+  BB_Middle: 17.7610
+  BB_Lower: 17.2794
+  BB_Width: 0.0542
+  ATR_20: 0.3120
+  Daily_Volatility: 0.2050
+  Weekly_Volatility: 0.1391
+
+Volume Indicators:
+  Volume: 757.0000
+  Volume_MA_10: 301.9000
+  Volume_MA_20: 296.5500
+  Volume_ROC: 171.3262
+  Vol_Price_Corr_20: 0.4270
+
+Price Indicators:
+  Daily_Range: 0.7300
+  Daily_Range_Pct: 3.94%
+  Weekly_Range: 1.0700
+  Weekly_Range_Pct: 5.77%
+  Price_Change_1d: 0.7500
+  Price_Change_Pct_1d: 4.22%
+  Price_Change_5d: 0.9200
+  Price_Change_Pct_5d: 5.22%
+  Price_Change_7d: 1.0000
+  Price_Change_Pct_7d: 5.70%
+
+Support & Resistance:
+  Pivot: 18.2867
+  Support1: 18.0433
+  Support2: 17.5567
+  Resistance1: 18.7733
+  Resistance2: 19.0167
+  Support_Level: 17.3700
+  Resistance_Level: 18.5300
+
+Momentum:
+  Momentum_10: 0.8600
+  Momentum_Pct_10: 4.87%
+
+
+Entity: Class III Milk Future (third month) (June)
+Price Information:
+  Open: 18.08
+  High: 18.65
+  Low: 17.96
+  Close: 18.60
+  Volume: 400
+
+Moving Averages:
+  SMA_10: 17.9400
+  SMA_20: 18.1070
+  EMA_20: 18.1591
+  EMA_50: 18.4248
+  EMA_100: 18.5999
+
+Oscillators:
+  RSI_14: 56.19%
+  MACD_Line: -0.1542
+  MACD_Signal: -0.2086
+  MACD_Histogram: 0.0544
+  Stochastic_%K: 94.7917
+  Stochastic_%D: 47.9757
+
+Volatility Indicators:
+  BB_Upper: 18.6255
+  BB_Middle: 18.1070
+  BB_Lower: 17.5885
+  BB_Width: 0.0573
+  ATR_20: 0.2595
+  Daily_Volatility: 0.1803
+  Weekly_Volatility: 0.1293
+
+Volume Indicators:
+  Volume: 400.0000
+  Volume_MA_10: 148.0000
+  Volume_MA_20: 126.7500
+  Volume_ROC: 116.2162
+  Vol_Price_Corr_20: 0.2460
+
+Price Indicators:
+  Daily_Range: 0.6900
+  Daily_Range_Pct: 3.71%
+  Weekly_Range: 0.9600
+  Weekly_Range_Pct: 5.16%
+  Price_Change_1d: 0.6600
+  Price_Change_Pct_1d: 3.68%
+  Price_Change_5d: 0.7600
+  Price_Change_Pct_5d: 4.26%
+  Price_Change_7d: 0.7700
+  Price_Change_Pct_7d: 4.32%
+
+Support & Resistance:
+  Pivot: 18.4033
+  Support1: 18.1567
+  Support2: 17.7133
+  Resistance1: 18.8467
+  Resistance2: 19.0933
+  Support_Level: 17.6900
+  Resistance_Level: 18.8200
+
+Momentum:
+  Momentum_10: 0.5600
+  Momentum_Pct_10: 3.10%
+
+
+Entity: Class IV Milk Future (second month) (May)
+Price Information:
+  Open: 18.05
+  High: 18.05
+  Low: 18.05
+  Close: 18.05
+  Volume: 0
+
+Moving Averages:
+  SMA_10: 18.1990
+  SMA_20: 18.5610
+  EMA_20: 18.5049
+  EMA_50: 18.9138
+  EMA_100: 19.1429
+
+Oscillators:
+  RSI_14: 14.29%
+  MACD_Line: -0.3338
+  MACD_Signal: -0.2847
+  MACD_Histogram: -0.0491
+  Stochastic_%K: 12.5000
+  Stochastic_%D: 6.8827
+
+Volatility Indicators:
+  BB_Upper: 19.3748
+  BB_Middle: 18.5610
+  BB_Lower: 17.7472
+  BB_Width: 0.0877
+  ATR_20: 0.1515
+  Daily_Volatility: 0.1297
+  Weekly_Volatility: 0.0427
+
+Volume Indicators:
+  Volume: 0.0000
+  Volume_MA_10: 5.4000
+  Volume_MA_20: 9.5500
+  Volume_ROC: -100.0000
+  Vol_Price_Corr_20: 0.4520
+
+Price Indicators:
+  Daily_Range: 0.0000
+  Daily_Range_Pct: 0.00%
+  Weekly_Range: 0.1900
+  Weekly_Range_Pct: 1.05%
+  Price_Change_1d: 0.1300
+  Price_Change_Pct_1d: 0.73%
+  Price_Change_5d: -0.0400
+  Price_Change_Pct_5d: -0.22%
+  Price_Change_7d: -0.4000
+  Price_Change_Pct_7d: -2.17%
+
+Support & Resistance:
+  Pivot: 18.0500
+  Support1: 18.0500
+  Support2: 18.0500
+  Resistance1: 18.0500
+  Resistance2: 18.0500
+  Support_Level: 17.9000
+  Resistance_Level: 19.4000
+
+Momentum:
+  Momentum_10: -0.6100
+  Momentum_Pct_10: -3.27%
+
+

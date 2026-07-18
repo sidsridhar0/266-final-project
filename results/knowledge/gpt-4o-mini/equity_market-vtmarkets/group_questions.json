@@ -1,0 +1,18 @@
+{
+  "group_characteristics": [
+    "What common patterns appear across the S&P 500 sectors in terms of daily volatility and performance?",
+    "How do the characteristics of high-tech sectors like S&P 500 Information Technology compare to traditional sectors like S&P 500 Utilities in terms of trade volume and closing price trends?"
+  ],
+  "inter_group_dynamics": [
+    "How do bond yields (2-Year and 10-Year) typically interact with equity indices like the S&P 500 and NASDAQ Composite?",
+    "What factors, such as economic data releases or interest rate changes, influence the relationships between sectors like S&P 500 Financials and S&P 500 Consumer Discretionary?"
+  ],
+  "propagation_patterns": [
+    "How do effects in commodity sectors, like S&P 500 Energy or Gold, typically spread to broader market indices like the MSCI World index or Dow Jones Industrial Average?",
+    "What conditions, such as market volatility (measured by the CBOE Volatility Index), impact the propagation of price movements across small-cap indices like Russell 2000?"
+  ],
+  "causal_chains": [
+    "What typical cause-effect sequences occur at the group level, such as the impact of increasing bond yields on the performance of S&P 500 Financials?",
+    "How do characteristics of sectors like S&P 500 Health Care influence causal chains related to market reactions during earnings seasons?"
+  ]
+}

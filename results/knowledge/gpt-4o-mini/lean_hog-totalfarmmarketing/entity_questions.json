@@ -1,0 +1,107 @@
+[
+  {
+    "insight_type": "volatility",
+    "question": "What is the price volatility for lean hogs over the past 30 days, and how does it compare to historical volatility?",
+    "required_metrics": [
+      {
+        "metric": "30-day_close_std_dev",
+        "calculation": "Standard deviation of the closing prices over the last 30 days",
+        "purpose": "Measure the variability of prices"
+      },
+      {
+        "metric": "historical_volatility",
+        "calculation": "Annualized standard deviation of daily returns over a defined historical period",
+        "purpose": "Provide a baseline for volatility comparison"
+      }
+    ],
+    "comparisons": [
+      "Current 30-day volatility vs. historical volatility",
+      "Volatility trends over different periods (e.g., 30-day vs. 60-day)"
+    ]
+  },
+  {
+    "insight_type": "price trend analysis",
+    "question": "What is the daily closing price trend for lean hogs, and how does this trend compare to the previous week's closing prices?",
+    "required_metrics": [
+      {
+        "metric": "daily_price_trend",
+        "calculation": "Percentage change in daily closing price from previous day",
+        "purpose": "Identify short-term price trends"
+      },
+      {
+        "metric": "previous_week_avg_close",
+        "calculation": "Average closing price over the previous week",
+        "purpose": "Establish a reference for weekly price comparisons"
+      }
+    ],
+    "comparisons": [
+      "Current weekly trend vs. trend from previous week",
+      "Price trend direction over the last month"
+    ]
+  },
+  {
+    "insight_type": "market activity",
+    "question": "How does the trading volume of lean hogs correlate with price movements over the last month?",
+    "required_metrics": [
+      {
+        "metric": "rolling_30_day_volume_avg",
+        "calculation": "Average trading volume over the last 30 days",
+        "purpose": "Asses normal trading activity"
+      },
+      {
+        "metric": "volume_price_correlation",
+        "calculation": "Correlation coefficient between price changes and trading volume changes",
+        "purpose": "Identify relationship between volume and price movements"
+      }
+    ],
+    "comparisons": [
+      "Current volume vs. historical volume averages",
+      "Volume spikes during price movement periods"
+    ]
+  },
+  {
+    "insight_type": "price levels",
+    "question": "What are the key support and resistance levels identified in the recent trading of lean hogs?",
+    "required_metrics": [
+      {
+        "metric": "recent_support_level",
+        "calculation": "Lowest price in last 30 days where price has bounced up",
+        "purpose": "Determine price floor"
+      },
+      {
+        "metric": "recent_resistance_level",
+        "calculation": "Highest price in last 30 days where price has been rejected",
+        "purpose": "Determine price ceiling"
+      }
+    ],
+    "comparisons": [
+      "Current price relative to support and resistance levels",
+      "Historical support and resistance levels analysis"
+    ]
+  },
+  {
+    "insight_type": "change analysis",
+    "question": "What has been the percentage change in the daily closing price for lean hogs over the last week, and how does this compare to the same period last month?",
+    "required_metrics": [
+      {
+        "metric": "daily_percentage_change",
+        "calculation": "[(current day close - previous day close) / previous day close] * 100",
+        "purpose": "Measure daily price change percentage"
+      },
+      {
+        "metric": "last_week_avg_percentage_change",
+        "calculation": "Average of daily percentage changes over the last week",
+        "purpose": "Establish current trend for daily price change"
+      },
+      {
+        "metric": "last_month_avg_percentage_change",
+        "calculation": "Average of daily percentage changes over the same period last month",
+        "purpose": "Provide historical comparison"
+      }
+    ],
+    "comparisons": [
+      "Current week's average change vs. last month's average change",
+      "Volatility in daily price changes between two months"
+    ]
+  }
+]

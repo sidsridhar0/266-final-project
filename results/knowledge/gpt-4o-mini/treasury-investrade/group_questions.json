@@ -1,0 +1,18 @@
+{
+  "group_characteristics": [
+    "What common volatility patterns appear across different U.S. Treasury bond yields?",
+    "How do maturity lengths affect performance comparisons among the various bond yields?"
+  ],
+  "inter_group_dynamics": [
+    "How do changes in the 2-Year and 10-Year bond yields typically influence each other?",
+    "What factors, such as economic indicators, influence the relationship between short-term and long-term bond yields?"
+  ],
+  "propagation_patterns": [
+    "How do shifts in trading volume for the 5-Year bond yield affect the 1-Year and 2-Year yields?",
+    "What market conditions contribute to the propagation of price trend predictions across different bond maturities?"
+  ],
+  "causal_chains": [
+    "What typical cause-effect sequences are observed when the 3-Year bond yield experiences a significant change?",
+    "How do shifts in volatility for shorter-term bonds influence the performance of longer-dated bond yields?"
+  ]
+}

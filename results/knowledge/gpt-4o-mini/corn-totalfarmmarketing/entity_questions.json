@@ -1,0 +1,97 @@
+[
+  {
+    "insight_type": "volatility analysis",
+    "question": "What is the volatility trend of corn prices over the past 30 days, measured by standard deviation of the closing prices?",
+    "required_metrics": [
+      {
+        "metric": "STD_dev_close_30",
+        "calculation": "Standard deviation of closing prices for the last 30 days",
+        "purpose": "Measure the degree of variation or dispersion of closing prices"
+      }
+    ],
+    "comparisons": [
+      "Current volatility vs historical average volatility",
+      "Volatility trends compared to previous periods (e.g., 60 days prior)"
+    ]
+  },
+  {
+    "insight_type": "price momentum",
+    "question": "How does the current price of corn compare to its average price over the last 14 days, and what does the momentum indicate?",
+    "required_metrics": [
+      {
+        "metric": "SMA_14",
+        "calculation": "14-day Simple Moving Average of closing prices",
+        "purpose": "Identify average price trend over the short term"
+      },
+      {
+        "metric": "price_difference",
+        "calculation": "Current closing price minus SMA_14",
+        "purpose": "Assess price momentum and direction"
+      }
+    ],
+    "comparisons": [
+      "Current price vs SMA_14",
+      "Price momentum direction vs previous periods"
+    ]
+  },
+  {
+    "insight_type": "trading volume analysis",
+    "question": "What is the trading volume trend of corn over the last week compared to the average volume over the past month?",
+    "required_metrics": [
+      {
+        "metric": "AVG_volume_30",
+        "calculation": "Average trading volume for the last 30 days",
+        "purpose": "Evaluate typical trading activity"
+      },
+      {
+        "metric": "Total_volume_last_7",
+        "calculation": "Sum of trading volumes for the last 7 days",
+        "purpose": "Compare recent trading volume against historical averages"
+      }
+    ],
+    "comparisons": [
+      "Total volume last 7 days vs AVG_volume_30",
+      "Volume spikes in relation to market events or news"
+    ]
+  },
+  {
+    "insight_type": "price range dynamics",
+    "question": "What are the average daily price ranges (high minus low) of corn for the past month, and how does it compare to previous months?",
+    "required_metrics": [
+      {
+        "metric": "AVG_daily_range_30",
+        "calculation": "Average of (high - low) for each day in the last 30 days",
+        "purpose": "Understand typical price movement"
+      },
+      {
+        "metric": "AVG_daily_range_60",
+        "calculation": "Average of (high - low) for each day in the last 60 days",
+        "purpose": "Provide a comparative metric to assess price range changes"
+      }
+    ],
+    "comparisons": [
+      "Current AVG_daily_range_30 vs AVG_daily_range_60",
+      "Price range dynamics compared to major market events"
+    ]
+  },
+  {
+    "insight_type": "closing price analysis",
+    "question": "How does the closing price of corn today compare to its closing prices over the last week, and what does this trend suggest?",
+    "required_metrics": [
+      {
+        "metric": "AVG_close_7",
+        "calculation": "Average closing price for the last 7 days",
+        "purpose": "Provide a short-term benchmark for current closing price"
+      },
+      {
+        "metric": "price_change",
+        "calculation": "Current closing price minus AVG_close_7",
+        "purpose": "Determine directional movement and its implications"
+      }
+    ],
+    "comparisons": [
+      "Current closing price vs AVG_close_7",
+      "Trend analysis of price change over the week compared to historical data"
+    ]
+  }
+]

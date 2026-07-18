@@ -1,0 +1,100 @@
+[
+  {
+    "cluster_name": "Live Cattle Futures",
+    "entities": [
+      "Live Cattle Future (front month) (April)",
+      "Live Cattle Future (second month) (June)",
+      "Live Cattle Future (third month) (August)"
+    ],
+    "cluster_insights": [
+      {
+        "type": "market sentiment and volatility relationship",
+        "description": "Both the live and feeder cattle futures markets exhibit moderate volatility coupled with bearish sentiment, indicating that external factors might be uniformly affecting the cattle market dynamics.",
+        "supporting_insights": [
+          "The bearish sentiment observed in live cattle futures is mirrored in the feeder cattle futures, where both markets show downward pressure despite recent slight upward price movements.",
+          "Both feeder cattle and live cattle markets exhibit strong bearish sentiment, suggesting a systemic issue affecting traders' confidence."
+        ],
+        "significance": "Understanding the relationship between market sentiment and volatility can guide traders in anticipating price movements and aligning their strategies accordingly.",
+        "significance_score": 0.85
+      },
+      {
+        "type": "volume-sentiment relationship",
+        "description": "The heightened trading volume in the August contract indicates increasing market interest despite prevailing bearish sentiment, paralleling the reduced volume and continued bearish sentiment in the April contract.",
+        "supporting_insights": [
+          "Current trading volume of 11,024 is higher than the average volume of 9,999.90, indicating a stronger market activity.",
+          "Current trading volume is 24,720, which is below the 30-day average volume of 27,412, indicating reduced market activity."
+        ],
+        "significance": "This insight highlights how trading volume can reflect trader confidence or caution, impacting investment decisions and market dynamics.",
+        "significance_score": 0.8
+      },
+      {
+        "type": "external factor impact",
+        "description": "External factors such as feed prices negatively affect both markets, leading to these contrasting bullish and bearish sentiments.",
+        "supporting_insights": [
+          "The current price of 156.57 is below both the support and resistance levels, suggesting challenges for upward movements.",
+          "Persistent declining prices in both markets may highlight the influence of external factors affecting market conditions."
+        ],
+        "significance": "Recognizing the impact of external factors can help traders make informed decisions by anticipating potential market movements driven by changes in underlying costs.",
+        "significance_score": 0.75
+      }
+    ]
+  },
+  {
+    "cluster_name": "Feeder Cattle Futures",
+    "entities": [
+      "Feeder Cattle Future (front month) (March)",
+      "Feeder Cattle Future (second month) (April)",
+      "Feeder Cattle Future (third month) (May)"
+    ],
+    "cluster_insights": [
+      {
+        "type": "market sentiment and volatility relationship",
+        "description": "Both the live and feeder cattle futures markets exhibit moderate volatility coupled with bearish sentiment, indicating that external factors might be uniformly affecting the cattle market dynamics.",
+        "supporting_insights": [
+          "The current price movements indicate a slight upward trend, while overall sentiment remains negative with prices consistently closing lower over the last week.",
+          "The consistent negative change of -4.38 in closing prices versus opening prices indicates bearish sentiment among traders."
+        ],
+        "significance": "Understanding this relationship helps gauge overall market confidence, which is crucial for making informed trading decisions.",
+        "significance_score": 0.85
+      },
+      {
+        "type": "support-resistance dynamics",
+        "description": "Both futures contracts display the importance of key support and resistance levels, influencing sentiment and price trends amidst their respective bearish and bullish characteristics.",
+        "supporting_insights": [
+          "Current price of 200.28 for May is above the identified support level of 194.35, showing a healthy distance.",
+          "The current price of 195.15 for April is above the support level of 190.45 and the resistance level of 191.15, indicating strong upward momentum."
+        ],
+        "significance": "Support and resistance levels guide traders in making buy/sell decisions and understanding price potential.",
+        "significance_score": 0.8
+      },
+      {
+        "type": "correlation",
+        "description": "The bearish sentiment observed in live cattle futures is mirrored in the feeder cattle futures, where both markets show downward pressure despite recent slight upward price movements.",
+        "supporting_insights": [
+          "Over the past week, the negative weekly close-open change of -5.64 demonstrates a prevailing bearish sentiment across both second month and front month futures."
+        ],
+        "significance": "Recognizing this correlation helps anticipate market movements and align trading strategies accordingly.",
+        "significance_score": 0.75
+      },
+      {
+        "type": "volume analysis",
+        "description": "The contrasting trading volumes suggest that while the feeder cattle market is seeing reduced interest, the live cattle market experiences increased activity.",
+        "supporting_insights": [
+          "Current trading volume at 6779 for May is significantly above the average of 4891.43, indicating heightened market activity.",
+          "In contrast, front month March is exhibiting a very low trading volume at 1091, significantly lower than its 30-day average."
+        ],
+        "significance": "Volume analysis provides insights into investor behavior and market interest, essential for risk assessment and forecasting.",
+        "significance_score": 0.7
+      },
+      {
+        "type": "impact of external factors",
+        "description": "Persistent declining prices in both markets may highlight the influence of external factors affecting market conditions.",
+        "supporting_insights": [
+          "External factors such as feed prices negatively affect both markets, leading to these contrasting bullish and bearish sentiments."
+        ],
+        "significance": "Understanding the impact of external factors helps investors navigate potential risks and opportunities related to price movements.",
+        "significance_score": 0.78
+      }
+    ]
+  }
+]

@@ -1,0 +1,27 @@
+{
+  "metric_patterns": [
+    "How do changes in the price of Brent Crude Oil typically relate to changes in the price of WTI Crude Oil?",
+    "What conditions affect the relationship between the inventory levels of Natural Gas and its market price?",
+    "How does volatility in Brent Crude Oil markets relate to volatility in WTI Crude Oil markets?"
+  ],
+  "entity_interactions": [
+    "What are common ways that Brent Crude Oil prices affect WTI Crude Oil prices?",
+    "Under what conditions do Natural Gas and Crude Oil markets influence each other most strongly?",
+    "How does an increase in WTI Crude Oil production impact the market price of Brent Crude Oil?"
+  ],
+  "common_factors": [
+    "What external factors commonly affect both Crude Oil and Natural Gas prices?",
+    "How do geopolitical events typically impact the prices of Brent Crude Oil and Natural Gas?",
+    "What economic indicators tend to influence both WTI Crude Oil and Natural Gas markets?"
+  ],
+  "temporal_patterns": [
+    "What typical sequences of price changes occur following a major geopolitical event in Brent Crude Oil?",
+    "How do time-based factors like seasons affect relationships between Natural Gas and Crude Oil prices?",
+    "What patterns emerge in WTI Crude Oil price fluctuations around financial quarter ends?"
+  ],
+  "system_patterns": [
+    "What system-level conditions influence relationships between international oil markets and Natural Gas?",
+    "How do structural factors in the global energy sector affect interactions between Brent and WTI Crude Oil?",
+    "What role do regulatory changes play in the systemic interplay of Crude Oil and Natural Gas markets?"
+  ]
+}

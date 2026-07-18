@@ -1,0 +1,18 @@
+{
+  "group_characteristics": [
+    "What common patterns in volatility can be identified among WTI Crude Oil, Brent Crude Oil, and Natural Gas over the last 30 days?",
+    "How do the volatility patterns of oil prices affect the price trends of Natural Gas?"
+  ],
+  "inter_group_dynamics": [
+    "How do the price movements of WTI Crude Oil and Brent Crude Oil typically impact the trading volumes of Natural Gas?",
+    "What specific market events influence the relationships between Brent Crude Oil and WTI Crude Oil?"
+  ],
+  "propagation_patterns": [
+    "How do changes in trading volumes for WTI Crude Oil affect price momentum in Brent Crude Oil within a 14-day period?",
+    "What conditions typically amplify the influence of volatilities in Brent Crude Oil on Natural Gas prices?"
+  ],
+  "causal_chains": [
+    "What typical cause-effect relationships exist between the volatility of oil prices and price trends observed in Natural Gas?",
+    "How do the characteristics of WTI Crude Oil and Brent Crude Oil influence the subsequent price levels of Natural Gas?"
+  ]
+}

@@ -1,0 +1,101 @@
+[
+  {
+    "insight_type": "volatility",
+    "question": "What is the daily price volatility of each product by calculating the difference between the high and low prices, and how does this compare to the average volatility over the past 10 days?",
+    "required_metrics": [
+      {
+        "metric": "daily_volatility",
+        "calculation": "High - Low",
+        "purpose": "Identify the day's price range and assess risk"
+      },
+      {
+        "metric": "average_volatility_10d",
+        "calculation": "Average of daily_volatility for the last 10 days",
+        "purpose": "Establish a baseline for typical price fluctuations"
+      }
+    ],
+    "comparisons": [
+      "Current daily volatility vs average 10-day volatility"
+    ]
+  },
+  {
+    "insight_type": "performance",
+    "question": "How do the closing prices of products compare to their opening prices over the past week to determine overall performance and sentiment?",
+    "required_metrics": [
+      {
+        "metric": "price_change",
+        "calculation": "Close - Open",
+        "purpose": "Measure daily performance of each product"
+      },
+      {
+        "metric": "weekly_performance",
+        "calculation": "Sum of price_change over the last 7 days",
+        "purpose": "Evaluate sentiment and trend direction"
+      }
+    ],
+    "comparisons": [
+      "Weekly performance of each product against each other",
+      "Comparison of positive vs negative performance products"
+    ]
+  },
+  {
+    "insight_type": "liquidity",
+    "question": "What is the trading volume trend for each product over the last month, and how does this compare to the average volume to assess liquidity?",
+    "required_metrics": [
+      {
+        "metric": "daily_volume",
+        "calculation": "Volume on a given day",
+        "purpose": "Track trading activity"
+      },
+      {
+        "metric": "average_volume_30d",
+        "calculation": "Average daily_volume over the last 30 days",
+        "purpose": "Establish standard liquidity levels"
+      }
+    ],
+    "comparisons": [
+      "Current daily volume vs average 30-day volume",
+      "Volume trends across different products"
+    ]
+  },
+  {
+    "insight_type": "relative strength",
+    "question": "What is the comparative performance of each product against a market benchmark using their closing prices over the last quarter?",
+    "required_metrics": [
+      {
+        "metric": "product_performance",
+        "calculation": "Closing price at end of quarter - Closing price at start of quarter",
+        "purpose": "Evaluate individual product performance"
+      },
+      {
+        "metric": "benchmark_performance",
+        "calculation": "Benchmark closing price at end of quarter - Benchmark closing price at start of quarter",
+        "purpose": "Assess overall market movement"
+      }
+    ],
+    "comparisons": [
+      "Product performance vs benchmark performance",
+      "Comparison of outperformers vs underperformers"
+    ]
+  },
+  {
+    "insight_type": "price action",
+    "question": "Analyzing significant price movements, how many days did the closing price experience a change greater than 2% compared to the previous day within the last month?",
+    "required_metrics": [
+      {
+        "metric": "daily_percentage_change",
+        "calculation": "((Close - Previous Close) / Previous Close) * 100",
+        "purpose": "Identify significant price movements"
+      },
+      {
+        "metric": "days_above_2_percent",
+        "calculation": "Count of days where daily_percentage_change > 2",
+        "purpose": "Assess frequency of significant movements"
+      }
+    ],
+    "comparisons": [
+      "Comparison of days with significant price changes across products",
+      "Trends in price action across different market conditions"
+    ]
+  }
+]

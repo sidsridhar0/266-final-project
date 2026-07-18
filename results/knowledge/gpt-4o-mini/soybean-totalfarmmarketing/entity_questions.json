@@ -1,0 +1,122 @@
+[
+  {
+    "insight_type": "volatility analysis",
+    "question": "Calculate the daily price volatility of soybean by determining the percentage change in price from open to close over the past week.",
+    "required_metrics": [
+      {
+        "metric": "daily_return_percentage",
+        "calculation": "((Close - Open) / Open) * 100 for each day",
+        "purpose": "Measure daily price change relative to opening price"
+      },
+      {
+        "metric": "average_daily_volatility",
+        "calculation": "Average of daily_return_percentage for the last 7 days",
+        "purpose": "Assess the typical price fluctuation over a week"
+      },
+      {
+        "metric": "volatility_standard_deviation",
+        "calculation": "Standard deviation of daily_return_percentage for the last 7 days",
+        "purpose": "Evaluate variability and risk in price movements"
+      }
+    ],
+    "comparisons": [
+      "Current week's volatility vs. historical average volatility",
+      "Standard deviation of current price movements vs. previous weeks"
+    ]
+  },
+  {
+    "insight_type": "performance comparison",
+    "question": "Compare the closing price of soybean with that of a competing commodity over the last month to evaluate market positioning.",
+    "required_metrics": [
+      {
+        "metric": "soybean_close_price",
+        "calculation": "Closing prices of soybean for the last 30 days",
+        "purpose": "Determine the price performance of soybean"
+      },
+      {
+        "metric": "competing_commodity_close_price",
+        "calculation": "Closing prices of the competing commodity for the last 30 days",
+        "purpose": "Determine the price performance of a competitor, such as corn"
+      },
+      {
+        "metric": "price_difference",
+        "calculation": "Soybean_close_price - competing_commodity_close_price",
+        "purpose": "Evaluate relative performance between soybean and the competitor"
+      }
+    ],
+    "comparisons": [
+      "Current soybean prices vs. corn prices",
+      "Month-over-month performance of soybean vs. the competitor"
+    ]
+  },
+  {
+    "insight_type": "trend identification",
+    "question": "Identify the short-term price trends for soybean by analyzing the weekly closing prices and their moving averages.",
+    "required_metrics": [
+      {
+        "metric": "weekly_close",
+        "calculation": "Closing prices aggregated on a weekly basis",
+        "purpose": "Provide a clearer picture of price movement over the week"
+      },
+      {
+        "metric": "SMA_5",
+        "calculation": "5-day Simple Moving Average of weekly_close",
+        "purpose": "Determine the short-term trend direction"
+      },
+      {
+        "metric": "SMA_20",
+        "calculation": "20-day Simple Moving Average of weekly_close",
+        "purpose": "Identify medium-term trend direction"
+      }
+    ],
+    "comparisons": [
+      "Current weekly close vs. SMA_5 and SMA_20",
+      "Historically identified trends versus current trends"
+    ]
+  },
+  {
+    "insight_type": "support and resistance analysis",
+    "question": "Determine the significant support and resistance levels for soybean by analyzing price action over the last month.",
+    "required_metrics": [
+      {
+        "metric": "support_level",
+        "calculation": "Lowest closing prices of soybean over the last 30 days with multiple test levels",
+        "purpose": "Identify potential price support zones"
+      },
+      {
+        "metric": "resistance_level",
+        "calculation": "Highest closing prices of soybean over the last 30 days with multiple rejection levels",
+        "purpose": "Identify potential price resistance zones"
+      }
+    ],
+    "comparisons": [
+      "Current price position relative to identified support and resistance levels",
+      "Comparison of historical support/resistance levels with current dynamics"
+    ]
+  },
+  {
+    "insight_type": "trading volume analysis",
+    "question": "Analyze the daily trading volume of soybean to assess market participation levels and trends over the last two weeks.",
+    "required_metrics": [
+      {
+        "metric": "daily_volume",
+        "calculation": "Daily trading volume of soybean for the last 14 days",
+        "purpose": "Evaluate market activity and investor participation"
+      },
+      {
+        "metric": "average_volume",
+        "calculation": "Average of daily_volume for the last 14 days",
+        "purpose": "Determine typical trading volume levels"
+      },
+      {
+        "metric": "volume_change_percentage",
+        "calculation": "((Current day's volume - previous day's volume) / previous day's volume) * 100",
+        "purpose": "Assess day-over-day volume changes"
+      }
+    ],
+    "comparisons": [
+      "Current week's average volume vs. historical averages",
+      "Volume spikes correlating with price movements"
+    ]
+  }
+]

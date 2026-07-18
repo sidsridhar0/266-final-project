@@ -1,0 +1,34 @@
+{
+  "type": "all",
+  "entity": "Feeder Cattle Future (front month) (March)",
+  "interpretation": "The cattle market currently displays mild volatility with decreasing trading volume and a prevailing upward price trend. The market is approaching significant support and resistance levels, but with moderate reliability. Momentum analysis indicates a neutral condition.",
+  "significance_score": 0.65,
+  "score_reasoning": "The combination of reduced volatility and declining trading volume suggests caution among traders. However, consistent upward trend patterns and neutral RSI imply underlying strength in the market. Support and resistance levels provide potential price barriers, and their moderate reliability suggests potential for significant price movements upon breach.",
+  "individual_insights": [
+    {
+      "question": "Assess the daily volatility of the cattle market by comparing the intraday price range relative to the closing price over the past month.",
+      "interpretation": "The intraday price range for the date of interest (1.4) is lower than the average intraday range over the past month (1.80), indicating lower than usual volatility. The percentage volatility is around 0.75%, showing low volatility relative to the closing price.",
+      "significance_score": 0.6
+    },
+    {
+      "question": "Evaluate the trading activity by analyzing the volume trends and identifying any significant spikes or declines over the past two weeks.",
+      "interpretation": "The trading volume on the date of interest is significantly lower than the average volume over the past two weeks, with a decrease of 40.75%. This suggests a substantial decline in trading activity.",
+      "significance_score": 0.8
+    },
+    {
+      "question": "Determine the consistency of the price trend by analyzing the frequency of upward or downward movements in closing prices over the past quarter.",
+      "interpretation": "There have been 14 up days and 8 down days over the past 90 days, resulting in a trend consistency ratio of approximately 0.64. This indicates a more consistent upward trend in prices.",
+      "significance_score": 0.7
+    },
+    {
+      "question": "Identify key support and resistance levels by evaluating price patterns and their frequency of touch over multiple time frames.",
+      "interpretation": "Support and resistance levels have been identified at 182.7 and 187.22, respectively, with a frequency of touch of 2 times in the specified period. This suggests these levels are moderately reliable.",
+      "significance_score": 0.5
+    },
+    {
+      "question": "Examine the market momentum by calculating and comparing relative strength indices and their levels over the past month.",
+      "interpretation": "The current RSI is 59.03, indicating neither an overbought nor oversold condition, and the momentum signal is neutral. The lack of historical average RSI data (nan) limits a comprehensive assessment.",
+      "significance_score": 0.4
+    }
+  ]
+}

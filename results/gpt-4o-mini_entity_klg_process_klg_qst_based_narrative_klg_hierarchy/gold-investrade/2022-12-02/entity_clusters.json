@@ -1,0 +1,26 @@
+[
+  {
+    "cluster_name": "Gold and Silver",
+    "entities": [
+      "Gold",
+      "Silver"
+    ],
+    "reason_of_clustering": "Gold and silver are both precious metals and often traded within the same market segment. Their prices are typically correlated due to their similar uses in jewelry, investment, and as hedges against inflation and currency fluctuations."
+  },
+  {
+    "cluster_name": "Gold and Dollar Index",
+    "entities": [
+      "Gold",
+      "Dollar Index"
+    ],
+    "reason_of_clustering": "Gold is often inversely correlated with the Dollar Index. As the value of the dollar strengthens, gold prices tend to fall, and vice versa. This relationship is critical for investors as it helps gauge the potential price movements of gold based on dollar fluctuations."
+  },
+  {
+    "cluster_name": "Silver and Dollar Index",
+    "entities": [
+      "Silver",
+      "Dollar Index"
+    ],
+    "reason_of_clustering": "Similar to gold, silver's price movement can also be influenced by changes in the dollar's strength. Investors watch the Dollar Index to anticipate potential shifts in silver prices, making this relationship relevant for market analysis."
+  }
+]

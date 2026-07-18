@@ -1,0 +1,18 @@
+{
+  "group_characteristics": [
+    "What common volatility patterns appear across different Chicago SRW and KC HRW wheat futures?",
+    "How do closing price trends in front-month vs. second-month contracts affect overall market behavior?"
+  ],
+  "inter_group_dynamics": [
+    "How do fluctuations in Kansas City HRW wheat futures typically influence Chicago SRW wheat prices?",
+    "What role does trading volume in front-month contracts play on the behavior of second and third-month contracts?"
+  ],
+  "propagation_patterns": [
+    "How do volatility changes in front-month futures propagate to second-month and third-month futures?",
+    "What market conditions facilitate the spread of momentum from Chicago SRW wheat futures to KC HRW wheat futures?"
+  ],
+  "causal_chains": [
+    "What typical cause-effect sequences occur when trading volume spikes in Chicago SRW wheat futures?",
+    "How do variations in the average true range of KC HRW futures affect the trend strength in Chicago SRW wheat futures?"
+  ]
+}

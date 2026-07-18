@@ -1,0 +1,39 @@
+{
+  "type": "all",
+  "entity": "Feeder Cattle Future (front month) (March)",
+  "interpretation": "The current analysis of Feeder Cattle Futures reveals moderate volatility with significant declines in trading volume, indicating weak market interest. Coupled with a slight bearish price change and negative market sentiment, the commodity is facing challenges as it trades below critical support levels.",
+  "significance_score": 0.78,
+  "score_reasoning": "The combined insights indicate a concerning trend for the market, characterized by declining volume, negative sentiment, and a failure to maintain price above support levels. This has implications for potential further declines, warranting caution among investors.",
+  "individual_insights": [
+    {
+      "question": "Evaluate market volatility for the product on the date of interest by calculating the average true range (ATR) and the standard deviation of the closing prices over the last 14 days.",
+      "interpretation": "The ATR of 1.8493 indicates moderate volatility, while a standard deviation of 1.8912 suggests that the closing prices have fluctuated around the average price over the past 14 days. This implies some level of uncertainty and potential for price movement.",
+      "significance_score": 0.7,
+      "reasoning": ""
+    },
+    {
+      "question": "Analyze trading volume trends by comparing the volume on the date of interest against the average volume over the past 30 days.",
+      "interpretation": "Current volume is significantly lower at 744 compared to the average volume of 3499.79, indicating weak market activity and potential indifference among traders. A 78.74% drop in volume could signal a lack of confidence or interest in the market at this time.",
+      "significance_score": 0.8,
+      "reasoning": ""
+    },
+    {
+      "question": "Identify significant price movements by evaluating the percentage change in closing price from the previous day to the current day.",
+      "interpretation": "The closing price has decreased by 0.3442% from the previous day, suggesting slight bearish sentiment. The previous closing price of 188.85 is not alarming, but it displays a potential downward trend.",
+      "significance_score": 0.6,
+      "reasoning": ""
+    },
+    {
+      "question": "Determine key support and resistance levels by analyzing the closing prices over the last 30 days to find price levels that have been touched multiple times.",
+      "interpretation": "The current price of 188.2 is below the identified support level of 189.08 and approaching the resistance at 189.22. This positioning suggests a challenging environment for price recovery, increasing the likelihood of further declines.",
+      "significance_score": 0.75,
+      "reasoning": ""
+    },
+    {
+      "question": "Evaluate market sentiment by analyzing the closing prices relative to their opening prices over the past week.",
+      "interpretation": "With a weekly close-open change of -2.29, and only 20% of days closing higher than they opened, the market sentiment appears negative, indicating that sellers dominate and the overall market trend is downward.",
+      "significance_score": 0.85,
+      "reasoning": ""
+    }
+  ]
+}

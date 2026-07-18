@@ -1,0 +1,195 @@
+{
+  "pairwise_knowledge": {
+    "Volatility Analysis": [
+      {
+        "key_idea": "Daily price volatility patterns",
+        "description": "Wheat futures tend to exhibit higher volatility during planting and harvest seasons due to supply concerns and weather conditions. International trade policies and geopolitical events can also cause significant price swings."
+      },
+      {
+        "key_idea": "Historical volatility trends",
+        "description": "Historical data shows that KC HRW wheat futures often exhibit higher volatility than Chicago SRW wheat futures, likely due to different regional growing conditions and market dynamics."
+      }
+    ],
+    "Momentum Analysis": [
+      {
+        "key_idea": "Indicators of momentum",
+        "description": "Momentum indicators like Moving Average Convergence Divergence (MACD) and Relative Strength Index (RSI) can provide insights into potential bullish or bearish trends in wheat futures, particularly during climatic events affecting crop conditions."
+      },
+      {
+        "key_idea": "Price change significance",
+        "description": "Significant price changes over short periods, often triggered by weather forecasts or crop reports, can indicate the start of a new trend in the wheat futures market."
+      }
+    ],
+    "Volume Analysis": [
+      {
+        "key_idea": "Volume trend identification",
+        "description": "High trading volumes often precede major price movements, serving as a signal for potential breakouts or reversals in wheat futures, especially during times of market uncertainty."
+      },
+      {
+        "key_idea": "Volume as a breakout indicator",
+        "description": "A notable increase in trading volume coupled with price movement can confirm a breakout from a support or resistance level, suggesting a new price trend might be developing."
+      }
+    ],
+    "Price Performance": [
+      {
+        "key_idea": "Comparative price performance",
+        "description": "Daily comparisons of opening and closing prices, alongside key international wheat market news, can highlight prevailing pricing trends and investor sentiment."
+      },
+      {
+        "key_idea": "Longitudinal price analysis",
+        "description": "Assessing price changes against long-term averages helps in gauging market stability and potential corrections driven by supply-demand changes."
+      }
+    ],
+    "Support and Resistance Analysis": [
+      {
+        "key_idea": "Identification of support and resistance",
+        "description": "Technical charts can help identify key support and resistance levels in wheat futures, typically based on historical price points where trading has previously clustered."
+      },
+      {
+        "key_idea": "Proximity to technical levels",
+        "description": "Prices approaching key support or resistance levels often exhibit reduced volatility and trading volumes as market participants wait for a breakout confirmation."
+      }
+    ]
+  },
+  "group_knowledge": {
+    "Volatility Analysis": [
+      {
+        "key_idea": "Common patterns across groups",
+        "description": "The front and second-month futures often exhibit higher volatility due to proximity to delivery and immediate agricultural conditions. Trading strategies should account for increased risk exposure during periods of high volatility, particularly in the front month contracts."
+      },
+      {
+        "key_idea": "How effects propagate through groups",
+        "description": "Price shocks in front month contracts can quickly spread to second and third month futures, affecting volatility across the board. Traders should monitor news closely for potential triggers affecting the nearest expiration."
+      },
+      {
+        "key_idea": "Causal relationships at group level",
+        "description": "Macroeconomic factors such as interest rates, currency fluctuation, and global supply-demand dynamics cause volatility shifts across all wheat futures. Weather patterns are particularly influential in causing spikes in volatility due to their impact on crop yields."
+      }
+    ],
+    "Momentum Analysis": [
+      {
+        "key_idea": "Common patterns across groups",
+        "description": "Momentum indicators often signal trends when there are significant price shifts in related market conditions. The consistency of positive or negative momentum across multiple months generally signals a strong trend."
+      },
+      {
+        "key_idea": "How effects propagate through groups",
+        "description": "Momentum tends to propagate from front to back months following the trend set by the most actively traded futures. Traders use the momentum of front month contracts to predict potential moves in subsequent months."
+      },
+      {
+        "key_idea": "Causal relationships at group level",
+        "description": "The immediate supply-demand factors, geopolitical news, and export data serve as primary momentum drivers, creating ripple effects in future month contracts."
+      }
+    ],
+    "Volume Analysis": [
+      {
+        "key_idea": "Common patterns across groups",
+        "description": "High volume periods are often precursors to price corrections or breakouts, particularly in front and second-month futures as they tend to have higher liquidity."
+      },
+      {
+        "key_idea": "How effects propagate through groups",
+        "description": "Sudden increases in volume in front month contracts can signal impending price movements across second and third month contracts as traders adjust positions."
+      },
+      {
+        "key_idea": "Causal relationships at group level",
+        "description": "Volume spikes are often caused by positions being rolled over, speculative trades on news events, or institutional portfolio reallocations, affecting near-term months more significantly."
+      }
+    ],
+    "Price Performance": [
+      {
+        "key_idea": "Common patterns across groups",
+        "description": "Price performance can vary significantly between KC HRW and Chicago SRW futures due to regional supply-demand differences affecting the underlying wheat quality and availability; this pattern persists across all contract months."
+      },
+      {
+        "key_idea": "How effects propagate through groups",
+        "description": "Price discrepancies in initial trades often lead to adjustments in secondary and tertiary month prices as the market realigns expectations based on new market information."
+      },
+      {
+        "key_idea": "Causal relationships at group level",
+        "description": "Hedging activities by producers, government policy changes, and weather forecasts are key factors influencing price performance across wheat future groups."
+      }
+    ],
+    "Support and Resistance Analysis": [
+      {
+        "key_idea": "Common patterns across groups",
+        "description": "Both support and resistance levels are generally based on historical price data and tend to be closely watched by traders across all future months, aligning with technical analysis strategies common in commodities trading."
+      },
+      {
+        "key_idea": "How effects propagate through groups",
+        "description": "Breaks of significant support or resistance in front-month futures often signal adjustments that cascade into subsequent month futures, generating new trading opportunities and realignment of investor expectations."
+      },
+      {
+        "key_idea": "Causal relationships at group level",
+        "description": "Support and resistance shifts are largely driven by changes in fundamentals such as crop reports, global trade agreements, and speculative trading actions by major financial institutions."
+      }
+    ]
+  },
+  "overall_knowledge": {
+    "volatility_analysis": [
+      {
+        "key_idea": "Assess the daily price volatility by examining the range of price movement and historical volatility patterns",
+        "description": "In examining the daily price volatility of wheat futures, it is observed that entities such as 'KC HRW Wheat Future' and 'Chicago SRW Wheat Future' exhibit regular seasonal volatility patterns, influenced by fundamental factors like planting, harvesting periods, and unforeseen weather conditions. System-wide, interconnected market reactions amplify this volatility, as changes in one wheat type can influence others due to substitutability effects and speculative trading. Strategically, traders might leverage these predictable seasonal patterns to position around expected volatility spikes, especially during major USDA report releases or key crop development phases. Feedback loops exist where increased market volatility can attract more speculative volume, further heightening short-term volatility and widening bid-ask spreads."
+      }
+    ],
+    "momentum_analysis": [
+      {
+        "key_idea": "Evaluate the current price momentum using momentum indicators and the last price changes",
+        "description": "Momentum analysis shows that the wheat futures markets often experience shifts driven by both fundamental data releases and technical trend indicators. Momentum indicators such as the Relative Strength Index (RSI) or Moving Average Convergence Divergence (MACD) help in identifying overbought or oversold conditions, which can lead to reversal signals. System-level behaviors show prolonged impulse trends during trend-following periods, which can be disrupted suddenly by news. Strategically, these momentum indicators guide traders to enter or exit positions, especially where a significant divergence from historical price patterns indicates potential reversals. Complex causal networks occur where prolonged trends reinforce trader sentiment and positions, driving sustained price momentum until fundamentals change direction."
+      }
+    ],
+    "volume_analysis": [
+      {
+        "key_idea": "Analyze trading volume trends to identify potential breakouts or reversals",
+        "description": "Volume analysis of wheat futures indicates that surges in trading volume often precede significant price moves, signaling potential breakouts or reversals. Volume spikes typically occur at the intersection of technical breakout points and coincide with new market information. System-wide, increased participation across futures contracts can signal a directional bias, as volume acts as a confirming indicator for price trends. Strategically, tracking volume helps traders validate the strength of observed price movements or prepare for impending market reversals. Feedback systems exist as higher trading volumes enhance market liquidity, reducing slippage and attracting further participation by institutional traders."
+      }
+    ],
+    "price_performance": [
+      {
+        "key_idea": "Evaluate price performance by comparing the current close to the opening price and historical close prices",
+        "description": "Price performance evaluation reveals that wheat futures are sensitive to both intraday sentiment shifts and longer-term market trends. Observing the performance of the current close relative to the opening price provides insights into intraday strength or weakness, while comparing current and historical close prices helps gauge longer-term trend adherence. System-wide, divergences between Chicago SRW and KC HRW create trading opportunities due to their role as different wheat classes with varying qualities. Strategically, traders can execute spread trades to capitalize on relative performance divergences. Complex networks shape behavior when performance trends align with global supply-demand dynamics and policy interventions, influencing investor behavior across multiple futures contracts."
+      }
+    ],
+    "support_and_resistance_analysis": [
+      {
+        "key_idea": "Identify key support and resistance levels and assess the proximity of the current price to these levels",
+        "description": "Support and resistance analysis in wheat futures identifies critical price zones where historical buying or selling has occurred, often coinciding with psychological price levels, previous highs, or lows. System-level patterns emerge where these zones are validated by increased volume or open interest shifts. Proximity to these levels can dictate trader action, as breaches may lead to significant follow-through. Strategically, traders use these levels to place entry or exit orders, align stop-loss positioning, or confirm breakout validity. Feedback systems develop when repeated tests of support or resistance lead to zone fortification, impacting market sentiment and altering trader expectations."
+      }
+    ]
+  },
+  "narrative_knowledge": {
+    "narrative_structures": "Daily market reports typically start with a summary overview of the market's performance, followed by a detailed analysis of significant movements and trends. This is often complemented with historical context to explain current trends, and forecasts or projections to provide guidance for future decisions. The conclusion usually offers actionable insights or recommendations.",
+    "focus_entities": [
+      {
+        "entities_name": "KC HRW Wheat Future (second month) (July)",
+        "reasoning": "The second month futures often serve as a reference point for price trends and market sentiment, making it vital for trend analysis."
+      },
+      {
+        "entities_name": "Chicago SRW Wheat Future (third month) (September)",
+        "reasoning": "Third month futures can indicate traders\u2019 expectations over a slightly longer horizon and reflect sentiment about seasonal changes affecting supply and demand."
+      },
+      {
+        "entities_name": "KC HRW Wheat Future (front month) (March)",
+        "reasoning": "Front month futures are crucial as they reflect the most immediate trading activity and market reactions to recent news."
+      }
+    ],
+    "focus_insights": [
+      {
+        "insight_types": "Price movements",
+        "reasoning": "Understanding daily price shifts helps in identifying short-term trends and potential volatility that could indicate broader market shifts."
+      },
+      {
+        "insight_types": "Volume analysis",
+        "reasoning": "Trading volumes can provide insights into the strength of a price trend or signal potential reversals."
+      },
+      {
+        "insight_types": "Weather impacts",
+        "reasoning": "Weather conditions are pivotal for agricultural markets, as they directly affect crop yields and hence future pricing."
+      }
+    ],
+    "domain_language": [
+      "Use terms like 'bullish' or 'bearish' to describe market sentiments.",
+      "Express future prices in terms of their expiry month (e.g., 'March futures' to indicate contracts expiring in March).",
+      "Describe price changes in terms of basis points or percentage change for clarity.",
+      "Incorporate terms like 'open interest' and 'hedging activity' to discuss positions and risk management."
+    ]
+  }
+}

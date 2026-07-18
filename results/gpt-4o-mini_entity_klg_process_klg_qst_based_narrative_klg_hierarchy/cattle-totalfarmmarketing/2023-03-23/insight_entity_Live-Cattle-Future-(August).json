@@ -1,0 +1,39 @@
+{
+  "type": "all",
+  "entity": "Live Cattle Future (third month) (August)",
+  "interpretation": "The analysis reflects weak market demand characterized by decreased trading volume and a bearish sentiment. The price is below both support and resistance levels, while volatility remains moderate. These factors imply a lack of investor confidence and greater risks ahead.",
+  "significance_score": 0.8,
+  "score_reasoning": "The overall market dynamics indicate that traders should exercise caution. The current bearish trend and lower volume could lead to further declines in prices, which is critical for potential investors to consider in their decision-making.",
+  "individual_insights": [
+    {
+      "question": "Evaluate market volatility for the product on the date of interest by calculating the average true range (ATR) and the standard deviation of the closing prices over the last 14 days.",
+      "interpretation": "The ATR is 1.1300, suggesting moderate volatility in market prices. The standard deviation of 1.7835 indicates that the price has fluctuated around the average closing price quite a bit over the past 14 days.",
+      "significance_score": 0.7,
+      "reasoning": ""
+    },
+    {
+      "question": "Analyze trading volume trends by comparing the volume on the date of interest against the average volume over the past 30 days.",
+      "interpretation": "Current trading volume is at 8517, which is significantly lower than the average volume of 11383.32, indicating reduced market activity. The volume change percentage of -25.18% further emphasizes this decline, suggesting a potential lack of interest from traders.",
+      "significance_score": 0.8,
+      "reasoning": ""
+    },
+    {
+      "question": "Identify significant price movements by evaluating the percentage change in closing price from the previous day to the current day.",
+      "interpretation": "The percentage change is -0.1795%, indicating a negligible decline in price compared to the previous day, which may not be enough to signal a change in market trend.",
+      "significance_score": 0.4,
+      "reasoning": ""
+    },
+    {
+      "question": "Determine key support and resistance levels by analyzing the closing prices over the last 30 days to find price levels that have been touched multiple times.",
+      "interpretation": "Support is observed at 159.65 and resistance at 160.10, while the current price of 155.70 is below both levels. This indicates a bearish trend, suggesting sellers currently dominate the market.",
+      "significance_score": 0.9,
+      "reasoning": ""
+    },
+    {
+      "question": "Evaluate market sentiment by analyzing the closing prices relative to their opening prices over the past week to assess whether prices are closing higher or lower than they opened.",
+      "interpretation": "With a weekly close-open change of -1.10 and 60% of the days closing lower than they opened, sentiment appears negative, suggesting a bearish outlook among traders.",
+      "significance_score": 0.85,
+      "reasoning": ""
+    }
+  ]
+}

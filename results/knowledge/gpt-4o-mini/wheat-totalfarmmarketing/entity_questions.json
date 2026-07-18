@@ -1,0 +1,117 @@
+[
+  {
+    "insight_type": "volatility",
+    "question": "What was the volatility of the wheat market over the past 14 days using the daily price movements?",
+    "required_metrics": [
+      {
+        "metric": "daily_price_change",
+        "calculation": "Close - Open for each day",
+        "purpose": "Calculate individual daily price changes"
+      },
+      {
+        "metric": "14_day_Volatility",
+        "calculation": "Standard deviation of daily_price_change over the past 14 days",
+        "purpose": "Measure how much the price varies from its average"
+      }
+    ],
+    "comparisons": [
+      "Current 14-day volatility vs historical 14-day volatility",
+      "Current volatility level relative to industry standards"
+    ]
+  },
+  {
+    "insight_type": "market breadth",
+    "question": "What is the market breadth of wheat trading, indicated by the ratio of advancing to declining volumes over the last month?",
+    "required_metrics": [
+      {
+        "metric": "advancing_volume",
+        "calculation": "Total volume where today's Close > Open over the last 30 days",
+        "purpose": "Measure the strength of upward movement"
+      },
+      {
+        "metric": "declining_volume",
+        "calculation": "Total volume where today's Close < Open over the last 30 days",
+        "purpose": "Measure the strength of downward movement"
+      },
+      {
+        "metric": "advancing_declining_ratio",
+        "calculation": "advancing_volume / declining_volume",
+        "purpose": "Determine overall market sentiment"
+      }
+    ],
+    "comparisons": [
+      "Current advancing/declining ratio vs historical ratios",
+      "Relationship between advancing ratio and price movement"
+    ]
+  },
+  {
+    "insight_type": "price momentum",
+    "question": "How has the momentum of wheat prices shifted over the last 7 days based on closing prices?",
+    "required_metrics": [
+      {
+        "metric": "Price_momentum",
+        "calculation": "Close price on day N - Close price on day N-7",
+        "purpose": "Identify short-term price momentum direction"
+      },
+      {
+        "metric": "momentum_chg_percentage",
+        "calculation": "(Price_momentum / Close price on day N-7) * 100",
+        "purpose": "Calculate the percentage change in price momentum"
+      }
+    ],
+    "comparisons": [
+      "Momentum change vs price movement in the same period",
+      "Current momentum level vs previous 7-day momentum"
+    ]
+  },
+  {
+    "insight_type": "investment sentiment",
+    "question": "What is the average closing price over the last month compared to the last year's average, and what does that indicate about investor sentiment?",
+    "required_metrics": [
+      {
+        "metric": "30_day_avg_close",
+        "calculation": "Average of Close prices over the last 30 days",
+        "purpose": "Measure recent performance trend"
+      },
+      {
+        "metric": "365_day_avg_close",
+        "calculation": "Average of Close prices over the last 365 days",
+        "purpose": "Measure long-term performance trend"
+      }
+    ],
+    "comparisons": [
+      "Current 30-day average vs 365-day average",
+      "Trends over time in relation to significant market events"
+    ]
+  },
+  {
+    "insight_type": "price range evaluation",
+    "question": "What is the price range (high vs low) of wheat for the past week, and how does it compare to the previous week's range?",
+    "required_metrics": [
+      {
+        "metric": "weekly_high",
+        "calculation": "Maximum High price over the last 7 days",
+        "purpose": "Identify upper boundary of price movement"
+      },
+      {
+        "metric": "weekly_low",
+        "calculation": "Minimum Low price over the last 7 days",
+        "purpose": "Identify lower boundary of price movement"
+      },
+      {
+        "metric": "last_week_high",
+        "calculation": "Maximum High price over the previous 7 days",
+        "purpose": "Identify high of the previous period for comparison"
+      },
+      {
+        "metric": "last_week_low",
+        "calculation": "Minimum Low price over the previous 7 days",
+        "purpose": "Identify low of the previous period for comparison"
+      }
+    ],
+    "comparisons": [
+      "Current week's high/low vs last week's high/low",
+      "Relative pricing pressure indicated by weekly ranges"
+    ]
+  }
+]

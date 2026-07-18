@@ -1,0 +1,137 @@
+[
+  {
+    "insight_type": "volatility",
+    "question": {
+      "insight_type": "volatility",
+      "question": "Evaluate market volatility for each dairy product by calculating the average true range and comparing it against historical averages",
+      "required_metrics": [
+        {
+          "metric": "True Range",
+          "calculation": "Max of (High - Low, High - Previous Close, Low - Previous Close)",
+          "purpose": "Measure single day volatility"
+        },
+        {
+          "metric": "Average True Range (ATR_14)",
+          "calculation": "14-day moving average of True Range",
+          "purpose": "Identify short-term volatility trends"
+        },
+        {
+          "metric": "Historical Average ATR",
+          "calculation": "Long-term average of ATR",
+          "purpose": "Provide context for current ATR against historical volatility"
+        }
+      ],
+      "comparisons": [
+        "Current ATR vs Historical Average ATR",
+        "Current ATR vs High/Low Close Variance"
+      ]
+    },
+    "results": "METRIC:Current ATR VALUE:0.11000000000000044 UNIT:None TYPE:float\nMETRIC:Historical Average ATR VALUE:0.1483035714285717 UNIT:None TYPE:float\nMETRIC:Latest Close VALUE:18.07 UNIT:None TYPE:float\nMETRIC:Current ATR vs Historical Average ATR VALUE:-0.038303571428571256 UNIT:None TYPE:float\n"
+  },
+  {
+    "insight_type": "price_momentum",
+    "question": {
+      "insight_type": "price momentum",
+      "question": "Determine price momentum by analyzing relative strength index (RSI) and moving average convergence divergence (MACD) for different dairy products",
+      "required_metrics": [
+        {
+          "metric": "RSI_14",
+          "calculation": "100 - (100 / (1 + RS)) where RS is average gain of n days up closes divided by average loss of n days down closes",
+          "purpose": "Identify overbought or oversold conditions"
+        },
+        {
+          "metric": "MACD_line",
+          "calculation": "12-day EMA minus 26-day EMA of Closing Price",
+          "purpose": "Measure trend momentum"
+        },
+        {
+          "metric": "MACD_signal",
+          "calculation": "9-day EMA of MACD_line",
+          "purpose": "Signal line to confirm trends"
+        }
+      ],
+      "comparisons": [
+        "RSI relative to 30 and 70 levels",
+        "Crossovers between MACD_line and MACD_signal"
+      ]
+    },
+    "results": "METRIC:RSI_14\tVALUE:79.37\tUNIT:\tTYPE:float\nMETRIC:MACD_line\tVALUE:0.07\tUNIT:\tTYPE:float\nMETRIC:MACD_signal\tVALUE:0.04\tUNIT:\tTYPE:float\n"
+  },
+  {
+    "insight_type": "volume_analysis",
+    "question": {
+      "insight_type": "volume analysis",
+      "question": "Assess market participation by evaluating volume trends and average volume engagement during significant price movements",
+      "required_metrics": [
+        {
+          "metric": "Average Volume (Volume_50)",
+          "calculation": "50-day moving average of Volume",
+          "purpose": "Identify typical market participation levels"
+        },
+        {
+          "metric": "Volume Spike",
+          "calculation": "Days when Volume is greater than 150% of Volume_50",
+          "purpose": "Detect high engagement days"
+        }
+      ],
+      "comparisons": [
+        "Current Volume vs Average Volume",
+        "Volume changes during major price movements"
+      ]
+    },
+    "results": "METRIC:Average Volume (Volume_50) VALUE:235.42857142857142 UNIT:None TYPE:float\nMETRIC:Volume Spike VALUE:False UNIT:None TYPE:boolean\nMETRIC:Current Volume VALUE:45.0 UNIT:None TYPE:float\nMETRIC:Volume vs. Average Volume VALUE:0.19114077669902912 UNIT:Multiplier TYPE:float\n"
+  },
+  {
+    "insight_type": "price_range_exploration",
+    "question": {
+      "insight_type": "price range exploration",
+      "question": "Analyze price range shifts by examining the Open, High, Low, and Close (OHLC) to understand daily market sentiment directionality",
+      "required_metrics": [
+        {
+          "metric": "Daily Candle",
+          "calculation": "Representation of OHLC data as candlesticks",
+          "purpose": "Visual representation of daily price changes"
+        },
+        {
+          "metric": "Body Size",
+          "calculation": "Absolute value of Open - Close",
+          "purpose": "Measure price movement magnitude"
+        },
+        {
+          "metric": "Wick Size",
+          "calculation": "(High - max(Open, Close)) and (min(Open, Close) - Low)",
+          "purpose": "Measure intraday volatility and sentiment"
+        }
+      ],
+      "comparisons": [
+        "Body size vs wick size",
+        "Candle patterns relative to trend"
+      ]
+    },
+    "results": "METRIC:Daily Candle\tVALUE:OHLC(18.08, 18.1, 18.06, 18.07)\tUNIT:N/A\tTYPE:string\nMETRIC:Body Size\tVALUE:0.00999999999999801\tUNIT:dollars\tTYPE:float\nMETRIC:Upper Wick Size\tVALUE:0.020000000000003126\tUNIT:dollars\tTYPE:float\nMETRIC:Lower Wick Size\tVALUE:0.010000000000001563\tUNIT:dollars\tTYPE:float\n"
+  },
+  {
+    "insight_type": "support_and_resistance_levels",
+    "question": {
+      "insight_type": "support and resistance levels",
+      "question": "Identify key support and resistance levels using price peaks and troughs over the last 60 days to guide potential entry and exit points",
+      "required_metrics": [
+        {
+          "metric": "Support Level",
+          "calculation": "Lowest price levels that have been tested multiple times in the past",
+          "purpose": "Determine levels where buying pressure prevails"
+        },
+        {
+          "metric": "Resistance Level",
+          "calculation": "Highest price levels that have been tested multiple times in the past",
+          "purpose": "Determine levels where selling pressure prevails"
+        }
+      ],
+      "comparisons": [
+        "Current price vs identified support/resistance levels",
+        "Past performance at these levels"
+      ]
+    },
+    "results": "METRIC:Support Level\tVALUE:17.68\tUNIT:price\tTYPE:float\nMETRIC:Resistance Level\tVALUE:18.07\tUNIT:price\tTYPE:float\n"
+  }
+]

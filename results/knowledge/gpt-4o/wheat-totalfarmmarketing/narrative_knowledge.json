@@ -1,0 +1,37 @@
+{
+  "narrative_structures": "Daily market reports typically start with a summary overview of the market's performance, followed by a detailed analysis of significant movements and trends. This is often complemented with historical context to explain current trends, and forecasts or projections to provide guidance for future decisions. The conclusion usually offers actionable insights or recommendations.",
+  "focus_entities": [
+    {
+      "entities_name": "KC HRW Wheat Future (second month) (July)",
+      "reasoning": "The second month futures often serve as a reference point for price trends and market sentiment, making it vital for trend analysis."
+    },
+    {
+      "entities_name": "Chicago SRW Wheat Future (third month) (September)",
+      "reasoning": "Third month futures can indicate traders\u2019 expectations over a slightly longer horizon and reflect sentiment about seasonal changes affecting supply and demand."
+    },
+    {
+      "entities_name": "KC HRW Wheat Future (front month) (March)",
+      "reasoning": "Front month futures are crucial as they reflect the most immediate trading activity and market reactions to recent news."
+    }
+  ],
+  "focus_insights": [
+    {
+      "insight_types": "Price movements",
+      "reasoning": "Understanding daily price shifts helps in identifying short-term trends and potential volatility that could indicate broader market shifts."
+    },
+    {
+      "insight_types": "Volume analysis",
+      "reasoning": "Trading volumes can provide insights into the strength of a price trend or signal potential reversals."
+    },
+    {
+      "insight_types": "Weather impacts",
+      "reasoning": "Weather conditions are pivotal for agricultural markets, as they directly affect crop yields and hence future pricing."
+    }
+  ],
+  "domain_language": [
+    "Use terms like 'bullish' or 'bearish' to describe market sentiments.",
+    "Express future prices in terms of their expiry month (e.g., 'March futures' to indicate contracts expiring in March).",
+    "Describe price changes in terms of basis points or percentage change for clarity.",
+    "Incorporate terms like 'open interest' and 'hedging activity' to discuss positions and risk management."
+  ]
+}

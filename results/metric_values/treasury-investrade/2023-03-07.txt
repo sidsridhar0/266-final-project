@@ -1,0 +1,420 @@
+Entity: United States 1-Year Bond Yield
+Price Information:
+  Open: 5.09
+  High: 5.23
+  Low: 5.04
+  Close: 5.22
+
+Moving Averages:
+  SMA_10: 5.0800
+  SMA_20: 5.0450
+  EMA_20: 5.0394
+  EMA_50: 4.9512
+  EMA_100: 4.8938
+
+Oscillators:
+  RSI_14: 71.15%
+  MACD_Line: 0.0611
+  MACD_Signal: 0.0562
+  MACD_Histogram: 0.0049
+  Stochastic_%K: 95.2381
+  Stochastic_%D: 82.1734
+
+Volatility Indicators:
+  BB_Upper: 5.1729
+  BB_Middle: 5.0450
+  BB_Lower: 4.9171
+  BB_Width: 0.0507
+  ATR_20: 0.0570
+  Daily_Volatility: 0.1360
+  Weekly_Volatility: 0.0959
+  Monthly_Volatility: 0.0295
+
+Volume Indicators:
+
+Price Indicators:
+  Daily_Range: 0.1900
+  Daily_Range_Pct: 3.64%
+  Weekly_Range: 0.2100
+  Weekly_Range_Pct: 4.02%
+  Price_Change_1d: 0.1300
+  Price_Change_Pct_1d: 2.55%
+  Price_Change_5d: 0.1200
+  Price_Change_Pct_5d: 2.35%
+  Price_Change_7d: 0.1700
+  Price_Change_Pct_7d: 3.37%
+
+Support & Resistance:
+  Pivot: 5.1633
+  Support1: 5.0967
+  Support2: 4.9733
+  Resistance1: 5.2867
+  Resistance2: 5.3533
+  Support_Level: 4.8700
+  Resistance_Level: 5.2300
+
+Momentum:
+  Momentum_10: 0.1700
+  Momentum_Pct_10: 3.37%
+
+
+Entity: United States 30-Year Bond Yield
+Price Information:
+  Open: 3.89
+  High: 3.91
+  Low: 3.87
+  Close: 3.90
+
+Moving Averages:
+  SMA_10: 3.9220
+  SMA_20: 3.8940
+  EMA_20: 3.8747
+  EMA_50: 3.7870
+  EMA_100: 3.7244
+
+Oscillators:
+  RSI_14: 51.16%
+  MACD_Line: 0.0485
+  MACD_Signal: 0.0603
+  MACD_Histogram: -0.0118
+  Stochastic_%K: 26.6667
+  Stochastic_%D: 20.0000
+
+Volatility Indicators:
+  BB_Upper: 4.0118
+  BB_Middle: 3.8940
+  BB_Lower: 3.7762
+  BB_Width: 0.0605
+  ATR_20: 0.0545
+  Daily_Volatility: 0.1937
+  Weekly_Volatility: 0.0876
+  Monthly_Volatility: 0.0440
+
+Volume Indicators:
+
+Price Indicators:
+  Daily_Range: 0.0400
+  Daily_Range_Pct: 1.03%
+  Weekly_Range: 0.1500
+  Weekly_Range_Pct: 3.85%
+  Price_Change_1d: 0.0100
+  Price_Change_Pct_1d: 0.26%
+  Price_Change_5d: -0.0700
+  Price_Change_Pct_5d: -1.76%
+  Price_Change_7d: -0.0400
+  Price_Change_Pct_7d: -1.02%
+
+Support & Resistance:
+  Pivot: 3.8933
+  Support1: 3.8767
+  Support2: 3.8533
+  Resistance1: 3.9167
+  Resistance2: 3.9333
+  Support_Level: 3.7700
+  Resistance_Level: 4.0100
+
+Momentum:
+  Momentum_10: 0.0300
+  Momentum_Pct_10: 0.78%
+
+
+Entity: United States 3-Year Bond Yield
+Price Information:
+  Open: 4.71
+  High: 4.76
+  Low: 4.69
+  Close: 4.75
+
+Moving Averages:
+  SMA_10: 4.5960
+  SMA_20: 4.4640
+  EMA_20: 4.4747
+  EMA_50: 4.2839
+  EMA_100: 4.1664
+
+Oscillators:
+  RSI_14: 82.09%
+  MACD_Line: 0.1404
+  MACD_Signal: 0.1287
+  MACD_Histogram: 0.0116
+  Stochastic_%K: 97.5000
+  Stochastic_%D: 86.9974
+
+Volatility Indicators:
+  BB_Upper: 4.7726
+  BB_Middle: 4.4640
+  BB_Lower: 4.1554
+  BB_Width: 0.1382
+  ATR_20: 0.0770
+  Daily_Volatility: 0.1954
+  Weekly_Volatility: 0.1091
+  Monthly_Volatility: 0.0416
+
+Volume Indicators:
+
+Price Indicators:
+  Daily_Range: 0.0700
+  Daily_Range_Pct: 1.47%
+  Weekly_Range: 0.1900
+  Weekly_Range_Pct: 4.00%
+  Price_Change_1d: 0.1400
+  Price_Change_Pct_1d: 3.04%
+  Price_Change_5d: 0.1100
+  Price_Change_Pct_5d: 2.37%
+  Price_Change_7d: 0.2300
+  Price_Change_Pct_7d: 5.09%
+
+Support & Resistance:
+  Pivot: 4.7333
+  Support1: 4.7067
+  Support2: 4.6633
+  Resistance1: 4.7767
+  Resistance2: 4.8033
+  Support_Level: 4.1900
+  Resistance_Level: 4.7600
+
+Momentum:
+  Momentum_10: 0.3400
+  Momentum_Pct_10: 7.71%
+
+
+Entity: United States 7-Year Bond Yield
+Price Information:
+  Open: 4.18
+  High: 4.22
+  Low: 4.17
+  Close: 4.21
+
+Moving Averages:
+  SMA_10: 4.1450
+  SMA_20: 4.0505
+  EMA_20: 4.0488
+  EMA_50: 3.8862
+  EMA_100: 3.7816
+
+Oscillators:
+  RSI_14: 70.97%
+  MACD_Line: 0.1111
+  MACD_Signal: 0.1104
+  MACD_Histogram: 0.0008
+  Stochastic_%K: 85.1852
+  Stochastic_%D: 71.4058
+
+Volatility Indicators:
+  BB_Upper: 4.2912
+  BB_Middle: 4.0505
+  BB_Lower: 3.8098
+  BB_Width: 0.1188
+  ATR_20: 0.0715
+  Daily_Volatility: 0.2200
+  Weekly_Volatility: 0.0915
+  Monthly_Volatility: 0.0480
+
+Volume Indicators:
+
+Price Indicators:
+  Daily_Range: 0.0500
+  Daily_Range_Pct: 1.19%
+  Weekly_Range: 0.1300
+  Weekly_Range_Pct: 3.09%
+  Price_Change_1d: 0.0600
+  Price_Change_Pct_1d: 1.45%
+  Price_Change_5d: 0.0200
+  Price_Change_Pct_5d: 0.48%
+  Price_Change_7d: 0.1200
+  Price_Change_Pct_7d: 2.93%
+
+Support & Resistance:
+  Pivot: 4.2000
+  Support1: 4.1800
+  Support2: 4.1500
+  Resistance1: 4.2300
+  Resistance2: 4.2500
+  Support_Level: 3.8100
+  Resistance_Level: 4.2500
+
+Momentum:
+  Momentum_10: 0.1900
+  Momentum_Pct_10: 4.73%
+
+
+Entity: United States 10-Year Bond Yield
+Price Information:
+  Open: 3.99
+  High: 4.01
+  Low: 3.97
+  Close: 4.00
+
+Moving Averages:
+  SMA_10: 3.9700
+  SMA_20: 3.8980
+  EMA_20: 3.8922
+  EMA_50: 3.7606
+  EMA_100: 3.6748
+
+Oscillators:
+  RSI_14: 65.45%
+  MACD_Line: 0.0873
+  MACD_Signal: 0.0903
+  MACD_Histogram: -0.0029
+  Stochastic_%K: 68.1818
+  Stochastic_%D: 59.9068
+
+Volatility Indicators:
+  BB_Upper: 4.0923
+  BB_Middle: 3.8980
+  BB_Lower: 3.7037
+  BB_Width: 0.0997
+  ATR_20: 0.0670
+  Daily_Volatility: 0.2184
+  Weekly_Volatility: 0.0926
+  Monthly_Volatility: 0.0479
+
+Volume Indicators:
+
+Price Indicators:
+  Daily_Range: 0.0400
+  Daily_Range_Pct: 1.00%
+  Weekly_Range: 0.1400
+  Weekly_Range_Pct: 3.50%
+  Price_Change_1d: 0.0400
+  Price_Change_Pct_1d: 1.01%
+  Price_Change_5d: -0.0200
+  Price_Change_Pct_5d: -0.50%
+  Price_Change_7d: 0.0700
+  Price_Change_Pct_7d: 1.78%
+
+Support & Resistance:
+  Pivot: 3.9933
+  Support1: 3.9767
+  Support2: 3.9533
+  Resistance1: 4.0167
+  Resistance2: 4.0333
+  Support_Level: 3.6900
+  Resistance_Level: 4.0700
+
+Momentum:
+  Momentum_10: 0.1300
+  Momentum_Pct_10: 3.36%
+
+
+Entity: United States 5-Year Bond Yield
+Price Information:
+  Open: 4.34
+  High: 4.38
+  Low: 4.32
+  Close: 4.36
+
+Moving Averages:
+  SMA_10: 4.2490
+  SMA_20: 4.1475
+  EMA_20: 4.1456
+  EMA_50: 3.9683
+  EMA_100: 3.8546
+
+Oscillators:
+  RSI_14: 73.53%
+  MACD_Line: 0.1228
+  MACD_Signal: 0.1190
+  MACD_Histogram: 0.0038
+  Stochastic_%K: 93.5484
+  Stochastic_%D: 78.4946
+
+Volatility Indicators:
+  BB_Upper: 4.4015
+  BB_Middle: 4.1475
+  BB_Lower: 3.8935
+  BB_Width: 0.1225
+  ATR_20: 0.0760
+  Daily_Volatility: 0.2252
+  Weekly_Volatility: 0.1066
+  Monthly_Volatility: 0.0482
+
+Volume Indicators:
+
+Price Indicators:
+  Daily_Range: 0.0600
+  Daily_Range_Pct: 1.38%
+  Weekly_Range: 0.1600
+  Weekly_Range_Pct: 3.67%
+  Price_Change_1d: 0.1100
+  Price_Change_Pct_1d: 2.59%
+  Price_Change_5d: 0.0700
+  Price_Change_Pct_5d: 1.63%
+  Price_Change_7d: 0.1800
+  Price_Change_Pct_7d: 4.31%
+
+Support & Resistance:
+  Pivot: 4.3533
+  Support1: 4.3267
+  Support2: 4.2933
+  Resistance1: 4.3867
+  Resistance2: 4.4133
+  Support_Level: 3.9000
+  Resistance_Level: 4.3800
+
+Momentum:
+  Momentum_10: 0.2600
+  Momentum_Pct_10: 6.34%
+
+
+Entity: United States 2-Year Bond Yield
+Price Information:
+  Open: 4.90
+  High: 5.02
+  Low: 4.85
+  Close: 5.01
+
+Moving Averages:
+  SMA_10: 4.8340
+  SMA_20: 4.7110
+  EMA_20: 4.7465
+  EMA_50: 4.6169
+  EMA_100: 4.5485
+
+Oscillators:
+  RSI_14: 81.67%
+  MACD_Line: 0.1132
+  MACD_Signal: 0.0891
+  MACD_Histogram: 0.0241
+  Stochastic_%K: 97.7273
+  Stochastic_%D: 89.3840
+
+Volatility Indicators:
+  BB_Upper: 5.0195
+  BB_Middle: 4.7110
+  BB_Lower: 4.4025
+  BB_Width: 0.1310
+  ATR_20: 0.0925
+  Daily_Volatility: 0.1647
+  Weekly_Volatility: 0.0945
+  Monthly_Volatility: 0.0351
+
+Volume Indicators:
+
+Price Indicators:
+  Daily_Range: 0.1700
+  Daily_Range_Pct: 3.39%
+  Weekly_Range: 0.2000
+  Weekly_Range_Pct: 3.99%
+  Price_Change_1d: 0.1200
+  Price_Change_Pct_1d: 2.45%
+  Price_Change_5d: 0.2100
+  Price_Change_Pct_5d: 4.37%
+  Price_Change_7d: 0.2000
+  Price_Change_Pct_7d: 4.16%
+
+Support & Resistance:
+  Pivot: 4.9600
+  Support1: 4.9000
+  Support2: 4.7900
+  Resistance1: 5.0700
+  Resistance2: 5.1300
+  Support_Level: 4.4100
+  Resistance_Level: 5.0200
+
+Momentum:
+  Momentum_10: 0.2800
+  Momentum_Pct_10: 5.92%
+
+

@@ -1,0 +1,27 @@
+[
+  {
+    "cluster_name": "Precious Metals",
+    "entities": [
+      "Gold",
+      "Silver"
+    ],
+    "reason_of_clustering": "Gold and Silver are both precious metals that often move together in response to global economic conditions, inflation, and currency fluctuations. Investors typically view them as safe-haven assets during periods of market volatility."
+  },
+  {
+    "cluster_name": "Currency and Commodities",
+    "entities": [
+      "Gold",
+      "Dollar Index"
+    ],
+    "reason_of_clustering": "The Dollar Index measures the value of the US dollar against a basket of currencies. Gold is often inversely correlated with the dollar, as a stronger dollar can lead to lower gold prices. Therefore, monitoring both can provide insights into potential price movements in the gold market."
+  },
+  {
+    "cluster_name": "Hedge Assets",
+    "entities": [
+      "Gold",
+      "Silver",
+      "Dollar Index"
+    ],
+    "reason_of_clustering": "All three entities serve different roles in an investment portfolio as hedges against economic instability. Gold and Silver are used to hedge against inflation and currency devaluation, while the Dollar Index helps gauge the strength of the dollar, influencing the attractiveness of these commodities as investments."
+  }
+]

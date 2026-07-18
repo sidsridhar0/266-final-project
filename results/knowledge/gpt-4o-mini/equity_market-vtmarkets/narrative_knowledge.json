@@ -1,0 +1,49 @@
+{
+  "narrative_structures": "A typical daily market report should start with an executive summary highlighting major market movements and trends, followed by detailed sections analyzing key indices, sectors, and economic indicators. The report should conclude with insights and actionable recommendations based on the analyzed data.",
+  "focus_entities": [
+    {
+      "entities_name": "S&P 500",
+      "reasoning": "It serves as a primary indicator of U.S. equities and provides insights into overall market performance."
+    },
+    {
+      "entities_name": "Dow Jones Industrial Average",
+      "reasoning": "It is a key benchmark of the U.S. stock market and reflects the performance of 30 significant companies."
+    },
+    {
+      "entities_name": "NASDAQ Composite",
+      "reasoning": "It includes many technology and growth-oriented stocks, representing a segment of the market that's critical for understanding sector trends."
+    },
+    {
+      "entities_name": "Gold",
+      "reasoning": "Often seen as a safe-haven asset, gold prices can influence investor sentiment and are a key indicator of risk appetite."
+    },
+    {
+      "entities_name": "United States 10-Year Bond Yield",
+      "reasoning": "This yield influences broader economic conditions and is a critical factor in assessing future interest rate trends."
+    }
+  ],
+  "focus_insights": [
+    {
+      "insight_types": "Market Sentiment Analysis",
+      "reasoning": "Understanding whether the market sentiment is bullish or bearish helps investors make informed decisions."
+    },
+    {
+      "insight_types": "Sector Performance Comparison",
+      "reasoning": "Analyzing the performance of key sectors like Technology, Health Care, and Energy can provide insights into where investment opportunities may lie."
+    },
+    {
+      "insight_types": "Economic Indicators Impact",
+      "reasoning": "Assessing the impact of macroeconomic indicators, such as unemployment rates or GDP growth, on market performance is essential for strategic investment decisions."
+    },
+    {
+      "insight_types": "Volatility Trends",
+      "reasoning": "Monitoring the CBOE Volatility Index provides insights into market stability and potential risk areas for investors."
+    }
+  ],
+  "domain_language": [
+    "Use terms like 'bullish' to describe upward market trends and 'bearish' for downward trends.",
+    "Express future price expectations with phrases like 'expected to rise' or 'forecasted to decline'.",
+    "Use percentages and basis points to describe changes in yields and indices for precision.",
+    "Incorporate jargon such as 'capital flows', 'risk appetite', and 'market correction' to align with audience expectations."
+  ]
+}

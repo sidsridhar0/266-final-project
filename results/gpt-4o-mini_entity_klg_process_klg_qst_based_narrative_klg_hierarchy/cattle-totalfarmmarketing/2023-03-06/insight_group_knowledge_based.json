@@ -1,0 +1,102 @@
+[
+  {
+    "cluster_name": "Live Cattle Futures",
+    "entities": [
+      "Live Cattle Future (front month) (April)",
+      "Live Cattle Future (second month) (June)",
+      "Live Cattle Future (third month) (August)"
+    ],
+    "cluster_insights": [
+      {
+        "type": "Price Influence",
+        "description": "The upward momentum observed in Feeder Cattle Futures suggests a bullish sentiment that could spill over into Live Cattle Futures.",
+        "supporting_insights": [
+          "Increased activity and price movements reflect interconnected market dynamics."
+        ],
+        "significance": "This insight highlights the interdependence of live and feeder cattle futures, indicating that positive trends in one could drive upward pressure in the other.",
+        "significance_score": 0.85
+      },
+      {
+        "type": "Volume and Market Sentiment Relationship",
+        "description": "Increased trading volumes indicate active market sentiment, suggesting conflicting views among investors.",
+        "supporting_insights": [
+          "The analysis shows heightened trading volumes in all futures, which implies a varied investor sentiment."
+        ],
+        "significance": "Active trading volumes often signify strong engagement in the market, which can lead to significant price movements and influence traders' decisions.",
+        "significance_score": 0.8
+      },
+      {
+        "type": "Volatility and Price Change Relationship",
+        "description": "Moderate volatility in the market suggests potential price fluctuations and uncertainty among traders.",
+        "supporting_insights": [
+          "Mixed sentiment shows uncertainty, implying that traders must navigate potential risks in their strategies."
+        ],
+        "significance": "Understanding volatility is crucial for investors as it can affect market conditions significantly and indicate when to enter or exit positions.",
+        "significance_score": 0.75
+      },
+      {
+        "type": "Price Relationship",
+        "description": "All futures reflect prices above their respective support levels, signaling bullish trends.",
+        "supporting_insights": [
+          "Indicates potential bullish momentum but proximity to resistance levels may limit upward movement."
+        ],
+        "significance": "This is important for investors to recognize potential bullish opportunities while also being cautious of resistance levels.",
+        "significance_score": 0.7
+      }
+    ]
+  },
+  {
+    "cluster_name": "Feeder Cattle Futures",
+    "entities": [
+      "Feeder Cattle Future (front month) (March)",
+      "Feeder Cattle Future (second month) (April)",
+      "Feeder Cattle Future (third month) (May)"
+    ],
+    "cluster_insights": [
+      {
+        "type": "Market Activity",
+        "description": "There is a strong bullish sentiment across all contracts, indicating an overall positive market environment.",
+        "supporting_insights": [
+          "The front month has a closing price significantly above support at $186.45 and resistance at $186.82.",
+          "The second month closed at $198.60, nearing resistance levels at $191.60.",
+          "The third month price at $203.25 is well above support of $194.42 and resistance at $194.68."
+        ],
+        "significance": "This indicates a robust market sentiment that could attract more investors and enhance further price increases, providing a stimulative atmosphere for investments.",
+        "significance_score": 0.9
+      },
+      {
+        "type": "Volume Dynamics",
+        "description": "Significant changes in trading volume across contracts point towards varying levels of market interest.",
+        "supporting_insights": [
+          "Front month volume decreased by 35.16%, indicating reduced investor interest.",
+          "Second month volume increased by 48.73%, indicating heightened activity.",
+          "Third month volume increased by 99.21%, suggesting a spike in market interest."
+        ],
+        "significance": "Changes in trading volume reflect investor confidence and can foreshadow price movements; increased trading volume in later months could indicate growing interest and optimism, affecting the entire cluster.",
+        "significance_score": 0.85
+      },
+      {
+        "type": "Price Relationships",
+        "description": "Prices are consistently above their respective support levels across the contracts, indicating bullish trends.",
+        "supporting_insights": [
+          "Front month price at $192.08 is significantly above support of $186.45.",
+          "Second month nearing resistance with a price of $198.60.",
+          "Third month also shows strong momentum with a price above both support and resistance."
+        ],
+        "significance": "The ability of prices to remain above support levels enhances market confidence and can lead to stronger investment activities as traders feel more secure in holding or increasing their positions.",
+        "significance_score": 0.8
+      },
+      {
+        "type": "Volatility Insights",
+        "description": "Moderate volatility is evident in all contracts, indicating potential for price fluctuations.",
+        "supporting_insights": [
+          "Front month ATR of 1.7721 and standard deviation of 1.6372 reflect moderate volatility.",
+          "Second month ATR is 1.9264, indicating heightened volatility.",
+          "Third month ATR of 1.8186 suggests sustained volatility."
+        ],
+        "significance": "Understanding market volatility is crucial for traders as it influences trading strategies; higher volatility can lead to higher risk but also greater opportunities for profit.",
+        "significance_score": 0.75
+      }
+    ]
+  }
+]

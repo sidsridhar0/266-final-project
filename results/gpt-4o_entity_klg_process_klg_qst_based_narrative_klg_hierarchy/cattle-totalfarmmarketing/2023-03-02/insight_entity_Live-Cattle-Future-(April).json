@@ -1,0 +1,39 @@
+{
+  "type": "all",
+  "entity": "Live Cattle Future (front month) (April)",
+  "interpretation": "Cattle futures show an increase in short-term volatility relative to the monthly average, together with recent downward price movement despite a stronger yearly performance. Key levels identified at 162.22 (support) and 166.4 (resistance) with a significant volume spike suggest monitoring for potential breakout scenarios. Lack of technical patterns and minor volume changes indicate a wait-and-see approach in trading activity.",
+  "significance_score": 0.72,
+  "score_reasoning": "Data shows mixed short-term metrics with latent potential for volatility and breakout, anchored by stable annual growth. Current patterns don't suggest immediate drastic moves, yet key levels should be closely watched for potential triggers in market direction.",
+  "individual_insights": [
+    {
+      "question": "Evaluate the volatility of cattle prices by calculating and analyzing daily price ranges, comparing them to average price ranges over different periods.",
+      "interpretation": "Current daily price range (1.30) is slightly lower than the average weekly range (1.432), suggesting reduced short-term volatility. It is higher than the average monthly range (1.192), indicating increased volatility compared to the prior month. This suggests a possible increase in market uncertainty or changes in trading conditions.",
+      "significance_score": 0.75,
+      "reasoning": ""
+    },
+    {
+      "question": "Analyze the trading volume activity in relation to price movements to identify potential accumulation or distribution phases.",
+      "interpretation": "Current volume levels show a slight decline (-0.96% compared to the 20-day average), indicating decreased trading activity. The negative volume change could hint at lack of strong market interest or consolidation, potentially before a market movement.",
+      "significance_score": 0.6,
+      "reasoning": ""
+    },
+    {
+      "question": "Compare cattle price performance over different time frames to evaluate recent price strength relative to historical averages.",
+      "interpretation": "Weekly (-0.88) and monthly (-1.02) changes show recent downward price movement, while the year-to-date change (1.08) remains positive, indicating overall strength in the broader timeframe. This suggests short-term weakness within a broader uptrend.",
+      "significance_score": 0.7,
+      "reasoning": ""
+    },
+    {
+      "question": "Determine potential breakout scenarios by analyzing key price levels and volume spikes.",
+      "interpretation": "Support is identified at 162.22 and resistance at 166.4, with a volume spike indicating potential breakouts. This scenario suggests monitoring these levels for potential buying or selling signals.",
+      "significance_score": 0.8,
+      "reasoning": ""
+    },
+    {
+      "question": "Identify common technical price patterns such as head and shoulders, double tops/bottoms, and flags that indicate potential price reversals or continuations.",
+      "interpretation": "No significant patterns detected, with a lack of confirmation for common technical formations suggesting no strong biases towards price reversals or continuations.",
+      "significance_score": 0.5,
+      "reasoning": ""
+    }
+  ]
+}

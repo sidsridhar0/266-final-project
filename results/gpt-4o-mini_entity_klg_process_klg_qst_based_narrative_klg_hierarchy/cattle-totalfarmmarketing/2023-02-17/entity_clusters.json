@@ -1,0 +1,30 @@
+[
+  {
+    "cluster_name": "Live Cattle Futures",
+    "entities": [
+      "Live Cattle Future (front month) (February)",
+      "Live Cattle Future (second month) (April)",
+      "Live Cattle Future (third month) (June)"
+    ],
+    "reason_of_clustering": "These entities represent future contracts for live cattle that are traded on different expiration months. They are grouped together because they pertain to the same underlying asset (live cattle) and investors often analyze them collectively to understand price trends and market conditions in the cattle sector."
+  },
+  {
+    "cluster_name": "Feeder Cattle Futures",
+    "entities": [
+      "Feeder Cattle Future (front month) (March)",
+      "Feeder Cattle Future (second month) (April)",
+      "Feeder Cattle Future (third month) (May)"
+    ],
+    "reason_of_clustering": "Similar to live cattle futures, these entities represent future contracts for feeder cattle, also traded on different expiration months. They are grouped due to their direct relevance to the cattle market, allowing investors to assess trends in the feeder cattle segment specifically and make comparisons with live cattle futures for a more informed trading strategy."
+  },
+  {
+    "cluster_name": "Month-Based Contracts",
+    "entities": [
+      "Live Cattle Future (front month) (February)",
+      "Live Cattle Future (second month) (April)",
+      "Feeder Cattle Future (front month) (March)",
+      "Feeder Cattle Future (second month) (April)"
+    ],
+    "reason_of_clustering": "These contracts are collateralized on a month-to-month basis, reflecting seasonal trends and market behaviors in livestock trading. This cluster helps investors analyze the near-term versus medium-term expectations in cattle pricing and trading activity."
+  }
+]

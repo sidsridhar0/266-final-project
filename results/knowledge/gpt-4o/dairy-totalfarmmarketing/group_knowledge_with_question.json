@@ -1,0 +1,32 @@
+{
+  "volatility": [
+    {
+      "key_idea": "Evaluate market volatility for each dairy product",
+      "description": "Class III and IV milk futures often show increased volatility during certain seasonal demand phases, like summer when ice cream production rises (Class IV-sensitive) and holiday seasons when cheese consumption peaks (Class III-sensitive). Volatility in one contract, like the front month (March-April), can propagate to subsequent months (May-June), reflecting concerns about supply chain disruptions or expected shifts in milk production. The ATR metric can highlight times of higher-than-average fluctuations, signaling potential market corrections or the reaction to new supply/demand data."
+    }
+  ],
+  "price_momentum": [
+    {
+      "key_idea": "Determine price momentum by analyzing RSI and MACD",
+      "description": "RSI and MACD for dairy futures indicate the strength and sustainability of price trends. Positive RSI and MACD values in Class III futures, for instance, can suggest robust cheese demand pushing milk prices up. Conversely, declining RSI/MACD in Class IV futures might hint at an oversupply of butter or powdered milk. Momentum changes can originate in the front month and affect subsequent contracts as processors adjust purchasing strategies based on perceived market strength or weakness."
+    }
+  ],
+  "volume_analysis": [
+    {
+      "key_idea": "Assess market participation by evaluating volume trends",
+      "description": "Increased trading volumes often accompany breakout price movements, confirming market interest in either supporting or selling off at significant price levels. For instance, if Class IV Milk Futures (March) show a sharp uptick in volume, it might indicate that participants expect sustained price movements, potentially impacting April and May contracts. Volume trends not only confirm price directions but also suggest institutional interest or hedging activities responding to price risks."
+    }
+  ],
+  "price_range_exploration": [
+    {
+      "key_idea": "Analyze price range shifts through OHLC",
+      "description": "Price range analysis using OHLC data can uncover intraday volatility and investor sentiment. A wide price range in the Class III Futures (April) usually indicates uncertainty or new information affecting market sentiment. Tighter ranges can suggest consensus or waiting for further market signals. Range shifts typically start in near-term contracts, as traders react to immediate market conditions, then move to longer-term contracts as expectations solidify."
+    }
+  ],
+  "support_and_resistance_levels": [
+    {
+      "key_idea": "Identify key support and resistance levels",
+      "description": "Historical peaks and troughs in milk futures establish crucial support and resistance levels, aiding traders in decision-making. For instance, a resistance level breached in Class IV Futures for April might suggest a new upward potential if sustained by volume and sentiment. Conversely, frequent testing of a support level in Class III Futures could eventually lead to a collapse if buyer confidence weakens. These levels guide hedgers and speculators on potential entries and exits, with breaks in these levels often triggering enhanced trading activity across consecutive contract months."
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+[
+  {
+    "insight_type": "volatility",
+    "question": {
+      "insight_type": "volatility",
+      "question": "Evaluate market volatility for the product on the date of interest by calculating the average true range (ATR) and the standard deviation of the closing prices over the last 14 days.",
+      "required_metrics": [
+        {
+          "metric": "ATR_14",
+          "calculation": "Calculate the average of True Range (TR) over the last 14 days, where TR = max(high - low, abs(high - previous_close), abs(low - previous_close))",
+          "purpose": "Gauge market volatility and potential price movements"
+        },
+        {
+          "metric": "std_dev_close_14",
+          "calculation": "Calculate the standard deviation of closing prices over the last 14 days",
+          "purpose": "Measure price fluctuations around the average closing price"
+        }
+      ],
+      "comparisons": [
+        "ATR_14 today vs ATR historical average",
+        "Current standard deviation vs historical standard deviation"
+      ]
+    },
+    "results": "METRIC:ATR_14\tVALUE:1.1671\tUNIT:None\tTYPE:float64\nMETRIC:std_dev_close_14\tVALUE:0.5661\tUNIT:None\tTYPE:float64\n"
+  },
+  {
+    "insight_type": "volume_analysis",
+    "question": {
+      "insight_type": "volume analysis",
+      "question": "Analyze trading volume trends by comparing the volume on the date of interest against the average volume over the past 30 days.",
+      "required_metrics": [
+        {
+          "metric": "average_volume_30",
+          "calculation": "Calculate the average volume over the last 30 days",
+          "purpose": "Determine usual market activity and identify anomalies"
+        },
+        {
+          "metric": "current_volume",
+          "calculation": "Volume for the current day",
+          "purpose": "Identify if current trading activity is significantly higher or lower than average"
+        }
+      ],
+      "comparisons": [
+        "Current volume vs average volume",
+        "Volume spikes relative to significant price changes"
+      ]
+    },
+    "results": "METRIC:Current_Volume\tVALUE:28557.0000\tUNIT:volume\tTYPE:float\nMETRIC:Average_Volume_30d\tVALUE:15733.7619\tUNIT:volume\tTYPE:float\nMETRIC:Volume_Change_Percentage\tVALUE:81.5014\tUNIT:volume\tTYPE:float\n"
+  },
+  {
+    "insight_type": "price_trend",
+    "question": {
+      "insight_type": "price trend",
+      "question": "Identify significant price movements by evaluating the percentage change in closing price from the previous day to the current day.",
+      "required_metrics": [
+        {
+          "metric": "percentage_change",
+          "calculation": "((close_today - close_yesterday) / close_yesterday) * 100",
+          "purpose": "Assess daily price movements and potential volatility"
+        },
+        {
+          "metric": "closing_price_yesterday",
+          "calculation": "Closing price from the previous day",
+          "purpose": "Reference for calculating price percentage change"
+        }
+      ],
+      "comparisons": [
+        "Current percentage change vs historical daily changes",
+        "Current closing price position in relation to recent trends"
+      ]
+    },
+    "results": "METRIC:percentage_change\tVALUE:-0.6038\tUNIT:percent\tTYPE:float\nMETRIC:closing_price_yesterday\tVALUE:160.6500\tUNIT:currency\tTYPE:float\n"
+  },
+  {
+    "insight_type": "support_resistance_levels",
+    "question": {
+      "insight_type": "support/resistance levels",
+      "question": "Determine key support and resistance levels by analyzing the closing prices over the last 30 days to find price levels that have been touched multiple times.",
+      "required_metrics": [
+        {
+          "metric": "support_level",
+          "calculation": "Identify the price level that has been tested and not broken on the downside multiple times in the last 30 days",
+          "purpose": "Understand potential price floor levels"
+        },
+        {
+          "metric": "resistance_level",
+          "calculation": "Identify the price level that has been tested and not broken on the upside multiple times in the last 30 days",
+          "purpose": "Understand potential price ceiling levels"
+        }
+      ],
+      "comparisons": [
+        "Current price vs support level",
+        "Current price vs resistance level"
+      ]
+    },
+    "results": "METRIC:support_level\tVALUE:159.52\tUNIT:USD\tTYPE:float\nMETRIC:resistance_level\tVALUE:160.43\tUNIT:USD\tTYPE:float\nMETRIC:current_price\tVALUE:159.68\tUNIT:USD\tTYPE:float\nMETRIC:current_price_vs_support\tVALUE:0.1599999999999966\tUNIT:USD\tTYPE:float\nMETRIC:current_price_vs_resistance\tVALUE:-0.75\tUNIT:USD\tTYPE:float\n"
+  },
+  {
+    "insight_type": "market_sentiment",
+    "question": {
+      "insight_type": "market sentiment",
+      "question": "Evaluate market sentiment by analyzing the closing prices relative to their opening prices over the past week to assess whether prices are closing higher or lower than they opened.",
+      "required_metrics": [
+        {
+          "metric": "weekly_close_open_change",
+          "calculation": "Calculate the difference between closing prices and opening prices for the past 7 days",
+          "purpose": "Gauge general market sentiment and direction"
+        }
+      ],
+      "comparisons": [
+        "Percentage of days closed higher vs days closed lower",
+        "Overall trend direction based on week-to-week comparison"
+      ]
+    },
+    "results": "METRIC:weekly_close_open_change\nVALUE:0.22000000000002728\nUNIT:currency\nTYPE:float\nMETRIC:days_closed_higher_percentage\nVALUE:60.0\nUNIT:percent\nTYPE:float\nMETRIC:days_closed_lower_percentage\nVALUE:40.0\nUNIT:percent\nTYPE:float\n"
+  }
+]

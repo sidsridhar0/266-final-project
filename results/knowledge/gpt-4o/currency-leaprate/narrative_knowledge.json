@@ -1,0 +1,53 @@
+{
+  "narrative_structures": "A structured narrative begins with a concise executive summary of key movements and insights, followed by detailed analysis of each entity, interspersed with graphical data interpretation. This can be closed with a section for future considerations and potential market scenarios.",
+  "focus_entities": [
+    {
+      "entities_name": "Dollar Index",
+      "reasoning": "As a measure of the dollar's value relative to a basket of foreign currencies, it provides insight into broad currency trend directions and impacts on global trade and commodity pricing."
+    },
+    {
+      "entities_name": "British Pound",
+      "reasoning": "A significant global currency heavily influenced by both economic data from the UK and Brexit-related developments, impacting trades directly tied to the UK economy."
+    },
+    {
+      "entities_name": "Japanese Yen",
+      "reasoning": "Often seen as a 'safe haven' currency during turbulent times, its movement can indicate broader market risk sentiment decisions."
+    },
+    {
+      "entities_name": "Australian Dollar",
+      "reasoning": "Widely influenced by commodity prices, especially metals and energy, making it a proxy for global growth trends and economic activity in China."
+    },
+    {
+      "entities_name": "Gold",
+      "reasoning": "A popular safe haven and hedge against inflation, movements in gold prices often reflect broader economic and risk sentiments."
+    },
+    {
+      "entities_name": "Euro",
+      "reasoning": "As the currency of the eurozone, the Euro's performance is integral to understanding issues like regional economic health and ECB policy impacts."
+    }
+  ],
+  "focus_insights": [
+    {
+      "insight_types": "Correlations and Causations",
+      "reasoning": "Understanding not just what is changing in the market, but why it is changing, is critical for making informed investment decisions."
+    },
+    {
+      "insight_types": "Volatility Analysis",
+      "reasoning": "Insights on short-term volatility can help investors avoid decision traps and better time the market."
+    },
+    {
+      "insight_types": "Trend Analysis",
+      "reasoning": "Identifying emerging trends helps in recognizing longer-term investment opportunities and risks."
+    },
+    {
+      "insight_types": "Technical and Fundamental Impacts",
+      "reasoning": "Combining both technical chart patterns and fundamental analysis provides a holistic understanding of market movements."
+    }
+  ],
+  "domain_language": [
+    "Express future prices in terms of potential scenarios such as 'bullish', 'bearish', or 'neutral' outlooks.",
+    "Include percentage movements and basis points for precision in describing market changes.",
+    "Use technical jargon judiciously, with explanations when targeting less-experienced audience segments.",
+    "Express currency valuations in terms of 'strengthening' or 'weakening' relative to baselines or other currencies."
+  ]
+}

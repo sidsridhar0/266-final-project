@@ -1,0 +1,110 @@
+[
+  {
+    "cluster_name": "Live Cattle Futures",
+    "entities": [
+      "Live Cattle Future (front month) (April)",
+      "Live Cattle Future (second month) (June)",
+      "Live Cattle Future (third month) (August)"
+    ],
+    "cluster_insights": [
+      {
+        "type": "Volatility-Price Relationship",
+        "description": "The moderate volatility in live cattle futures indicates uncertainty in market conditions, which may lead to price changes.",
+        "supporting_insights": [
+          "Overall market display of moderate volatility",
+          "Bearish sentiment in weekly trends"
+        ],
+        "significance": "Understanding the relationship between volatility and price can help traders assess risks and adjust their strategies accordingly.",
+        "significance_score": 0.8
+      },
+      {
+        "type": "Volume-Sentiment Relationship",
+        "description": "Contrasting trading volumes and market sentiments highlight differing trader engagement influenced by recent market news.",
+        "supporting_insights": [
+          "Substantial increase in volume for June futures",
+          "Bearish sentiment in June futures despite high volume"
+        ],
+        "significance": "Recognizing the divergence in volume and sentiment can guide traders in predicting potential market movements and reactivity to news.",
+        "significance_score": 0.75
+      },
+      {
+        "type": "Price Influence Relationship",
+        "description": "Live cattle futures prices can directly impact feeder cattle prices due to the interrelationship in production costs.",
+        "supporting_insights": [
+          "Potential bullish sentiment from feeder cattle futures",
+          "Price shifts in live cattle indicating potential ripple effects"
+        ],
+        "significance": "This insight is critical for investors trading in both live and feeder cattle as it informs expectations for price trends across related markets.",
+        "significance_score": 0.85
+      },
+      {
+        "type": "seasonal influence on volatility",
+        "description": "Increased volatility and trading activity during specific seasons, particularly spring and summer, are noteworthy.",
+        "supporting_insights": [
+          "Heightened activity in live cattle futures",
+          "Market dynamics influenced by seasonal demand patterns"
+        ],
+        "significance": "Awareness of seasonal trends can empower traders to adjust their strategies and positions, capitalizing on expected market conditions.",
+        "significance_score": 0.7
+      },
+      {
+        "type": "identified support and resistance levels",
+        "description": "Support and resistance levels act as psychological barriers influencing price trends and trader behaviors.",
+        "supporting_insights": [
+          "Key support and resistance levels identified for all months",
+          "Traders reacting at critical price points"
+        ],
+        "significance": "This understanding can drive informed trading decisions, particularly in volatile conditions near these levels.",
+        "significance_score": 0.9
+      }
+    ]
+  },
+  {
+    "cluster_name": "Feeder Cattle Futures",
+    "entities": [
+      "Feeder Cattle Future (front month) (March)",
+      "Feeder Cattle Future (second month) (April)",
+      "Feeder Cattle Future (third month) (May)"
+    ],
+    "cluster_insights": [
+      {
+        "type": "Volatility-Price Relationship",
+        "description": "The moderate volatility in both live cattle and feeder cattle futures indicates uncertainty in market conditions, which may lead to price changes.",
+        "supporting_insights": [],
+        "significance": "Understanding volatility patterns helps traders mitigate risks and predict potential price movements.",
+        "significance_score": 0.8
+      },
+      {
+        "type": "Volume-Sentiment Relationship",
+        "description": "The contrasting trading volumes and market sentiments between the June live cattle futures (bearish) and May feeder cattle futures (bullish) indicate differing trader engagement and potential market dynamics.",
+        "supporting_insights": [],
+        "significance": "Key for investors to identify opportunities in diverging trends and capitalize on bullish sentiment in feeder cattle.",
+        "significance_score": 0.85
+      },
+      {
+        "type": "support and resistance impact",
+        "description": "The identified support and resistance levels for each future month suggest potential market direction, with prices trading above support indicating bullish sentiment.",
+        "supporting_insights": [
+          "March futures current price is closer to resistance level, indicating challenges in upward movement.",
+          "April futures price above support but close to resistance suggests potential breakout or reversal."
+        ],
+        "significance": "These levels are critical for understanding market behavior as traders often react to them, influencing trading strategies.",
+        "significance_score": 0.9
+      },
+      {
+        "type": "Price Influence Relationship",
+        "description": "Potential bullish sentiment and upward price momentum observed in feeder cattle futures suggests that trends in live cattle futures can directly impact feeder cattle futures due to cost dynamics.",
+        "supporting_insights": [],
+        "significance": "Awareness of this relationship allows traders to make informed decisions based on movements in related markets.",
+        "significance_score": 0.75
+      },
+      {
+        "type": "seasonal influence on volatility",
+        "description": "Seasonal patterns in demand for cattle, especially in spring and summer months, cause spikes in volatility across different months.",
+        "supporting_insights": [],
+        "significance": "Recognizing seasonal trends is essential for anticipating market changes and adjusting trading strategies accordingly.",
+        "significance_score": 0.8
+      }
+    ]
+  }
+]

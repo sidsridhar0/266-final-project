@@ -1,0 +1,39 @@
+{
+  "type": "all",
+  "entity": "Feeder Cattle Future (front month) (March)",
+  "interpretation": "The analysis reveals a moderately volatile market for feeder cattle futures, characterized by a significant drop in trading volume, slight daily price increases, positive market sentiment, and key support and resistance levels suggesting potential upward movement. However, low trading volume may evoke concerns about market confidence.",
+  "significance_score": 0.68,
+  "score_reasoning": "The mixed signals indicate underlying bullish sentiment, yet reduced volume raises caution regarding sustaining momentum. As such, while opportunities for price appreciation exist, investor confidence appears to be lacking, which could hinder further gains.",
+  "individual_insights": [
+    {
+      "question": "Evaluate market volatility for the product on the date of interest by calculating the average true range (ATR) and the standard deviation of the closing prices over the last 14 days.",
+      "interpretation": "The ATR of 1.6843 indicates moderate volatility in the feeder cattle futures market, while the standard deviation of closing prices at 1.0723 suggests consistent price fluctuations around the average. Both metrics indicate potential for price movement.",
+      "significance_score": 0.7,
+      "reasoning": ""
+    },
+    {
+      "question": "Analyze trading volume trends by comparing the volume on the date of interest against the average volume over the past 30 days.",
+      "interpretation": "Current trading volume of 4805 is significantly lower than the average volume of 7101.84, reflecting a volume change percentage of -32.34%. This decrease may point to reduced trading activity or investor caution.",
+      "significance_score": 0.65,
+      "reasoning": ""
+    },
+    {
+      "question": "Identify significant price movements by evaluating the percentage change in closing price from the previous day to the current day.",
+      "interpretation": "The percentage change of 0.0529% from yesterday's closing price of 189.08 indicates a slight upward movement, suggesting a modest daily price increase.",
+      "significance_score": 0.5,
+      "reasoning": ""
+    },
+    {
+      "question": "Determine key support and resistance levels by analyzing the closing prices over the last 30 days.",
+      "interpretation": "The support level at 183.25 and resistance level at 186.15 indicate that prices are currently above support but close to but below resistance, with the current price at 189.18. This positioning may indicate upward potential, albeit with caution due to proximity to resistance.",
+      "significance_score": 0.75,
+      "reasoning": ""
+    },
+    {
+      "question": "Evaluate market sentiment by analyzing the closing prices relative to their opening prices over the past week.",
+      "interpretation": "The weekly close-open change of 2.74 suggests a positive sentiment as prices closed higher on 75% of trading days compared to the opening prices, indicating bullish investor sentiment.",
+      "significance_score": 0.8,
+      "reasoning": ""
+    }
+  ]
+}

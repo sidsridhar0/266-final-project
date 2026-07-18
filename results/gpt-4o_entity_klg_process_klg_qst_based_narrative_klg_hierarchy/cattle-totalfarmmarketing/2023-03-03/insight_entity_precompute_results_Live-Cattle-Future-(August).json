@@ -1,0 +1,132 @@
+[
+  {
+    "insight_type": "volatility_analysis",
+    "question": {
+      "insight_type": "volatility analysis",
+      "question": "Evaluate the volatility of cattle prices by calculating and analyzing daily price ranges, comparing them to average price ranges over different periods.",
+      "required_metrics": [
+        {
+          "metric": "daily_price_range",
+          "calculation": "High - Low",
+          "purpose": "Measure daily price fluctuation"
+        },
+        {
+          "metric": "avg_weekly_price_range",
+          "calculation": "Average of daily_price_range over the past 7 days",
+          "purpose": "Assess short-term volatility"
+        },
+        {
+          "metric": "avg_monthly_price_range",
+          "calculation": "Average of daily_price_range over the past 30 days",
+          "purpose": "Assess medium-term volatility"
+        }
+      ],
+      "comparisons": [
+        "Current daily price range vs avg weekly and monthly price range",
+        "Volatility changes over different time periods"
+      ]
+    },
+    "results": "METRIC:daily_price_range VALUE:1.25 UNIT:None TYPE:float\nMETRIC:avg_weekly_price_range VALUE:1.182000000000005 UNIT:None TYPE:float\nMETRIC:avg_monthly_price_range VALUE:0.8719047619047593 UNIT:None TYPE:float\n"
+  },
+  {
+    "insight_type": "volume_analysis",
+    "question": {
+      "insight_type": "volume analysis",
+      "question": "Analyze the trading volume activity in relation to price movements to identify potential accumulation or distribution phases.",
+      "required_metrics": [
+        {
+          "metric": "average_volume_20",
+          "calculation": "20-day moving average of Volume",
+          "purpose": "Determine average trading volume"
+        },
+        {
+          "metric": "volume_price_trend",
+          "calculation": "Correlation between daily price changes and volume",
+          "purpose": "Identify if volume supports price movement trends"
+        }
+      ],
+      "comparisons": [
+        "Current volume vs average volume over 20 days",
+        "Price movement directions vs volume changes"
+      ]
+    },
+    "results": "METRIC:average_volume\tVALUE:8439.07\tUNIT:units\tTYPE:float\nMETRIC:volume_change\tVALUE:969.93\tUNIT:units\tTYPE:float\nMETRIC:percentage_volume_change\tVALUE:11.49\tUNIT:percent\tTYPE:float\n"
+  },
+  {
+    "insight_type": "performance_analysis",
+    "question": {
+      "insight_type": "performance analysis",
+      "question": "Compare cattle price performance over different time frames to evaluate recent price strength relative to historical averages.",
+      "required_metrics": [
+        {
+          "metric": "current_week_change",
+          "calculation": "Close price end of week - Close price beginning of week",
+          "purpose": "Determine weekly price performance"
+        },
+        {
+          "metric": "current_month_change",
+          "calculation": "Close price end of month - Close price beginning of month",
+          "purpose": "Determine monthly price performance"
+        },
+        {
+          "metric": "year_to_date_change",
+          "calculation": "Close on current date - Close on last day of previous year",
+          "purpose": "Assess overall year performance"
+        }
+      ],
+      "comparisons": [
+        "Weekly vs monthly vs yearly price performance",
+        "Relative price strength across different time periods"
+      ]
+    },
+    "results": "METRIC:current_week_change\tVALUE:0.25\tUNIT:\tTYPE:float64\nMETRIC:current_month_change\tVALUE:0.21999999999999886\tUNIT:\tTYPE:float64\nMETRIC:year_to_date_change\tVALUE:1.4699999999999989\tUNIT:\tTYPE:float64\n"
+  },
+  {
+    "insight_type": "breakout_analysis",
+    "question": {
+      "insight_type": "breakout analysis",
+      "question": "Determine potential breakout scenarios by analyzing key price levels and volume spikes.",
+      "required_metrics": [
+        {
+          "metric": "support_level",
+          "calculation": "Recent minimum price levels with repeated bounces",
+          "purpose": "Identify support areas"
+        },
+        {
+          "metric": "resistance_level",
+          "calculation": "Recent maximum price levels with repeated rejections",
+          "purpose": "Identify resistance areas"
+        },
+        {
+          "metric": "volume_spike",
+          "calculation": "Volume substantially higher than avg_volume_20",
+          "purpose": "Identify significant market interest likely due to breakout"
+        }
+      ],
+      "comparisons": [
+        "Price approaching support/resistance levels",
+        "Volume at/before support and resistance tests"
+      ]
+    },
+    "results": "METRIC:support_level\tVALUE:158.35\tUNIT:None\tTYPE:float64\nMETRIC:resistance_level\tVALUE:160.8\tUNIT:None\tTYPE:float64\nMETRIC:volume_spike\tVALUE:True\tUNIT:None\tTYPE:bool\n"
+  },
+  {
+    "insight_type": "price_pattern_analysis",
+    "question": {
+      "insight_type": "price pattern analysis",
+      "question": "Identify common technical price patterns such as head and shoulders, double tops/bottoms, and flags that indicate potential price reversals or continuations.",
+      "required_metrics": [
+        {
+          "metric": "price_pattern_identification",
+          "calculation": "Analysis on sequences of price formations over last 30 days",
+          "purpose": "Detect technical patterns in price"
+        }
+      ],
+      "comparisons": [
+        "Current price formations vs historical patterns",
+        "Pattern outcomes vs predicted outcomes"
+      ]
+    },
+    "results": "METRIC:price_pattern_head_and_shoulders\nVALUE:0\nUNIT:binary\nTYPE:int\nMETRIC:price_pattern_double_top\nVALUE:0\nUNIT:binary\nTYPE:int\nMETRIC:price_pattern_flag\nVALUE:0\nUNIT:binary\nTYPE:int\n"
+  }
+]

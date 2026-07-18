@@ -1,0 +1,105 @@
+[
+  {
+    "cluster_name": "Live Cattle Futures",
+    "entities": [
+      "Live Cattle Future (front month) (April)",
+      "Live Cattle Future (second month) (June)",
+      "Live Cattle Future (third month) (August)"
+    ],
+    "cluster_insights": [
+      {
+        "type": "Market Sentiment Relationship",
+        "description": "The significant increase in trading volume for both live and feeder cattle futures suggests strong market sentiment and investor interest, indicating a possible interconnected bullish trend.",
+        "supporting_insights": [
+          "Live Cattle Future (front month) (April) trading volume increased by 30.804%",
+          "Live Cattle Future (second month) (June) trading volume increased by 81.5%",
+          "Live Cattle Future (third month) (August) trading volume increased by 29.18%"
+        ],
+        "significance": "This insight indicates a broader market interest that may lead to sustained upward price trends across different futures.",
+        "significance_score": 0.85
+      },
+      {
+        "type": "Volatility and Price Trend Relationship",
+        "description": "Both live and feeder cattle futures exhibit moderate volatility, which correlates with slight recent price declines, signaling possible caution among traders.",
+        "supporting_insights": [
+          "ATR for front, second, and third months are all indicative of moderate volatility",
+          "Recent price declines in all months suggest bearish sentiment"
+        ],
+        "significance": "Understanding the volatility can help traders manage risk and identify potential entry and exit points.",
+        "significance_score": 0.75
+      },
+      {
+        "type": "Support/Resistance Influence",
+        "description": "The positioning of both live and feeder cattle futures relative to their support and resistance levels may indicate trading strategies as market participants assess potential moves.",
+        "supporting_insights": [
+          "Front month near resistance (165.1) and support (163.62)",
+          "Second month near support (159.52) and resistance (160.43)",
+          "Third month near resistance (159.4) and support (158.57)"
+        ],
+        "significance": "Recognizing these levels allows for improved trading strategies and can act as signals for potential market movements.",
+        "significance_score": 0.8
+      }
+    ]
+  },
+  {
+    "cluster_name": "Feeder Cattle Futures",
+    "entities": [
+      "Feeder Cattle Future (front month) (March)",
+      "Feeder Cattle Future (second month) (April)",
+      "Feeder Cattle Future (third month) (May)"
+    ],
+    "cluster_insights": [
+      {
+        "type": "market sentiment analysis",
+        "description": "Both insights indicate overwhelmingly positive market sentiment, suggesting a continued bullish trend across the feeder cattle futures.",
+        "supporting_insights": [
+          "Feeder Cattle Future (front month) (March) indicates 80% of trading days closed higher.",
+          "Feeder Cattle Future (second month) (April) shows 100% of days closing higher.",
+          "Feeder Cattle Future (third month) (May) also records 100% of days closing higher."
+        ],
+        "significance": "This consistent bullish sentiment across all months could indicate strong investor confidence and potential for upward price movement.",
+        "significance_score": 0.9
+      },
+      {
+        "type": "price trend influence",
+        "description": "The relationship shows that if the front month feeder cattle futures maintain their upward trend, it could positively influence the second month futures as well.",
+        "supporting_insights": [
+          "Front month price behavior helps stabilize second and third month trends.",
+          "Current price for April is above significant support indicating a possible continuation of trend."
+        ],
+        "significance": "The interconnected nature of these futures can result in amplified movements where positive patterns in the front month can bolster confidence in subsequent months.",
+        "significance_score": 0.85
+      },
+      {
+        "type": "trading volume correlation",
+        "description": "Both insights highlight changes in trading volume as a critical factor influencing market sentiment.",
+        "supporting_insights": [
+          "March shows a 59.19% decrease in volume, while April has a 27.66% increase.",
+          "May reflects a significant volume increase compared to its average."
+        ],
+        "significance": "Trading volume trends provide essential cues for understanding the market's current sentiment and potential future directions.",
+        "significance_score": 0.8
+      },
+      {
+        "type": "volatility and price trend relationship",
+        "description": "Both live and feeder cattle futures exhibit moderate volatility, which correlates with slight recent price declines, signaling possible caution among traders.",
+        "supporting_insights": [
+          "Front month shows moderation with ATR at 1.8536 and April's ATR at 2.0914 indicating readiness for price shifts.",
+          "Recent price decreases across all months suggest traders may be cautious despite the overall sentiment."
+        ],
+        "significance": "Recognizing volatility patterns can help traders make more informed decisions and prepare for potential adjustments in market exposure.",
+        "significance_score": 0.75
+      },
+      {
+        "type": "support/resistance influence",
+        "description": "The positioning of both live and feeder cattle futures relative to their support and resistance levels may indicate trading strategies as market participants assess potential moves.",
+        "supporting_insights": [
+          "All entities are currently trading above their support levels.",
+          "Resistance levels are close and should be monitored for potential market impact."
+        ],
+        "significance": "Understanding these levels is essential for formulating trading strategies, as they provide insight into possible price reversals or accelerations.",
+        "significance_score": 0.7
+      }
+    ]
+  }
+]

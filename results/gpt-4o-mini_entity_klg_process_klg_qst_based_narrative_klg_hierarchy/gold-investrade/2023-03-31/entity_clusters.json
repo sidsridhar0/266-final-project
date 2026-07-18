@@ -1,0 +1,27 @@
+[
+  {
+    "cluster_name": "Precious Metals",
+    "entities": [
+      "Gold",
+      "Silver"
+    ],
+    "reason_of_clustering": "Gold and silver are both classified as precious metals and often show similar behavioral patterns in response to market trends, inflation, and geopolitical tensions. Investors typically view them as safe-haven assets during times of economic uncertainty."
+  },
+  {
+    "cluster_name": "Market Indicators",
+    "entities": [
+      "Gold",
+      "Dollar Index"
+    ],
+    "reason_of_clustering": "The Dollar Index measures the value of the U.S. dollar against a basket of currencies. Gold is often inversely correlated with the value of the dollar; when the dollar weakens, gold prices tend to rise as it becomes cheaper for investors using other currencies."
+  },
+  {
+    "cluster_name": "Investment Alternatives",
+    "entities": [
+      "Gold",
+      "Silver",
+      "Dollar Index"
+    ],
+    "reason_of_clustering": "Gold and silver are common alternatives to traditional currency investments, while the Dollar Index serves as a benchmark for evaluating the strength of the dollar relative to other currencies. Analyzing these entities together provides investors with insights into asset diversification strategies."
+  }
+]

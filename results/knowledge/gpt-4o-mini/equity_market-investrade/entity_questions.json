@@ -1,0 +1,106 @@
+[
+  {
+    "insight_type": "volatility",
+    "question": "Evaluate the daily price volatility by calculating the Average True Range (ATR) and comparing it with the previous day's volatility to determine potential risk levels.",
+    "required_metrics": [
+      {
+        "metric": "ATR",
+        "calculation": "Average of the True Ranges (High - Low, High - Previous Close, Low - Previous Close) over a specified number of days (e.g., 14 days)",
+        "purpose": "Measure the volatility of the security"
+      },
+      {
+        "metric": "Previous_ATR",
+        "calculation": "ATR from the previous day",
+        "purpose": "Compare current volatility against prior volatility to identify changes in risk"
+      }
+    ],
+    "comparisons": [
+      "Current ATR vs Previous ATR",
+      "ATR trend over the last few days"
+    ]
+  },
+  {
+    "insight_type": "trend",
+    "question": "Assess the strength of the current price trend by comparing the closing price to both the 20-day and 50-day moving averages (SMA) to identify short-term and medium-term trend directions.",
+    "required_metrics": [
+      {
+        "metric": "SMA_20",
+        "calculation": "20-day Simple Moving Average of closing price",
+        "purpose": "Identify short-term trend direction"
+      },
+      {
+        "metric": "SMA_50",
+        "calculation": "50-day Simple Moving Average of closing price",
+        "purpose": "Identify medium-term trend direction"
+      },
+      {
+        "metric": "Close",
+        "calculation": "Closing price on the specified date",
+        "purpose": "Analyze current position relative to moving averages"
+      }
+    ],
+    "comparisons": [
+      "Current Close vs SMA_20",
+      "Current Close vs SMA_50"
+    ]
+  },
+  {
+    "insight_type": "market breadth",
+    "question": "Analyze market breadth by calculating the volume-weighted average price (VWAP) and comparing it to the current closing price to determine if the market sentiment is bullish or bearish.",
+    "required_metrics": [
+      {
+        "metric": "VWAP",
+        "calculation": "Cumulative (Price * Volume) / Cumulative Volume",
+        "purpose": "Provide average price at which a security has traded throughout the day, based on both volume and price"
+      },
+      {
+        "metric": "Close",
+        "calculation": "Closing price on the specified date",
+        "purpose": "Assess current price in relation to VWAP"
+      }
+    ],
+    "comparisons": [
+      "Current Close vs VWAP"
+    ]
+  },
+  {
+    "insight_type": "momentum",
+    "question": "Evaluate the momentum of the security by calculating the Rate of Change (ROC) and comparing it to previous periods to identify potential buy or sell signals.",
+    "required_metrics": [
+      {
+        "metric": "ROC",
+        "calculation": "((Current Close - Close n periods ago) / Close n periods ago) * 100",
+        "purpose": "Measure the speed at which the price of a security is changing"
+      },
+      {
+        "metric": "Previous_ROC",
+        "calculation": "ROC from previous period (e.g., 1 day ago)",
+        "purpose": "Compare current momentum against prior momentum"
+      }
+    ],
+    "comparisons": [
+      "Current ROC vs Previous ROC",
+      "ROC trends over recent periods"
+    ]
+  },
+  {
+    "insight_type": "volume analysis",
+    "question": "Examine trading activity by comparing the current day's volume to the 10-day average volume to understand levels of interest and potential price movements.",
+    "required_metrics": [
+      {
+        "metric": "Current_Volume",
+        "calculation": "Volume on the specified date",
+        "purpose": "Assess current trading activity"
+      },
+      {
+        "metric": "Average_Volume_10",
+        "calculation": "Average volume over the last 10 days",
+        "purpose": "Provide a benchmark for assessing current volume levels"
+      }
+    ],
+    "comparisons": [
+      "Current Volume vs Average Volume (10 days)",
+      "Volume change compared to historical averages"
+    ]
+  }
+]

@@ -1,0 +1,109 @@
+[
+  {
+    "insight_type": "volatility analysis",
+    "question": "Calculate the daily price volatility by comparing the closing prices over the last 14 days, and assess the standard deviation to determine market stability.",
+    "required_metrics": [
+      {
+        "metric": "daily_return",
+        "calculation": "(Close - Previous Close) / Previous Close",
+        "purpose": "Calculate daily percentage price change for volatility assessment"
+      },
+      {
+        "metric": "volatility",
+        "calculation": "Standard deviation of daily_return over the last 14 days",
+        "purpose": "Measure market price fluctuations and stability"
+      }
+    ],
+    "comparisons": [
+      "Current volatility vs historical average volatility",
+      "Current volatility vs 14-day volatility trend"
+    ]
+  },
+  {
+    "insight_type": "momentum analysis",
+    "question": "Determine the current momentum of the market by comparing the closing price with relative strength indicators such as RSI over a 14-day period.",
+    "required_metrics": [
+      {
+        "metric": "RSI",
+        "calculation": "100 - (100 / (1 + Average Gain / Average Loss)) for the last 14 days",
+        "purpose": "Identify overbought or oversold conditions"
+      },
+      {
+        "metric": "prev_close",
+        "calculation": "Closing price from the previous day",
+        "purpose": "Compare current price direction against previous closing value"
+      }
+    ],
+    "comparisons": [
+      "Current RSI vs 70 (overbought threshold)",
+      "Current RSI vs 30 (oversold threshold)",
+      "Current closing price vs previous close"
+    ]
+  },
+  {
+    "insight_type": "price trend analysis",
+    "question": "Analyze the price trends by calculating the average closing price over the last 30 days and comparing it to the current closing price to identify bullish or bearish trends.",
+    "required_metrics": [
+      {
+        "metric": "30-day_average_close",
+        "calculation": "Sum of daily closing prices over the last 30 days divided by 30",
+        "purpose": "Determine average market price trend over the past month"
+      },
+      {
+        "metric": "current_close",
+        "calculation": "Most recent closing price",
+        "purpose": "Assess current market position relative to average price"
+      }
+    ],
+    "comparisons": [
+      "Current closing price vs 30-day moving average",
+      "Current closing price vs historical prices over the last 30 days"
+    ]
+  },
+  {
+    "insight_type": "volume analysis",
+    "question": "Evaluate the trading volume by analyzing average volume over the last 10 days and comparing it to the current day's volume for signs of market interest.",
+    "required_metrics": [
+      {
+        "metric": "average_volume",
+        "calculation": "Sum of volumes over the last 10 days divided by 10",
+        "purpose": "Identify typical market trading activity"
+      },
+      {
+        "metric": "current_volume",
+        "calculation": "Trading volume for the current day",
+        "purpose": "Assess immediate buying/selling pressure"
+      }
+    ],
+    "comparisons": [
+      "Current volume vs average volume over the last 10 days",
+      "Current volume vs historical volume trends"
+    ]
+  },
+  {
+    "insight_type": "support and resistance levels",
+    "question": "Determine key support and resistance levels by analyzing the highest and lowest closing prices over the last 30 days and assess current price position relative to these levels.",
+    "required_metrics": [
+      {
+        "metric": "support_level",
+        "calculation": "Lowest closing price over the last 30 days",
+        "purpose": "Identify potential price floor for the market"
+      },
+      {
+        "metric": "resistance_level",
+        "calculation": "Highest closing price over the last 30 days",
+        "purpose": "Identify potential price ceiling for the market"
+      },
+      {
+        "metric": "current_close",
+        "calculation": "Most recent closing price",
+        "purpose": "Compare current market price against critical levels"
+      }
+    ],
+    "comparisons": [
+      "Current price vs support level",
+      "Current price vs resistance level",
+      "Current support and resistance vs previous levels"
+    ]
+  }
+]

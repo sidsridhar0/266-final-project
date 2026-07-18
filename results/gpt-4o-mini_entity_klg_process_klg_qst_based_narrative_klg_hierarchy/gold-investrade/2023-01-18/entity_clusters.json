@@ -1,0 +1,26 @@
+[
+  {
+    "cluster_name": "Precious Metals",
+    "entities": [
+      "Gold",
+      "Silver"
+    ],
+    "reason_of_clustering": "Gold and Silver are both classified as precious metals and often move in relation to one another in response to economic indicators, inflation expectations, and geopolitical tensions."
+  },
+  {
+    "cluster_name": "Safe Haven Assets",
+    "entities": [
+      "Gold",
+      "Dollar Index"
+    ],
+    "reason_of_clustering": "Gold is considered a safe-haven asset that often appreciates during times of economic uncertainty, whereas the Dollar Index can reflect the strength of the USD, influencing gold prices inversely."
+  },
+  {
+    "cluster_name": "Market Indicators",
+    "entities": [
+      "Dollar Index",
+      "Silver"
+    ],
+    "reason_of_clustering": "Both the Dollar Index and Silver serve as indicators of market sentiment and economic health, with movements in the Dollar impacting the pricing of Silver in global markets."
+  }
+]

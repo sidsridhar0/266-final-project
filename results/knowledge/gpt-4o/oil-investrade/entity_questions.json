@@ -1,0 +1,122 @@
+[
+  {
+    "insight_type": "volatility",
+    "question": "Assess the daily price volatility of the oil product and how it compares to historical volatility levels over different time frames, such as weekly, monthly, and yearly.",
+    "required_metrics": [
+      {
+        "metric": "daily_volatility",
+        "calculation": "High - Low for the given day",
+        "purpose": "Measure of intra-day price fluctuations"
+      },
+      {
+        "metric": "weekly_volatility_avg",
+        "calculation": "Average of daily_volatility over the past 5 trading days",
+        "purpose": "Identify short-term volatility trends"
+      },
+      {
+        "metric": "monthly_volatility_avg",
+        "calculation": "Average of daily_volatility over the past 21 trading days",
+        "purpose": "Identify medium-term volatility trends"
+      },
+      {
+        "metric": "yearly_volatility_avg",
+        "calculation": "Average of daily_volatility over the past 252 trading days",
+        "purpose": "Identify long-term volatility trends"
+      }
+    ],
+    "comparisons": [
+      "Daily volatility vs weekly/monthly/yearly averages",
+      "Current volatility levels vs historical range"
+    ]
+  },
+  {
+    "insight_type": "volume analysis",
+    "question": "Evaluate the trading volume of the oil product and its significance in determining price movements.",
+    "required_metrics": [
+      {
+        "metric": "current_volume",
+        "calculation": "Volume of the current trading day",
+        "purpose": "Assess today's trading activity"
+      },
+      {
+        "metric": "average_volume_10",
+        "calculation": "Average trading volume over the past 10 trading days",
+        "purpose": "Identify recent volume trend"
+      },
+      {
+        "metric": "average_volume_50",
+        "calculation": "Average trading volume over the past 50 trading days",
+        "purpose": "Identify long-term volume trend"
+      }
+    ],
+    "comparisons": [
+      "Current volume vs historical averages",
+      "Volume spikes related to price movements"
+    ]
+  },
+  {
+    "insight_type": "momentum",
+    "question": "Analyze the momentum of price movements using momentum indicators to determine potential continuation or reversal.",
+    "required_metrics": [
+      {
+        "metric": "RSI",
+        "calculation": "Relative Strength Index over 14 days",
+        "purpose": "Identify overbought or oversold conditions"
+      },
+      {
+        "metric": "Momentum_10",
+        "calculation": "Change in closing_price over the past 10 days",
+        "purpose": "Short-term momentum indicator"
+      },
+      {
+        "metric": "Momentum_20",
+        "calculation": "Change in closing_price over the past 20 days",
+        "purpose": "Medium-term momentum indicator"
+      }
+    ],
+    "comparisons": [
+      "RSI levels vs overbought/oversold thresholds",
+      "Momentum indicators vs price direction changes"
+    ]
+  },
+  {
+    "insight_type": "gap analysis",
+    "question": "Examine the occurrence and significance of price gaps between the trading days to assess potential continuing trends or reversals.",
+    "required_metrics": [
+      {
+        "metric": "gap_up",
+        "calculation": "Opening price on the current day - previous day's Close, if positive",
+        "purpose": "Identify upward gaps"
+      },
+      {
+        "metric": "gap_down",
+        "calculation": "Opening price on the current day - previous day's Close, if negative",
+        "purpose": "Identify downward gaps"
+      }
+    ],
+    "comparisons": [
+      "Gap direction vs subsequent price action",
+      "Gaps vs historical patterns"
+    ]
+  },
+  {
+    "insight_type": "price performance",
+    "question": "Determine the price performance of the oil product relative to market benchmarks or alternative energy products over a specific period.",
+    "required_metrics": [
+      {
+        "metric": "performance_over_5_days",
+        "calculation": "(Current Close - Close 5 days ago) / Close 5 days ago * 100",
+        "purpose": "Short-term price performance assessment"
+      },
+      {
+        "metric": "performance_over_20_days",
+        "calculation": "(Current Close - Close 20 days ago) / Close 20 days ago * 100",
+        "purpose": "Medium-term price performance assessment"
+      }
+    ],
+    "comparisons": [
+      "Oil product performance vs market indexes",
+      "Price performance vs alternative energy products"
+    ]
+  }
+]

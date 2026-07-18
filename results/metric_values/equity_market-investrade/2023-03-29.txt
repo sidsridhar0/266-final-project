@@ -1,0 +1,1340 @@
+Entity: S&P 500
+Price Information:
+  Open: 3999.53
+  High: 4030.59
+  Low: 3999.53
+  Close: 4027.81
+
+Moving Averages:
+  SMA_10: 3966.4650
+  SMA_20: 3958.3300
+  EMA_20: 3964.2095
+  EMA_50: 3968.5479
+  EMA_100: 3973.7897
+
+Oscillators:
+  RSI_14: 60.46%
+  MACD_Line: 3.6403
+  MACD_Signal: -5.4969
+  MACD_Histogram: 9.1372
+  Stochastic_%K: 94.9356
+  Stochastic_%D: 79.4967
+
+Volatility Indicators:
+  BB_Upper: 4066.2765
+  BB_Middle: 3958.3300
+  BB_Lower: 3850.3835
+  BB_Width: 0.0545
+  ATR_20: 67.6705
+  Daily_Volatility: 0.1864
+  Weekly_Volatility: 0.0432
+  Monthly_Volatility: 0.0399
+
+Volume Indicators:
+
+Price Indicators:
+  Daily_Range: 31.0600
+  Daily_Range_Pct: 0.77%
+  Weekly_Range: 121.4300
+  Weekly_Range_Pct: 3.01%
+  Price_Change_1d: 56.5400
+  Price_Change_Pct_1d: 1.42%
+  Price_Change_5d: 90.8400
+  Price_Change_Pct_5d: 2.31%
+  Price_Change_7d: 76.2400
+  Price_Change_Pct_7d: 1.93%
+
+Support & Resistance:
+  Pivot: 4019.3100
+  Support1: 4008.0300
+  Support2: 3988.2500
+  Resistance1: 4039.0900
+  Resistance2: 4050.3700
+  Support_Level: 3808.8600
+  Resistance_Level: 4078.4900
+
+Momentum:
+  Momentum_10: 135.8800
+  Momentum_Pct_10: 3.49%
+
+
+Entity: NASDAQ 100
+Price Information:
+  Open: 12768.14
+  High: 12867.32
+  Low: 12734.68
+  Close: 12846.03
+
+Moving Averages:
+  SMA_10: 12659.8420
+  SMA_20: 12390.2260
+  EMA_20: 12461.5798
+  EMA_50: 12269.5586
+  EMA_100: 12174.8876
+
+Oscillators:
+  RSI_14: 71.62%
+  MACD_Line: 177.9256
+  MACD_Signal: 137.6098
+  MACD_Histogram: 40.3158
+  Stochastic_%K: 92.1816
+  Stochastic_%D: 81.2748
+
+Volatility Indicators:
+  BB_Upper: 13005.4395
+  BB_Middle: 12390.2260
+  BB_Lower: 11775.0125
+  BB_Width: 0.0993
+  ATR_20: 253.8020
+  Daily_Volatility: 0.2085
+  Weekly_Volatility: 0.0809
+  Monthly_Volatility: 0.0453
+
+Volume Indicators:
+
+Price Indicators:
+  Daily_Range: 132.6400
+  Daily_Range_Pct: 1.03%
+  Weekly_Range: 382.2300
+  Weekly_Range_Pct: 2.98%
+  Price_Change_1d: 235.4600
+  Price_Change_Pct_1d: 1.87%
+  Price_Change_5d: 278.8800
+  Price_Change_Pct_5d: 2.22%
+  Price_Change_7d: 283.4200
+  Price_Change_Pct_7d: 2.26%
+
+Support & Resistance:
+  Pivot: 12816.0100
+  Support1: 12764.7000
+  Support2: 12683.3700
+  Resistance1: 12897.3400
+  Resistance2: 12948.6500
+  Support_Level: 11695.4100
+  Resistance_Level: 12943.6200
+
+Momentum:
+  Momentum_10: 594.7100
+  Momentum_Pct_10: 4.85%
+
+
+Entity: Russell 2000
+Price Information:
+  Open: 1763.13
+  High: 1771.71
+  Low: 1759.05
+  Close: 1771.60
+
+Moving Averages:
+  SMA_10: 1748.0330
+  SMA_20: 1791.7815
+  EMA_20: 1784.8310
+  EMA_50: 1832.5068
+  EMA_100: 1859.9050
+
+Oscillators:
+  RSI_14: 42.75%
+  MACD_Line: -34.8045
+  MACD_Signal: -36.5612
+  MACD_Histogram: 1.7567
+  Stochastic_%K: 60.3954
+  Stochastic_%D: 40.5029
+
+Volatility Indicators:
+  BB_Upper: 1927.1327
+  BB_Middle: 1791.7815
+  BB_Lower: 1656.4303
+  BB_Width: 0.1511
+  ATR_20: 41.8085
+  Daily_Volatility: 0.2663
+  Weekly_Volatility: 0.0502
+  Monthly_Volatility: 0.0567
+
+Volume Indicators:
+
+Price Indicators:
+  Daily_Range: 12.6600
+  Daily_Range_Pct: 0.71%
+  Weekly_Range: 76.4800
+  Weekly_Range_Pct: 4.32%
+  Price_Change_1d: 18.9700
+  Price_Change_Pct_1d: 1.08%
+  Price_Change_5d: 44.2400
+  Price_Change_Pct_5d: 2.56%
+  Price_Change_7d: 26.6100
+  Price_Change_Pct_7d: 1.52%
+
+Support & Resistance:
+  Pivot: 1767.4533
+  Support1: 1763.1967
+  Support2: 1754.7933
+  Resistance1: 1775.8567
+  Resistance2: 1780.1133
+  Support_Level: 1695.2300
+  Resistance_Level: 1931.7100
+
+Momentum:
+  Momentum_10: 25.6600
+  Momentum_Pct_10: 1.47%
+
+
+Entity: CBOE Volatility Index
+Price Information:
+  Open: 19.39
+  High: 19.45
+  Low: 19.09
+  Close: 19.12
+
+Moving Averages:
+  SMA_10: 22.0330
+  SMA_20: 21.9760
+  EMA_20: 21.7455
+  EMA_50: 21.5193
+  EMA_100: 21.2886
+
+Oscillators:
+  RSI_14: 42.62%
+  MACD_Line: -0.1613
+  MACD_Signal: 0.3451
+  MACD_Histogram: -0.5064
+  Stochastic_%K: 0.2560
+  Stochastic_%D: 7.9367
+
+Volatility Indicators:
+  BB_Upper: 27.1209
+  BB_Middle: 21.9760
+  BB_Lower: 16.8311
+  BB_Width: 0.4682
+  ATR_20: 3.3945
+  Daily_Volatility: 1.3103
+  Weekly_Volatility: 0.1916
+  Monthly_Volatility: 0.2787
+
+Volume Indicators:
+
+Price Indicators:
+  Daily_Range: 0.3600
+  Daily_Range_Pct: 1.88%
+  Weekly_Range: 6.1200
+  Weekly_Range_Pct: 32.01%
+  Price_Change_1d: -0.8500
+  Price_Change_Pct_1d: -4.26%
+  Price_Change_5d: -3.1400
+  Price_Change_Pct_5d: -14.11%
+  Price_Change_7d: -5.0300
+  Price_Change_Pct_7d: -20.83%
+
+Support & Resistance:
+  Pivot: 19.2200
+  Support1: 18.9900
+  Support2: 18.8600
+  Resistance1: 19.3500
+  Resistance2: 19.5800
+  Support_Level: 18.1600
+  Resistance_Level: 30.8100
+
+Momentum:
+  Momentum_10: -7.0200
+  Momentum_Pct_10: -26.86%
+
+
+Entity: S&P 500 Information Technology
+Price Information:
+  Open: 2518.77
+  High: 2571.52
+  Low: 2571.52
+  Close: 2571.52
+
+Moving Averages:
+  SMA_10: 2526.1970
+  SMA_20: 2472.1575
+  EMA_20: 2484.3940
+  EMA_50: 2438.7960
+  EMA_100: 2415.0965
+
+Oscillators:
+  RSI_14: 72.27%
+  MACD_Line: 40.3397
+  MACD_Signal: 32.0910
+  MACD_Histogram: 8.2487
+  Stochastic_%K: 100.0000
+  Stochastic_%D: 90.0946
+
+Volatility Indicators:
+  BB_Upper: 2594.9919
+  BB_Middle: 2472.1575
+  BB_Lower: 2349.3231
+  BB_Width: 0.0994
+  ATR_20: 27.2905
+  Daily_Volatility: 0.2100
+  Weekly_Volatility: 0.0931
+  Monthly_Volatility: 0.0457
+
+Volume Indicators:
+
+Price Indicators:
+  Daily_Range: 0.0000
+  Daily_Range_Pct: 0.00%
+  Weekly_Range: 52.7500
+  Weekly_Range_Pct: 2.05%
+  Price_Change_1d: 52.7500
+  Price_Change_Pct_1d: 2.09%
+  Price_Change_5d: 67.0800
+  Price_Change_Pct_5d: 2.68%
+  Price_Change_7d: 64.7800
+  Price_Change_Pct_7d: 2.58%
+
+Support & Resistance:
+  Pivot: 2571.5200
+  Support1: 2571.5200
+  Support2: 2571.5200
+  Resistance1: 2571.5200
+  Resistance2: 2571.5200
+  Support_Level: 2366.9900
+  Resistance_Level: 2571.5200
+
+Momentum:
+  Momentum_10: 136.2800
+  Momentum_Pct_10: 5.60%
+
+
+Entity: S&P 500 Industrials
+Price Information:
+  Open: 838.30
+  High: 843.55
+  Low: 843.55
+  Close: 843.55
+
+Moving Averages:
+  SMA_10: 826.5000
+  SMA_20: 838.8540
+  EMA_20: 835.5719
+  EMA_50: 844.0287
+  EMA_100: 848.5071
+
+Oscillators:
+  RSI_14: 47.31%
+  MACD_Line: -6.3323
+  MACD_Signal: -7.2845
+  MACD_Histogram: 0.9523
+  Stochastic_%K: 100.0000
+  Stochastic_%D: 57.2163
+
+Volatility Indicators:
+  BB_Upper: 877.6489
+  BB_Middle: 838.8540
+  BB_Lower: 800.0591
+  BB_Width: 0.0925
+  ATR_20: 9.2655
+  Daily_Volatility: 0.2048
+  Weekly_Volatility: 0.0437
+  Monthly_Volatility: 0.0437
+
+Volume Indicators:
+
+Price Indicators:
+  Daily_Range: 0.0000
+  Daily_Range_Pct: 0.00%
+  Weekly_Range: 25.9400
+  Weekly_Range_Pct: 3.08%
+  Price_Change_1d: 11.8100
+  Price_Change_Pct_1d: 1.42%
+  Price_Change_5d: 24.0900
+  Price_Change_Pct_5d: 2.94%
+  Price_Change_7d: 17.4900
+  Price_Change_Pct_7d: 2.12%
+
+Support & Resistance:
+  Pivot: 843.5500
+  Support1: 843.5500
+  Support2: 843.5500
+  Resistance1: 843.5500
+  Resistance2: 843.5500
+  Support_Level: 815.0000
+  Resistance_Level: 874.5200
+
+Momentum:
+  Momentum_10: 25.4700
+  Momentum_Pct_10: 3.11%
+
+
+Entity: S&P 500 Financials
+Price Information:
+  Open: 522.90
+  High: 530.74
+  Low: 530.74
+  Close: 530.74
+
+Moving Averages:
+  SMA_10: 522.3740
+  SMA_20: 542.5840
+  EMA_20: 539.5945
+  EMA_50: 561.9507
+  EMA_100: 574.8410
+
+Oscillators:
+  RSI_14: 40.57%
+  MACD_Line: -16.4109
+  MACD_Signal: -16.9248
+  MACD_Histogram: 0.5139
+  Stochastic_%K: 53.2772
+  Stochastic_%D: 30.4927
+
+Volatility Indicators:
+  BB_Upper: 601.4952
+  BB_Middle: 542.5840
+  BB_Lower: 483.6728
+  BB_Width: 0.2172
+  ATR_20: 9.4155
+  Daily_Volatility: 0.3313
+  Weekly_Volatility: 0.0698
+  Monthly_Volatility: 0.0705
+
+Volume Indicators:
+
+Price Indicators:
+  Daily_Range: 0.0000
+  Daily_Range_Pct: 0.00%
+  Weekly_Range: 14.7700
+  Weekly_Range_Pct: 2.78%
+  Price_Change_1d: 7.8400
+  Price_Change_Pct_1d: 1.50%
+  Price_Change_5d: 11.0400
+  Price_Change_Pct_5d: 2.12%
+  Price_Change_7d: 11.5900
+  Price_Change_Pct_7d: 2.23%
+
+Support & Resistance:
+  Pivot: 530.7400
+  Support1: 530.7400
+  Support2: 530.7400
+  Resistance1: 530.7400
+  Resistance2: 530.7400
+  Support_Level: 513.0200
+  Resistance_Level: 597.3600
+
+Momentum:
+  Momentum_10: 10.4100
+  Momentum_Pct_10: 2.00%
+
+
+Entity: S&P 500 Health Care
+Price Information:
+  Open: 1482.26
+  High: 1485.81
+  Low: 1485.81
+  Close: 1485.81
+
+Moving Averages:
+  SMA_10: 1479.3170
+  SMA_20: 1476.3005
+  EMA_20: 1479.0674
+  EMA_50: 1482.6359
+  EMA_100: 1485.8736
+
+Oscillators:
+  RSI_14: 59.64%
+  MACD_Line: -0.3984
+  MACD_Signal: -2.7174
+  MACD_Histogram: 2.3191
+  Stochastic_%K: 89.5299
+  Stochastic_%D: 90.4915
+
+Volatility Indicators:
+  BB_Upper: 1507.3428
+  BB_Middle: 1476.3005
+  BB_Lower: 1445.2582
+  BB_Width: 0.0421
+  ATR_20: 11.8165
+  Daily_Volatility: 0.1497
+  Weekly_Volatility: 0.0510
+  Monthly_Volatility: 0.0319
+
+Volume Indicators:
+
+Price Indicators:
+  Daily_Range: 0.0000
+  Daily_Range_Pct: 0.00%
+  Weekly_Range: 25.2600
+  Weekly_Range_Pct: 1.70%
+  Price_Change_1d: 3.5500
+  Price_Change_Pct_1d: 0.24%
+  Price_Change_5d: 17.7600
+  Price_Change_Pct_5d: 1.21%
+  Price_Change_7d: 4.2600
+  Price_Change_Pct_7d: 0.29%
+
+Support & Resistance:
+  Pivot: 1485.8100
+  Support1: 1485.8100
+  Support2: 1485.8100
+  Resistance1: 1485.8100
+  Resistance2: 1485.8100
+  Support_Level: 1443.9100
+  Resistance_Level: 1503.3200
+
+Momentum:
+  Momentum_10: 18.3200
+  Momentum_Pct_10: 1.25%
+
+
+Entity: S&P 500 Consumer Staples
+Price Information:
+  Open: 771.44
+  High: 771.29
+  Low: 771.29
+  Close: 771.29
+
+Moving Averages:
+  SMA_10: 759.3240
+  SMA_20: 755.0725
+  EMA_20: 757.7036
+  EMA_50: 756.4269
+  EMA_100: 756.5875
+
+Oscillators:
+  RSI_14: 69.93%
+  MACD_Line: 2.7852
+  MACD_Signal: 0.6066
+  MACD_Histogram: 2.1786
+  Stochastic_%K: 100.0000
+  Stochastic_%D: 100.0000
+
+Volatility Indicators:
+  BB_Upper: 770.6093
+  BB_Middle: 755.0725
+  BB_Lower: 739.5357
+  BB_Width: 0.0412
+  ATR_20: 4.7290
+  Daily_Volatility: 0.1211
+  Weekly_Volatility: 0.0538
+  Monthly_Volatility: 0.0267
+
+Volume Indicators:
+
+Price Indicators:
+  Daily_Range: 0.0000
+  Daily_Range_Pct: 0.00%
+  Weekly_Range: 22.1600
+  Weekly_Range_Pct: 2.87%
+  Price_Change_1d: 4.1100
+  Price_Change_Pct_1d: 0.54%
+  Price_Change_5d: 18.9100
+  Price_Change_Pct_5d: 2.51%
+  Price_Change_7d: 10.5100
+  Price_Change_Pct_7d: 1.38%
+
+Support & Resistance:
+  Pivot: 771.2900
+  Support1: 771.2900
+  Support2: 771.2900
+  Resistance1: 771.2900
+  Resistance2: 771.2900
+  Support_Level: 741.1700
+  Resistance_Level: 771.2900
+
+Momentum:
+  Momentum_10: 15.5400
+  Momentum_Pct_10: 2.06%
+
+
+Entity: NASDAQ Composite
+Price Information:
+  Open: 11854.90
+  High: 11941.60
+  Low: 11823.35
+  Close: 11926.24
+  Volume: 0
+
+Moving Averages:
+  SMA_10: 11757.5920
+  SMA_20: 11601.9130
+  EMA_20: 11647.5938
+  EMA_50: 11555.8632
+  EMA_100: 11514.9353
+
+Oscillators:
+  RSI_14: 66.74%
+  MACD_Line: 95.4910
+  MACD_Signal: 63.0535
+  MACD_Histogram: 32.4375
+  Stochastic_%K: 91.7297
+  Stochastic_%D: 79.8172
+
+Volatility Indicators:
+  BB_Upper: 12030.2838
+  BB_Middle: 11601.9130
+  BB_Lower: 11173.5422
+  BB_Width: 0.0738
+  ATR_20: 230.8015
+  Daily_Volatility: 0.2114
+  Weekly_Volatility: 0.0701
+  Monthly_Volatility: 0.0455
+
+Volume Indicators:
+  Volume: 0.0000
+  Volume_MA_10: 0.0000
+  Volume_MA_20: 0.0000
+
+Price Indicators:
+  Daily_Range: 118.2500
+  Daily_Range_Pct: 0.99%
+  Weekly_Range: 327.6600
+  Weekly_Range_Pct: 2.75%
+  Price_Change_1d: 210.1600
+  Price_Change_Pct_1d: 1.79%
+  Price_Change_5d: 256.2800
+  Price_Change_Pct_5d: 2.20%
+  Price_Change_7d: 250.7000
+  Price_Change_Pct_7d: 2.15%
+
+Support & Resistance:
+  Pivot: 11897.0633
+  Support1: 11852.5267
+  Support2: 11778.8133
+  Resistance1: 11970.7767
+  Resistance2: 12015.3133
+  Support_Level: 10982.8000
+  Resistance_Level: 12011.3000
+
+Momentum:
+  Momentum_10: 492.1900
+  Momentum_Pct_10: 4.30%
+
+
+Entity: S&P 500 Consumer Discretionary
+Price Information:
+  Open: 1115.08
+  High: 1124.22
+  Low: 1124.22
+  Close: 1124.22
+
+Moving Averages:
+  SMA_10: 1109.0590
+  SMA_20: 1105.0635
+  EMA_20: 1109.2152
+  EMA_50: 1116.3732
+  EMA_100: 1122.0062
+
+Oscillators:
+  RSI_14: 63.21%
+  MACD_Line: -2.6367
+  MACD_Signal: -5.1794
+  MACD_Histogram: 2.5427
+  Stochastic_%K: 87.1739
+  Stochastic_%D: 64.2821
+
+Volatility Indicators:
+  BB_Upper: 1139.2328
+  BB_Middle: 1105.0635
+  BB_Lower: 1070.8942
+  BB_Width: 0.0618
+  ATR_20: 11.7705
+  Daily_Volatility: 0.2237
+  Weekly_Volatility: 0.0656
+  Monthly_Volatility: 0.0486
+
+Volume Indicators:
+
+Price Indicators:
+  Daily_Range: 0.0000
+  Daily_Range_Pct: 0.00%
+  Weekly_Range: 21.7500
+  Weekly_Range_Pct: 1.93%
+  Price_Change_1d: 21.0200
+  Price_Change_Pct_1d: 1.91%
+  Price_Change_5d: 17.2800
+  Price_Change_Pct_5d: 1.56%
+  Price_Change_7d: 22.2700
+  Price_Change_Pct_7d: 2.02%
+
+Support & Resistance:
+  Pivot: 1124.2200
+  Support1: 1124.2200
+  Support2: 1124.2200
+  Resistance1: 1124.2200
+  Resistance2: 1124.2200
+  Support_Level: 1072.4300
+  Resistance_Level: 1135.5000
+
+Momentum:
+  Momentum_10: 33.2800
+  Momentum_Pct_10: 3.05%
+
+
+Entity: S&P 500 Real Estate
+Price Information:
+  Open: 227.00
+  High: 227.00
+  Low: 227.00
+  Close: 227.00
+
+Moving Averages:
+  SMA_10: 224.5340
+  SMA_20: 229.9375
+  EMA_20: 228.4908
+  EMA_50: 233.5629
+  EMA_100: 236.3046
+
+Oscillators:
+  RSI_14: 42.30%
+  MACD_Line: -4.1392
+  MACD_Signal: -3.8022
+  MACD_Histogram: -0.3369
+  Stochastic_%K: 66.1942
+  Stochastic_%D: 38.1324
+
+Volatility Indicators:
+  BB_Upper: 244.7522
+  BB_Middle: 229.9375
+  BB_Lower: 215.1228
+  BB_Width: 0.1289
+  ATR_20: 3.3460
+  Daily_Volatility: 0.2906
+  Weekly_Volatility: 0.1134
+  Monthly_Volatility: 0.0626
+
+Volume Indicators:
+
+Price Indicators:
+  Daily_Range: 0.0000
+  Daily_Range_Pct: 0.00%
+  Weekly_Range: 9.3400
+  Weekly_Range_Pct: 4.11%
+  Price_Change_1d: 5.1300
+  Price_Change_Pct_1d: 2.31%
+  Price_Change_5d: 7.9900
+  Price_Change_Pct_5d: 3.65%
+  Price_Change_7d: -1.7900
+  Price_Change_Pct_7d: -0.78%
+
+Support & Resistance:
+  Pivot: 227.0000
+  Support1: 227.0000
+  Support2: 227.0000
+  Resistance1: 227.0000
+  Resistance2: 227.0000
+  Support_Level: 217.6600
+  Resistance_Level: 243.2300
+
+Momentum:
+  Momentum_10: -4.7700
+  Momentum_Pct_10: -2.06%
+
+
+Entity: S&P 500 Utilities
+Price Information:
+  Open: 337.07
+  High: 340.04
+  Low: 340.04
+  Close: 340.04
+
+Moving Averages:
+  SMA_10: 334.7380
+  SMA_20: 333.5415
+  EMA_20: 333.9026
+  EMA_50: 333.8282
+  EMA_100: 334.0522
+
+Oscillators:
+  RSI_14: 57.89%
+  MACD_Line: 0.4645
+  MACD_Signal: 0.0129
+  MACD_Histogram: 0.4517
+  Stochastic_%K: 93.3600
+  Stochastic_%D: 73.0967
+
+Volatility Indicators:
+  BB_Upper: 343.4805
+  BB_Middle: 333.5415
+  BB_Lower: 323.6025
+  BB_Width: 0.0596
+  ATR_20: 4.2310
+  Daily_Volatility: 0.2324
+  Weekly_Volatility: 0.1126
+  Monthly_Volatility: 0.0517
+
+Volume Indicators:
+
+Price Indicators:
+  Daily_Range: 0.0000
+  Daily_Range_Pct: 0.00%
+  Weekly_Range: 16.3100
+  Weekly_Range_Pct: 4.80%
+  Price_Change_1d: 4.8200
+  Price_Change_Pct_1d: 1.44%
+  Price_Change_5d: 13.0200
+  Price_Change_Pct_5d: 3.98%
+  Price_Change_7d: -0.5800
+  Price_Change_Pct_7d: -0.17%
+
+Support & Resistance:
+  Pivot: 340.0400
+  Support1: 340.0400
+  Support2: 340.0400
+  Resistance1: 340.0400
+  Resistance2: 340.0400
+  Support_Level: 323.7300
+  Resistance_Level: 341.2000
+
+Momentum:
+  Momentum_10: 1.1100
+  Momentum_Pct_10: 0.33%
+
+
+Entity: S&P 500 Materials
+Price Information:
+  Open: 495.23
+  High: 496.86
+  Low: 496.86
+  Close: 496.86
+
+Moving Averages:
+  SMA_10: 484.8010
+  SMA_20: 495.1210
+  EMA_20: 493.1488
+  EMA_50: 501.6899
+  EMA_100: 506.4458
+
+Oscillators:
+  RSI_14: 47.20%
+  MACD_Line: -6.0414
+  MACD_Signal: -7.1324
+  MACD_Histogram: 1.0910
+  Stochastic_%K: 100.0000
+  Stochastic_%D: 63.4873
+
+Volatility Indicators:
+  BB_Upper: 529.7030
+  BB_Middle: 495.1210
+  BB_Lower: 460.5390
+  BB_Width: 0.1397
+  ATR_20: 7.0480
+  Daily_Volatility: 0.2571
+  Weekly_Volatility: 0.0398
+  Monthly_Volatility: 0.0551
+
+Volume Indicators:
+
+Price Indicators:
+  Daily_Range: 0.0000
+  Daily_Range_Pct: 0.00%
+  Weekly_Range: 16.6900
+  Weekly_Range_Pct: 3.36%
+  Price_Change_1d: 6.7900
+  Price_Change_Pct_1d: 1.39%
+  Price_Change_5d: 16.0200
+  Price_Change_Pct_5d: 3.33%
+  Price_Change_7d: 13.3400
+  Price_Change_Pct_7d: 2.76%
+
+Support & Resistance:
+  Pivot: 496.8600
+  Support1: 496.8600
+  Support2: 496.8600
+  Resistance1: 496.8600
+  Resistance2: 496.8600
+  Support_Level: 474.0000
+  Resistance_Level: 531.9000
+
+Momentum:
+  Momentum_10: 21.0400
+  Momentum_Pct_10: 4.42%
+
+
+Entity: S&P 500 Energy
+Price Information:
+  Open: 619.44
+  High: 628.71
+  Low: 628.71
+  Close: 628.71
+
+Moving Averages:
+  SMA_10: 605.0600
+  SMA_20: 621.4415
+  EMA_20: 618.6630
+  EMA_50: 631.0183
+  EMA_100: 638.1067
+
+Oscillators:
+  RSI_14: 47.19%
+  MACD_Line: -8.3703
+  MACD_Signal: -10.4845
+  MACD_Histogram: 2.1142
+  Stochastic_%K: 99.8414
+  Stochastic_%D: 69.0565
+
+Volatility Indicators:
+  BB_Upper: 672.5157
+  BB_Middle: 621.4415
+  BB_Lower: 570.3673
+  BB_Width: 0.1644
+  ATR_20: 10.1730
+  Daily_Volatility: 0.3230
+  Weekly_Volatility: 0.0990
+  Monthly_Volatility: 0.0705
+
+Volume Indicators:
+
+Price Indicators:
+  Daily_Range: 0.0000
+  Daily_Range_Pct: 0.00%
+  Weekly_Range: 32.3900
+  Weekly_Range_Pct: 5.15%
+  Price_Change_1d: 9.2700
+  Price_Change_Pct_1d: 1.50%
+  Price_Change_5d: 24.1500
+  Price_Change_Pct_5d: 3.99%
+  Price_Change_7d: 31.7300
+  Price_Change_Pct_7d: 5.32%
+
+Support & Resistance:
+  Pivot: 628.7100
+  Support1: 628.7100
+  Support2: 628.7100
+  Resistance1: 628.7100
+  Resistance2: 628.7100
+  Support_Level: 584.6400
+  Resistance_Level: 664.9500
+
+Momentum:
+  Momentum_10: 40.5100
+  Momentum_Pct_10: 6.89%
+
+
+Entity: Dow Jones Industrial Average
+Price Information:
+  Open: 32566.54
+  High: 32728.04
+  Low: 32539.94
+  Close: 32717.60
+
+Moving Averages:
+  SMA_10: 32283.0530
+  SMA_20: 32416.2490
+  EMA_20: 32413.5716
+  EMA_50: 32598.3725
+  EMA_100: 32719.7701
+
+Oscillators:
+  RSI_14: 56.09%
+  MACD_Line: -96.2556
+  MACD_Signal: -155.8517
+  MACD_Histogram: 59.5961
+  Stochastic_%K: 96.6751
+  Stochastic_%D: 74.2311
+
+Volatility Indicators:
+  BB_Upper: 33381.0824
+  BB_Middle: 32416.2490
+  BB_Lower: 31451.4156
+  BB_Width: 0.0595
+  ATR_20: 497.5195
+  Daily_Volatility: 0.1660
+  Weekly_Volatility: 0.0300
+  Monthly_Volatility: 0.0353
+
+Volume Indicators:
+
+Price Indicators:
+  Daily_Range: 188.1000
+  Daily_Range_Pct: 0.57%
+  Weekly_Range: 922.8600
+  Weekly_Range_Pct: 2.82%
+  Price_Change_1d: 323.3500
+  Price_Change_Pct_1d: 1.00%
+  Price_Change_5d: 687.4900
+  Price_Change_Pct_5d: 2.15%
+  Price_Change_7d: 473.0200
+  Price_Change_Pct_7d: 1.47%
+
+Support & Resistance:
+  Pivot: 32661.8600
+  Support1: 32595.6800
+  Support2: 32473.7600
+  Resistance1: 32783.7800
+  Resistance2: 32849.9600
+  Support_Level: 31429.8200
+  Resistance_Level: 33572.2200
+
+Momentum:
+  Momentum_10: 843.0300
+  Momentum_Pct_10: 2.64%
+
+
+Entity: S&P 500 Communication Services
+Price Information:
+  Open: 184.84
+  High: 187.03
+  Low: 187.03
+  Close: 187.03
+
+Moving Averages:
+  SMA_10: 185.7890
+  SMA_20: 180.6170
+  EMA_20: 181.8304
+  EMA_50: 177.8311
+  EMA_100: 175.7589
+
+Oscillators:
+  RSI_14: 70.08%
+  MACD_Line: 3.5159
+  MACD_Signal: 2.9076
+  MACD_Histogram: 0.6083
+  Stochastic_%K: 90.3654
+  Stochastic_%D: 85.7881
+
+Volatility Indicators:
+  BB_Upper: 192.4018
+  BB_Middle: 180.6170
+  BB_Lower: 168.8322
+  BB_Width: 0.1305
+  ATR_20: 2.3590
+  Daily_Volatility: 0.2426
+  Weekly_Volatility: 0.0936
+  Monthly_Volatility: 0.0522
+
+Volume Indicators:
+
+Price Indicators:
+  Daily_Range: 0.0000
+  Daily_Range_Pct: 0.00%
+  Weekly_Range: 3.9300
+  Weekly_Range_Pct: 2.10%
+  Price_Change_1d: 2.1900
+  Price_Change_Pct_1d: 1.18%
+  Price_Change_5d: 2.1500
+  Price_Change_Pct_5d: 1.16%
+  Price_Change_7d: 3.5900
+  Price_Change_Pct_7d: 1.96%
+
+Support & Resistance:
+  Pivot: 187.0300
+  Support1: 187.0300
+  Support2: 187.0300
+  Resistance1: 187.0300
+  Resistance2: 187.0300
+  Support_Level: 170.7100
+  Resistance_Level: 188.7700
+
+Momentum:
+  Momentum_10: 8.5500
+  Momentum_Pct_10: 4.79%
+
+
+Entity: United States 10-Year Bond Yield
+Price Information:
+  Open: 3.58
+  High: 3.58
+  Low: 3.56
+  Close: 3.58
+
+Moving Averages:
+  SMA_10: 3.4780
+  SMA_20: 3.5845
+  EMA_20: 3.5847
+  EMA_50: 3.7291
+  EMA_100: 3.8150
+
+Oscillators:
+  RSI_14: 50.00%
+  MACD_Line: -0.0983
+  MACD_Signal: -0.1125
+  MACD_Histogram: 0.0142
+  Stochastic_%K: 69.0476
+  Stochastic_%D: 61.5502
+
+Volatility Indicators:
+  BB_Upper: 3.9524
+  BB_Middle: 3.5845
+  BB_Lower: 3.2166
+  BB_Width: 0.2053
+  ATR_20: 0.1270
+  Daily_Volatility: 0.4332
+  Weekly_Volatility: 0.1445
+  Monthly_Volatility: 0.0923
+
+Volume Indicators:
+
+Price Indicators:
+  Daily_Range: 0.0200
+  Daily_Range_Pct: 0.56%
+  Weekly_Range: 0.2900
+  Weekly_Range_Pct: 8.10%
+  Price_Change_1d: 0.0100
+  Price_Change_Pct_1d: 0.28%
+  Price_Change_5d: 0.1900
+  Price_Change_Pct_5d: 5.60%
+  Price_Change_7d: 0.0000
+  Price_Change_Pct_7d: 0.00%
+
+Support & Resistance:
+  Pivot: 3.5733
+  Support1: 3.5667
+  Support2: 3.5533
+  Resistance1: 3.5867
+  Resistance2: 3.5933
+  Support_Level: 3.2900
+  Resistance_Level: 4.0100
+
+Momentum:
+  Momentum_10: 0.1800
+  Momentum_Pct_10: 5.29%
+
+
+Entity: Gold
+Price Information:
+  Open: 1973.90
+  High: 1974.34
+  Low: 1959.73
+  Close: 1964.39
+  Volume: 5518
+
+Moving Averages:
+  SMA_10: 1966.0960
+  SMA_20: 1913.0375
+  EMA_20: 1924.5281
+  EMA_50: 1877.2286
+  EMA_100: 1851.2846
+
+Oscillators:
+  RSI_14: 69.69%
+  MACD_Line: 38.1026
+  MACD_Signal: 35.0588
+  MACD_Histogram: 3.0438
+  Stochastic_%K: 76.0475
+  Stochastic_%D: 77.7109
+
+Volatility Indicators:
+  BB_Upper: 2038.6888
+  BB_Middle: 1913.0375
+  BB_Lower: 1787.3862
+  BB_Width: 0.1314
+  ATR_20: 30.5705
+  Daily_Volatility: 0.2212
+  Weekly_Volatility: 0.0754
+  Monthly_Volatility: 0.0471
+
+Volume Indicators:
+  Volume: 5518.0000
+  Volume_MA_10: 5228.9000
+  Volume_MA_20: 5353.8000
+  Volume_ROC: -0.0362
+  Vol_Price_Corr_20: -0.6968
+
+Price Indicators:
+  Daily_Range: 14.6100
+  Daily_Range_Pct: 0.74%
+  Weekly_Range: 55.8000
+  Weekly_Range_Pct: 2.84%
+  Price_Change_1d: -9.5200
+  Price_Change_Pct_1d: -0.48%
+  Price_Change_5d: -4.5000
+  Price_Change_Pct_5d: -0.23%
+  Price_Change_7d: -14.4300
+  Price_Change_Pct_7d: -0.73%
+
+Support & Resistance:
+  Pivot: 1966.1533
+  Support1: 1957.9667
+  Support2: 1951.5433
+  Resistance1: 1972.5767
+  Resistance2: 1980.7633
+  Support_Level: 1809.6900
+  Resistance_Level: 2007.3200
+
+Momentum:
+  Momentum_10: 46.0400
+  Momentum_Pct_10: 2.40%
+
+
+Entity: Dollar Index
+Price Information:
+  Open: 102.49
+  High: 102.79
+  Low: 102.37
+  Close: 102.64
+  Volume: 0
+
+Moving Averages:
+  SMA_10: 103.0670
+  SMA_20: 103.8795
+  EMA_20: 103.5608
+  EMA_50: 104.1211
+  EMA_100: 104.3753
+
+Oscillators:
+  RSI_14: 30.16%
+  MACD_Line: -0.5543
+  MACD_Signal: -0.4076
+  MACD_Histogram: -0.1468
+  Stochastic_%K: 20.9913
+  Stochastic_%D: 19.3715
+
+Volatility Indicators:
+  BB_Upper: 106.0187
+  BB_Middle: 103.8795
+  BB_Lower: 101.7403
+  BB_Width: 0.0412
+  ATR_20: 0.7820
+  Daily_Volatility: 0.0923
+  Weekly_Volatility: 0.0275
+  Monthly_Volatility: 0.0197
+
+Volume Indicators:
+  Volume: 0.0000
+  Volume_MA_10: 0.0000
+  Volume_MA_20: 0.0000
+
+Price Indicators:
+  Daily_Range: 0.4200
+  Daily_Range_Pct: 0.41%
+  Weekly_Range: 1.4400
+  Weekly_Range_Pct: 1.40%
+  Price_Change_1d: 0.2100
+  Price_Change_Pct_1d: 0.21%
+  Price_Change_5d: 0.2900
+  Price_Change_Pct_5d: 0.28%
+  Price_Change_7d: -0.6400
+  Price_Change_Pct_7d: -0.62%
+
+Support & Resistance:
+  Pivot: 102.6000
+  Support1: 102.4100
+  Support2: 102.1800
+  Resistance1: 102.8300
+  Resistance2: 103.0200
+  Support_Level: 101.9200
+  Resistance_Level: 105.8800
+
+Momentum:
+  Momentum_10: -2.0100
+  Momentum_Pct_10: -1.92%
+
+
+Entity: United States 2-Year Bond Yield
+Price Information:
+  Open: 4.09
+  High: 4.14
+  Low: 4.00
+  Close: 4.08
+
+Moving Averages:
+  SMA_10: 3.9800
+  SMA_20: 4.3130
+  EMA_20: 4.2249
+  EMA_50: 4.4849
+  EMA_100: 4.6205
+
+Oscillators:
+  RSI_14: 35.25%
+  MACD_Line: -0.2121
+  MACD_Signal: -0.2045
+  MACD_Histogram: -0.0076
+  Stochastic_%K: 40.3101
+  Stochastic_%D: 34.4162
+
+Volatility Indicators:
+  BB_Upper: 5.2229
+  BB_Middle: 4.3130
+  BB_Lower: 3.4031
+  BB_Width: 0.4219
+  ATR_20: 0.2960
+  Daily_Volatility: 0.7673
+  Weekly_Volatility: 0.2702
+  Monthly_Volatility: 0.1644
+
+Volume Indicators:
+
+Price Indicators:
+  Daily_Range: 0.1400
+  Daily_Range_Pct: 3.43%
+  Weekly_Range: 0.5800
+  Weekly_Range_Pct: 14.22%
+  Price_Change_1d: 0.0200
+  Price_Change_Pct_1d: 0.49%
+  Price_Change_5d: 0.1000
+  Price_Change_Pct_5d: 2.51%
+  Price_Change_7d: 0.1600
+  Price_Change_Pct_7d: 4.08%
+
+Support & Resistance:
+  Pivot: 4.0733
+  Support1: 4.0067
+  Support2: 3.9333
+  Resistance1: 4.1467
+  Resistance2: 4.2133
+  Support_Level: 3.5600
+  Resistance_Level: 5.0800
+
+Momentum:
+  Momentum_10: 0.1000
+  Momentum_Pct_10: 2.51%
+
+
+Entity: MSCI World index
+Price Information:
+  Open: 67.69
+  High: 67.84
+  Low: 67.52
+  Close: 67.84
+  Volume: 23897
+
+Moving Averages:
+  SMA_10: 67.2970
+  SMA_20: 67.3590
+  EMA_20: 67.2990
+  EMA_50: 67.2712
+  EMA_100: 67.2503
+
+Oscillators:
+  RSI_14: 52.05%
+  MACD_Line: 0.0409
+  MACD_Signal: -0.0120
+  MACD_Histogram: 0.0529
+  Stochastic_%K: 86.8526
+  Stochastic_%D: 64.3044
+
+Volatility Indicators:
+  BB_Upper: 68.8045
+  BB_Middle: 67.3590
+  BB_Lower: 65.9135
+  BB_Width: 0.0429
+  ATR_20: 0.7605
+  Daily_Volatility: 0.1529
+  Weekly_Volatility: 0.0548
+  Monthly_Volatility: 0.0327
+
+Volume Indicators:
+  Volume: 23897.0000
+  Volume_MA_10: 28203.0000
+  Volume_MA_20: 24099.6500
+  Volume_ROC: 122.6083
+  Vol_Price_Corr_20: -0.6447
+
+Price Indicators:
+  Daily_Range: 0.3200
+  Daily_Range_Pct: 0.47%
+  Weekly_Range: 0.9700
+  Weekly_Range_Pct: 1.43%
+  Price_Change_1d: 0.7800
+  Price_Change_Pct_1d: 1.16%
+  Price_Change_5d: 0.1100
+  Price_Change_Pct_5d: 0.16%
+  Price_Change_7d: 1.0200
+  Price_Change_Pct_7d: 1.53%
+
+Support & Resistance:
+  Pivot: 67.7333
+  Support1: 67.6267
+  Support2: 67.4133
+  Resistance1: 67.9467
+  Resistance2: 68.0533
+  Support_Level: 65.6600
+  Resistance_Level: 68.6700
+
+Momentum:
+  Momentum_10: 1.6800
+  Momentum_Pct_10: 2.54%
+
+

@@ -1,0 +1,18 @@
+{
+  "group_characteristics": [
+    "What common patterns appear across the price movements of Lean Hogs Futures in different months?",
+    "How do trading volumes for Lean Hogs Futures affect their price volatility across different contracts?"
+  ],
+  "inter_group_dynamics": [
+    "How do the price movements of front-month Lean Hogs Futures interact with those of second- and third-month futures?",
+    "What factors influence the relationship between trading volume and price movement across different Lean Hogs Future contracts?"
+  ],
+  "propagation_patterns": [
+    "How do changes in volatility of front-month Lean Hogs Futures propagate to other months?",
+    "What conditions affect the spread of price trends across the different Lean Hogs Futures contracts?"
+  ],
+  "causal_chains": [
+    "What typical cause-effect sequences occur between trading volume and price changes in Lean Hogs Futures?",
+    "How do support and resistance levels in front-month contracts influence the price dynamics of second- and third-month futures?"
+  ]
+}

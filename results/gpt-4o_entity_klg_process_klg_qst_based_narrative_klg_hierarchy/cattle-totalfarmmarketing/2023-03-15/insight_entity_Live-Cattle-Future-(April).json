@@ -1,0 +1,34 @@
+{
+  "type": "all",
+  "entity": "Live Cattle Future (front month) (April)",
+  "interpretation": "The market shows significant volatility with a heightened intraday range and increased trading volume, indicating greater market activity. The trend has slightly favored downward movements over the past quarter. Current momentum analysis suggests a potential market reversal as indicated by an oversold RSI. Support and resistance levels have been moderately touched, indicating a need to observe these for future price movement.",
+  "significance_score": 0.8,
+  "score_reasoning": "Collectively, the market shows signs of increased volatility and activity, characterized by a notable trend towards a potential reversal in a predominantly downward-trending market. The oversold RSI further supports the potential for upcoming price corrections or reversals, while trading volumes and observed support and resistance levels suggest active market participation and interest.",
+  "individual_insights": [
+    {
+      "question": "Assess the daily volatility of the cattle market by comparing the intraday price range relative to the closing price over the past month.",
+      "interpretation": "The intraday range is 1.8, significantly higher than the average intraday range of 1.3045, suggesting increased volatility on the date of interest. The percentage volatility is at 1.114%, indicating a higher than usual price movement relative to the closing price.",
+      "significance_score": 0.8
+    },
+    {
+      "question": "Evaluate the trading activity by analyzing the volume trends and identifying any significant spikes or declines over the past two weeks.",
+      "interpretation": "The trading volume increased by 3101.64 units, which is 10.42% above the 14-day average volume of 29774.36 units, indicating a significant spike in trading activity.",
+      "significance_score": 0.7
+    },
+    {
+      "question": "Determine the consistency of the price trend by analyzing the frequency of upward or downward movements in closing prices over the past quarter.",
+      "interpretation": "With 7 up days and 14 down days out of 21 considered days, the trend consistency ratio of 0.3333 indicates a predominant downward trend over the past quarter.",
+      "significance_score": 0.6
+    },
+    {
+      "question": "Identify key support and resistance levels by evaluating price patterns and their frequency of touch over multiple time frames.",
+      "interpretation": "Support levels range from 163.9 to 165.08, and resistance levels from 165.25 to 166.1, with a frequency of touch of 2, suggesting these levels are moderately reliable.",
+      "significance_score": 0.5
+    },
+    {
+      "question": "Examine the market momentum by calculating and comparing relative strength indices and their levels over the past month.",
+      "interpretation": "The RSI is 28.7964, which is below 30, indicating an oversold market condition, potentially signaling a reversal.",
+      "significance_score": 0.9
+    }
+  ]
+}

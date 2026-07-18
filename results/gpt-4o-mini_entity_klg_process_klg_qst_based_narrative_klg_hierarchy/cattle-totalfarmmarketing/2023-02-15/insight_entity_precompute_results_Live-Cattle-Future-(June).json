@@ -1,0 +1,142 @@
+[
+  {
+    "insight_type": "volatility_analysis",
+    "question": {
+      "insight_type": "volatility analysis",
+      "question": "What is the volatility of the cattle market on the date of interest, determined by analyzing the range of price movements using the high and low prices?",
+      "required_metrics": [
+        {
+          "metric": "Daily_Range",
+          "calculation": "High - Low",
+          "purpose": "Measure the range of price movement to assess volatility"
+        },
+        {
+          "metric": "Average_Daily_Range",
+          "calculation": "Average of Daily_Range over the last 30 days",
+          "purpose": "Contextualizes the current day's volatility against historical norms"
+        },
+        {
+          "metric": "Percentage_Change",
+          "calculation": "(Close - Open) / Open * 100",
+          "purpose": "Indicates the percentage change as a metric of daily volatility"
+        }
+      ],
+      "comparisons": [
+        "Current Daily_Range vs Average_Daily_Range",
+        "Current Percentage_Change vs historical average changes"
+      ]
+    },
+    "results": "METRIC:Daily_Range\tVALUE:0.7199999999999989\tUNIT:price\tTYPE:float\nMETRIC:Average_Daily_Range\tVALUE:0.9163636363636336\tUNIT:price\tTYPE:float\nMETRIC:Percentage_Change\tVALUE:0.012485953302523292\tUNIT:percent\tTYPE:float\n"
+  },
+  {
+    "insight_type": "price_trend_analysis",
+    "question": {
+      "insight_type": "price trend analysis",
+      "question": "What is the overall directional trend of cattle prices over the last 7 days, assessed by comparing the closing prices to establish if there is an upward, downward, or sideways movement?",
+      "required_metrics": [
+        {
+          "metric": "7-Day_Closing_Average",
+          "calculation": "Average of closing prices over the last 7 days",
+          "purpose": "Provides a smoothed representation of price trend"
+        },
+        {
+          "metric": "Price_Trend_Change",
+          "calculation": "Current Closing Price - Closing Price 7 days ago",
+          "purpose": "Measures whether the price has increased or decreased"
+        },
+        {
+          "metric": "Price_Trend_Percentage_Change",
+          "calculation": "(Price_Trend_Change / Closing Price 7 days ago) * 100",
+          "purpose": "Expresses the trend change as a percentage"
+        }
+      ],
+      "comparisons": [
+        "Current closing price vs 7-day average closing price",
+        "Price_Trend_Change vs historical trend changes of similar duration"
+      ]
+    },
+    "results": "METRIC:7-Day_Closing_Average\tVALUE:159.95714285714286\tUNIT:price\tTYPE:float\nMETRIC:Current_Closing_Price\tVALUE:160.2\tUNIT:price\tTYPE:float\nMETRIC:Price_Trend_Change\tVALUE:-0.5\tUNIT:price\tTYPE:float\nMETRIC:Price_Trend_Percentage_Change\tVALUE:-0.3111387678904792\tUNIT:percent\tTYPE:float\n"
+  },
+  {
+    "insight_type": "volume_analysis",
+    "question": {
+      "insight_type": "volume analysis",
+      "question": "On the date of interest, what is the comparison between the traded volume and the average volume over the past 30 days to determine market activity levels?",
+      "required_metrics": [
+        {
+          "metric": "Current_Volume",
+          "calculation": "Volume on the date of interest",
+          "purpose": "Measures today's trading volumes"
+        },
+        {
+          "metric": "Average_Volume_30d",
+          "calculation": "Average volume over the last 30 days",
+          "purpose": "Provides context to today's volume in relation to historical trading activity"
+        },
+        {
+          "metric": "Volume_Change_Percentage",
+          "calculation": "(Current_Volume - Average_Volume_30d) / Average_Volume_30d * 100",
+          "purpose": "Quantifies volume activity compared to average levels"
+        }
+      ],
+      "comparisons": [
+        "Current_Volume vs Average_Volume_30d",
+        "Volume_Change_Percentage vs historical volume spikes"
+      ]
+    },
+    "results": "METRIC:Current_Volume\tVALUE:8969.0000\tUNIT:volume\tTYPE:float\nMETRIC:Average_Volume_30d\tVALUE:11737.1905\tUNIT:volume\tTYPE:float\nMETRIC:Volume_Change_Percentage\tVALUE:-23.5848\tUNIT:volume\tTYPE:float\n"
+  },
+  {
+    "insight_type": "market_sentiment_analysis",
+    "question": {
+      "insight_type": "market sentiment analysis",
+      "question": "How does the closing price trend in comparison to the opening price trend reflect market sentiment over the past week?",
+      "required_metrics": [
+        {
+          "metric": "Closing_Trend_7d",
+          "calculation": "Trend (up, down, sideways) based on the closing prices over the last 7 days",
+          "purpose": "Reflects market sentiment based on final trading price trend"
+        },
+        {
+          "metric": "Opening_Trend_7d",
+          "calculation": "Trend (up, down, sideways) based on the opening prices over the last 7 days",
+          "purpose": "Reflects market sentiment based on initial trading price trend"
+        }
+      ],
+      "comparisons": [
+        "Closing_Trend_7d vs Opening_Trend_7d",
+        "Correlation between closing trends and volume trends during the week"
+      ]
+    },
+    "results": "METRIC:Closing_Trend_7d\tVALUE:sideways\tUNIT:\tTYPE:str\nMETRIC:Opening_Trend_7d\tVALUE:sideways\tUNIT:\tTYPE:str\nMETRIC:Trend_Comparison\tVALUE:sideways vs sideways\tUNIT:\tTYPE:str\nMETRIC:Closing_Volume_Correlation\tVALUE:0.4810973902204356\tUNIT:\tTYPE:float\n"
+  },
+  {
+    "insight_type": "support_and_resistance_levels",
+    "question": {
+      "insight_type": "support and resistance levels",
+      "question": "Identify the critical support and resistance levels for cattle prices over the last 30 days based on historical highs and lows to ascertain price action thresholds.",
+      "required_metrics": [
+        {
+          "metric": "Support_Level",
+          "calculation": "Identify minimum price levels with multiple bounces in the last 30 days",
+          "purpose": "Establishes floors where price tends to refuse to fall below"
+        },
+        {
+          "metric": "Resistance_Level",
+          "calculation": "Identify maximum price levels with multiple rejections in the last 30 days",
+          "purpose": "Identifies ceilings where price tends to refuse to rise above"
+        },
+        {
+          "metric": "Current_Price_Position",
+          "calculation": "Current closing price in relation to Support_Level and Resistance_Level",
+          "purpose": "Measures proximity of current price to identified psychological barriers"
+        }
+      ],
+      "comparisons": [
+        "Current_Price_Position relative to Support_Level and Resistance_Level",
+        "Historical price action behavior near identified support/resistance"
+      ]
+    },
+    "results": "METRIC:Support_Level\tVALUE:155.57\tUNIT:USD\tTYPE:float\nMETRIC:Resistance_Level\tVALUE:160.75\tUNIT:USD\tTYPE:float\nMETRIC:Current_Price_Position\tVALUE:160.2\tUNIT:USD\tTYPE:float\n"
+  }
+]

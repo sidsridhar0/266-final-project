@@ -1,0 +1,36 @@
+{
+  "narrative_structures": "A daily market report typically follows a structured pattern that includes an introductory overview of the market's performance, key events influencing trends, in-depth analysis of specific entities like gold, silver, and the dollar index, and concludes with a forecast or investment advice. The narrative should flow logically, beginning with a summary of the market conditions, followed by detailed insights into each key entity, and conclude with potential impacts or advice, ensuring a balance between qualitative and quantitative data.",
+  "focus_entities": [
+    {
+      "entities_name": "Gold",
+      "reasoning": "Gold is a crucial commodity in global finance, often seen as a safe haven asset during market volatility. Its price movements can indicate broader market sentiment and are influenced by a range of economic factors."
+    },
+    {
+      "entities_name": "Silver",
+      "reasoning": "Silver is both an industrial commodity and a precious metal, making its price indicative of both economic demand and investment trends. Tracking its performance can offer insights into industrial health and investment behaviors."
+    },
+    {
+      "entities_name": "Dollar Index",
+      "reasoning": "The Dollar Index measures the value of the US dollar relative to a basket of foreign currencies and is a significant indicator of the dollar's relative strength. Changes in the index can influence commodity prices, including gold and silver, due to their inverse relationship."
+    }
+  ],
+  "focus_insights": [
+    {
+      "insight_types": "Market Volatility",
+      "reasoning": "Understanding volatility is crucial for investors as it indicates the risk associated with price fluctuations, directly influencing investment decisions."
+    },
+    {
+      "insight_types": "Price Trends",
+      "reasoning": "Recognizing historical and current price trends allows investors to identify patterns, aiding in predictive analysis and investment timing."
+    },
+    {
+      "insight_types": "Economic Indicators",
+      "reasoning": "Economic indicators such as inflation rates, interest rates, and geopolitical events can impact commodity prices, making understanding these factors essential for comprehensive market analysis."
+    }
+  ],
+  "domain_language": [
+    "Future price expectations should be expressed in terms of percentage change rather than absolute numbers to provide clarity on potential investment returns.",
+    "Avoid jargon that may confuse general investors; instead, explain technical terms in layman's language.",
+    "Use terms like 'bullish' or 'bearish' with clear explanations to describe market sentiment."
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "Market Correlations and Patterns": [
+    {
+      "key_idea": "Identify common patterns across equity sectors during market volatility.",
+      "description": "Equity sectors within the S&P 500, such as Information Technology, Consumer Discretionary, and Communication Services, tend to exhibit higher volatility during market downturns compared to defensive sectors like Consumer Staples and Utilities. During periods of economic uncertainty, investors often shift their focus towards sectors perceived as safer or essential (e.g., Consumer Staples, Healthcare), which are less sensitive to economic cycles."
+    },
+    {
+      "key_idea": "Analyze the propagation of interest rate changes on equity markets and sectors.",
+      "description": "Fluctuations in bond yields, particularly the 10-Year and 2-Year U.S. Treasury yields, affect equity markets broadly. Rising yields often indicate potential inflation concerns or anticipated tighter monetary policy, prompting shifts from growth-oriented sectors (such as Technology) to value-oriented sectors (like Financials), as higher interest rates increase borrowing costs and reduce future cash flow valuations."
+    }
+  ],
+  "Macro-Economic Influences": [
+    {
+      "key_idea": "Understand the impact of currency strength on equities and resource-related sectors.",
+      "description": "A strengthening U.S. Dollar Index typically negatively impacts sectors reliant on exports, like Industrials and Materials, as exports become more expensive for foreign buyers. Conversely, a strong dollar often leads to lower commodity prices, exerting downward pressure on resource-related sectors such as Energy and Materials, which depend on the global commodity markets."
+    },
+    {
+      "key_idea": "Evaluate how global economic indicators influence U.S. equity indices.",
+      "description": "Movements in the MSCI World Index can provide insights into global risk sentiment. A decline in global equities often leads to increased market volatility, as measured by the CBOE Volatility Index, and can trigger risk-off behavior in U.S. indices like the S&P 500, Nasdaq, and Dow Jones. Such scenarios may lead investors to rotate into perceived safer investments like U.S. Treasuries and gold."
+    }
+  ],
+  "Sector and Index Dynamics": [
+    {
+      "key_idea": "Explore causal relationships in sector performance during business cycles.",
+      "description": "Cyclical sectors such as Industrials and Consumer Discretionary often outperform during economic expansions due to increased consumer and business spending, while defensive sectors like Real Estate and Utilities tend to offer stability and value preservation during contractions, benefiting from steady revenue streams and sometimes higher dividend yields."
+    },
+    {
+      "key_idea": "Analyze the interaction between equity indices and volatility.",
+      "description": "Indices like the Nasdaq 100 and Russell 2000, representing predominantly growth and small-cap stocks, respectively, are more susceptible to volatile swings during periods of market stress compared to the Dow Jones Industrial Average, which comprises well-established, blue-chip companies. A high CBOE Volatility Index often leads to broader market corrections, affecting growth stocks disproportionately."
+    }
+  ]
+}

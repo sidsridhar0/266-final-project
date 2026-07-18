@@ -1,0 +1,394 @@
+Entity: Dollar Index
+Price Information:
+  Open: 104.82
+  High: 105.58
+  Low: 104.38
+  Close: 104.54
+  Volume: 0
+
+Moving Averages:
+  SMA_10: 106.1900
+  SMA_20: 106.9835
+  EMA_20: 107.0437
+  EMA_50: 108.8111
+  EMA_100: 109.8730
+
+Oscillators:
+  RSI_14: 34.77%
+  MACD_Line: -1.3092
+  MACD_Signal: -1.1952
+  MACD_Histogram: -0.1140
+  Stochastic_%K: 4.4321
+  Stochastic_%D: 8.9088
+
+Volatility Indicators:
+  BB_Upper: 110.1734
+  BB_Middle: 106.9835
+  BB_Lower: 103.7936
+  BB_Width: 0.0596
+  ATR_20: 1.2200
+  Daily_Volatility: 0.1281
+  Weekly_Volatility: 0.0528
+  Monthly_Volatility: 0.0296
+
+Volume Indicators:
+  Volume: 0.0000
+  Volume_MA_10: 0.0000
+  Volume_MA_20: 0.0000
+
+Price Indicators:
+  Daily_Range: 1.2000
+  Daily_Range_Pct: 1.15%
+  Weekly_Range: 2.8200
+  Weekly_Range_Pct: 2.70%
+  Price_Change_1d: -0.1900
+  Price_Change_Pct_1d: -0.18%
+  Price_Change_5d: -1.4200
+  Price_Change_Pct_5d: -1.34%
+  Price_Change_7d: -1.5400
+  Price_Change_Pct_7d: -1.45%
+
+Support & Resistance:
+  Pivot: 104.8333
+  Support1: 104.0867
+  Support2: 103.6333
+  Resistance1: 105.2867
+  Resistance2: 106.0333
+  Support_Level: 104.3800
+  Resistance_Level: 111.2700
+
+Momentum:
+  Momentum_10: -2.3900
+  Momentum_Pct_10: -2.24%
+
+
+Entity: Austrilian Dollar
+Price Information:
+  Open: 0.68
+  High: 0.68
+  Low: 0.67
+  Close: 0.68
+  Volume: 271952
+
+Moving Averages:
+  SMA_10: 0.6722
+  SMA_20: 0.6670
+  EMA_20: 0.6662
+  EMA_50: 0.6537
+  EMA_100: 0.6459
+
+Oscillators:
+  RSI_14: 56.56%
+  MACD_Line: 0.0089
+  MACD_Signal: 0.0085
+  MACD_Histogram: 0.0004
+  Stochastic_%K: 77.4319
+  Stochastic_%D: 86.5046
+
+Volatility Indicators:
+  BB_Upper: 0.6878
+  BB_Middle: 0.6670
+  BB_Lower: 0.6462
+  BB_Width: 0.0623
+  ATR_20: 0.0102
+  Daily_Volatility: 0.1600
+  Weekly_Volatility: 0.0802
+  Monthly_Volatility: 0.0397
+
+Volume Indicators:
+  Volume: 271952.0000
+  Volume_MA_10: 225571.0000
+  Volume_MA_20: 258290.6500
+  Volume_ROC: 29.9161
+  Vol_Price_Corr_20: -0.2806
+
+Price Indicators:
+  Daily_Range: 0.0093
+  Daily_Range_Pct: 1.37%
+  Weekly_Range: 0.0202
+  Weekly_Range_Pct: 2.98%
+  Price_Change_1d: -0.0027
+  Price_Change_Pct_1d: -0.40%
+  Price_Change_5d: 0.0034
+  Price_Change_Pct_5d: 0.50%
+  Price_Change_7d: 0.0052
+  Price_Change_Pct_7d: 0.77%
+
+Support & Resistance:
+  Pivot: 0.6788
+  Support1: 0.6739
+  Support2: 0.6695
+  Resistance1: 0.6832
+  Resistance2: 0.6881
+  Support_Level: 0.6377
+  Resistance_Level: 0.6842
+
+Momentum:
+  Momentum_10: 0.0112
+  Momentum_Pct_10: 1.68%
+
+
+Entity: Gold
+Price Information:
+  Open: 1802.70
+  High: 1803.67
+  Low: 1780.92
+  Close: 1798.12
+  Volume: 8669
+
+Moving Averages:
+  SMA_10: 1759.3900
+  SMA_20: 1752.2945
+  EMA_20: 1744.6863
+  EMA_50: 1702.2586
+  EMA_100: 1674.6448
+
+Oscillators:
+  RSI_14: 59.46%
+  MACD_Line: 28.6995
+  MACD_Signal: 27.3315
+  MACD_Histogram: 1.3680
+  Stochastic_%K: 92.1919
+  Stochastic_%D: 85.8553
+
+Volatility Indicators:
+  BB_Upper: 1812.0951
+  BB_Middle: 1752.2945
+  BB_Lower: 1692.4939
+  BB_Width: 0.0683
+  ATR_20: 22.1295
+  Daily_Volatility: 0.1604
+  Weekly_Volatility: 0.0767
+  Monthly_Volatility: 0.0402
+
+Volume Indicators:
+  Volume: 8669.0000
+  Volume_MA_10: 8285.0000
+  Volume_MA_20: 7947.7500
+  Volume_ROC: 38.4161
+  Vol_Price_Corr_20: -0.3242
+
+Price Indicators:
+  Daily_Range: 22.7500
+  Daily_Range_Pct: 1.27%
+  Weekly_Range: 64.0100
+  Weekly_Range_Pct: 3.56%
+  Price_Change_1d: -4.6500
+  Price_Change_Pct_1d: -0.26%
+  Price_Change_5d: 44.5200
+  Price_Change_Pct_5d: 2.54%
+  Price_Change_7d: 48.7600
+  Price_Change_Pct_7d: 2.79%
+
+Support & Resistance:
+  Pivot: 1794.2367
+  Support1: 1784.8033
+  Support2: 1771.4867
+  Resistance1: 1807.5533
+  Resistance2: 1816.9867
+  Support_Level: 1665.6800
+  Resistance_Level: 1803.6700
+
+Momentum:
+  Momentum_10: 47.7400
+  Momentum_Pct_10: 2.73%
+
+
+Entity: Japanese Yen
+Price Information:
+  Open: 135.32
+  High: 135.97
+  Low: 133.62
+  Close: 134.27
+  Volume: 491446
+
+Moving Averages:
+  SMA_10: 138.5974
+  SMA_20: 140.1748
+  EMA_20: 140.0539
+  EMA_50: 143.3137
+  EMA_100: 145.2347
+
+Oscillators:
+  RSI_14: 27.41%
+  MACD_Line: -2.5353
+  MACD_Signal: -2.1417
+  MACD_Histogram: -0.3936
+  Stochastic_%K: 7.4693
+  Stochastic_%D: 6.5202
+
+Volatility Indicators:
+  BB_Upper: 146.4825
+  BB_Middle: 140.1748
+  BB_Lower: 133.8670
+  BB_Width: 0.0900
+  ATR_20: 2.1945
+  Daily_Volatility: 0.1748
+  Weekly_Volatility: 0.0536
+  Monthly_Volatility: 0.0375
+
+Volume Indicators:
+  Volume: 491446.0000
+  Volume_MA_10: 385937.6000
+  Volume_MA_20: 423879.2500
+  Volume_ROC: 35.2918
+  Vol_Price_Corr_20: -0.2040
+
+Price Indicators:
+  Daily_Range: 2.3490
+  Daily_Range_Pct: 1.75%
+  Weekly_Range: 6.2260
+  Weekly_Range_Pct: 4.64%
+  Price_Change_1d: -1.0480
+  Price_Change_Pct_1d: -0.77%
+  Price_Change_5d: -4.9070
+  Price_Change_Pct_5d: -3.53%
+  Price_Change_7d: -5.3160
+  Price_Change_Pct_7d: -3.81%
+
+Support & Resistance:
+  Pivot: 134.6227
+  Support1: 133.2713
+  Support2: 132.2737
+  Resistance1: 135.6203
+  Resistance2: 136.9717
+  Support_Level: 133.6250
+  Resistance_Level: 147.5620
+
+Momentum:
+  Momentum_10: -6.1120
+  Momentum_Pct_10: -4.35%
+
+
+Entity: British Pound
+Price Information:
+  Open: 1.23
+  High: 1.23
+  Low: 1.21
+  Close: 1.23
+  Volume: 410971
+
+Moving Averages:
+  SMA_10: 1.2048
+  SMA_20: 1.1886
+  EMA_20: 1.1910
+  EMA_50: 1.1684
+  EMA_100: 1.1558
+
+Oscillators:
+  RSI_14: 74.66%
+  MACD_Line: 0.0183
+  MACD_Signal: 0.0155
+  MACD_Histogram: 0.0027
+  Stochastic_%K: 97.3958
+  Stochastic_%D: 89.8052
+
+Volatility Indicators:
+  BB_Upper: 1.2358
+  BB_Middle: 1.1886
+  BB_Lower: 1.1414
+  BB_Width: 0.0794
+  ATR_20: 0.0177
+  Daily_Volatility: 0.1676
+  Weekly_Volatility: 0.0743
+  Monthly_Volatility: 0.0375
+
+Volume Indicators:
+  Volume: 410971.0000
+  Volume_MA_10: 355360.1000
+  Volume_MA_20: 408651.1500
+  Volume_ROC: 30.6304
+  Vol_Price_Corr_20: -0.5325
+
+Price Indicators:
+  Daily_Range: 0.0165
+  Daily_Range_Pct: 1.34%
+  Weekly_Range: 0.0405
+  Weekly_Range_Pct: 3.29%
+  Price_Change_1d: 0.0039
+  Price_Change_Pct_1d: 0.32%
+  Price_Change_5d: 0.0200
+  Price_Change_Pct_5d: 1.65%
+  Price_Change_7d: 0.0239
+  Price_Change_Pct_7d: 1.98%
+
+Support & Resistance:
+  Pivot: 1.2243
+  Support1: 1.2185
+  Support2: 1.2078
+  Resistance1: 1.2350
+  Resistance2: 1.2408
+  Support_Level: 1.1291
+  Resistance_Level: 1.2308
+
+Momentum:
+  Momentum_10: 0.0406
+  Momentum_Pct_10: 3.42%
+
+
+Entity: Euro
+Price Information:
+  Open: 1.05
+  High: 1.05
+  Low: 1.04
+  Close: 1.05
+  Volume: 364834
+
+Moving Averages:
+  SMA_10: 1.0388
+  SMA_20: 1.0314
+  EMA_20: 1.0298
+  EMA_50: 1.0104
+  EMA_100: 0.9983
+
+Oscillators:
+  RSI_14: 65.69%
+  MACD_Line: 0.0137
+  MACD_Signal: 0.0130
+  MACD_Histogram: 0.0007
+  Stochastic_%K: 98.7578
+  Stochastic_%D: 89.7167
+
+Volatility Indicators:
+  BB_Upper: 1.0602
+  BB_Middle: 1.0314
+  BB_Lower: 1.0027
+  BB_Width: 0.0558
+  ATR_20: 0.0124
+  Daily_Volatility: 0.1120
+  Weekly_Volatility: 0.0486
+  Monthly_Volatility: 0.0278
+
+Volume Indicators:
+  Volume: 364834.0000
+  Volume_MA_10: 300164.7000
+  Volume_MA_20: 346295.4500
+  Volume_ROC: 34.6713
+  Vol_Price_Corr_20: -0.2363
+
+Price Indicators:
+  Daily_Range: 0.0117
+  Daily_Range_Pct: 1.11%
+  Weekly_Range: 0.0251
+  Weekly_Range_Pct: 2.38%
+  Price_Change_1d: 0.0016
+  Price_Change_Pct_1d: 0.15%
+  Price_Change_5d: 0.0145
+  Price_Change_Pct_5d: 1.39%
+  Price_Change_7d: 0.0146
+  Price_Change_Pct_7d: 1.40%
+
+Support & Resistance:
+  Pivot: 1.0505
+  Support1: 1.0464
+  Support2: 1.0388
+  Resistance1: 1.0581
+  Resistance2: 1.0622
+  Support_Level: 0.9898
+  Resistance_Level: 1.0545
+
+Momentum:
+  Momentum_10: 0.0217
+  Momentum_Pct_10: 2.10%
+
+

@@ -1,0 +1,112 @@
+[
+  {
+    "insight_type": "volatility",
+    "question": "What is the daily price volatility for the oil product over the past week, and how does it compare to the average volatility over the last month?",
+    "required_metrics": [
+      {
+        "metric": "daily_return",
+        "calculation": "(Close - Open) / Open",
+        "purpose": "Calculate daily price returns for volatility analysis"
+      },
+      {
+        "metric": "weekly_volatility",
+        "calculation": "Standard deviation of daily_return over the last 7 days",
+        "purpose": "Measure short-term volatility"
+      },
+      {
+        "metric": "monthly_volatility",
+        "calculation": "Standard deviation of daily_return over the last 30 days",
+        "purpose": "Measure medium-term volatility"
+      }
+    ],
+    "comparisons": [
+      "Current weekly volatility vs monthly volatility",
+      "Daily volatility trends over the past week"
+    ]
+  },
+  {
+    "insight_type": "trend strength",
+    "question": "How strong is the current trend for the oil product compared to previous trends based on average daily closing prices over varying periods?",
+    "required_metrics": [
+      {
+        "metric": "average_daily_close_7",
+        "calculation": "Average of the closing prices over the last 7 days",
+        "purpose": "Benchmark for short-term price trend"
+      },
+      {
+        "metric": "average_daily_close_30",
+        "calculation": "Average of the closing prices over the last 30 days",
+        "purpose": "Benchmark for medium-term price trend"
+      },
+      {
+        "metric": "average_daily_close_90",
+        "calculation": "Average of the closing prices over the last 90 days",
+        "purpose": "Benchmark for long-term price trend"
+      }
+    ],
+    "comparisons": [
+      "Current price vs average daily close over 7, 30, and 90 days",
+      "Trend strength comparison across different time frames"
+    ]
+  },
+  {
+    "insight_type": "market sentiment",
+    "question": "What is the current market sentiment based on the relationship between closing prices and historical open prices over the last 30 days?",
+    "required_metrics": [
+      {
+        "metric": "closing_price_trend",
+        "calculation": "Count the number of days where Close > Open versus Close < Open over the last 30 days",
+        "purpose": "Gauge bullish vs bearish sentiment"
+      },
+      {
+        "metric": "percentage_change",
+        "calculation": "(Current Close - Average Open over 30 days) / Average Open * 100",
+        "purpose": "Measure the relative change from historical values"
+      }
+    ],
+    "comparisons": [
+      "Bullish vs bearish days ratio",
+      "Current sentiment vs historical patterns"
+    ]
+  },
+  {
+    "insight_type": "volume analysis",
+    "question": "How does the current trading volume compare to the average daily volume over the last month, and what does it indicate about investor interest?",
+    "required_metrics": [
+      {
+        "metric": "current_volume",
+        "calculation": "Volume on the current date",
+        "purpose": "Assess today's trading activity"
+      },
+      {
+        "metric": "average_volume_30",
+        "calculation": "Average of Volume over the last 30 days",
+        "purpose": "Benchmark for normal trading activity"
+      }
+    ],
+    "comparisons": [
+      "Current volume vs average daily volume",
+      "Volume spikes compared to historical averages"
+    ]
+  },
+  {
+    "insight_type": "price range",
+    "question": "What is the average price range (high - low) of the oil product over the last week, and how does this compare to the average range over the last month?",
+    "required_metrics": [
+      {
+        "metric": "weekly_range",
+        "calculation": "Average of (High - Low) for the last 7 days",
+        "purpose": "Understanding price movement breadth in the short term"
+      },
+      {
+        "metric": "monthly_range",
+        "calculation": "Average of (High - Low) for the last 30 days",
+        "purpose": "Understanding price movement breadth in the medium term"
+      }
+    ],
+    "comparisons": [
+      "Current weekly range vs monthly range",
+      "Trends in price ranges over different periods"
+    ]
+  }
+]

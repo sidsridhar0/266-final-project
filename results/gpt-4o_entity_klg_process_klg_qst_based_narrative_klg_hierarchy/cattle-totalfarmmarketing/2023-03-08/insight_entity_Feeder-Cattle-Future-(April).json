@@ -1,0 +1,34 @@
+{
+  "type": "all",
+  "entity": "Feeder Cattle Future (second month) (April)",
+  "interpretation": "The market for Feeder Cattle Future (April) shows heightened daily price volatility and trading activity, with a slightly upward trend in closing prices over the past quarter. Support levels have been identified at 189.8 and 190.65, and the market is currently in an overbought condition with a high RSI indicating potential for a correction.",
+  "significance_score": 0.75,
+  "score_reasoning": "The consistent upward trend and identified support levels suggest a bullish stance in the short term; however, the elevated RSI and increased volatility indicate caution due to potential price correction. Overall, the findings suggest a dynamic market with opportunities, but also emphasize the need for careful monitoring of potential reversals and fluctuations.",
+  "individual_insights": [
+    {
+      "question": "Assess the daily volatility of the cattle market by comparing the intraday price range relative to the closing price over the past month.",
+      "interpretation": "The current intraday price range of 2.57 is higher than the average intraday range of 1.81, indicating increased daily price volatility. A percentage volatility of 1.28% suggests significant daily price swings relative to the closing price.",
+      "significance_score": 0.8
+    },
+    {
+      "question": "Evaluate the trading activity by analyzing the volume trends and identifying any significant spikes or declines over the past two weeks.",
+      "interpretation": "The trading volume has increased by 497 units from the 14-day average volume of 6850 units, resulting in a 7.26% volume increase. This suggests heightened trading activity.",
+      "significance_score": 0.7
+    },
+    {
+      "question": "Determine the consistency of the price trend by analyzing the frequency of upward or downward movements in closing prices over the past quarter.",
+      "interpretation": "There were 11 up days compared to 8 down days over the past quarter, leading to a trend consistency ratio of 0.524. This indicates a slightly more consistent upward trend in closing prices.",
+      "significance_score": 0.6
+    },
+    {
+      "question": "Identify key support and resistance levels by evaluating price patterns and their frequency of touch over multiple time frames.",
+      "interpretation": "Support levels are identified at 189.8 and 190.65, both having been touched twice. This suggests possible price stabilization within these levels if reached.",
+      "significance_score": 0.65
+    },
+    {
+      "question": "Examine the market momentum by calculating and comparing relative strength indices and their levels over the past month.",
+      "interpretation": "The current RSI is 84.37, indicating an overbought market condition. There is no average RSI provided, but the momentum signal suggests potential for a market correction.",
+      "significance_score": 0.85
+    }
+  ]
+}

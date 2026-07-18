@@ -1,0 +1,102 @@
+[
+  {
+    "insight_type": "volatility analysis",
+    "question": "Calculate the daily price volatility for each product using the high and low prices, and compare it against the average volatility over the past 30 days.",
+    "required_metrics": [
+      {
+        "metric": "daily_volatility",
+        "calculation": "(High - Low) / Open",
+        "purpose": "Measure the daily price movement as a fraction of the opening price"
+      },
+      {
+        "metric": "average_volatility_30_days",
+        "calculation": "Average of daily_volatility over the past 30 days for the same product",
+        "purpose": "Establish a benchmark for evaluating current volatility"
+      }
+    ],
+    "comparisons": [
+      "Current day's volatility vs average 30-day volatility",
+      "Volatility trends across different products"
+    ]
+  },
+  {
+    "insight_type": "price trend momentum",
+    "question": "Evaluate the momentum of price trends by comparing the closing price to the previous day's close and calculate the momentum indicator.",
+    "required_metrics": [
+      {
+        "metric": "momentum",
+        "calculation": "Close - Previous Close",
+        "purpose": "Identify the rate of change in price from the previous day"
+      },
+      {
+        "metric": "previous_close",
+        "calculation": "Closing price from the previous trading day",
+        "purpose": "Provide a reference for calculating momentum"
+      }
+    ],
+    "comparisons": [
+      "Current momentum vs historical momentum trends for the product",
+      "Comparison of momentum across different products"
+    ]
+  },
+  {
+    "insight_type": "market volume analysis",
+    "question": "Analyze the trading volume of products and compare today's volume to the average volume over the past 30 days to determine market interest.",
+    "required_metrics": [
+      {
+        "metric": "current_volume",
+        "calculation": "Volume on the current date",
+        "purpose": "Detect the level of market activity for today"
+      },
+      {
+        "metric": "average_volume_30_days",
+        "calculation": "Average of Volume over the past 30 days for the same product",
+        "purpose": "Establish a trend for comparison"
+      }
+    ],
+    "comparisons": [
+      "Current volume vs average 30-day volume",
+      "Volume changes across different days and products"
+    ]
+  },
+  {
+    "insight_type": "price range analysis",
+    "question": "Assess the price range for each product by evaluating the difference between high and low prices, and compare it against historical price ranges.",
+    "required_metrics": [
+      {
+        "metric": "price_range",
+        "calculation": "High - Low",
+        "purpose": "Quantify today's price movement span"
+      },
+      {
+        "metric": "average_price_range_30_days",
+        "calculation": "Average of price_range over the past 30 days for the same product",
+        "purpose": "Understand historical price movement levels"
+      }
+    ],
+    "comparisons": [
+      "Current price range vs average price range from the last 30 days",
+      "Price ranges across different products"
+    ]
+  },
+  {
+    "insight_type": "closing price comparison",
+    "question": "Investigate the relationship between today's closing price and the previous closing prices to identify potential trends in pricing behavior.",
+    "required_metrics": [
+      {
+        "metric": "closing_price_today",
+        "calculation": "Closing price on the current date",
+        "purpose": "Detect current market positioning"
+      },
+      {
+        "metric": "closing_price_previous_days",
+        "calculation": "Closing prices from the last 5 trading days",
+        "purpose": "Provide historical context for the current closing price"
+      }
+    ],
+    "comparisons": [
+      "Today's close compared to the last 5 closing prices",
+      "Identify consistent trends or anomalies in price behavior"
+    ]
+  }
+]

@@ -1,0 +1,101 @@
+[
+  {
+    "cluster_name": "Live Cattle Futures",
+    "entities": [
+      "Live Cattle Future (front month) (February)",
+      "Live Cattle Future (second month) (April)",
+      "Live Cattle Future (third month) (June)"
+    ],
+    "cluster_insights": [
+      {
+        "type": "volatility correlation",
+        "description": "Heightened volatility is observed across different contract months in Live Cattle Futures, indicating significant price fluctuations.",
+        "supporting_insights": [
+          "Both insights describe heightened volatility in Live Cattle Futures across different contract months, indicating significant price fluctuations."
+        ],
+        "significance": "Volatility correlation across the months suggests that price movements could remain volatile, impacting investment and hedging strategies.",
+        "significance_score": 0.9
+      },
+      {
+        "type": "Price Trend and Market Momentum Relationship",
+        "description": "The February contract shows strong upward momentum and is overbought, while the June contract exhibits neutral momentum despite volatility.",
+        "supporting_insights": [
+          "Price Trend and Market Momentum Relationship: The February contract shows strong upward momentum and is overbought, suggesting a strong directional trend.",
+          "In contrast, the June contract exhibits neutral momentum despite volatility, indicating that the longer-term market expectations may not align with short-term bullish sentiments."
+        ],
+        "significance": "This insight highlights differing short-term and long-term market expectations, which can help traders align their strategies with expected market cycles.",
+        "significance_score": 0.85
+      },
+      {
+        "type": "Volatility and Volume Trend Relationship",
+        "description": "High volatility in the February contract with reduced trading volume, while the June contract also has high volatility but with increased trading volume.",
+        "supporting_insights": [
+          "This suggests that investors are possibly moving positions from the near-term contract to the longer-term contract, contributing to higher volatility across futures and indicating potential interest shifts or strategic repositioning."
+        ],
+        "significance": "Understanding the shift in trading activity between contracts provides insight into trader sentiment and future price movements.",
+        "significance_score": 0.8
+      },
+      {
+        "type": "Market Momentum",
+        "description": "Live Cattle shows strong momentum and overbought conditions in February, different from neutral momentum in June.",
+        "supporting_insights": [
+          "Market Momentum: Feeder Cattle's neutral momentum suggests stability while Live Cattle shows strong momentum and overbought conditions, indicating different phases of market cycles or trader sentiment."
+        ],
+        "significance": "The different momentum readings suggest potential for market corrections or reversals, useful for timing market entry or exit.",
+        "significance_score": 0.75
+      },
+      {
+        "type": "Volatility Comparison",
+        "description": "Increased volatility and trading volume in Live Cattle Future market in June compared to Feeder Cattle Future in April.",
+        "supporting_insights": [
+          "Volatility Comparison: The Feeder Cattle Future market in April exhibits low volatility and trading volume compared to the heightened volatility and increased trading volume observed in the Live Cattle Future market in June."
+        ],
+        "significance": "It suggests diverse reactions to market stimuli in related sectors and aids in understanding cross-market impacts on trading strategies.",
+        "significance_score": 0.7
+      }
+    ]
+  },
+  {
+    "cluster_name": "Feeder Cattle Futures",
+    "entities": [
+      "Feeder Cattle Future (front month) (March)",
+      "Feeder Cattle Future (second month) (April)",
+      "Feeder Cattle Future (third month) (May)"
+    ],
+    "cluster_insights": [
+      {
+        "type": "Trader Activity",
+        "description": "There is a notable reduction in trading volume across all months of Feeder Cattle Futures, indicating lower trader activity and potential market indecision.",
+        "supporting_insights": [
+          "Both insights indicate reduced trading volume, signifying lower trader activity and potential market indecision in Feeder Cattle Futures across different months.",
+          "The volume on the date of interest has decreased significantly compared to the average by 25.99% for April",
+          "The trading volume reveals a decrease of 189.5 units from the 14-day average, equating to an 8.29% decline for May",
+          "The volume on the date of interest is significantly lower than the average volume over the past 14 days, with a 43.29% drop for March"
+        ],
+        "significance": "Reduced trading volumes can impact liquidity and signify a potential pause or caution in the market, which is crucial for investors to understand their risk exposure and liquidity management strategies.",
+        "significance_score": 0.85
+      },
+      {
+        "type": "Market Momentum",
+        "description": "The Feeder Cattle futures market is exhibiting neutral momentum across all entities, indicating stability without clear overbought or oversold conditions.",
+        "supporting_insights": [
+          "The RSI of 59.59 for April suggests a neutral market stance.",
+          "The RSI stands at 58.26 for May, displaying neutral momentum.",
+          "The RSI value is 58.64 for March, indicating neutral momentum."
+        ],
+        "significance": "Neutral momentum implies stability in market conditions, which can guide traders that the current prices are sustainable and there are no imminent large price swings expected based on market sentiment.",
+        "significance_score": 0.75
+      },
+      {
+        "type": "Volatility Comparison",
+        "description": "Feeder Cattle Future market in April exhibits low volatility compared to other months, reflecting a calm market environment.",
+        "supporting_insights": [
+          "The market shows lower than average volatility with reduced trading volume in April.",
+          "The percentage volatility of 0.72% for April versus typical daily volatilities of other months."
+        ],
+        "significance": "Understanding the volatility environment is critical for risk management and planning trading strategies; a lower volatility environment suggests stable trading conditions but might change rapidly with market shocks.",
+        "significance_score": 0.7
+      }
+    ]
+  }
+]

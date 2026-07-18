@@ -1,0 +1,44 @@
+{
+  "narrative_structures": "A well-crafted market report typically begins with a summary of the overall market sentiment and key movements, followed by a detailed breakdown of individual sector or entity performance. Conclusions and forward-looking statements based on current trends are then provided to give the reader actionable insights.",
+  "focus_entities": [
+    {
+      "entities_name": "S&P 500",
+      "reasoning": "As a benchmark for the U.S. equity markets, it provides an overview of the performance of the broader market."
+    },
+    {
+      "entities_name": "NASDAQ Composite",
+      "reasoning": "Known for its concentration in technology and growth stocks, offering insights into tech and innovation trends."
+    },
+    {
+      "entities_name": "United States 10-Year Bond Yield",
+      "reasoning": "A key indicator of investor sentiment about future interest rates and economic growth."
+    },
+    {
+      "entities_name": "CBOE Volatility Index",
+      "reasoning": "Often considered a 'fear gauge', it reflects market volatility expectations."
+    },
+    {
+      "entities_name": "Gold",
+      "reasoning": "Acts as a safe-haven asset, indicating risk aversion or appetite in the market."
+    }
+  ],
+  "focus_insights": [
+    {
+      "insight_types": "Sector Rotation",
+      "reasoning": "Understanding shifts in capital between sectors can indicate broader economic trends or changing market conditions."
+    },
+    {
+      "insight_types": "Interest Rate Impact",
+      "reasoning": "Interest rates influence bond and stock valuations, making them crucial for investment forecasts."
+    },
+    {
+      "insight_types": "Market Sentiment",
+      "reasoning": "Overall mood towards markets can indicate potential movements in asset prices."
+    }
+  ],
+  "domain_language": [
+    "Describing price movements in terms of percentage change rather than absolute value to account for variance in asset pricing.",
+    "Using terms like 'bullish' and 'bearish' to describe upward or downward trends.",
+    "Expressing future prices in terms of 'expectations' or 'forecasts' to convey uncertainty in prediction."
+  ]
+}

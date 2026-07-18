@@ -1,0 +1,22 @@
+{
+  "metric_patterns": [
+    "How do changes in volatility of soybean futures typically relate to momentum in soybean meal futures?",
+    "What conditions affect the relationship between trading volume and price trends in soybean futures?"
+  ],
+  "entity_interactions": [
+    "What are common ways that soybean meal futures affect soybean oil futures?",
+    "Under what conditions do soybean prices influence soybean meal prices most strongly?"
+  ],
+  "common_factors": [
+    "What external factors commonly affect multiple soybean futures and meal prices?",
+    "How do seasonal factors typically impact different soybean-related entities?"
+  ],
+  "temporal_patterns": [
+    "What typical sequences of changes in soybean prices occur before significant increases in soybean oil futures?",
+    "How do time-based factors affect relationships between front month and second month soybean futures?"
+  ],
+  "system_patterns": [
+    "What system-level conditions influence relationships between soybean meal and soybean oil futures?",
+    "How do structural factors in agriculture affect interactions between different soybean futures?"
+  ]
+}

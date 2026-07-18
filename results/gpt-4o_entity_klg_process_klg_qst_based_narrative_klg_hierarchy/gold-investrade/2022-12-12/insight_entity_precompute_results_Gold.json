@@ -1,0 +1,132 @@
+[
+  {
+    "insight_type": "volatility",
+    "question": {
+      "insight_type": "volatility",
+      "question": "Analyze the daily volatility of the gold market by calculating the range of price movements for the day and comparing with historical volatility levels.",
+      "required_metrics": [
+        {
+          "metric": "daily_range",
+          "calculation": "High minus Low for the given date",
+          "purpose": "Quantify the intraday price movement"
+        },
+        {
+          "metric": "average_daily_range",
+          "calculation": "Average of daily_range over the past 20 days",
+          "purpose": "Serve as a benchmark to assess current volatility"
+        },
+        {
+          "metric": "historical_volatility",
+          "calculation": "Standard deviation of daily returns over the past 30 days",
+          "purpose": "Measure the dispersion of returns to evaluate risk"
+        }
+      ],
+      "comparisons": [
+        "Current daily_range vs average_daily_range",
+        "Current daily_range vs historical_volatility"
+      ]
+    },
+    "results": "METRIC:daily_range\tVALUE:21.320000000000164\tUNIT:none\tTYPE:float\nMETRIC:average_daily_range\tVALUE:19.902499999999986\tUNIT:none\tTYPE:float\nMETRIC:historical_volatility\tVALUE:nan\tUNIT:none\tTYPE:float\n"
+  },
+  {
+    "insight_type": "volume_analysis",
+    "question": {
+      "insight_type": "volume analysis",
+      "question": "Evaluate if the current trading volume is indicating unusual market activity by comparing it with historical averages.",
+      "required_metrics": [
+        {
+          "metric": "average_volume",
+          "calculation": "Average of Volume over the past 30 days",
+          "purpose": "Serve as a baseline for normal trading volume"
+        },
+        {
+          "metric": "volume_change_percentage",
+          "calculation": "(Volume minus average_volume) divided by average_volume times 100",
+          "purpose": "Determine the relative change in current volume compared to past"
+        }
+      ],
+      "comparisons": [
+        "Current Volume vs average_volume",
+        "Volume_change_percentage against historical norms"
+      ]
+    },
+    "results": "METRIC:average_volume\tVALUE:8248.52380952381\tUNIT:none\tTYPE:float\nMETRIC:volume_change_percentage\tVALUE:29.88990815095342\tUNIT:percent\tTYPE:float\n"
+  },
+  {
+    "insight_type": "price_momentum",
+    "question": {
+      "insight_type": "price momentum",
+      "question": "Identify shifts in price momentum by analyzing day-to-day changes and calculating momentum indicators such as the Relative Strength Index (RSI).",
+      "required_metrics": [
+        {
+          "metric": "price_change",
+          "calculation": "Close minus Open for the given date",
+          "purpose": "Measure the direction and magnitude of the daily price movement"
+        },
+        {
+          "metric": "RSI",
+          "calculation": "100 minus (100 divided by (1 plus average of 'n' periods that had closing price increases divided by average of 'n' periods that had closing price decreases))",
+          "purpose": "Assess momentum and identify potential overbought or oversold conditions"
+        }
+      ],
+      "comparisons": [
+        "Current RSI vs conventional overbought/oversold thresholds",
+        "Daily price_change vs historical norms"
+      ]
+    },
+    "results": "METRIC:price_change\tVALUE:-18.0300\tUNIT:points\tTYPE:float64\nMETRIC:RSI\tVALUE:62.3273\tUNIT:index\tTYPE:float64\n"
+  },
+  {
+    "insight_type": "closing_price_trend",
+    "question": {
+      "insight_type": "closing price trend",
+      "question": "Determine the general direction and sustainability of price movement by analyzing closing price trends over the last several trading sessions.",
+      "required_metrics": [
+        {
+          "metric": "closing_price_trend",
+          "calculation": "Calculate slope of linear regression line of closing_price over the last 10 days",
+          "purpose": "Identify direction and strength of short-term trend"
+        },
+        {
+          "metric": "moving_average_convergence",
+          "calculation": "Calculate 'n'-day Simple Moving Average (SMA) and detect crossings with shorter period EMAs",
+          "purpose": "Monitor potential trend shifts when moving averages converge or diverge"
+        }
+      ],
+      "comparisons": [
+        "Current slope of closing_price_trend vs zero",
+        "Position of closing_price vs moving averages"
+      ]
+    },
+    "results": "METRIC:closing_price_trend\tVALUE:2.364303030303034\tUNIT:\tTYPE:float\nMETRIC:SMA-20\tVALUE:1767.4230000000002\tUNIT:\tTYPE:float\nMETRIC:EMA-10\tVALUE:1779.9061780363884\tUNIT:\tTYPE:float\nMETRIC:closing_price\tVALUE:1781.37\tUNIT:\tTYPE:float\n"
+  },
+  {
+    "insight_type": "support_and_resistance",
+    "question": {
+      "insight_type": "support and resistance",
+      "question": "Identify and evaluate the significance of current support and resistance levels by examining historical price levels that demonstrated significant price reactions.",
+      "required_metrics": [
+        {
+          "metric": "support_levels",
+          "calculation": "Identify historical lowest points that led to price reversals in the past 60 days",
+          "purpose": "Find price levels where buying pressure typically emerges"
+        },
+        {
+          "metric": "resistance_levels",
+          "calculation": "Identify historical peak points that led to price reversals in the past 60 days",
+          "purpose": "Find price levels where selling pressure typically emerges"
+        },
+        {
+          "metric": "proximity_to_levels",
+          "calculation": "Distance from current price to nearest support or resistance level",
+          "purpose": "Assess likelihood and significance of potential price moves"
+        }
+      ],
+      "comparisons": [
+        "Current price vs identified support/resistance levels",
+        "Proximity_to_levels as an indication of potential price move impulsiveness"
+      ]
+    },
+    "results": "METRIC:support_levels\tVALUE:1732.59\tUNIT:none\tTYPE:float\nMETRIC:resistance_levels\tVALUE:1809.26\tUNIT:none\tTYPE:float\nMETRIC:proximity_to_levels\tVALUE:27.8900000000001\tUNIT:none\tTYPE:float\n"
+  }
+]

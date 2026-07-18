@@ -1,0 +1,77 @@
+[
+  {
+    "type": "Market Sentiment Divergence",
+    "description": "Live Cattle Futures exhibit mainly negative sentiment while Feeder Cattle Futures reflect a positive sentiment, indicating a divergence in market dynamics.",
+    "supporting_insights": [
+      "Both second month and front month Live Cattle Futures show an overall negative sentiment.",
+      "Feeder cattle futures show consistent positive market sentiment."
+    ],
+    "entities": [
+      "Live Cattle Future (second month)",
+      "Live Cattle Future (front month)",
+      "Feeder Cattle Future (front month)",
+      "Feeder Cattle Future (second month)"
+    ],
+    "significance": "This divergence suggests that traders could capitalize on the differing trends between Live and Feeder Cattle Futures for investment opportunities.",
+    "significance_score": 0.85
+  },
+  {
+    "type": "Increased Trading Volume Impacts",
+    "description": "There is a correlation between increased trading volumes in both live and feeder cattle futures, indicating heightened market interest, though the sentiment is different.",
+    "supporting_insights": [
+      "Increased trading volumes in both live and feeder cattle futures suggest a complex relationship.",
+      "Low trading volume in the feeder cattle market contrasts with high volume and interest in the live cattle market."
+    ],
+    "entities": [
+      "Live Cattle Future (second month)",
+      "Live Cattle Future (front month)",
+      "Feeder Cattle Future (front month)",
+      "Feeder Cattle Future (second month)"
+    ],
+    "significance": "Understanding this relationship can help investors gauge market confidence and make informed decisions based on varying interests in the respective cattle futures.",
+    "significance_score": 0.8
+  },
+  {
+    "type": "Support and Resistance Levels",
+    "description": "Current prices for live cattle futures are near critical support and resistance levels, which could lead to amplified price movements upon breach.",
+    "supporting_insights": [
+      "Current price of Live Cattle Future (second month) near resistance level.",
+      "Current price of Feeder Cattle Future (front month) above support and resistance levels."
+    ],
+    "entities": [
+      "Live Cattle Future (second month)",
+      "Feeder Cattle Future (front month)"
+    ],
+    "significance": "Monitoring these levels is crucial for anticipating potential bullish or bearish trends in trading.",
+    "significance_score": 0.75
+  },
+  {
+    "type": "Market Volatility Insights",
+    "description": "Moderate volatility in Live Cattle Futures is coinciding with significant price movements in Feeder Cattle Futures, hinting at synchronized market behavior.",
+    "supporting_insights": [
+      "Both live and feeder cattle futures are experiencing moderate volatility.",
+      "Moderate volatility readings from both futures suggest potential for significant price movements."
+    ],
+    "entities": [
+      "Live Cattle Future (second month)",
+      "Feeder Cattle Future (front month)"
+    ],
+    "significance": "Increased awareness of volatility can help traders identify periods of higher risk and potential trading opportunities.",
+    "significance_score": 0.7
+  },
+  {
+    "type": "Price Relationship Trends",
+    "description": "A significant change in front month feeder cattle futures often leads to adjustments in second and third month contracts based on supply-demand shifts.",
+    "supporting_insights": [
+      "A significant change in front month futures often leads to a ripple effect in market adjustments.",
+      "Both May and April feeder cattle futures show strong bullish trends with price levels above established support."
+    ],
+    "entities": [
+      "Feeder Cattle Future (front month)",
+      "Feeder Cattle Future (second month)",
+      "Feeder Cattle Future (third month)"
+    ],
+    "significance": "Recognizing these patterns can enhance strategic trading decisions and forecasts in cattle futures.",
+    "significance_score": 0.65
+  }
+]

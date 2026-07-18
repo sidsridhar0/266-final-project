@@ -1,0 +1,32 @@
+{
+  "metric_patterns": [
+    "How does volatility in gold typically relate to changes in trading volume?",
+    "What conditions affect the relationship between gold's price momentum and its volatility?",
+    "How does the closing price trend of silver compare to its historical volatility?",
+    "What is the relationship between support and resistance levels and price momentum in the gold market?"
+  ],
+  "entity_interactions": [
+    "How does the dollar index affect the price momentum of gold?",
+    "Under what conditions do changes in silver prices most strongly impact gold prices?",
+    "What are common ways that fluctuations in the dollar index influence gold's closing price trends?",
+    "How do trading volumes in silver markets typically influence gold market reactions?"
+  ],
+  "common_factors": [
+    "What external factors such as geopolitical events commonly affect both gold and silver volatility?",
+    "How do interest rate changes typically impact both gold and the dollar index?",
+    "What macroeconomic indicators have significant effects on both gold and silver volumes?",
+    "How do inflation trends impact price momentum across both gold and silver?"
+  ],
+  "temporal_patterns": [
+    "What typical sequences of changes occur in gold's closing price trends over extended periods?",
+    "How do time-based factors such as quarterly earnings reports affect the dollar index?",
+    "What patterns emerge in silver's price momentum following major economic announcements?",
+    "How do historical cycles in currency values relate to gold's support and resistance levels?"
+  ],
+  "system_patterns": [
+    "What system-level conditions like market sentiment influence relationships between gold and silver?",
+    "How do structural factors in global trade affect interactions between the dollar index and gold?",
+    "What market mechanisms regulate the balance between gold and dollar index values?",
+    "How do structural changes in the commodities market affect volatility in silver and gold?"
+  ]
+}

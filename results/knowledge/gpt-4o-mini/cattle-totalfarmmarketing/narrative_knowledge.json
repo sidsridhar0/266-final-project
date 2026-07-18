@@ -1,0 +1,41 @@
+{
+  "narrative_structures": "Begin with a brief overview of market movement, followed by detailed analysis of each key entity, including price changes, volume trends, and external factors influencing the market. Conclude with a summary of actionable insights and potential future trends.",
+  "focus_entities": [
+    {
+      "entities_name": "Live Cattle Future (front month) (February)",
+      "reasoning": "It's critical as it represents the immediate market sentiment and price expectations of live cattle."
+    },
+    {
+      "entities_name": "Feeder Cattle Future (front month) (March)",
+      "reasoning": "This entity allows for insights into projected feeder cattle prices, which can impact profitability for producers."
+    },
+    {
+      "entities_name": "Live Cattle Future (third month) (June)",
+      "reasoning": "Monitoring this future provides indications of longer-term trends and seasonal patterns in cattle prices."
+    },
+    {
+      "entities_name": "Feeder Cattle Future (third month) (May)",
+      "reasoning": "As a third-month entity, it provides additional insights into expectations beyond short-term fluctuations."
+    }
+  ],
+  "focus_insights": [
+    {
+      "insight_types": "Price Trend Analysis",
+      "reasoning": "Understanding price movements over various periods informs investment strategies and risk assessment."
+    },
+    {
+      "insight_types": "Volume and Open Interest Changes",
+      "reasoning": "Monitoring trading volume and open interest assists in evaluating market liquidity and investor sentiment."
+    },
+    {
+      "insight_types": "Correlation with External Factors",
+      "reasoning": "Analyzing correlations with feed costs, weather conditions, and consumer demand provides deeper market context."
+    }
+  ],
+  "domain_language": [
+    "Use 'contract' when referring to futures agreements (e.g., 'April Live Cattle contract').",
+    "Express price changes in terms of 'cents per pound' for clarity.",
+    "Utilize terms like 'bullish' or 'bearish' to denote market sentiment.",
+    "Indicate trend direction using visual aids such as charts, mentioning percentage increases or decreases."
+  ]
+}

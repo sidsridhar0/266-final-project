@@ -1,0 +1,34 @@
+{
+  "type": "all",
+  "entity": "Live Cattle Future (front month) (April)",
+  "interpretation": "The cattle market shows increased daily volatility and significant trading volume decline, indicating potential market uncertainty. A predominance of down_days points to a downward trend. Support/resistance levels are moderately established. Current RSI reflects a neutral momentum with no clear reversal signals.",
+  "significance_score": 0.74,
+  "score_reasoning": "The findings reflect a market experiencing heightened price volatility with diminished trading activity, typical of uncertainty or weakening trends. The downward trend consistency and defined support/resistance levels suggest market hesitance in committing to new price directions. RSI neutrality further corroborates ambiguous investor sentiment with respect to market direction.",
+  "individual_insights": [
+    {
+      "question": "Assess the daily volatility of the cattle market by comparing the intraday price range relative to the closing price over the past month.",
+      "interpretation": "The intraday range of 1.70 exceeds the average intraday range of 1.33, suggesting increased volatility. The percentage volatility of 1.03% signifies that daily price fluctuation is significant relative to the closing price.",
+      "significance_score": 0.8
+    },
+    {
+      "question": "Evaluate the trading activity by analyzing the volume trends and identifying any significant spikes or declines over the past two weeks.",
+      "interpretation": "The volume on the date of interest decreased significantly by 13,013 units from the average volume of 23,033.21, representing a substantial 56.50% decrease. This indicates a possible lack of interest or shift in trader focus.",
+      "significance_score": 0.9
+    },
+    {
+      "question": "Determine the consistency of the price trend by analyzing the frequency of upward or downward movements in closing prices over the past quarter.",
+      "interpretation": "There were 7 up_days compared to 13 down_days, resulting in a trend consistency ratio of 0.35. This implies a predominant downward trend over the quarter.",
+      "significance_score": 0.7
+    },
+    {
+      "question": "Identify key support and resistance levels by evaluating price patterns and their frequency of touch over multiple time frames.",
+      "interpretation": "Support levels were identified at 164.5 and 164.78, with a resistance level at 162.65. These levels were touched twice, suggesting moderately reliable support/resistance zones.",
+      "significance_score": 0.6
+    },
+    {
+      "question": "Examine the market momentum by calculating and comparing relative strength indices and their levels over the past month.",
+      "interpretation": "The current RSI of 44 is in a neutral zone, neither indicating an overbought nor oversold market. However, the absence of an average RSI value limits this interpretation.",
+      "significance_score": 0.5
+    }
+  ]
+}
